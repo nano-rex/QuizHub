@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CompTIA Security+</title>
+    <!--<link rel="stylesheet" type="text/css" href="styles.css">-->
+    <style>
+        .correct {
+            color: green;
+        }        
+        .wrong {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="questions">
+
+        <h3>Question 1:</h3>
+        <p>Joe, a security analyst, is asked by a co-worker, "What is this AAA thing all about in the security world? Sounds like something I can use for my car." Which of the following terms should Joe discuss in his response to his co-worker? (Select THREE).</p>
+        <label><input type="checkbox" name="q1" value="A"> <span id="q1a"> A. Accounting </span></label><br>
+        <label><input type="checkbox" name="q1" value="B"> <span id="q1b"> B. Accountability </span></label><br>
+        <label><input type="checkbox" name="q1" value="C"> <span id="q1c"> C. Authorization </span></label><br>
+        <label><input type="checkbox" name="q1" value="D"> <span id="q1d"> D. Authentication </span></label><br>
+        <label><input type="checkbox" name="q1" value="E"> <span id="q1e"> E. Access </span></label><br>
+        <label><input type="checkbox" name="q1" value="F"> <span id="q1f"> F. Agreement </span></label><br>
+
+        <h3>Question 2:</h3>
+        <p>A system administrator is configuring accounts on a newly established server. Which of the following characteristics BEST differentiates service accounts from other types of accounts?</p>
+        <label><input type="radio" name="q2" value="A"> <span id="q2a"> A. They can often be restricted in privilege. </span></label><br>
+        <label><input type="radio" name="q2" value="B"> <span id="q2b"> B. They are meant for non-person entities. </span></label><br>
+        <label><input type="radio" name="q2" value="C"> <span id="q2c"> C. They require special permissions to OS files and folders. </span></label><br>
+        <label><input type="radio" name="q2" value="D"> <span id="q2d"> D. They remain disabled in operations. </span></label><br>
+        <label><input type="radio" name="q2" value="E"> <span id="q2e"> E. They do not allow passwords to be set. </span></label><br>
+
+        <h3>Question 3:</h3>
+        <p>Recently, a company has been facing an issue with shoulder surfing. Which of the following safeguards would help with this?</p>
+        <label><input type="radio" name="q3" value="A"> <span id="q3a"> A. Screen filters </span></label><br>
+        <label><input type="radio" name="q3" value="B"> <span id="q3b"> B. Biometric authentication </span></label><br>
+        <label><input type="radio" name="q3" value="C"> <span id="q3c"> C. Smart cards </span></label><br>
+        <label><input type="radio" name="q3" value="D"> <span id="q3d"> D. Video cameras </span></label><br>
+
+        <h3>Question 4:</h3>
+        <p>The process of presenting a user ID to a validating system is known as:</p>
+        <label><input type="radio" name="q4" value="A"> <span id="q4a"> A. authorization. </span></label><br>
+        <label><input type="radio" name="q4" value="B"> <span id="q4b"> B. authentication. </span></label><br>
+        <label><input type="radio" name="q4" value="C"> <span id="q4c"> C. identification. </span></label><br>
+        <label><input type="radio" name="q4" value="D"> <span id="q4d"> D. single sign-on. </span></label><br>
+
+        <h3>Question 5:</h3>
+        <p>An input field that is accepting more data than has been allocated for it in memory is an attribute of:</p>
+        <label><input type="radio" name="q5" value="A"> <span id="q5a"> A. buffer overflow. </span></label><br>
+        <label><input type="radio" name="q5" value="B"> <span id="q5b"> B. memory leak. </span></label><br>
+        <label><input type="radio" name="q5" value="C"> <span id="q5c"> C. cross-site request forgery. </span></label><br>
+        <label><input type="radio" name="q5" value="D"> <span id="q5d"> D. resource exhaustion. </span></label><br>
+
+        <h3>Question 6:</h3>
+        <p>Which of the following if used would BEST reduce the number of successful phishing attacks?</p>
+        <label><input type="radio" name="q6" value="A"> <span id="q6a"> A. Two-factor authentication </span></label><br>
+        <label><input type="radio" name="q6" value="B"> <span id="q6b"> B. Application layer firewall </span></label><br>
+        <label><input type="radio" name="q6" value="C"> <span id="q6c"> C. Mantraps </span></label><br>
+        <label><input type="radio" name="q6" value="D"> <span id="q6d"> D. User training </span></label><br>
+
+    </div>
+
+    <br><button onclick="checkAnswers()">Submit</button>
+
+    <div id="score"></div>
+
+    <script>
+    function checkAnswers() {
+        var q1Answer = document.querySelector('input[name="q1"]:checked').value;
+        var q2Answer = document.querySelector('input[name="q2"]:checked').value;
+        var q3Answer = document.querySelector('input[name="q3"]:checked').value;
+        var q4Answer = document.querySelector('input[name="q4"]:checked').value;
+        var q5Answer = document.querySelector('input[name="q5"]:checked').value;
+        var q6Answer = document.querySelector('input[name="q6"]:checked').value;
+
+        var q1a = document.getElementById('q1a');
+        var q1b = document.getElementById('q1b');
+        var q1c = document.getElementById('q1c');
+        var q1d = document.getElementById('q1d');
+        var q1e = document.getElementById('q1e');
+        var q1f = document.getElementById('q1f');
+
+        var q2a = document.getElementById('q2a');
+        var q2b = document.getElementById('q2b');
+        var q2c = document.getElementById('q2c');
+        var q2d = document.getElementById('q2d');
+        var q2e = document.getElementById('q2e');
+
+        var q3a = document.getElementById('q3a');
+        var q3b = document.getElementById('q3b');
+        var q3c = document.getElementById('q3c');
+        var q3d = document.getElementById('q3d');
+
+        var q4a = document.getElementById('q4a');
+        var q4b = document.getElementById('q4b');
+        var q4c = document.getElementById('q4c');
+        var q4d = document.getElementById('q4d');
+
+        var q5a = document.getElementById('q5a');
+        var q5b = document.getElementById('q5b');
+        var q5c = document.getElementById('q5c');
+        var q5d = document.getElementById('q5d');
+
+        var q6a = document.getElementById('q6a');
+        var q6b = document.getElementById('q6b');
+        var q6c = document.getElementById('q6c');
+        var q6d = document.getElementById('q6d');
+
+        var score = 0;
+
+        if (q1Answer === 'A' && 'C' && 'D') {
+            q1a.classList.add('correct');
+            q1c.classList.add('correct');
+            q1d.classList.add('correct');
+            score++;
+        } else {
+            q1a.classList.add('wrong');
+            q1c.classList.add('wrong');
+            q1d.classList.add('wrong');
+        }
+
+        if (q2Answer === 'B') {
+            q2b.classList.add('correct');
+            score++;
+        } else {
+            q2b.classList.add('wrong');
+        }
+
+        if (q3Answer === 'A') {
+            q3a.classList.add('correct');
+            score++;
+        } else {
+            q3a.classList.add('wrong');
+        }
+
+        if (q4Answer === 'C') {
+            q4c.classList.add('correct');
+            score++;
+        } else {
+            q4c.classList.add('wrong');
+        }
+
+        if (q5Answer === 'A') {
+            q5a.classList.add('correct');
+            score++;
+        } else {
+            q5a.classList.add('wrong');
+        }
+
+        if (q6Answer === 'D') {
+            q6d.classList.add('correct');
+            score++;
+        } else {
+            q6d.classList.add('wrong');
+        }
+
+        var totalQuestions = 6;
+        var percentage = (score / totalQuestions) * 100;
+        var result = "You scored " + score + " out of " + totalQuestions + " questions correctly. (" + percentage + "%)";
+
+        document.getElementById('score').innerHTML = result;
+    }   
+    </script>
+</body>
+</html>
