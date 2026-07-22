@@ -1,0 +1,313 @@
+{
+  "id": "security-501-practice-questions",
+  "title": "CompTIA Security+",
+  "source": "security+/security-501-practice-questions.html",
+  "questions": [
+    {
+      "id": "security-501-practice-questions-01",
+      "type": "multiple-choice",
+      "subject": "security Plus",
+      "topic": "CompTIA Security+",
+      "question": {
+        "en": "Joe, a security analyst, is asked by a co-worker, \"What is this AAA thing all about in the security world? Sounds like something I can use for my car.\" Which of the following terms should Joe discuss in his response to his co-worker? (Select THREE).",
+        "zh": "Joe, a security analyst, is asked by a co-worker, \"What is this AAA thing all about in the security world? Sounds like something I can use for my car.\" Which of the following terms should Joe discuss in his response to his co-worker? (Select THREE).",
+        "ms": "Joe, a security analyst, is asked by a co-worker, \"What is this AAA thing all about in the security world? Sounds like something I can use for my car.\" Which of the following terms should Joe discuss in his response to his co-worker? (Select THREE)."
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Accounting",
+            "zh": "A. Accounting",
+            "ms": "A. Accounting"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Accountability",
+            "zh": "B. Accountability",
+            "ms": "B. Accountability"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Authorization",
+            "zh": "C. Authorization",
+            "ms": "C. Authorization"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Authentication",
+            "zh": "D. Authentication",
+            "ms": "D. Authentication"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "security-501-practice-questions-02",
+      "type": "multiple-choice",
+      "subject": "security Plus",
+      "topic": "CompTIA Security+",
+      "question": {
+        "en": "A system administrator is configuring accounts on a newly established server. Which of the following characteristics BEST differentiates service accounts from other types of accounts?",
+        "zh": "A system administrator is configuring accounts on a newly established server. Which of the following characteristics BEST differentiates service accounts from other types of accounts?",
+        "ms": "A system administrator is configuring accounts on a newly established server. Which of the following characteristics BEST differentiates service accounts from other types of accounts?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. They can often be restricted in privilege.",
+            "zh": "A. They can often be restricted in privilege.",
+            "ms": "A. They can often be restricted in privilege."
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. They are meant for non-person entities.",
+            "zh": "B. They are meant for non-person entities.",
+            "ms": "B. They are meant for non-person entities."
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. They require special permissions to OS files and folders.",
+            "zh": "C. They require special permissions to OS files and folders.",
+            "ms": "C. They require special permissions to OS files and folders."
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. They remain disabled in operations.",
+            "zh": "D. They remain disabled in operations.",
+            "ms": "D. They remain disabled in operations."
+          }
+        }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": "security-501-practice-questions-03",
+      "type": "multiple-choice",
+      "subject": "security Plus",
+      "topic": "CompTIA Security+",
+      "question": {
+        "en": "Recently, a company has been facing an issue with shoulder surfing. Which of the following safeguards would help with this?",
+        "zh": "Recently, a company has been facing an issue with shoulder surfing. Which of the following safeguards would help with this?",
+        "ms": "Recently, a company has been facing an issue with shoulder surfing. Which of the following safeguards would help with this?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Screen filters",
+            "zh": "A. Screen filters",
+            "ms": "A. Screen filters"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Biometric authentication",
+            "zh": "B. Biometric authentication",
+            "ms": "B. Biometric authentication"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Smart cards",
+            "zh": "C. Smart cards",
+            "ms": "C. Smart cards"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Video cameras",
+            "zh": "D. Video cameras",
+            "ms": "D. Video cameras"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "security-501-practice-questions-04",
+      "type": "multiple-choice",
+      "subject": "security Plus",
+      "topic": "CompTIA Security+",
+      "question": {
+        "en": "The process of presenting a user ID to a validating system is known as:",
+        "zh": "The process of presenting a user ID to a validating system is known as:",
+        "ms": "The process of presenting a user ID to a validating system is known as:"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. authorization.",
+            "zh": "A. authorization.",
+            "ms": "A. authorization."
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. authentication.",
+            "zh": "B. authentication.",
+            "ms": "B. authentication."
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. identification.",
+            "zh": "C. identification.",
+            "ms": "C. identification."
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. single sign-on.",
+            "zh": "D. single sign-on.",
+            "ms": "D. single sign-on."
+          }
+        }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": "security-501-practice-questions-05",
+      "type": "multiple-choice",
+      "subject": "security Plus",
+      "topic": "CompTIA Security+",
+      "question": {
+        "en": "An input field that is accepting more data than has been allocated for it in memory is an attribute of:",
+        "zh": "An input field that is accepting more data than has been allocated for it in memory is an attribute of:",
+        "ms": "An input field that is accepting more data than has been allocated for it in memory is an attribute of:"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. buffer overflow.",
+            "zh": "A. buffer overflow.",
+            "ms": "A. buffer overflow."
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. memory leak.",
+            "zh": "B. memory leak.",
+            "ms": "B. memory leak."
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. cross-site request forgery.",
+            "zh": "C. cross-site request forgery.",
+            "ms": "C. cross-site request forgery."
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. resource exhaustion.",
+            "zh": "D. resource exhaustion.",
+            "ms": "D. resource exhaustion."
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "security-501-practice-questions-06",
+      "type": "multiple-choice",
+      "subject": "security Plus",
+      "topic": "CompTIA Security+",
+      "question": {
+        "en": "Which of the following if used would BEST reduce the number of successful phishing attacks?",
+        "zh": "Which of the following if used would BEST reduce the number of successful phishing attacks?",
+        "ms": "Which of the following if used would BEST reduce the number of successful phishing attacks?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Two-factor authentication",
+            "zh": "A. Two-factor authentication",
+            "ms": "A. Two-factor authentication"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Application layer firewall",
+            "zh": "B. Application layer firewall",
+            "ms": "B. Application layer firewall"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Mantraps",
+            "zh": "C. Mantraps",
+            "ms": "C. Mantraps"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. User training",
+            "zh": "D. User training",
+            "ms": "D. User training"
+          }
+        }
+      ],
+      "correctAnswer": "D"
+    }
+  ]
+}

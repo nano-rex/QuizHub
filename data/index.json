@@ -1,3 +1,14 @@
 {
-  "files": ["comptia-a-1001.json", "mathematics.json"]
+  "files": [
+    "comptia-a-1001.json",
+    "mathematics.json",
+    "comptia-a-1001-practice-questions.json",
+    "comptia-a-1002-practice-questions.json",
+    "comptia-a-1101-practice-questions.json",
+    "comptia-a-1102-practice-questions.json",
+    "network-n10-007-practice-questions.json",
+    "network-n10-008-practice-questions.json",
+    "security-501-practice-questions.json",
+    "security-601-practice-questions.json"
+  ]
 }

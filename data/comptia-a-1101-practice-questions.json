@@ -1,0 +1,415 @@
+{
+  "id": "comptia-a-1101-practice-questions",
+  "title": "CompTia A+",
+  "source": "a+/comptia-a-1101-practice-questions.html",
+  "questions": [
+    {
+      "id": "comptia-a-1101-practice-questions-01",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "A technician needs to replace a failed power supply on a server. The server in question only has one power supply. The server contains two processors that need 100w, five hard drives that need 9w, and a GPU that uses 200w. Which of the following power supplies should the technician use?",
+        "zh": "A technician needs to replace a failed power supply on a server. The server in question only has one power supply. The server contains two processors that need 100w, five hard drives that need 9w, and a GPU that uses 200w. Which of the following power supplies should the technician use?",
+        "ms": "A technician needs to replace a failed power supply on a server. The server in question only has one power supply. The server contains two processors that need 100w, five hard drives that need 9w, and a GPU that uses 200w. Which of the following power supplies should the technician use?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. 375w",
+            "zh": "A. 375w",
+            "ms": "A. 375w"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. 425w",
+            "zh": "B. 425w",
+            "ms": "B. 425w"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. 325w",
+            "zh": "C. 325w",
+            "ms": "C. 325w"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. 500w",
+            "zh": "D. 500w",
+            "ms": "D. 500w"
+          }
+        }
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": "comptia-a-1101-practice-questions-02",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "An organization uses a cloud storage service to store company files. The file synchronization client for this cloud service is installed on every user's computer. One user reports that a file synced with the client to their computer does not contain information a co-worker of theirs added earlier today. Indicate the BEST action to take when troubleshooting this problem.",
+        "zh": "An organization uses a cloud storage service to store company files. The file synchronization client for this cloud service is installed on every user's computer. One user reports that a file synced with the client to their computer does not contain information a co-worker of theirs added earlier today. Indicate the BEST action to take when troubleshooting this problem.",
+        "ms": "An organization uses a cloud storage service to store company files. The file synchronization client for this cloud service is installed on every user's computer. One user reports that a file synced with the client to their computer does not contain information a co-worker of theirs added earlier today. Indicate the BEST action to take when troubleshooting this problem."
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Exit the cloud service's client that is locally installed, restart the computer, and check to see if the file contains the information that is missing.",
+            "zh": "A. Exit the cloud service's client that is locally installed, restart the computer, and check to see if the file contains the information that is missing.",
+            "ms": "A. Exit the cloud service's client that is locally installed, restart the computer, and check to see if the file contains the information that is missing."
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Visit the cloud service's website, locate the service status page, and determine if their is a service outage impacting the organization.",
+            "zh": "B. Visit the cloud service's website, locate the service status page, and determine if their is a service outage impacting the organization.",
+            "ms": "B. Visit the cloud service's website, locate the service status page, and determine if their is a service outage impacting the organization."
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors.",
+            "zh": "C. Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors.",
+            "ms": "C. Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors."
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Open the cloud service's client that is locally installed and check to see if there are any updates available for the client.",
+            "zh": "D. Open the cloud service's client that is locally installed and check to see if there are any updates available for the client.",
+            "ms": "D. Open the cloud service's client that is locally installed and check to see if there are any updates available for the client."
+          }
+        }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": "comptia-a-1101-practice-questions-03",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "A technician is helping a user configure a new mobile phone. The user could pay for purchases with the previous phone by touching the phone to the payment system. Which of the following features should the technician enable so that the user can use the new phone to also pay for purchases this way?",
+        "zh": "A technician is helping a user configure a new mobile phone. The user could pay for purchases with the previous phone by touching the phone to the payment system. Which of the following features should the technician enable so that the user can use the new phone to also pay for purchases this way?",
+        "ms": "A technician is helping a user configure a new mobile phone. The user could pay for purchases with the previous phone by touching the phone to the payment system. Which of the following features should the technician enable so that the user can use the new phone to also pay for purchases this way?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. PAN",
+            "zh": "A. PAN",
+            "ms": "A. PAN"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. RFID",
+            "zh": "B. RFID",
+            "ms": "B. RFID"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. NFC",
+            "zh": "C. NFC",
+            "ms": "C. NFC"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Bluetooth",
+            "zh": "D. Bluetooth",
+            "ms": "D. Bluetooth"
+          }
+        }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": "comptia-a-1101-practice-questions-04",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "A user recently reported that every few days the system clock is approximately three minutes behind. The user also received an error message on the BIOS screen. Which of the following would MOST likely fix the clock issue?",
+        "zh": "A user recently reported that every few days the system clock is approximately three minutes behind. The user also received an error message on the BIOS screen. Which of the following would MOST likely fix the clock issue?",
+        "ms": "A user recently reported that every few days the system clock is approximately three minutes behind. The user also received an error message on the BIOS screen. Which of the following would MOST likely fix the clock issue?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Enable dual-channel memory by adding a second RAM stick.",
+            "zh": "A. Enable dual-channel memory by adding a second RAM stick.",
+            "ms": "A. Enable dual-channel memory by adding a second RAM stick."
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Install a new power supply.",
+            "zh": "B. Install a new power supply.",
+            "ms": "B. Install a new power supply."
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Replace the motherboard's CMOS battery.",
+            "zh": "C. Replace the motherboard's CMOS battery.",
+            "ms": "C. Replace the motherboard's CMOS battery."
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Configure the PC to be an NTP server.",
+            "zh": "D. Configure the PC to be an NTP server.",
+            "ms": "D. Configure the PC to be an NTP server."
+          }
+        }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": "comptia-a-1101-practice-questions-05",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "A user with a new 5G smartphone notices the device has separated at the seam on one edge and is measurably thicker at that point. Which of the following actions should the user take FIRST?",
+        "zh": "A user with a new 5G smartphone notices the device has separated at the seam on one edge and is measurably thicker at that point. Which of the following actions should the user take FIRST?",
+        "ms": "A user with a new 5G smartphone notices the device has separated at the seam on one edge and is measurably thicker at that point. Which of the following actions should the user take FIRST?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Power off the smartphone and place it in a bucket of rice for 48 hours.",
+            "zh": "A. Power off the smartphone and place it in a bucket of rice for 48 hours.",
+            "ms": "A. Power off the smartphone and place it in a bucket of rice for 48 hours."
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Place the smartphone in a refrigerator between 35°F (1.6°C) and 40°F",
+            "zh": "B. Place the smartphone in a refrigerator between 35°F (1.6°C) and 40°F",
+            "ms": "B. Place the smartphone in a refrigerator between 35°F (1.6°C) and 40°F"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Fully deplete the phone's battery and then charge it to 100%.",
+            "zh": "C. Fully deplete the phone's battery and then charge it to 100%.",
+            "ms": "C. Fully deplete the phone's battery and then charge it to 100%."
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Contact the smartphone manufacturer for warranty support.",
+            "zh": "D. Contact the smartphone manufacturer for warranty support.",
+            "ms": "D. Contact the smartphone manufacturer for warranty support."
+          }
+        }
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": "comptia-a-1101-practice-questions-06",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "A technician is replacing a laptop's HDD with an SSD. Which of the following should the technician do FIRST?",
+        "zh": "A technician is replacing a laptop's HDD with an SSD. Which of the following should the technician do FIRST?",
+        "ms": "A technician is replacing a laptop's HDD with an SSD. Which of the following should the technician do FIRST?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Create a backup of the HDD.",
+            "zh": "A. Create a backup of the HDD.",
+            "ms": "A. Create a backup of the HDD."
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Upgrade the RAM on the laptop.",
+            "zh": "B. Upgrade the RAM on the laptop.",
+            "ms": "B. Upgrade the RAM on the laptop."
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Enable SSD support at BIOS.",
+            "zh": "C. Enable SSD support at BIOS.",
+            "ms": "C. Enable SSD support at BIOS."
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Install SSD drivers inside the OS.",
+            "zh": "D. Install SSD drivers inside the OS.",
+            "ms": "D. Install SSD drivers inside the OS."
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "comptia-a-1101-practice-questions-07",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "Which of the following technologies has the FASTEST connection speed?",
+        "zh": "Which of the following technologies has the FASTEST connection speed?",
+        "ms": "Which of the following technologies has the FASTEST connection speed?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Fiber",
+            "zh": "A. Fiber",
+            "ms": "A. Fiber"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Satellite",
+            "zh": "B. Satellite",
+            "ms": "B. Satellite"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. DSL",
+            "zh": "C. DSL",
+            "ms": "C. DSL"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Cable",
+            "zh": "D. Cable",
+            "ms": "D. Cable"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "comptia-a-1101-practice-questions-08",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "A PC in a conference room will be connected to a large-screen TV for video presentations during training sessions. Which of the following video connectors is the MOST likely choice for this environment?",
+        "zh": "A PC in a conference room will be connected to a large-screen TV for video presentations during training sessions. Which of the following video connectors is the MOST likely choice for this environment?",
+        "ms": "A PC in a conference room will be connected to a large-screen TV for video presentations during training sessions. Which of the following video connectors is the MOST likely choice for this environment?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Video Graphics Array",
+            "zh": "A. Video Graphics Array",
+            "ms": "A. Video Graphics Array"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Thunderbolt",
+            "zh": "B. Thunderbolt",
+            "ms": "B. Thunderbolt"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Digital Visual Interface",
+            "zh": "C. Digital Visual Interface",
+            "ms": "C. Digital Visual Interface"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. High-Definition Multimedia Interface",
+            "zh": "D. High-Definition Multimedia Interface",
+            "ms": "D. High-Definition Multimedia Interface"
+          }
+        }
+      ],
+      "correctAnswer": "D"
+    }
+  ]
+}

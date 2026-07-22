@@ -1,0 +1,517 @@
+{
+  "id": "network-n10-008-practice-questions",
+  "title": "CompTia Network+",
+  "source": "network+/network-n10-008-practice-questions.html",
+  "questions": [
+    {
+      "id": "network-n10-008-practice-questions-01",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "When logging in to an application, users are prompted to enter a code received from a smartphone application after entering a username and password. Which of the following security concepts does this BEST represent?",
+        "zh": "When logging in to an application, users are prompted to enter a code received from a smartphone application after entering a username and password. Which of the following security concepts does this BEST represent?",
+        "ms": "When logging in to an application, users are prompted to enter a code received from a smartphone application after entering a username and password. Which of the following security concepts does this BEST represent?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Biometric authentication",
+            "zh": "A. Biometric authentication",
+            "ms": "A. Biometric authentication"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Least privilege",
+            "zh": "B. Least privilege",
+            "ms": "B. Least privilege"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Role-based access",
+            "zh": "C. Role-based access",
+            "ms": "C. Role-based access"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Multifactor authentication",
+            "zh": "D. Multifactor authentication",
+            "ms": "D. Multifactor authentication"
+          }
+        }
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": "network-n10-008-practice-questions-02",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "Which of the following concepts would MOST likely be used to identify individual pieces of hardware throughout their life cycle?",
+        "zh": "Which of the following concepts would MOST likely be used to identify individual pieces of hardware throughout their life cycle?",
+        "ms": "Which of the following concepts would MOST likely be used to identify individual pieces of hardware throughout their life cycle?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Geofencing",
+            "zh": "A. Geofencing",
+            "ms": "A. Geofencing"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Smart locker",
+            "zh": "B. Smart locker",
+            "ms": "B. Smart locker"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Chain of custody",
+            "zh": "C. Chain of custody",
+            "ms": "C. Chain of custody"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Asset tagging",
+            "zh": "D. Asset tagging",
+            "ms": "D. Asset tagging"
+          }
+        }
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": "network-n10-008-practice-questions-03",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "Which of the following layers is the FIRST step of the bottom-to-top OSI model troubleshooting approach?",
+        "zh": "Which of the following layers is the FIRST step of the bottom-to-top OSI model troubleshooting approach?",
+        "ms": "Which of the following layers is the FIRST step of the bottom-to-top OSI model troubleshooting approach?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Network",
+            "zh": "A. Network",
+            "ms": "A. Network"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Application",
+            "zh": "B. Application",
+            "ms": "B. Application"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Presentation",
+            "zh": "C. Presentation",
+            "ms": "C. Presentation"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Physical",
+            "zh": "D. Physical",
+            "ms": "D. Physical"
+          }
+        }
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": "network-n10-008-practice-questions-04",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "A network technician is responding to an end user who is experiencing issues while trying to connect to 123.com. Other users, however, are able to access the website by the IP address. Which of the following is MOST likely the cause of the issue?",
+        "zh": "A network technician is responding to an end user who is experiencing issues while trying to connect to 123.com. Other users, however, are able to access the website by the IP address. Which of the following is MOST likely the cause of the issue?",
+        "ms": "A network technician is responding to an end user who is experiencing issues while trying to connect to 123.com. Other users, however, are able to access the website by the IP address. Which of the following is MOST likely the cause of the issue?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. DNS",
+            "zh": "A. DNS",
+            "ms": "A. DNS"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. DHCP",
+            "zh": "B. DHCP",
+            "ms": "B. DHCP"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. FTP",
+            "zh": "C. FTP",
+            "ms": "C. FTP"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. HTTP",
+            "zh": "D. HTTP",
+            "ms": "D. HTTP"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "network-n10-008-practice-questions-05",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "A new wireless network was implemented with every AP linked to the others to maintain full redundancy for network links. Which of the following BEST describes this network topology?",
+        "zh": "A new wireless network was implemented with every AP linked to the others to maintain full redundancy for network links. Which of the following BEST describes this network topology?",
+        "ms": "A new wireless network was implemented with every AP linked to the others to maintain full redundancy for network links. Which of the following BEST describes this network topology?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Star",
+            "zh": "A. Star",
+            "ms": "A. Star"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Bus",
+            "zh": "B. Bus",
+            "ms": "B. Bus"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Mesh",
+            "zh": "C. Mesh",
+            "ms": "C. Mesh"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Ring",
+            "zh": "D. Ring",
+            "ms": "D. Ring"
+          }
+        }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": "network-n10-008-practice-questions-06",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "A technician is required to keep all network devices configured to the same system time. Which of the following network protocols will the technician MOST likely use?",
+        "zh": "A technician is required to keep all network devices configured to the same system time. Which of the following network protocols will the technician MOST likely use?",
+        "ms": "A technician is required to keep all network devices configured to the same system time. Which of the following network protocols will the technician MOST likely use?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. DNS",
+            "zh": "A. DNS",
+            "ms": "A. DNS"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. STP",
+            "zh": "B. STP",
+            "ms": "B. STP"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. NTP",
+            "zh": "C. NTP",
+            "ms": "C. NTP"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. DHCP",
+            "zh": "D. DHCP",
+            "ms": "D. DHCP"
+          }
+        }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": "network-n10-008-practice-questions-07",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "A device on the network is used to link hosts from multiple subnets and on different VLANs. Which of the following does this MOST likely describe?",
+        "zh": "A device on the network is used to link hosts from multiple subnets and on different VLANs. Which of the following does this MOST likely describe?",
+        "ms": "A device on the network is used to link hosts from multiple subnets and on different VLANs. Which of the following does this MOST likely describe?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. An access point",
+            "zh": "A. An access point",
+            "ms": "A. An access point"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. A hub",
+            "zh": "B. A hub",
+            "ms": "B. A hub"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. A proxy server",
+            "zh": "C. A proxy server",
+            "ms": "C. A proxy server"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. A Layer 3 switch",
+            "zh": "D. A Layer 3 switch",
+            "ms": "D. A Layer 3 switch"
+          }
+        }
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": "network-n10-008-practice-questions-08",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "A network technician is trying to determine which hop between a client and a server is causing extreme latency. Which of the following commands will allow the technician to find this information?",
+        "zh": "A network technician is trying to determine which hop between a client and a server is causing extreme latency. Which of the following commands will allow the technician to find this information?",
+        "ms": "A network technician is trying to determine which hop between a client and a server is causing extreme latency. Which of the following commands will allow the technician to find this information?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. tracert",
+            "zh": "A. tracert",
+            "ms": "A. tracert"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. arp",
+            "zh": "B. arp",
+            "ms": "B. arp"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. tcpdump",
+            "zh": "C. tcpdump",
+            "ms": "C. tcpdump"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. netstat",
+            "zh": "D. netstat",
+            "ms": "D. netstat"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "network-n10-008-practice-questions-09",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "During a routine network check, a technician discovers multiple IP addresses recorded in the network logs that are not listed in the company's inventory. None of the devices have wireless network cards. Which of the following would prevent unauthorized devices from gaining access to computer resources?",
+        "zh": "During a routine network check, a technician discovers multiple IP addresses recorded in the network logs that are not listed in the company's inventory. None of the devices have wireless network cards. Which of the following would prevent unauthorized devices from gaining access to computer resources?",
+        "ms": "During a routine network check, a technician discovers multiple IP addresses recorded in the network logs that are not listed in the company's inventory. None of the devices have wireless network cards. Which of the following would prevent unauthorized devices from gaining access to computer resources?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. DHCP",
+            "zh": "A. DHCP",
+            "ms": "A. DHCP"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Geofencing",
+            "zh": "B. Geofencing",
+            "ms": "B. Geofencing"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. SFTP",
+            "zh": "C. SFTP",
+            "ms": "C. SFTP"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Port security",
+            "zh": "D. Port security",
+            "ms": "D. Port security"
+          }
+        }
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": "network-n10-008-practice-questions-10",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "A technician needs to connect two systems. The only available path for the cabling passes close to some equipment that emits large amounts of interference. Which of the following would be the BEST type of cable to install between the two systems?",
+        "zh": "A technician needs to connect two systems. The only available path for the cabling passes close to some equipment that emits large amounts of interference. Which of the following would be the BEST type of cable to install between the two systems?",
+        "ms": "A technician needs to connect two systems. The only available path for the cabling passes close to some equipment that emits large amounts of interference. Which of the following would be the BEST type of cable to install between the two systems?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Crossover",
+            "zh": "A. Crossover",
+            "ms": "A. Crossover"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Cat 3",
+            "zh": "B. Cat 3",
+            "ms": "B. Cat 3"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Shielded twisted pair",
+            "zh": "C. Shielded twisted pair",
+            "ms": "C. Shielded twisted pair"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Plenum-rated",
+            "zh": "D. Plenum-rated",
+            "ms": "D. Plenum-rated"
+          }
+        }
+      ],
+      "correctAnswer": "C"
+    }
+  ]
+}

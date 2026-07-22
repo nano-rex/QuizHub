@@ -1,0 +1,517 @@
+{
+  "id": "comptia-a-1002-practice-questions",
+  "title": "CompTia A+",
+  "source": "a+/comptia-a-1002-practice-questions.html",
+  "questions": [
+    {
+      "id": "comptia-a-1002-practice-questions-01",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "Which of the following is the BEST use-case scenario for a Chrome OS device?",
+        "zh": "Which of the following is the BEST use-case scenario for a Chrome OS device?",
+        "ms": "Which of the following is the BEST use-case scenario for a Chrome OS device?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Web browsing and email",
+            "zh": "A. Web browsing and email",
+            "ms": "A. Web browsing and email"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Photo and video editing",
+            "zh": "B. Photo and video editing",
+            "ms": "B. Photo and video editing"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Application development",
+            "zh": "C. Application development",
+            "ms": "C. Application development"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Database queries",
+            "zh": "D. Database queries",
+            "ms": "D. Database queries"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "comptia-a-1002-practice-questions-02",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "A technician implements a Group Policy change and needs to apply it without restarting the workstation. Which of the following commands can be used to accomplish this task?",
+        "zh": "A technician implements a Group Policy change and needs to apply it without restarting the workstation. Which of the following commands can be used to accomplish this task?",
+        "ms": "A technician implements a Group Policy change and needs to apply it without restarting the workstation. Which of the following commands can be used to accomplish this task?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. gpupdate",
+            "zh": "A. gpupdate",
+            "ms": "A. gpupdate"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. gpresult",
+            "zh": "B. gpresult",
+            "ms": "B. gpresult"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. netstat",
+            "zh": "C. netstat",
+            "ms": "C. netstat"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Dism",
+            "zh": "D. Dism",
+            "ms": "D. Dism"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "comptia-a-1002-practice-questions-03",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "An end user has requested assistance from the help desk to install new video editing software. The user wants to create several .wma files. Which of the following should the help desk consider before installing the software?",
+        "zh": "An end user has requested assistance from the help desk to install new video editing software. The user wants to create several .wma files. Which of the following should the help desk consider before installing the software?",
+        "ms": "An end user has requested assistance from the help desk to install new video editing software. The user wants to create several .wma files. Which of the following should the help desk consider before installing the software?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Disk space",
+            "zh": "A. Disk space",
+            "ms": "A. Disk space"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Network connection",
+            "zh": "B. Network connection",
+            "ms": "B. Network connection"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Aspect ratio",
+            "zh": "C. Aspect ratio",
+            "ms": "C. Aspect ratio"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Power supply",
+            "zh": "D. Power supply",
+            "ms": "D. Power supply"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "comptia-a-1002-practice-questions-04",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "A new security requirement for logging on to a company network has been put in place for all users. Which of the following should a systems administrator enforce to BEST meet this requirement? (Select TWO).",
+        "zh": "A new security requirement for logging on to a company network has been put in place for all users. Which of the following should a systems administrator enforce to BEST meet this requirement? (Select TWO).",
+        "ms": "A new security requirement for logging on to a company network has been put in place for all users. Which of the following should a systems administrator enforce to BEST meet this requirement? (Select TWO)."
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Strong passwords",
+            "zh": "A. Strong passwords",
+            "ms": "A. Strong passwords"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Folder redirection",
+            "zh": "B. Folder redirection",
+            "ms": "B. Folder redirection"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Email filtering",
+            "zh": "C. Email filtering",
+            "ms": "C. Email filtering"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Multifactor authentication",
+            "zh": "D. Multifactor authentication",
+            "ms": "D. Multifactor authentication"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "comptia-a-1002-practice-questions-05",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "Which of the following password choices increases the chance that a brute force attack will succeed?",
+        "zh": "Which of the following password choices increases the chance that a brute force attack will succeed?",
+        "ms": "Which of the following password choices increases the chance that a brute force attack will succeed?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Dictionary words",
+            "zh": "A. Dictionary words",
+            "ms": "A. Dictionary words"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Special characters",
+            "zh": "B. Special characters",
+            "ms": "B. Special characters"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Long passwords",
+            "zh": "C. Long passwords",
+            "ms": "C. Long passwords"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Capital letters",
+            "zh": "D. Capital letters",
+            "ms": "D. Capital letters"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "comptia-a-1002-practice-questions-06",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "A user connects a printer to a workstation. As the printer drivers are installed, an error message appears. The default drivers appear to be incompatible with the OS. Which of the following should a technician use FIRST to troubleshoot the problem?",
+        "zh": "A user connects a printer to a workstation. As the printer drivers are installed, an error message appears. The default drivers appear to be incompatible with the OS. Which of the following should a technician use FIRST to troubleshoot the problem?",
+        "ms": "A user connects a printer to a workstation. As the printer drivers are installed, an error message appears. The default drivers appear to be incompatible with the OS. Which of the following should a technician use FIRST to troubleshoot the problem?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Services",
+            "zh": "A. Services",
+            "ms": "A. Services"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Device Manager",
+            "zh": "B. Device Manager",
+            "ms": "B. Device Manager"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Programs and Features",
+            "zh": "C. Programs and Features",
+            "ms": "C. Programs and Features"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Task Manager",
+            "zh": "D. Task Manager",
+            "ms": "D. Task Manager"
+          }
+        }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": "comptia-a-1002-practice-questions-07",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "Joe, a user, forgot his password and was unable to log in to a workstation. Joe remembers the password later, but he is still unable to log in. Which of the following is the MOST likely cause of the issue?",
+        "zh": "Joe, a user, forgot his password and was unable to log in to a workstation. Joe remembers the password later, but he is still unable to log in. Which of the following is the MOST likely cause of the issue?",
+        "ms": "Joe, a user, forgot his password and was unable to log in to a workstation. Joe remembers the password later, but he is still unable to log in. Which of the following is the MOST likely cause of the issue?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Reset account",
+            "zh": "A. Reset account",
+            "ms": "A. Reset account"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Deleted account",
+            "zh": "B. Deleted account",
+            "ms": "B. Deleted account"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Locked account",
+            "zh": "C. Locked account",
+            "ms": "C. Locked account"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Limited-user account",
+            "zh": "D. Limited-user account",
+            "ms": "D. Limited-user account"
+          }
+        }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": "comptia-a-1002-practice-questions-08",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "A user reports a phone battery does not last the entire day, and the phone's navigation is slow. Which of the following should a technician do FIRST to troubleshoot the device?",
+        "zh": "A user reports a phone battery does not last the entire day, and the phone's navigation is slow. Which of the following should a technician do FIRST to troubleshoot the device?",
+        "ms": "A user reports a phone battery does not last the entire day, and the phone's navigation is slow. Which of the following should a technician do FIRST to troubleshoot the device?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Examine the running apps.",
+            "zh": "A. Examine the running apps.",
+            "ms": "A. Examine the running apps."
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Update the firmware.",
+            "zh": "B. Update the firmware.",
+            "ms": "B. Update the firmware."
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Reinstall the most-used application.",
+            "zh": "C. Reinstall the most-used application.",
+            "ms": "C. Reinstall the most-used application."
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Turn off all network services.",
+            "zh": "D. Turn off all network services.",
+            "ms": "D. Turn off all network services."
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "comptia-a-1002-practice-questions-09",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "Which of the following is the proper way to dispose of batteries?",
+        "zh": "Which of the following is the proper way to dispose of batteries?",
+        "ms": "Which of the following is the proper way to dispose of batteries?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Shred",
+            "zh": "A. Shred",
+            "ms": "A. Shred"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Recycle",
+            "zh": "B. Recycle",
+            "ms": "B. Recycle"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Dispose in trash",
+            "zh": "C. Dispose in trash",
+            "ms": "C. Dispose in trash"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Incinerate",
+            "zh": "D. Incinerate",
+            "ms": "D. Incinerate"
+          }
+        }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": "comptia-a-1002-practice-questions-10",
+      "type": "multiple-choice",
+      "subject": "a Plus",
+      "topic": "CompTia A+",
+      "question": {
+        "en": "To prevent electrical damage to a PC while working on it, which of the following should be disconnected before work begins?",
+        "zh": "To prevent electrical damage to a PC while working on it, which of the following should be disconnected before work begins?",
+        "ms": "To prevent electrical damage to a PC while working on it, which of the following should be disconnected before work begins?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Power cable",
+            "zh": "A. Power cable",
+            "ms": "A. Power cable"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Video cable",
+            "zh": "B. Video cable",
+            "ms": "B. Video cable"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. USB cable",
+            "zh": "C. USB cable",
+            "ms": "C. USB cable"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Serial cable",
+            "zh": "D. Serial cable",
+            "ms": "D. Serial cable"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    }
+  ]
+}
