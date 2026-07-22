@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QuizHub · Settings</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="brand" href="index.html">QuizHub</a><a href="settings.html" aria-current="page">Settings</a><a href="search.html">Search questions</a>
+    </nav>
+    <header><p class="eyebrow">QuizHub settings</p><h1>Configure your quiz</h1><p>Choose what to study, then start a random quiz.</p></header>
+    <section class="panel" aria-labelledby="settings-title">
+      <h2 id="settings-title">Quiz settings</h2>
+      <div class="controls">
+        <fieldset class="setting-group"><legend>Display languages</legend><div id="languages" class="language-options">
+          <label><input type="checkbox" value="en" checked> English</label><label><input type="checkbox" value="zh-Hans"> 简体中文</label><label><input type="checkbox" value="zh-Hant"> 繁體中文</label><label><input type="checkbox" value="ms"> Bahasa Melayu</label>
+        </div></fieldset>
+        <label>Question wording<select id="variant"><option value="0">Standard</option><option value="1">Alternative wording</option><option value="2">Another wording</option></select></label>
+        <label>Answer type<select id="answer-mode"><option value="objective">Objective (multiple choice)</option><option value="subjective">Subjective (type answer)</option><option value="mixed">Mixed (random)</option></select></label>
+        <label>Theme<select id="theme"><option value="light">Light</option><option value="dark">Dark</option><option value="system">System preference</option></select></label>
+        <label>Questions to fetch<input id="question-count" type="number" min="1" value="10"></label>
+      </div>
+      <h3>Subjects and topics</h3><div id="filters" class="check-grid"><p class="muted">Loading question banks…</p></div>
+      <div class="actions"><button id="start" type="button">Start random quiz</button><label class="upload-button">Add JSON files<input id="json-upload" type="file" accept="application/json,.json" multiple></label></div>
+      <p id="bank-status" class="muted" role="status"></p><p id="errors" class="error" role="alert"></p>
+    </section>
+  </main>
+  <script type="module" src="js/settings-page.js"></script>
+</body>
+</html>
