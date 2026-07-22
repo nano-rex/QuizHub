@@ -2,11 +2,11 @@
 
 QuizHub is a static JSON-powered practice site. Open `index.html` in a browser, or serve this directory with any static web server.
 
-The A+, Network+, and Security+ question banks are stored under `data/` as JSON. Their former category pages now redirect to QuizHub.
+All question-bank JSON files are stored exclusively under [`question-banks/`](question-banks/). Their former category pages now redirect to QuizHub.
 
 ## Question-bank JSON format
 
-Add any number of `.json` files with this shape. Add bundled files to `data/index.json`; users can also select any number of files with **Add JSON files** in the interface.
+Add any number of `.json` files with this shape. Add bundled files to [`question-banks/index.json`](question-banks/index.json); users can also select any number of files with **Add JSON files** in the interface.
 
 ```json
 {

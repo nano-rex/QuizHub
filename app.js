@@ -170,8 +170,8 @@ async function addFiles(files) {
 
 async function boot() {
   try {
-    const manifest = await (await fetch('data/index.json')).json();
-    const banks = await Promise.all((manifest.files || []).map((file) => loadBank(`data/${file}`)));
+    const manifest = await (await fetch('question-banks/index.json')).json();
+    const banks = await Promise.all((manifest.files || []).map((file) => loadBank(`question-banks/${file}`)));
     state.banks.push(...banks); rebuildQuestions();
   } catch (error) { $('errors').textContent = `Could not load bundled question banks: ${error.message}`; }
 }
