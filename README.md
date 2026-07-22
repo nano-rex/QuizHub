@@ -36,6 +36,8 @@ Add any number of `.json` files with this shape. Add bundled files to [`question
 
 The quiz selects questions randomly from the checked subjects and topics. If the requested count is larger than the filtered pool, all matching questions are used. Browser file uploads have no application-defined file-count limit.
 
+At quiz start, **Answer type** controls how questions are presented: Objective shows choices, Subjective shows a text field, and Mixed randomly chooses between them for each regular question. A regular question can provide optional `subjectiveAnswers` arrays when typed answers need to differ from the correct option’s displayed text. Multi-step questions always use step-by-step text fields.
+
 ## Multi-step mathematics
 
 Use `type: "multi-step"` for mathematics or other worked problems. Every step gets its own input and contributes one point. `acceptedAnswers` can contain equivalent answers, and `tolerance` allows numeric answers within a permitted difference.
