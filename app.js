@@ -23,6 +23,21 @@ function displayQuestion(question, languages, variantIndex) {
   }).join('\n');
 }
 
+function appendImages(parent, images, languages, fallbackAlt) {
+  if (!Array.isArray(images) || !images.length) return;
+  const gallery = document.createElement('div'); gallery.className = 'image-gallery';
+  images.forEach((image) => {
+    const source = typeof image === 'string' ? image : image?.src;
+    if (!source) return;
+    const element = document.createElement('img'); element.className = 'quiz-image';
+    element.src = source;
+    element.alt = typeof image === 'object' && image.alt ? displayText(image.alt, languages) : fallbackAlt;
+    element.loading = 'lazy';
+    gallery.append(element);
+  });
+  if (gallery.children.length) parent.append(gallery);
+}
+
 function normalizeBank(bank, source) {
   if (!bank || !Array.isArray(bank.questions)) throw new Error(`${source}: expected a questions array`);
   const questions = bank.questions.map((question, index) => {
@@ -105,6 +120,7 @@ function renderQuiz() {
     const legend = document.createElement('legend');
     legend.textContent = `${index + 1}. ${displayQuestion(question, languages, variantIndex)}`;
     fieldset.append(legend);
+    appendImages(fieldset, question.images, languages, 'Question illustration');
     if (question.type === 'multi-step' || question.answerMode === 'subjective') {
       if (question.type === 'multi-step') {
       question.steps.forEach((step, stepIndex) => {
@@ -126,7 +142,9 @@ function renderQuiz() {
       shuffled(question.answers).forEach((answer) => {
         const label = document.createElement('label'); label.className = 'answer';
         const input = document.createElement('input'); input.type = 'radio'; input.name = `question-${index}`; input.value = answer.id;
-        label.append(input, document.createTextNode(`${answer.id}. ${displayText(answer.text, languages)}`)); fieldset.append(label);
+        label.append(input, document.createTextNode(`${answer.id}. ${displayText(answer.text, languages)}`));
+        appendImages(label, answer.images, languages, `Answer ${answer.id} illustration`);
+        fieldset.append(label);
       });
     }
     container.append(fieldset);
