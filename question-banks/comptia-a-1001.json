@@ -44,7 +44,8 @@
             "ms": "Tablet",
             "zh-Hans": "平板电脑",
             "zh-Hant": "平板电脑"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -54,7 +55,8 @@
             "ms": "Unit GPS",
             "zh-Hans": "GPS 设备",
             "zh-Hant": "GPS 设备"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -64,7 +66,8 @@
             "ms": "Pembaca elektronik",
             "zh-Hans": "电子阅读器",
             "zh-Hant": "电子阅读器"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -74,10 +77,27 @@
             "ms": "Monitor kecergasan",
             "zh-Hans": "健身监测器",
             "zh-Hant": "健身监测器"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "type": "multiple-choice",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "Tablet"
+        ],
+        "zh-Hans": [
+          "平板电脑"
+        ],
+        "zh-Hant": [
+          "平板电脑"
+        ],
+        "ms": [
+          "Tablet"
+        ]
+      }
     },
     {
       "id": "a1001-02",
@@ -121,7 +141,8 @@
             "ms": "Mod kapal terbang",
             "zh-Hans": "飞行模式",
             "zh-Hant": "飞行模式"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -131,7 +152,8 @@
             "ms": "Penambatan",
             "zh-Hans": "网络共享",
             "zh-Hant": "网络共享"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -141,7 +163,8 @@
             "ms": "Hotspot dilumpuhkan",
             "zh-Hans": "已停用的热点",
             "zh-Hant": "已停用的热点"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -151,10 +174,27 @@
             "ms": "VPN",
             "zh-Hans": "VPN",
             "zh-Hant": "VPN"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "type": "multiple-choice",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "Airplane mode"
+        ],
+        "zh-Hans": [
+          "飞行模式"
+        ],
+        "zh-Hant": [
+          "飞行模式"
+        ],
+        "ms": [
+          "Mod kapal terbang"
+        ]
+      }
     },
     {
       "id": "a1001-03",
@@ -193,7 +233,8 @@
             "ms": "NFC",
             "zh-Hans": "NFC",
             "zh-Hant": "NFC"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -203,7 +244,8 @@
             "ms": "Bluetooth",
             "zh-Hans": "蓝牙",
             "zh-Hant": "蓝牙"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -213,7 +255,8 @@
             "ms": "IR",
             "zh-Hans": "红外线",
             "zh-Hant": "红外线"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -223,10 +266,27 @@
             "ms": "LTE",
             "zh-Hans": "LTE",
             "zh-Hant": "LTE"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "type": "multiple-choice",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "NFC"
+        ],
+        "zh-Hans": [
+          "NFC"
+        ],
+        "zh-Hant": [
+          "NFC"
+        ],
+        "ms": [
+          "NFC"
+        ]
+      }
     },
     {
       "id": "a1001-04",
@@ -265,7 +325,8 @@
             "ms": "USB",
             "zh-Hans": "USB",
             "zh-Hant": "USB"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -275,7 +336,8 @@
             "ms": "USB-C",
             "zh-Hans": "USB-C",
             "zh-Hant": "USB-C"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -285,7 +347,8 @@
             "ms": "Mini-USB",
             "zh-Hans": "Mini-USB",
             "zh-Hant": "Mini-USB"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -295,10 +358,27 @@
             "ms": "Micro-USB",
             "zh-Hans": "Micro-USB",
             "zh-Hant": "Micro-USB"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "B",
+      "type": "multiple-choice",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "USB-C"
+        ],
+        "zh-Hans": [
+          "USB-C"
+        ],
+        "zh-Hant": [
+          "USB-C"
+        ],
+        "ms": [
+          "USB-C"
+        ]
+      }
     },
     {
       "id": "a1001-05",
@@ -337,7 +417,8 @@
             "ms": "PCIe",
             "zh-Hans": "PCIe",
             "zh-Hant": "PCIe"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -347,7 +428,8 @@
             "ms": "ISA",
             "zh-Hans": "ISA",
             "zh-Hant": "ISA"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -357,7 +439,8 @@
             "ms": "AGP",
             "zh-Hans": "AGP",
             "zh-Hant": "AGP"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -367,10 +450,27 @@
             "ms": "USB",
             "zh-Hans": "USB",
             "zh-Hant": "USB"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "type": "multiple-choice",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "PCIe"
+        ],
+        "zh-Hans": [
+          "PCIe"
+        ],
+        "zh-Hant": [
+          "PCIe"
+        ],
+        "ms": [
+          "PCIe"
+        ]
+      }
     }
   ]
 }

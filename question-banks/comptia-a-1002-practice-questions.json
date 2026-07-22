@@ -31,7 +31,8 @@
             "ms": "A. Web browsing and email",
             "zh-Hans": "A. Web browsing and email",
             "zh-Hant": "A. Web browsing and email"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -41,7 +42,8 @@
             "ms": "B. Photo and video editing",
             "zh-Hans": "B. Photo and video editing",
             "zh-Hant": "B. Photo and video editing"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -51,7 +53,8 @@
             "ms": "C. Application development",
             "zh-Hans": "C. Application development",
             "zh-Hant": "C. Application development"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -61,10 +64,26 @@
             "ms": "D. Database queries",
             "zh-Hans": "D. Database queries",
             "zh-Hant": "D. Database queries"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Web browsing and email"
+        ],
+        "zh-Hans": [
+          "A. Web browsing and email"
+        ],
+        "zh-Hant": [
+          "A. Web browsing and email"
+        ],
+        "ms": [
+          "A. Web browsing and email"
+        ]
+      }
     },
     {
       "id": "comptia-a-1002-practice-questions-02",
@@ -94,7 +113,8 @@
             "ms": "A. gpupdate",
             "zh-Hans": "A. gpupdate",
             "zh-Hant": "A. gpupdate"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -104,7 +124,8 @@
             "ms": "B. gpresult",
             "zh-Hans": "B. gpresult",
             "zh-Hant": "B. gpresult"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -114,7 +135,8 @@
             "ms": "C. netstat",
             "zh-Hans": "C. netstat",
             "zh-Hant": "C. netstat"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -124,10 +146,26 @@
             "ms": "D. Dism",
             "zh-Hans": "D. Dism",
             "zh-Hant": "D. Dism"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. gpupdate"
+        ],
+        "zh-Hans": [
+          "A. gpupdate"
+        ],
+        "zh-Hant": [
+          "A. gpupdate"
+        ],
+        "ms": [
+          "A. gpupdate"
+        ]
+      }
     },
     {
       "id": "comptia-a-1002-practice-questions-03",
@@ -157,7 +195,8 @@
             "ms": "A. Disk space",
             "zh-Hans": "A. Disk space",
             "zh-Hant": "A. Disk space"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -167,7 +206,8 @@
             "ms": "B. Network connection",
             "zh-Hans": "B. Network connection",
             "zh-Hant": "B. Network connection"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -177,7 +217,8 @@
             "ms": "C. Aspect ratio",
             "zh-Hans": "C. Aspect ratio",
             "zh-Hant": "C. Aspect ratio"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -187,10 +228,26 @@
             "ms": "D. Power supply",
             "zh-Hans": "D. Power supply",
             "zh-Hant": "D. Power supply"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Disk space"
+        ],
+        "zh-Hans": [
+          "A. Disk space"
+        ],
+        "zh-Hant": [
+          "A. Disk space"
+        ],
+        "ms": [
+          "A. Disk space"
+        ]
+      }
     },
     {
       "id": "comptia-a-1002-practice-questions-04",
@@ -220,7 +277,8 @@
             "ms": "A. Strong passwords",
             "zh-Hans": "A. Strong passwords",
             "zh-Hant": "A. Strong passwords"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -230,7 +288,8 @@
             "ms": "B. Folder redirection",
             "zh-Hans": "B. Folder redirection",
             "zh-Hant": "B. Folder redirection"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -240,7 +299,8 @@
             "ms": "C. Email filtering",
             "zh-Hans": "C. Email filtering",
             "zh-Hant": "C. Email filtering"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -250,10 +310,26 @@
             "ms": "D. Multifactor authentication",
             "zh-Hans": "D. Multifactor authentication",
             "zh-Hant": "D. Multifactor authentication"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Strong passwords"
+        ],
+        "zh-Hans": [
+          "A. Strong passwords"
+        ],
+        "zh-Hant": [
+          "A. Strong passwords"
+        ],
+        "ms": [
+          "A. Strong passwords"
+        ]
+      }
     },
     {
       "id": "comptia-a-1002-practice-questions-05",
@@ -283,7 +359,8 @@
             "ms": "A. Dictionary words",
             "zh-Hans": "A. Dictionary words",
             "zh-Hant": "A. Dictionary words"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -293,7 +370,8 @@
             "ms": "B. Special characters",
             "zh-Hans": "B. Special characters",
             "zh-Hant": "B. Special characters"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -303,7 +381,8 @@
             "ms": "C. Long passwords",
             "zh-Hans": "C. Long passwords",
             "zh-Hant": "C. Long passwords"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -313,10 +392,26 @@
             "ms": "D. Capital letters",
             "zh-Hans": "D. Capital letters",
             "zh-Hant": "D. Capital letters"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Dictionary words"
+        ],
+        "zh-Hans": [
+          "A. Dictionary words"
+        ],
+        "zh-Hant": [
+          "A. Dictionary words"
+        ],
+        "ms": [
+          "A. Dictionary words"
+        ]
+      }
     },
     {
       "id": "comptia-a-1002-practice-questions-06",
@@ -346,7 +441,8 @@
             "ms": "A. Services",
             "zh-Hans": "A. Services",
             "zh-Hant": "A. Services"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -356,7 +452,8 @@
             "ms": "B. Device Manager",
             "zh-Hans": "B. Device Manager",
             "zh-Hant": "B. Device Manager"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -366,7 +463,8 @@
             "ms": "C. Programs and Features",
             "zh-Hans": "C. Programs and Features",
             "zh-Hant": "C. Programs and Features"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -376,10 +474,26 @@
             "ms": "D. Task Manager",
             "zh-Hans": "D. Task Manager",
             "zh-Hant": "D. Task Manager"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "B",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "B. Device Manager"
+        ],
+        "zh-Hans": [
+          "B. Device Manager"
+        ],
+        "zh-Hant": [
+          "B. Device Manager"
+        ],
+        "ms": [
+          "B. Device Manager"
+        ]
+      }
     },
     {
       "id": "comptia-a-1002-practice-questions-07",
@@ -409,7 +523,8 @@
             "ms": "A. Reset account",
             "zh-Hans": "A. Reset account",
             "zh-Hant": "A. Reset account"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -419,7 +534,8 @@
             "ms": "B. Deleted account",
             "zh-Hans": "B. Deleted account",
             "zh-Hant": "B. Deleted account"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -429,7 +545,8 @@
             "ms": "C. Locked account",
             "zh-Hans": "C. Locked account",
             "zh-Hant": "C. Locked account"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -439,10 +556,26 @@
             "ms": "D. Limited-user account",
             "zh-Hans": "D. Limited-user account",
             "zh-Hant": "D. Limited-user account"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "C",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "C. Locked account"
+        ],
+        "zh-Hans": [
+          "C. Locked account"
+        ],
+        "zh-Hant": [
+          "C. Locked account"
+        ],
+        "ms": [
+          "C. Locked account"
+        ]
+      }
     },
     {
       "id": "comptia-a-1002-practice-questions-08",
@@ -472,7 +605,8 @@
             "ms": "A. Examine the running apps.",
             "zh-Hans": "A. Examine the running apps.",
             "zh-Hant": "A. Examine the running apps."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -482,7 +616,8 @@
             "ms": "B. Update the firmware.",
             "zh-Hans": "B. Update the firmware.",
             "zh-Hant": "B. Update the firmware."
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -492,7 +627,8 @@
             "ms": "C. Reinstall the most-used application.",
             "zh-Hans": "C. Reinstall the most-used application.",
             "zh-Hant": "C. Reinstall the most-used application."
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -502,10 +638,26 @@
             "ms": "D. Turn off all network services.",
             "zh-Hans": "D. Turn off all network services.",
             "zh-Hant": "D. Turn off all network services."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Examine the running apps."
+        ],
+        "zh-Hans": [
+          "A. Examine the running apps."
+        ],
+        "zh-Hant": [
+          "A. Examine the running apps."
+        ],
+        "ms": [
+          "A. Examine the running apps."
+        ]
+      }
     },
     {
       "id": "comptia-a-1002-practice-questions-09",
@@ -535,7 +687,8 @@
             "ms": "A. Shred",
             "zh-Hans": "A. Shred",
             "zh-Hant": "A. Shred"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -545,7 +698,8 @@
             "ms": "B. Recycle",
             "zh-Hans": "B. Recycle",
             "zh-Hant": "B. Recycle"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -555,7 +709,8 @@
             "ms": "C. Dispose in trash",
             "zh-Hans": "C. Dispose in trash",
             "zh-Hant": "C. Dispose in trash"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -565,10 +720,26 @@
             "ms": "D. Incinerate",
             "zh-Hans": "D. Incinerate",
             "zh-Hant": "D. Incinerate"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "B",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "B. Recycle"
+        ],
+        "zh-Hans": [
+          "B. Recycle"
+        ],
+        "zh-Hant": [
+          "B. Recycle"
+        ],
+        "ms": [
+          "B. Recycle"
+        ]
+      }
     },
     {
       "id": "comptia-a-1002-practice-questions-10",
@@ -598,7 +769,8 @@
             "ms": "A. Power cable",
             "zh-Hans": "A. Power cable",
             "zh-Hant": "A. Power cable"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -608,7 +780,8 @@
             "ms": "B. Video cable",
             "zh-Hans": "B. Video cable",
             "zh-Hant": "B. Video cable"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -618,7 +791,8 @@
             "ms": "C. USB cable",
             "zh-Hans": "C. USB cable",
             "zh-Hant": "C. USB cable"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -628,10 +802,26 @@
             "ms": "D. Serial cable",
             "zh-Hans": "D. Serial cable",
             "zh-Hant": "D. Serial cable"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Power cable"
+        ],
+        "zh-Hans": [
+          "A. Power cable"
+        ],
+        "zh-Hant": [
+          "A. Power cable"
+        ],
+        "ms": [
+          "A. Power cable"
+        ]
+      }
     }
   ]
 }

@@ -31,7 +31,8 @@
             "ms": "A. IP address",
             "zh-Hans": "A. IP address",
             "zh-Hant": "A. IP address"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -41,7 +42,8 @@
             "ms": "B. Default gateway",
             "zh-Hans": "B. Default gateway",
             "zh-Hant": "B. Default gateway"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -51,7 +53,8 @@
             "ms": "C.  DNS address",
             "zh-Hans": "C.  DNS address",
             "zh-Hant": "C.  DNS address"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -61,10 +64,26 @@
             "ms": "D. Loopback address",
             "zh-Hans": "D. Loopback address",
             "zh-Hant": "D. Loopback address"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. IP address"
+        ],
+        "zh-Hans": [
+          "A. IP address"
+        ],
+        "zh-Hant": [
+          "A. IP address"
+        ],
+        "ms": [
+          "A. IP address"
+        ]
+      }
     },
     {
       "id": "network-n10-007-practice-questions-02",
@@ -94,7 +113,8 @@
             "ms": "A. HVAC",
             "zh-Hans": "A. HVAC",
             "zh-Hant": "A. HVAC"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -104,7 +124,8 @@
             "ms": "B. Server room",
             "zh-Hans": "B. Server room",
             "zh-Hant": "B. Server room"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -114,7 +135,8 @@
             "ms": "C. MDF",
             "zh-Hans": "C. MDF",
             "zh-Hant": "C. MDF"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -124,10 +146,26 @@
             "ms": "D. Mechanical room",
             "zh-Hans": "D. Mechanical room",
             "zh-Hant": "D. Mechanical room"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "C",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "C. MDF"
+        ],
+        "zh-Hans": [
+          "C. MDF"
+        ],
+        "zh-Hant": [
+          "C. MDF"
+        ],
+        "ms": [
+          "C. MDF"
+        ]
+      }
     },
     {
       "id": "network-n10-007-practice-questions-03",
@@ -157,7 +195,8 @@
             "ms": "A.  WPA2",
             "zh-Hans": "A.  WPA2",
             "zh-Hant": "A.  WPA2"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -167,7 +206,8 @@
             "ms": "B. MAC filtering",
             "zh-Hans": "B. MAC filtering",
             "zh-Hant": "B. MAC filtering"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -177,7 +217,8 @@
             "ms": "C. MD5",
             "zh-Hans": "C. MD5",
             "zh-Hant": "C. MD5"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -187,10 +228,26 @@
             "ms": "D. WPS",
             "zh-Hans": "D. WPS",
             "zh-Hant": "D. WPS"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A.  WPA2"
+        ],
+        "zh-Hans": [
+          "A.  WPA2"
+        ],
+        "zh-Hant": [
+          "A.  WPA2"
+        ],
+        "ms": [
+          "A.  WPA2"
+        ]
+      }
     },
     {
       "id": "network-n10-007-practice-questions-04",
@@ -220,7 +277,8 @@
             "ms": "A. Inductive reasoning",
             "zh-Hans": "A. Inductive reasoning",
             "zh-Hant": "A. Inductive reasoning"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -230,7 +288,8 @@
             "ms": "B. OSI model bottom-to-top",
             "zh-Hans": "B. OSI model bottom-to-top",
             "zh-Hant": "B. OSI model bottom-to-top"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -240,7 +299,8 @@
             "ms": "C. Trial-and-error",
             "zh-Hans": "C. Trial-and-error",
             "zh-Hant": "C. Trial-and-error"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -250,10 +310,26 @@
             "ms": "D. Divide and conquer",
             "zh-Hans": "D. Divide and conquer",
             "zh-Hant": "D. Divide and conquer"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "B",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "B. OSI model bottom-to-top"
+        ],
+        "zh-Hans": [
+          "B. OSI model bottom-to-top"
+        ],
+        "zh-Hant": [
+          "B. OSI model bottom-to-top"
+        ],
+        "ms": [
+          "B. OSI model bottom-to-top"
+        ]
+      }
     },
     {
       "id": "network-n10-007-practice-questions-05",
@@ -283,7 +359,8 @@
             "ms": "A. Incorrect antenna type",
             "zh-Hans": "A. Incorrect antenna type",
             "zh-Hant": "A. Incorrect antenna type"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -293,7 +370,8 @@
             "ms": "B. Interference",
             "zh-Hans": "B. Interference",
             "zh-Hant": "B. Interference"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -303,7 +381,8 @@
             "ms": "C. Frequency mismatch",
             "zh-Hans": "C. Frequency mismatch",
             "zh-Hant": "C. Frequency mismatch"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -313,10 +392,26 @@
             "ms": "D. Signal reflection",
             "zh-Hans": "D. Signal reflection",
             "zh-Hant": "D. Signal reflection"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "B",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "B. Interference"
+        ],
+        "zh-Hans": [
+          "B. Interference"
+        ],
+        "zh-Hant": [
+          "B. Interference"
+        ],
+        "ms": [
+          "B. Interference"
+        ]
+      }
     },
     {
       "id": "network-n10-007-practice-questions-06",
@@ -346,7 +441,8 @@
             "ms": "A. Duplicate IP address",
             "zh-Hans": "A. Duplicate IP address",
             "zh-Hant": "A. Duplicate IP address"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -356,7 +452,8 @@
             "ms": "B. Phishing",
             "zh-Hans": "B. Phishing",
             "zh-Hant": "B. Phishing"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -366,7 +463,8 @@
             "ms": "C. MAC filtering",
             "zh-Hans": "C. MAC filtering",
             "zh-Hant": "C. MAC filtering"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -376,10 +474,26 @@
             "ms": "D. Exhausted DHCP scope",
             "zh-Hans": "D. Exhausted DHCP scope",
             "zh-Hant": "D. Exhausted DHCP scope"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Duplicate IP address"
+        ],
+        "zh-Hans": [
+          "A. Duplicate IP address"
+        ],
+        "zh-Hant": [
+          "A. Duplicate IP address"
+        ],
+        "ms": [
+          "A. Duplicate IP address"
+        ]
+      }
     },
     {
       "id": "network-n10-007-practice-questions-07",
@@ -409,7 +523,8 @@
             "ms": "A. Hypervisor",
             "zh-Hans": "A. Hypervisor",
             "zh-Hant": "A. Hypervisor"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -419,7 +534,8 @@
             "ms": "B. Virtual router",
             "zh-Hans": "B. Virtual router",
             "zh-Hant": "B. Virtual router"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -429,7 +545,8 @@
             "ms": "C. Virtual switch",
             "zh-Hans": "C. Virtual switch",
             "zh-Hant": "C. Virtual switch"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -439,10 +556,26 @@
             "ms": "D. Virtual NIC",
             "zh-Hans": "D. Virtual NIC",
             "zh-Hant": "D. Virtual NIC"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Hypervisor"
+        ],
+        "zh-Hans": [
+          "A. Hypervisor"
+        ],
+        "zh-Hant": [
+          "A. Hypervisor"
+        ],
+        "ms": [
+          "A. Hypervisor"
+        ]
+      }
     },
     {
       "id": "network-n10-007-practice-questions-08",
@@ -472,7 +605,8 @@
             "ms": "A. PDoS",
             "zh-Hans": "A. PDoS",
             "zh-Hant": "A. PDoS"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -482,7 +616,8 @@
             "ms": "B. Spoofing",
             "zh-Hans": "B. Spoofing",
             "zh-Hant": "B. Spoofing"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -492,7 +627,8 @@
             "ms": "C. Ransomware",
             "zh-Hans": "C. Ransomware",
             "zh-Hant": "C. Ransomware"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -502,10 +638,26 @@
             "ms": "D. Logic bomb",
             "zh-Hans": "D. Logic bomb",
             "zh-Hant": "D. Logic bomb"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. PDoS"
+        ],
+        "zh-Hans": [
+          "A. PDoS"
+        ],
+        "zh-Hant": [
+          "A. PDoS"
+        ],
+        "ms": [
+          "A. PDoS"
+        ]
+      }
     },
     {
       "id": "network-n10-007-practice-questions-09",
@@ -535,7 +687,8 @@
             "ms": "A. Attenuation",
             "zh-Hans": "A. Attenuation",
             "zh-Hant": "A. Attenuation"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -545,7 +698,8 @@
             "ms": "B. Crosstalk",
             "zh-Hans": "B. Crosstalk",
             "zh-Hant": "B. Crosstalk"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -555,7 +709,8 @@
             "ms": "C. Incorrect cable type",
             "zh-Hans": "C. Incorrect cable type",
             "zh-Hant": "C. Incorrect cable type"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -565,10 +720,26 @@
             "ms": "D. EMI",
             "zh-Hans": "D. EMI",
             "zh-Hant": "D. EMI"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "D"
+      "correctAnswer": "D",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "D. EMI"
+        ],
+        "zh-Hans": [
+          "D. EMI"
+        ],
+        "zh-Hant": [
+          "D. EMI"
+        ],
+        "ms": [
+          "D. EMI"
+        ]
+      }
     },
     {
       "id": "network-n10-007-practice-questions-10",
@@ -598,7 +769,8 @@
             "ms": "A. protect sensitive data from the rest of the network.",
             "zh-Hans": "A. protect sensitive data from the rest of the network.",
             "zh-Hant": "A. protect sensitive data from the rest of the network."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -608,7 +780,8 @@
             "ms": "B. make file transfers easier for end-users.",
             "zh-Hans": "B. make file transfers easier for end-users.",
             "zh-Hant": "B. make file transfers easier for end-users."
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -618,7 +791,8 @@
             "ms": "C. allow certain services to talk to each other without a choke point",
             "zh-Hans": "C. allow certain services to talk to each other without a choke point",
             "zh-Hant": "C. allow certain services to talk to each other without a choke point"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -628,10 +802,26 @@
             "ms": "D. hold all hardened baseline images for deployment.",
             "zh-Hans": "D. hold all hardened baseline images for deployment.",
             "zh-Hant": "D. hold all hardened baseline images for deployment."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. protect sensitive data from the rest of the network."
+        ],
+        "zh-Hans": [
+          "A. protect sensitive data from the rest of the network."
+        ],
+        "zh-Hant": [
+          "A. protect sensitive data from the rest of the network."
+        ],
+        "ms": [
+          "A. protect sensitive data from the rest of the network."
+        ]
+      }
     }
   ]
 }

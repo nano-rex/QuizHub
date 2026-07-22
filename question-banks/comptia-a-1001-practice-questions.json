@@ -31,7 +31,8 @@
             "ms": "A. Tablet",
             "zh-Hans": "A. Tablet",
             "zh-Hant": "A. Tablet"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -41,7 +42,8 @@
             "ms": "B. GPS unit",
             "zh-Hans": "B. GPS unit",
             "zh-Hant": "B. GPS unit"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -51,7 +53,8 @@
             "ms": "C. E-reader",
             "zh-Hans": "C. E-reader",
             "zh-Hant": "C. E-reader"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -61,10 +64,26 @@
             "ms": "D. Fitness monitor",
             "zh-Hans": "D. Fitness monitor",
             "zh-Hant": "D. Fitness monitor"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Tablet"
+        ],
+        "zh-Hans": [
+          "A. Tablet"
+        ],
+        "zh-Hant": [
+          "A. Tablet"
+        ],
+        "ms": [
+          "A. Tablet"
+        ]
+      }
     },
     {
       "id": "comptia-a-1001-practice-questions-02",
@@ -94,7 +113,8 @@
             "ms": "A. Airplane mode",
             "zh-Hans": "A. Airplane mode",
             "zh-Hant": "A. Airplane mode"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -104,7 +124,8 @@
             "ms": "B. Tethering",
             "zh-Hans": "B. Tethering",
             "zh-Hant": "B. Tethering"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -114,7 +135,8 @@
             "ms": "C. Disabled hotspot",
             "zh-Hans": "C. Disabled hotspot",
             "zh-Hant": "C. Disabled hotspot"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -124,10 +146,26 @@
             "ms": "D. VPN",
             "zh-Hans": "D. VPN",
             "zh-Hant": "D. VPN"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Airplane mode"
+        ],
+        "zh-Hans": [
+          "A. Airplane mode"
+        ],
+        "zh-Hant": [
+          "A. Airplane mode"
+        ],
+        "ms": [
+          "A. Airplane mode"
+        ]
+      }
     },
     {
       "id": "comptia-a-1001-practice-questions-03",
@@ -157,7 +195,8 @@
             "ms": "A. WPA2 encryption, UPnP, and MAC filtering",
             "zh-Hans": "A. WPA2 encryption, UPnP, and MAC filtering",
             "zh-Hant": "A. WPA2 encryption, UPnP, and MAC filtering"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -167,7 +206,8 @@
             "ms": "B. WPA encryption, UPnP, and blocklisting",
             "zh-Hans": "B. WPA encryption, UPnP, and blocklisting",
             "zh-Hant": "B. WPA encryption, UPnP, and blocklisting"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -177,7 +217,8 @@
             "ms": "C. WPA encryption, infrastructure mode, and MAC filtering",
             "zh-Hans": "C. WPA encryption, infrastructure mode, and MAC filtering",
             "zh-Hant": "C. WPA encryption, infrastructure mode, and MAC filtering"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -187,10 +228,26 @@
             "ms": "D. WPA2 encryption, infrastructure mode, and QoS",
             "zh-Hans": "D. WPA2 encryption, infrastructure mode, and QoS",
             "zh-Hant": "D. WPA2 encryption, infrastructure mode, and QoS"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "C",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "C. WPA encryption, infrastructure mode, and MAC filtering"
+        ],
+        "zh-Hans": [
+          "C. WPA encryption, infrastructure mode, and MAC filtering"
+        ],
+        "zh-Hant": [
+          "C. WPA encryption, infrastructure mode, and MAC filtering"
+        ],
+        "ms": [
+          "C. WPA encryption, infrastructure mode, and MAC filtering"
+        ]
+      }
     },
     {
       "id": "comptia-a-1001-practice-questions-04",
@@ -220,7 +277,8 @@
             "ms": "A. NFC",
             "zh-Hans": "A. NFC",
             "zh-Hant": "A. NFC"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -230,7 +288,8 @@
             "ms": "B. Bluetooth",
             "zh-Hans": "B. Bluetooth",
             "zh-Hant": "B. Bluetooth"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -240,7 +299,8 @@
             "ms": "C. IR",
             "zh-Hans": "C. IR",
             "zh-Hant": "C. IR"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -250,10 +310,26 @@
             "ms": "D. LTE",
             "zh-Hans": "D. LTE",
             "zh-Hant": "D. LTE"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. NFC"
+        ],
+        "zh-Hans": [
+          "A. NFC"
+        ],
+        "zh-Hant": [
+          "A. NFC"
+        ],
+        "ms": [
+          "A. NFC"
+        ]
+      }
     },
     {
       "id": "comptia-a-1001-practice-questions-05",
@@ -283,7 +359,8 @@
             "ms": "A. USB",
             "zh-Hans": "A. USB",
             "zh-Hant": "A. USB"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -293,7 +370,8 @@
             "ms": "B. USB-C",
             "zh-Hans": "B. USB-C",
             "zh-Hant": "B. USB-C"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -303,7 +381,8 @@
             "ms": "C. Mini-USB",
             "zh-Hans": "C. Mini-USB",
             "zh-Hant": "C. Mini-USB"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -313,10 +392,26 @@
             "ms": "D. Micro-USB",
             "zh-Hans": "D. Micro-USB",
             "zh-Hant": "D. Micro-USB"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "B",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "B. USB-C"
+        ],
+        "zh-Hans": [
+          "B. USB-C"
+        ],
+        "zh-Hant": [
+          "B. USB-C"
+        ],
+        "ms": [
+          "B. USB-C"
+        ]
+      }
     },
     {
       "id": "comptia-a-1001-practice-questions-06",
@@ -346,7 +441,8 @@
             "ms": "A. PCIe",
             "zh-Hans": "A. PCIe",
             "zh-Hant": "A. PCIe"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -356,7 +452,8 @@
             "ms": "B. ISA",
             "zh-Hans": "B. ISA",
             "zh-Hant": "B. ISA"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -366,7 +463,8 @@
             "ms": "C. AGP",
             "zh-Hans": "C. AGP",
             "zh-Hant": "C. AGP"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -376,10 +474,26 @@
             "ms": "D. USB",
             "zh-Hans": "D. USB",
             "zh-Hant": "D. USB"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. PCIe"
+        ],
+        "zh-Hans": [
+          "A. PCIe"
+        ],
+        "zh-Hant": [
+          "A. PCIe"
+        ],
+        "ms": [
+          "A. PCIe"
+        ]
+      }
     },
     {
       "id": "comptia-a-1001-practice-questions-07",
@@ -409,7 +523,8 @@
             "ms": "A. Webcam",
             "zh-Hans": "A. Webcam",
             "zh-Hant": "A. Webcam"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -419,7 +534,8 @@
             "ms": "B. Mouse",
             "zh-Hans": "B. Mouse",
             "zh-Hant": "B. Mouse"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -429,7 +545,8 @@
             "ms": "C. Monitor",
             "zh-Hans": "C. Monitor",
             "zh-Hant": "C. Monitor"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -439,10 +556,26 @@
             "ms": "D. Optical drive",
             "zh-Hans": "D. Optical drive",
             "zh-Hant": "D. Optical drive"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "B",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "B. Mouse"
+        ],
+        "zh-Hans": [
+          "B. Mouse"
+        ],
+        "zh-Hant": [
+          "B. Mouse"
+        ],
+        "ms": [
+          "B. Mouse"
+        ]
+      }
     },
     {
       "id": "comptia-a-1001-practice-questions-08",
@@ -472,7 +605,8 @@
             "ms": "A. Cloud file services",
             "zh-Hans": "A. Cloud file services",
             "zh-Hant": "A. Cloud file services"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -482,7 +616,8 @@
             "ms": "B. Virtual desktop",
             "zh-Hans": "B. Virtual desktop",
             "zh-Hant": "B. Virtual desktop"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -492,7 +627,8 @@
             "ms": "C. Off-site email",
             "zh-Hans": "C. Off-site email",
             "zh-Hant": "C. Off-site email"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -502,10 +638,26 @@
             "ms": "D. Resource pooling",
             "zh-Hans": "D. Resource pooling",
             "zh-Hant": "D. Resource pooling"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Cloud file services"
+        ],
+        "zh-Hans": [
+          "A. Cloud file services"
+        ],
+        "zh-Hant": [
+          "A. Cloud file services"
+        ],
+        "ms": [
+          "A. Cloud file services"
+        ]
+      }
     },
     {
       "id": "comptia-a-1001-practice-questions-09",
@@ -535,7 +687,8 @@
             "ms": "A. Install additional RAM rated at the fastest speed the motherboard will support.",
             "zh-Hans": "A. Install additional RAM rated at the fastest speed the motherboard will support.",
             "zh-Hant": "A. Install additional RAM rated at the fastest speed the motherboard will support."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -545,7 +698,8 @@
             "ms": "B. Perform a hard drive scan to identify and lock out any bad sectors from use.",
             "zh-Hans": "B. Perform a hard drive scan to identify and lock out any bad sectors from use.",
             "zh-Hant": "B. Perform a hard drive scan to identify and lock out any bad sectors from use."
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -555,7 +709,8 @@
             "ms": "C. Run a memory test to verify all memory addresses can be reliably written to and read from.",
             "zh-Hans": "C. Run a memory test to verify all memory addresses can be reliably written to and read from.",
             "zh-Hant": "C. Run a memory test to verify all memory addresses can be reliably written to and read from."
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -565,10 +720,26 @@
             "ms": "D. Increase the size of the swap file to ensure adequate virtual memory is available.",
             "zh-Hans": "D. Increase the size of the swap file to ensure adequate virtual memory is available.",
             "zh-Hant": "D. Increase the size of the swap file to ensure adequate virtual memory is available."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "C",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "C. Run a memory test to verify all memory addresses can be reliably written to and read from."
+        ],
+        "zh-Hans": [
+          "C. Run a memory test to verify all memory addresses can be reliably written to and read from."
+        ],
+        "zh-Hant": [
+          "C. Run a memory test to verify all memory addresses can be reliably written to and read from."
+        ],
+        "ms": [
+          "C. Run a memory test to verify all memory addresses can be reliably written to and read from."
+        ]
+      }
     },
     {
       "id": "comptia-a-1001-practice-questions-10",
@@ -598,7 +769,8 @@
             "ms": "A. netstat -nbt",
             "zh-Hans": "A. netstat -nbt",
             "zh-Hant": "A. netstat -nbt"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -608,7 +780,8 @@
             "ms": "B. netsh int ip reset",
             "zh-Hans": "B. netsh int ip reset",
             "zh-Hant": "B. netsh int ip reset"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -618,7 +791,8 @@
             "ms": "C. ipconfig /flushdns",
             "zh-Hans": "C. ipconfig /flushdns",
             "zh-Hant": "C. ipconfig /flushdns"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -628,10 +802,26 @@
             "ms": "D. nslookup 192.168.0.254",
             "zh-Hans": "D. nslookup 192.168.0.254",
             "zh-Hant": "D. nslookup 192.168.0.254"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "C",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "C. ipconfig /flushdns"
+        ],
+        "zh-Hans": [
+          "C. ipconfig /flushdns"
+        ],
+        "zh-Hant": [
+          "C. ipconfig /flushdns"
+        ],
+        "ms": [
+          "C. ipconfig /flushdns"
+        ]
+      }
     }
   ]
 }

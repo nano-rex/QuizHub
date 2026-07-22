@@ -31,7 +31,8 @@
             "ms": "A. Accounting",
             "zh-Hans": "A. Accounting",
             "zh-Hant": "A. Accounting"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -41,7 +42,8 @@
             "ms": "B. Accountability",
             "zh-Hans": "B. Accountability",
             "zh-Hant": "B. Accountability"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -51,7 +53,8 @@
             "ms": "C. Authorization",
             "zh-Hans": "C. Authorization",
             "zh-Hant": "C. Authorization"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -61,10 +64,26 @@
             "ms": "D. Authentication",
             "zh-Hans": "D. Authentication",
             "zh-Hant": "D. Authentication"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Accounting"
+        ],
+        "zh-Hans": [
+          "A. Accounting"
+        ],
+        "zh-Hant": [
+          "A. Accounting"
+        ],
+        "ms": [
+          "A. Accounting"
+        ]
+      }
     },
     {
       "id": "security-501-practice-questions-02",
@@ -94,7 +113,8 @@
             "ms": "A. They can often be restricted in privilege.",
             "zh-Hans": "A. They can often be restricted in privilege.",
             "zh-Hant": "A. They can often be restricted in privilege."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -104,7 +124,8 @@
             "ms": "B. They are meant for non-person entities.",
             "zh-Hans": "B. They are meant for non-person entities.",
             "zh-Hant": "B. They are meant for non-person entities."
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -114,7 +135,8 @@
             "ms": "C. They require special permissions to OS files and folders.",
             "zh-Hans": "C. They require special permissions to OS files and folders.",
             "zh-Hant": "C. They require special permissions to OS files and folders."
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -124,10 +146,26 @@
             "ms": "D. They remain disabled in operations.",
             "zh-Hans": "D. They remain disabled in operations.",
             "zh-Hant": "D. They remain disabled in operations."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "B",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "B. They are meant for non-person entities."
+        ],
+        "zh-Hans": [
+          "B. They are meant for non-person entities."
+        ],
+        "zh-Hant": [
+          "B. They are meant for non-person entities."
+        ],
+        "ms": [
+          "B. They are meant for non-person entities."
+        ]
+      }
     },
     {
       "id": "security-501-practice-questions-03",
@@ -157,7 +195,8 @@
             "ms": "A. Screen filters",
             "zh-Hans": "A. Screen filters",
             "zh-Hant": "A. Screen filters"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -167,7 +206,8 @@
             "ms": "B. Biometric authentication",
             "zh-Hans": "B. Biometric authentication",
             "zh-Hant": "B. Biometric authentication"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -177,7 +217,8 @@
             "ms": "C. Smart cards",
             "zh-Hans": "C. Smart cards",
             "zh-Hant": "C. Smart cards"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -187,10 +228,26 @@
             "ms": "D. Video cameras",
             "zh-Hans": "D. Video cameras",
             "zh-Hant": "D. Video cameras"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Screen filters"
+        ],
+        "zh-Hans": [
+          "A. Screen filters"
+        ],
+        "zh-Hant": [
+          "A. Screen filters"
+        ],
+        "ms": [
+          "A. Screen filters"
+        ]
+      }
     },
     {
       "id": "security-501-practice-questions-04",
@@ -220,7 +277,8 @@
             "ms": "A. authorization.",
             "zh-Hans": "A. authorization.",
             "zh-Hant": "A. authorization."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -230,7 +288,8 @@
             "ms": "B. authentication.",
             "zh-Hans": "B. authentication.",
             "zh-Hant": "B. authentication."
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -240,7 +299,8 @@
             "ms": "C. identification.",
             "zh-Hans": "C. identification.",
             "zh-Hant": "C. identification."
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -250,10 +310,26 @@
             "ms": "D. single sign-on.",
             "zh-Hans": "D. single sign-on.",
             "zh-Hant": "D. single sign-on."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "C",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "C. identification."
+        ],
+        "zh-Hans": [
+          "C. identification."
+        ],
+        "zh-Hant": [
+          "C. identification."
+        ],
+        "ms": [
+          "C. identification."
+        ]
+      }
     },
     {
       "id": "security-501-practice-questions-05",
@@ -283,7 +359,8 @@
             "ms": "A. buffer overflow.",
             "zh-Hans": "A. buffer overflow.",
             "zh-Hant": "A. buffer overflow."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -293,7 +370,8 @@
             "ms": "B. memory leak.",
             "zh-Hans": "B. memory leak.",
             "zh-Hant": "B. memory leak."
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -303,7 +381,8 @@
             "ms": "C. cross-site request forgery.",
             "zh-Hans": "C. cross-site request forgery.",
             "zh-Hant": "C. cross-site request forgery."
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -313,10 +392,26 @@
             "ms": "D. resource exhaustion.",
             "zh-Hans": "D. resource exhaustion.",
             "zh-Hant": "D. resource exhaustion."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. buffer overflow."
+        ],
+        "zh-Hans": [
+          "A. buffer overflow."
+        ],
+        "zh-Hant": [
+          "A. buffer overflow."
+        ],
+        "ms": [
+          "A. buffer overflow."
+        ]
+      }
     },
     {
       "id": "security-501-practice-questions-06",
@@ -346,7 +441,8 @@
             "ms": "A. Two-factor authentication",
             "zh-Hans": "A. Two-factor authentication",
             "zh-Hant": "A. Two-factor authentication"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -356,7 +452,8 @@
             "ms": "B. Application layer firewall",
             "zh-Hans": "B. Application layer firewall",
             "zh-Hant": "B. Application layer firewall"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -366,7 +463,8 @@
             "ms": "C. Mantraps",
             "zh-Hans": "C. Mantraps",
             "zh-Hant": "C. Mantraps"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -376,10 +474,26 @@
             "ms": "D. User training",
             "zh-Hans": "D. User training",
             "zh-Hant": "D. User training"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "D"
+      "correctAnswer": "D",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "D. User training"
+        ],
+        "zh-Hans": [
+          "D. User training"
+        ],
+        "zh-Hant": [
+          "D. User training"
+        ],
+        "ms": [
+          "D. User training"
+        ]
+      }
     }
   ]
 }

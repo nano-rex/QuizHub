@@ -31,7 +31,8 @@
             "ms": "A. The CFO is the target of a whaling attack.",
             "zh-Hans": "A. The CFO is the target of a whaling attack.",
             "zh-Hant": "A. The CFO is the target of a whaling attack."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -41,7 +42,8 @@
             "ms": "B. The CFO is the target of identity fraud.",
             "zh-Hans": "B. The CFO is the target of identity fraud.",
             "zh-Hant": "B. The CFO is the target of identity fraud."
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -51,7 +53,8 @@
             "ms": "C. The CFO is receiving spam that got past the mail filters.",
             "zh-Hans": "C. The CFO is receiving spam that got past the mail filters.",
             "zh-Hant": "C. The CFO is receiving spam that got past the mail filters."
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -61,10 +64,26 @@
             "ms": "D. The CFO is experiencing an impersonation attack.",
             "zh-Hans": "D. The CFO is experiencing an impersonation attack.",
             "zh-Hant": "D. The CFO is experiencing an impersonation attack."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. The CFO is the target of a whaling attack."
+        ],
+        "zh-Hans": [
+          "A. The CFO is the target of a whaling attack."
+        ],
+        "zh-Hant": [
+          "A. The CFO is the target of a whaling attack."
+        ],
+        "ms": [
+          "A. The CFO is the target of a whaling attack."
+        ]
+      }
     },
     {
       "id": "security-601-practice-questions-02",
@@ -94,7 +113,8 @@
             "ms": "A. An insider threat",
             "zh-Hans": "A. An insider threat",
             "zh-Hant": "A. An insider threat"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -104,7 +124,8 @@
             "ms": "B. A competitor",
             "zh-Hans": "B. A competitor",
             "zh-Hant": "B. A competitor"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -114,7 +135,8 @@
             "ms": "C. A hacktivist",
             "zh-Hans": "C. A hacktivist",
             "zh-Hant": "C. A hacktivist"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -124,10 +146,26 @@
             "ms": "D. A state actor",
             "zh-Hans": "D. A state actor",
             "zh-Hant": "D. A state actor"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. An insider threat"
+        ],
+        "zh-Hans": [
+          "A. An insider threat"
+        ],
+        "zh-Hant": [
+          "A. An insider threat"
+        ],
+        "ms": [
+          "A. An insider threat"
+        ]
+      }
     },
     {
       "id": "security-601-practice-questions-03",
@@ -157,7 +195,8 @@
             "ms": "A. The fired technician placed a logic bomb.",
             "zh-Hans": "A. The fired technician placed a logic bomb.",
             "zh-Hant": "A. The fired technician placed a logic bomb."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -167,7 +206,8 @@
             "ms": "B. The fired technician installed a rootkit on all the affected users' computers.",
             "zh-Hans": "B. The fired technician installed a rootkit on all the affected users' computers.",
             "zh-Hant": "B. The fired technician installed a rootkit on all the affected users' computers."
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -177,7 +217,8 @@
             "ms": "C. The fired technician installed ransomware on the file server.",
             "zh-Hans": "C. The fired technician installed ransomware on the file server.",
             "zh-Hant": "C. The fired technician installed ransomware on the file server."
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -187,10 +228,26 @@
             "ms": "D. The fired technician left a network worm on an old work computer.",
             "zh-Hans": "D. The fired technician left a network worm on an old work computer.",
             "zh-Hant": "D. The fired technician left a network worm on an old work computer."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. The fired technician placed a logic bomb."
+        ],
+        "zh-Hans": [
+          "A. The fired technician placed a logic bomb."
+        ],
+        "zh-Hant": [
+          "A. The fired technician placed a logic bomb."
+        ],
+        "ms": [
+          "A. The fired technician placed a logic bomb."
+        ]
+      }
     },
     {
       "id": "security-601-practice-questions-04",
@@ -220,7 +277,8 @@
             "ms": "A. Change management",
             "zh-Hans": "A. Change management",
             "zh-Hant": "A. Change management"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -230,7 +288,8 @@
             "ms": "B. Job rotation",
             "zh-Hans": "B. Job rotation",
             "zh-Hant": "B. Job rotation"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -240,7 +299,8 @@
             "ms": "C. Separation of duties",
             "zh-Hans": "C. Separation of duties",
             "zh-Hant": "C. Separation of duties"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -250,10 +310,26 @@
             "ms": "D. Least privilege",
             "zh-Hans": "D. Least privilege",
             "zh-Hant": "D. Least privilege"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "C",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "C. Separation of duties"
+        ],
+        "zh-Hans": [
+          "C. Separation of duties"
+        ],
+        "zh-Hant": [
+          "C. Separation of duties"
+        ],
+        "ms": [
+          "C. Separation of duties"
+        ]
+      }
     },
     {
       "id": "security-601-practice-questions-05",
@@ -283,7 +359,8 @@
             "ms": "A. Guards at the door",
             "zh-Hans": "A. Guards at the door",
             "zh-Hant": "A. Guards at the door"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -293,7 +370,8 @@
             "ms": "B. Cable locks",
             "zh-Hans": "B. Cable locks",
             "zh-Hant": "B. Cable locks"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -303,7 +381,8 @@
             "ms": "C. Visitor logs",
             "zh-Hans": "C. Visitor logs",
             "zh-Hant": "C. Visitor logs"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -313,10 +392,26 @@
             "ms": "D. Cameras",
             "zh-Hans": "D. Cameras",
             "zh-Hant": "D. Cameras"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "B",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "B. Cable locks"
+        ],
+        "zh-Hans": [
+          "B. Cable locks"
+        ],
+        "zh-Hant": [
+          "B. Cable locks"
+        ],
+        "ms": [
+          "B. Cable locks"
+        ]
+      }
     },
     {
       "id": "security-601-practice-questions-06",
@@ -346,7 +441,8 @@
             "ms": "A. Colocation",
             "zh-Hans": "A. Colocation",
             "zh-Hant": "A. Colocation"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -356,7 +452,8 @@
             "ms": "B. Cold",
             "zh-Hans": "B. Cold",
             "zh-Hant": "B. Cold"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -366,7 +463,8 @@
             "ms": "C. Hot",
             "zh-Hans": "C. Hot",
             "zh-Hant": "C. Hot"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -376,10 +474,26 @@
             "ms": "D. Warm",
             "zh-Hans": "D. Warm",
             "zh-Hant": "D. Warm"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "B",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "B. Cold"
+        ],
+        "zh-Hans": [
+          "B. Cold"
+        ],
+        "zh-Hant": [
+          "B. Cold"
+        ],
+        "ms": [
+          "B. Cold"
+        ]
+      }
     },
     {
       "id": "security-601-practice-questions-07",
@@ -409,7 +523,8 @@
             "ms": "A. A physical control",
             "zh-Hans": "A. A physical control",
             "zh-Hant": "A. A physical control"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -419,7 +534,8 @@
             "ms": "B. A corrective control",
             "zh-Hans": "B. A corrective control",
             "zh-Hant": "B. A corrective control"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -429,7 +545,8 @@
             "ms": "C. A compensating control",
             "zh-Hans": "C. A compensating control",
             "zh-Hant": "C. A compensating control"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -439,10 +556,26 @@
             "ms": "D. A managerial control",
             "zh-Hans": "D. A managerial control",
             "zh-Hant": "D. A managerial control"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. A physical control"
+        ],
+        "zh-Hans": [
+          "A. A physical control"
+        ],
+        "zh-Hant": [
+          "A. A physical control"
+        ],
+        "ms": [
+          "A. A physical control"
+        ]
+      }
     }
   ]
 }
