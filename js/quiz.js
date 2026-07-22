@@ -27,6 +27,16 @@ export function startQuiz() {
   renderQuiz(); $('quiz').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
+export function createQuiz(pool, settings) {
+  const requested = Math.max(1, Number.parseInt(settings.questionCount, 10) || 1);
+  const answerMode = settings.answerMode || 'objective';
+  return shuffled(pool).slice(0, Math.min(requested, pool.length)).map((question) => ({
+    ...question,
+    answerMode: question.type === 'multi-step' ? 'subjective' :
+      (answerMode === 'mixed' ? (Math.random() < 0.5 ? 'objective' : 'subjective') : answerMode)
+  }));
+}
+
 export function isStepCorrect(value, step) {
   const accepted = step.acceptedAnswers || [step.correctAnswer];
   const normalized = value.trim().replace(/,/g, '').toLowerCase();

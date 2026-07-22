@@ -9,7 +9,8 @@ export function applyTheme(theme) {
 export function initializeTheme() {
   const selector = document.getElementById('theme');
   const saved = localStorage.getItem(THEME_KEY) || 'light';
-  selector.value = saved;
   applyTheme(saved);
+  if (!selector) return;
+  selector.value = saved;
   selector.addEventListener('change', () => applyTheme(selector.value));
 }

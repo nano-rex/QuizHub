@@ -20,6 +20,11 @@ export async function loadBank(url) {
   return normalizeBank(await response.json(), url);
 }
 
+export async function loadBundledBanks() {
+  const manifest = await (await fetch('question-banks/index.json')).json();
+  return Promise.all((manifest.files || []).map((file) => loadBank(`question-banks/${file}`)));
+}
+
 export function selectedPool() {
   const checked = new Set([...document.querySelectorAll('#filters input:checked')].map((input) => input.value));
   return state.questions.filter((question) => checked.has(`subject:${question.subject}`) && checked.has(`topic:${question.topic}`));

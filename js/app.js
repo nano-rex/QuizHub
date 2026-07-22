@@ -1,28 +1,26 @@
 import { $, state } from './state.js';
-import { addFiles, loadBank, rebuildQuestions } from './banks.js';
+import { loadBundledBanks } from './banks.js';
 import { renderQuiz } from './render.js';
-import { startQuiz, checkAnswers } from './quiz.js';
+import { checkAnswers, createQuiz } from './quiz.js';
+import { readSettings } from './settings.js';
 import { initializeTheme } from './theme.js';
 
 async function boot() {
   try {
-    const manifest = await (await fetch('question-banks/index.json')).json();
-    const banks = await Promise.all((manifest.files || []).map((file) => loadBank(`question-banks/${file}`)));
-    state.banks.push(...banks); rebuildQuestions();
-  } catch (error) { $('errors').textContent = `Could not load bundled question banks: ${error.message}`; }
+    state.banks.push(...await loadBundledBanks());
+    const settings = readSettings();
+    const selected = new Set(settings.filters);
+    const pool = state.banks.flatMap((bank) => bank.questions).filter((question) =>
+      !selected.size || (selected.has(`subject:${question.subject}`) && selected.has(`topic:${question.topic}`)));
+    if (new URLSearchParams(location.search).get('start') !== '1') return;
+    if (!pool.length) throw new Error('No questions match the saved settings. Open Settings and choose a subject or topic.');
+    state.quiz = createQuiz(pool, settings);
+    $('quiz').classList.remove('hidden');
+    $('quiz-title').textContent = state.banks.map((bank) => bank.title).join(' · ');
+    renderQuiz();
+  } catch (error) { $('errors').textContent = `Could not load quiz: ${error.message}`; }
 }
 
-function bindEvents() {
-  $('start').addEventListener('click', startQuiz);
-  $('submit').addEventListener('click', checkAnswers);
-  $('json-upload').addEventListener('change', (event) => addFiles([...event.target.files]));
-  $('languages').addEventListener('change', (event) => {
-    if (!document.querySelector('#languages input:checked')) event.target.checked = true;
-    if (state.quiz.length) renderQuiz();
-  });
-  $('variant').addEventListener('change', () => { if (state.quiz.length) renderQuiz(); });
-}
-
-bindEvents();
+$('submit').addEventListener('click', checkAnswers);
 initializeTheme();
 boot();
