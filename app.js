@@ -9,8 +9,9 @@ function text(value, language) {
 function normalizeBank(bank, source) {
   if (!bank || !Array.isArray(bank.questions)) throw new Error(`${source}: expected a questions array`);
   const questions = bank.questions.map((question, index) => {
-    if (!question.question || !Array.isArray(question.answers) || !question.correctAnswer) {
-      throw new Error(`${source}: question ${index + 1} is missing question, answers, or correctAnswer`);
+    const isMultiStep = question.type === 'multi-step';
+    if (!question.question || (isMultiStep ? !Array.isArray(question.steps) || !question.steps.length : !Array.isArray(question.answers) || !question.correctAnswer)) {
+      throw new Error(`${source}: question ${index + 1} is missing required question data`);
     }
     return {
       ...question,
@@ -88,11 +89,22 @@ function renderQuiz() {
     const alternatives = question.variants?.[language] || question.variants?.en || [];
     legend.textContent = `${index + 1}. ${alternatives[variantIndex - 1] || text(question.question, language)}`;
     fieldset.append(legend);
-    shuffled(question.answers).forEach((answer) => {
-      const label = document.createElement('label'); label.className = 'answer';
-      const input = document.createElement('input'); input.type = 'radio'; input.name = `question-${index}`; input.value = answer.id;
-      label.append(input, document.createTextNode(`${answer.id}. ${text(answer.text, language)}`)); fieldset.append(label);
-    });
+    if (question.type === 'multi-step') {
+      question.steps.forEach((step, stepIndex) => {
+        const wrapper = document.createElement('div'); wrapper.className = 'math-step';
+        const label = document.createElement('label');
+        label.textContent = `${stepIndex + 1}. ${text(step.prompt, language)}`;
+        const input = document.createElement('input'); input.type = 'text'; input.autocomplete = 'off';
+        input.dataset.questionIndex = index; input.dataset.stepIndex = stepIndex;
+        label.append(input); wrapper.append(label); fieldset.append(wrapper);
+      });
+    } else {
+      shuffled(question.answers).forEach((answer) => {
+        const label = document.createElement('label'); label.className = 'answer';
+        const input = document.createElement('input'); input.type = 'radio'; input.name = `question-${index}`; input.value = answer.id;
+        label.append(input, document.createTextNode(`${answer.id}. ${text(answer.text, language)}`)); fieldset.append(label);
+      });
+    }
     container.append(fieldset);
   });
   $('progress').textContent = `${state.quiz.length} question(s)`;
@@ -110,18 +122,41 @@ function startQuiz() {
 }
 
 function checkAnswers() {
-  let score = 0;
+  let score = 0; let points = 0;
   document.querySelectorAll('.question').forEach((element, index) => {
+    const question = state.quiz[index];
+    if (question.type === 'multi-step') {
+      question.steps.forEach((step, stepIndex) => {
+        const wrapper = element.querySelectorAll('.math-step')[stepIndex];
+        const input = wrapper.querySelector('input');
+        const correct = isStepCorrect(input.value, step);
+        wrapper.classList.toggle('correct', correct); wrapper.classList.toggle('wrong', !correct);
+        points++; if (correct) score++;
+      });
+      return;
+    }
+    points++;
     const selected = element.querySelector('input:checked')?.value;
     element.querySelectorAll('.answer').forEach((answer) => {
       const input = answer.querySelector('input');
       answer.classList.toggle('correct', input.value === state.quiz[index].correctAnswer);
       answer.classList.toggle('wrong', input.checked && input.value !== state.quiz[index].correctAnswer);
     });
-    if (selected === state.quiz[index].correctAnswer) score++;
+    if (selected === question.correctAnswer) score++;
   });
-  const percentage = Math.round((score / state.quiz.length) * 100);
-  $('score').textContent = `You scored ${score} out of ${state.quiz.length} (${percentage}%).`;
+  const percentage = Math.round((score / points) * 100);
+  $('score').textContent = `You scored ${score} out of ${points} point(s) (${percentage}%).`;
+}
+
+function isStepCorrect(value, step) {
+  const accepted = step.acceptedAnswers || [step.correctAnswer];
+  const normalized = value.trim().replace(/,/g, '').toLowerCase();
+  if (accepted.some((answer) => String(answer).trim().replace(/,/g, '').toLowerCase() === normalized)) return true;
+  if (step.tolerance !== undefined && normalized !== '') {
+    const actual = Number(normalized);
+    return Number.isFinite(actual) && accepted.some((answer) => Math.abs(actual - Number(answer)) <= Number(step.tolerance));
+  }
+  return false;
 }
 
 async function addFiles(files) {
