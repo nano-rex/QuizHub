@@ -24,4 +24,7 @@ button, .upload-button { display: inline-block; padding: 11px 16px; border: 0; b
 .answer input { width: auto; margin-right: 8px; } .correct { color: #137333; background: #e8f5e9; } .wrong { color: #b42318; background: #fff0f0; }
 .math-step { margin: 12px 0; } .math-step label { font-weight: 500; } .math-step input { max-width: 260px; }
 .math-step.correct input { border-color: #137333; background: #e8f5e9; } .math-step.wrong input { border-color: #b42318; background: #fff0f0; }
+.image-gallery { display: flex; flex-wrap: wrap; gap: 12px; margin: 12px 0; }
+.quiz-image { display: block; max-width: min(100%, 620px); max-height: 420px; object-fit: contain; border: 1px solid #dce3f0; border-radius: 8px; background: #fafbfe; }
+.answer .image-gallery { margin-left: 26px; } .answer .quiz-image { max-width: min(100%, 420px); max-height: 260px; }
 .score { margin-top: 18px; font-size: 1.15rem; font-weight: 700; }

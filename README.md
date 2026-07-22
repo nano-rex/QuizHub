@@ -19,6 +19,9 @@ Add any number of `.json` files with this shape. Add bundled files to [`question
       "subject": "Networking",
       "topic": "DNS",
       "question": {"en": "...", "zh-Hans": "...", "zh-Hant": "...", "ms": "..."},
+      "images": [
+        {"src": "images/network-diagram.png", "alt": {"en": "Network diagram", "zh-Hans": "网络图", "zh-Hant": "網絡圖", "ms": "Rajah rangkaian"}}
+      ],
       "variants": {
         "en": ["Alternative wording", "Another wording"],
         "zh-Hans": ["另一种问法", "另一种问法"],
@@ -26,7 +29,7 @@ Add any number of `.json` files with this shape. Add bundled files to [`question
         "ms": ["Soalan dengan cara lain", "Soalan dengan cara lain"]
       },
       "answers": [
-        {"id": "A", "text": {"en": "...", "zh-Hans": "...", "zh-Hant": "...", "ms": "..."}},
+        {"id": "A", "text": {"en": "...", "zh-Hans": "...", "zh-Hant": "...", "ms": "..."}, "images": ["images/answer-a.png"]},
         {"id": "B", "text": {"en": "...", "zh-Hans": "...", "zh-Hant": "...", "ms": "..."}}
       ],
       "correctAnswer": "A"
@@ -38,6 +41,8 @@ Add any number of `.json` files with this shape. Add bundled files to [`question
 The quiz selects questions randomly from the checked subjects and topics. If the requested count is larger than the filtered pool, all matching questions are used. Browser file uploads have no application-defined file-count limit.
 
 Use the **Display languages** checklist to show English, Simplified Chinese, Traditional Chinese, Malay, or any combination of them together. Use `zh-Hans` and `zh-Hant` for separate Chinese translations; the legacy `zh` field remains accepted as a fallback. At quiz start, **Answer type** controls how questions are presented: Objective shows choices, Subjective shows a text field, and Mixed randomly chooses between them for each regular question. A regular question can provide optional `subjectiveAnswers` arrays when typed answers need to differ from the correct option’s displayed text. Multi-step questions always use step-by-step text fields.
+
+Question and answer objects can include an `images` array. Put the image files in [`images/`](images/) and reference them with paths such as `images/network-diagram.png`. Each entry may be a path string or an object with `src` and multilingual `alt`; data URLs are also supported for uploaded/custom JSON banks.
 
 ## Multi-step mathematics
 
