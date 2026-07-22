@@ -2,6 +2,7 @@ import { $, state } from './state.js';
 import { addFiles, loadBank, rebuildQuestions } from './banks.js';
 import { renderQuiz } from './render.js';
 import { startQuiz, checkAnswers } from './quiz.js';
+import { initializeTheme } from './theme.js';
 
 async function boot() {
   try {
@@ -23,4 +24,5 @@ function bindEvents() {
 }
 
 bindEvents();
+initializeTheme();
 boot();
