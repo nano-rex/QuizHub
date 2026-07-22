@@ -11,6 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -28,10 +29,12 @@ public final class MainActivity extends AppCompatActivity {
     private TextView score;
     private int correct;
     private int answered;
+    private boolean attemptRecorded;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        AppCompatDelegate.setDefaultNightMode(AppPreferences.darkMode(this) ? AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO);
         setTitle("QuizHub");
         loadQuestionBanks();
         showQuiz();
@@ -74,6 +77,12 @@ public final class MainActivity extends AppCompatActivity {
         status.setText(questions.size() + " question(s) loaded from the shared JSON banks");
         root.addView(status, matchWrap());
 
+        LinearLayout navigation = new LinearLayout(this);
+        Button settings = new Button(this); settings.setText("Settings"); settings.setOnClickListener(view -> startActivity(new android.content.Intent(this, SettingsActivity.class)));
+        Button statistics = new Button(this); statistics.setText("Statistics"); statistics.setOnClickListener(view -> startActivity(new android.content.Intent(this, StatisticsActivity.class)));
+        navigation.addView(settings, new LinearLayout.LayoutParams(0, -2, 1)); navigation.addView(statistics, new LinearLayout.LayoutParams(0, -2, 1));
+        root.addView(navigation, matchWrap());
+
         questionContainer = new LinearLayout(this);
         questionContainer.setOrientation(LinearLayout.VERTICAL);
         root.addView(questionContainer, matchWrap());
@@ -93,7 +102,7 @@ public final class MainActivity extends AppCompatActivity {
     private void renderRandomQuestions() {
         List<Question> selected = new ArrayList<>(questions);
         Collections.shuffle(selected);
-        int count = Math.min(10, selected.size());
+        int count = Math.min(AppPreferences.questionCount(this), selected.size());
         for (int index = 0; index < count; index++) {
             Question question = selected.get(index);
             TextView prompt = new TextView(this);
@@ -126,6 +135,7 @@ public final class MainActivity extends AppCompatActivity {
             if (question.correctAnswer.equals(String.valueOf(selected.getTag()))) correct++;
         }
         score.setText("Score: " + correct + " / " + answered + " answered");
+        if (!attemptRecorded) { StatisticsStore.record(this, correct, answered, questions); attemptRecorded = true; }
     }
 
     private String readAsset(String path) throws Exception {
@@ -150,16 +160,20 @@ public final class MainActivity extends AppCompatActivity {
         return new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
     }
 
-    private static final class Question {
+    static final class Question {
         final JSONObject data;
         final JSONArray answers;
         final String correctAnswer;
+        final String subject;
+        final String topic;
         RadioGroup view;
 
         Question(JSONObject data) {
             this.data = data;
             this.answers = data.optJSONArray("answers") == null ? new JSONArray() : data.optJSONArray("answers");
             this.correctAnswer = data.optString("correctAnswer");
+            this.subject = data.optString("subject", "General");
+            this.topic = data.optString("topic", "General");
         }
 
         String prompt() { return localized(data.opt("question")); }

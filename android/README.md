@@ -12,4 +12,4 @@ From this directory, with a JDK, Android SDK, and Gradle available:
 
 The Gradle task copies active root-level files from `../question-banks/` into Android assets before compiling. Reference extractions are intentionally excluded from the APK.
 
-The initial Android screen provides a random objective quiz from the shared banks. Settings, multilingual display, subjective answers, search, image support, and multi-step mathematics will be added incrementally while keeping the JSON schema shared with the web app.
+The Android screen currently provides a random objective quiz from the shared banks, plus Settings and Statistics activities. Question count, language, and dark-mode preferences are stored locally on the device. Completed quiz scores and subject/topic breakdowns are also stored locally; no account or network connection is required.
