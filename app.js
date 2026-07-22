@@ -1,10 +1,10 @@
 const state = { banks: [], questions: [], quiz: [] };
 const $ = (id) => document.getElementById(id);
-const LANGUAGE_NAMES = { en: 'English', zh: '中文', ms: 'Bahasa Melayu' };
+const LANGUAGE_NAMES = { en: 'English', 'zh-Hans': '简体中文', 'zh-Hant': '繁體中文', ms: 'Bahasa Melayu' };
 
 function text(value, language) {
   if (typeof value === 'string') return value;
-  return value?.[language] || value?.en || value?.zh || value?.ms || '';
+  return value?.[language] || (language.startsWith('zh-') ? value?.zh : '') || value?.en || value?.zh || value?.ms || '';
 }
 
 function selectedLanguages() {

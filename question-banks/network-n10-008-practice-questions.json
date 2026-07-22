@@ -11,12 +11,16 @@
       "question": {
         "en": "When logging in to an application, users are prompted to enter a code received from a smartphone application after entering a username and password. Which of the following security concepts does this BEST represent?",
         "zh": "When logging in to an application, users are prompted to enter a code received from a smartphone application after entering a username and password. Which of the following security concepts does this BEST represent?",
-        "ms": "When logging in to an application, users are prompted to enter a code received from a smartphone application after entering a username and password. Which of the following security concepts does this BEST represent?"
+        "ms": "When logging in to an application, users are prompted to enter a code received from a smartphone application after entering a username and password. Which of the following security concepts does this BEST represent?",
+        "zh-Hans": "When logging in to an application, users are prompted to enter a code received from a smartphone application after entering a username and password. Which of the following security concepts does this BEST represent?",
+        "zh-Hant": "When logging in to an application, users are prompted to enter a code received from a smartphone application after entering a username and password. Which of the following security concepts does this BEST represent?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -24,7 +28,9 @@
           "text": {
             "en": "A. Biometric authentication",
             "zh": "A. Biometric authentication",
-            "ms": "A. Biometric authentication"
+            "ms": "A. Biometric authentication",
+            "zh-Hans": "A. Biometric authentication",
+            "zh-Hant": "A. Biometric authentication"
           }
         },
         {
@@ -32,7 +38,9 @@
           "text": {
             "en": "B. Least privilege",
             "zh": "B. Least privilege",
-            "ms": "B. Least privilege"
+            "ms": "B. Least privilege",
+            "zh-Hans": "B. Least privilege",
+            "zh-Hant": "B. Least privilege"
           }
         },
         {
@@ -40,7 +48,9 @@
           "text": {
             "en": "C. Role-based access",
             "zh": "C. Role-based access",
-            "ms": "C. Role-based access"
+            "ms": "C. Role-based access",
+            "zh-Hans": "C. Role-based access",
+            "zh-Hant": "C. Role-based access"
           }
         },
         {
@@ -48,7 +58,9 @@
           "text": {
             "en": "D. Multifactor authentication",
             "zh": "D. Multifactor authentication",
-            "ms": "D. Multifactor authentication"
+            "ms": "D. Multifactor authentication",
+            "zh-Hans": "D. Multifactor authentication",
+            "zh-Hant": "D. Multifactor authentication"
           }
         }
       ],
@@ -62,12 +74,16 @@
       "question": {
         "en": "Which of the following concepts would MOST likely be used to identify individual pieces of hardware throughout their life cycle?",
         "zh": "Which of the following concepts would MOST likely be used to identify individual pieces of hardware throughout their life cycle?",
-        "ms": "Which of the following concepts would MOST likely be used to identify individual pieces of hardware throughout their life cycle?"
+        "ms": "Which of the following concepts would MOST likely be used to identify individual pieces of hardware throughout their life cycle?",
+        "zh-Hans": "Which of the following concepts would MOST likely be used to identify individual pieces of hardware throughout their life cycle?",
+        "zh-Hant": "Which of the following concepts would MOST likely be used to identify individual pieces of hardware throughout their life cycle?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -75,7 +91,9 @@
           "text": {
             "en": "A. Geofencing",
             "zh": "A. Geofencing",
-            "ms": "A. Geofencing"
+            "ms": "A. Geofencing",
+            "zh-Hans": "A. Geofencing",
+            "zh-Hant": "A. Geofencing"
           }
         },
         {
@@ -83,7 +101,9 @@
           "text": {
             "en": "B. Smart locker",
             "zh": "B. Smart locker",
-            "ms": "B. Smart locker"
+            "ms": "B. Smart locker",
+            "zh-Hans": "B. Smart locker",
+            "zh-Hant": "B. Smart locker"
           }
         },
         {
@@ -91,7 +111,9 @@
           "text": {
             "en": "C. Chain of custody",
             "zh": "C. Chain of custody",
-            "ms": "C. Chain of custody"
+            "ms": "C. Chain of custody",
+            "zh-Hans": "C. Chain of custody",
+            "zh-Hant": "C. Chain of custody"
           }
         },
         {
@@ -99,7 +121,9 @@
           "text": {
             "en": "D. Asset tagging",
             "zh": "D. Asset tagging",
-            "ms": "D. Asset tagging"
+            "ms": "D. Asset tagging",
+            "zh-Hans": "D. Asset tagging",
+            "zh-Hant": "D. Asset tagging"
           }
         }
       ],
@@ -113,12 +137,16 @@
       "question": {
         "en": "Which of the following layers is the FIRST step of the bottom-to-top OSI model troubleshooting approach?",
         "zh": "Which of the following layers is the FIRST step of the bottom-to-top OSI model troubleshooting approach?",
-        "ms": "Which of the following layers is the FIRST step of the bottom-to-top OSI model troubleshooting approach?"
+        "ms": "Which of the following layers is the FIRST step of the bottom-to-top OSI model troubleshooting approach?",
+        "zh-Hans": "Which of the following layers is the FIRST step of the bottom-to-top OSI model troubleshooting approach?",
+        "zh-Hant": "Which of the following layers is the FIRST step of the bottom-to-top OSI model troubleshooting approach?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -126,7 +154,9 @@
           "text": {
             "en": "A. Network",
             "zh": "A. Network",
-            "ms": "A. Network"
+            "ms": "A. Network",
+            "zh-Hans": "A. Network",
+            "zh-Hant": "A. Network"
           }
         },
         {
@@ -134,7 +164,9 @@
           "text": {
             "en": "B. Application",
             "zh": "B. Application",
-            "ms": "B. Application"
+            "ms": "B. Application",
+            "zh-Hans": "B. Application",
+            "zh-Hant": "B. Application"
           }
         },
         {
@@ -142,7 +174,9 @@
           "text": {
             "en": "C. Presentation",
             "zh": "C. Presentation",
-            "ms": "C. Presentation"
+            "ms": "C. Presentation",
+            "zh-Hans": "C. Presentation",
+            "zh-Hant": "C. Presentation"
           }
         },
         {
@@ -150,7 +184,9 @@
           "text": {
             "en": "D. Physical",
             "zh": "D. Physical",
-            "ms": "D. Physical"
+            "ms": "D. Physical",
+            "zh-Hans": "D. Physical",
+            "zh-Hant": "D. Physical"
           }
         }
       ],
@@ -164,12 +200,16 @@
       "question": {
         "en": "A network technician is responding to an end user who is experiencing issues while trying to connect to 123.com. Other users, however, are able to access the website by the IP address. Which of the following is MOST likely the cause of the issue?",
         "zh": "A network technician is responding to an end user who is experiencing issues while trying to connect to 123.com. Other users, however, are able to access the website by the IP address. Which of the following is MOST likely the cause of the issue?",
-        "ms": "A network technician is responding to an end user who is experiencing issues while trying to connect to 123.com. Other users, however, are able to access the website by the IP address. Which of the following is MOST likely the cause of the issue?"
+        "ms": "A network technician is responding to an end user who is experiencing issues while trying to connect to 123.com. Other users, however, are able to access the website by the IP address. Which of the following is MOST likely the cause of the issue?",
+        "zh-Hans": "A network technician is responding to an end user who is experiencing issues while trying to connect to 123.com. Other users, however, are able to access the website by the IP address. Which of the following is MOST likely the cause of the issue?",
+        "zh-Hant": "A network technician is responding to an end user who is experiencing issues while trying to connect to 123.com. Other users, however, are able to access the website by the IP address. Which of the following is MOST likely the cause of the issue?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -177,7 +217,9 @@
           "text": {
             "en": "A. DNS",
             "zh": "A. DNS",
-            "ms": "A. DNS"
+            "ms": "A. DNS",
+            "zh-Hans": "A. DNS",
+            "zh-Hant": "A. DNS"
           }
         },
         {
@@ -185,7 +227,9 @@
           "text": {
             "en": "B. DHCP",
             "zh": "B. DHCP",
-            "ms": "B. DHCP"
+            "ms": "B. DHCP",
+            "zh-Hans": "B. DHCP",
+            "zh-Hant": "B. DHCP"
           }
         },
         {
@@ -193,7 +237,9 @@
           "text": {
             "en": "C. FTP",
             "zh": "C. FTP",
-            "ms": "C. FTP"
+            "ms": "C. FTP",
+            "zh-Hans": "C. FTP",
+            "zh-Hant": "C. FTP"
           }
         },
         {
@@ -201,7 +247,9 @@
           "text": {
             "en": "D. HTTP",
             "zh": "D. HTTP",
-            "ms": "D. HTTP"
+            "ms": "D. HTTP",
+            "zh-Hans": "D. HTTP",
+            "zh-Hant": "D. HTTP"
           }
         }
       ],
@@ -215,12 +263,16 @@
       "question": {
         "en": "A new wireless network was implemented with every AP linked to the others to maintain full redundancy for network links. Which of the following BEST describes this network topology?",
         "zh": "A new wireless network was implemented with every AP linked to the others to maintain full redundancy for network links. Which of the following BEST describes this network topology?",
-        "ms": "A new wireless network was implemented with every AP linked to the others to maintain full redundancy for network links. Which of the following BEST describes this network topology?"
+        "ms": "A new wireless network was implemented with every AP linked to the others to maintain full redundancy for network links. Which of the following BEST describes this network topology?",
+        "zh-Hans": "A new wireless network was implemented with every AP linked to the others to maintain full redundancy for network links. Which of the following BEST describes this network topology?",
+        "zh-Hant": "A new wireless network was implemented with every AP linked to the others to maintain full redundancy for network links. Which of the following BEST describes this network topology?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -228,7 +280,9 @@
           "text": {
             "en": "A. Star",
             "zh": "A. Star",
-            "ms": "A. Star"
+            "ms": "A. Star",
+            "zh-Hans": "A. Star",
+            "zh-Hant": "A. Star"
           }
         },
         {
@@ -236,7 +290,9 @@
           "text": {
             "en": "B. Bus",
             "zh": "B. Bus",
-            "ms": "B. Bus"
+            "ms": "B. Bus",
+            "zh-Hans": "B. Bus",
+            "zh-Hant": "B. Bus"
           }
         },
         {
@@ -244,7 +300,9 @@
           "text": {
             "en": "C. Mesh",
             "zh": "C. Mesh",
-            "ms": "C. Mesh"
+            "ms": "C. Mesh",
+            "zh-Hans": "C. Mesh",
+            "zh-Hant": "C. Mesh"
           }
         },
         {
@@ -252,7 +310,9 @@
           "text": {
             "en": "D. Ring",
             "zh": "D. Ring",
-            "ms": "D. Ring"
+            "ms": "D. Ring",
+            "zh-Hans": "D. Ring",
+            "zh-Hant": "D. Ring"
           }
         }
       ],
@@ -266,12 +326,16 @@
       "question": {
         "en": "A technician is required to keep all network devices configured to the same system time. Which of the following network protocols will the technician MOST likely use?",
         "zh": "A technician is required to keep all network devices configured to the same system time. Which of the following network protocols will the technician MOST likely use?",
-        "ms": "A technician is required to keep all network devices configured to the same system time. Which of the following network protocols will the technician MOST likely use?"
+        "ms": "A technician is required to keep all network devices configured to the same system time. Which of the following network protocols will the technician MOST likely use?",
+        "zh-Hans": "A technician is required to keep all network devices configured to the same system time. Which of the following network protocols will the technician MOST likely use?",
+        "zh-Hant": "A technician is required to keep all network devices configured to the same system time. Which of the following network protocols will the technician MOST likely use?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -279,7 +343,9 @@
           "text": {
             "en": "A. DNS",
             "zh": "A. DNS",
-            "ms": "A. DNS"
+            "ms": "A. DNS",
+            "zh-Hans": "A. DNS",
+            "zh-Hant": "A. DNS"
           }
         },
         {
@@ -287,7 +353,9 @@
           "text": {
             "en": "B. STP",
             "zh": "B. STP",
-            "ms": "B. STP"
+            "ms": "B. STP",
+            "zh-Hans": "B. STP",
+            "zh-Hant": "B. STP"
           }
         },
         {
@@ -295,7 +363,9 @@
           "text": {
             "en": "C. NTP",
             "zh": "C. NTP",
-            "ms": "C. NTP"
+            "ms": "C. NTP",
+            "zh-Hans": "C. NTP",
+            "zh-Hant": "C. NTP"
           }
         },
         {
@@ -303,7 +373,9 @@
           "text": {
             "en": "D. DHCP",
             "zh": "D. DHCP",
-            "ms": "D. DHCP"
+            "ms": "D. DHCP",
+            "zh-Hans": "D. DHCP",
+            "zh-Hant": "D. DHCP"
           }
         }
       ],
@@ -317,12 +389,16 @@
       "question": {
         "en": "A device on the network is used to link hosts from multiple subnets and on different VLANs. Which of the following does this MOST likely describe?",
         "zh": "A device on the network is used to link hosts from multiple subnets and on different VLANs. Which of the following does this MOST likely describe?",
-        "ms": "A device on the network is used to link hosts from multiple subnets and on different VLANs. Which of the following does this MOST likely describe?"
+        "ms": "A device on the network is used to link hosts from multiple subnets and on different VLANs. Which of the following does this MOST likely describe?",
+        "zh-Hans": "A device on the network is used to link hosts from multiple subnets and on different VLANs. Which of the following does this MOST likely describe?",
+        "zh-Hant": "A device on the network is used to link hosts from multiple subnets and on different VLANs. Which of the following does this MOST likely describe?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -330,7 +406,9 @@
           "text": {
             "en": "A. An access point",
             "zh": "A. An access point",
-            "ms": "A. An access point"
+            "ms": "A. An access point",
+            "zh-Hans": "A. An access point",
+            "zh-Hant": "A. An access point"
           }
         },
         {
@@ -338,7 +416,9 @@
           "text": {
             "en": "B. A hub",
             "zh": "B. A hub",
-            "ms": "B. A hub"
+            "ms": "B. A hub",
+            "zh-Hans": "B. A hub",
+            "zh-Hant": "B. A hub"
           }
         },
         {
@@ -346,7 +426,9 @@
           "text": {
             "en": "C. A proxy server",
             "zh": "C. A proxy server",
-            "ms": "C. A proxy server"
+            "ms": "C. A proxy server",
+            "zh-Hans": "C. A proxy server",
+            "zh-Hant": "C. A proxy server"
           }
         },
         {
@@ -354,7 +436,9 @@
           "text": {
             "en": "D. A Layer 3 switch",
             "zh": "D. A Layer 3 switch",
-            "ms": "D. A Layer 3 switch"
+            "ms": "D. A Layer 3 switch",
+            "zh-Hans": "D. A Layer 3 switch",
+            "zh-Hant": "D. A Layer 3 switch"
           }
         }
       ],
@@ -368,12 +452,16 @@
       "question": {
         "en": "A network technician is trying to determine which hop between a client and a server is causing extreme latency. Which of the following commands will allow the technician to find this information?",
         "zh": "A network technician is trying to determine which hop between a client and a server is causing extreme latency. Which of the following commands will allow the technician to find this information?",
-        "ms": "A network technician is trying to determine which hop between a client and a server is causing extreme latency. Which of the following commands will allow the technician to find this information?"
+        "ms": "A network technician is trying to determine which hop between a client and a server is causing extreme latency. Which of the following commands will allow the technician to find this information?",
+        "zh-Hans": "A network technician is trying to determine which hop between a client and a server is causing extreme latency. Which of the following commands will allow the technician to find this information?",
+        "zh-Hant": "A network technician is trying to determine which hop between a client and a server is causing extreme latency. Which of the following commands will allow the technician to find this information?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -381,7 +469,9 @@
           "text": {
             "en": "A. tracert",
             "zh": "A. tracert",
-            "ms": "A. tracert"
+            "ms": "A. tracert",
+            "zh-Hans": "A. tracert",
+            "zh-Hant": "A. tracert"
           }
         },
         {
@@ -389,7 +479,9 @@
           "text": {
             "en": "B. arp",
             "zh": "B. arp",
-            "ms": "B. arp"
+            "ms": "B. arp",
+            "zh-Hans": "B. arp",
+            "zh-Hant": "B. arp"
           }
         },
         {
@@ -397,7 +489,9 @@
           "text": {
             "en": "C. tcpdump",
             "zh": "C. tcpdump",
-            "ms": "C. tcpdump"
+            "ms": "C. tcpdump",
+            "zh-Hans": "C. tcpdump",
+            "zh-Hant": "C. tcpdump"
           }
         },
         {
@@ -405,7 +499,9 @@
           "text": {
             "en": "D. netstat",
             "zh": "D. netstat",
-            "ms": "D. netstat"
+            "ms": "D. netstat",
+            "zh-Hans": "D. netstat",
+            "zh-Hant": "D. netstat"
           }
         }
       ],
@@ -419,12 +515,16 @@
       "question": {
         "en": "During a routine network check, a technician discovers multiple IP addresses recorded in the network logs that are not listed in the company's inventory. None of the devices have wireless network cards. Which of the following would prevent unauthorized devices from gaining access to computer resources?",
         "zh": "During a routine network check, a technician discovers multiple IP addresses recorded in the network logs that are not listed in the company's inventory. None of the devices have wireless network cards. Which of the following would prevent unauthorized devices from gaining access to computer resources?",
-        "ms": "During a routine network check, a technician discovers multiple IP addresses recorded in the network logs that are not listed in the company's inventory. None of the devices have wireless network cards. Which of the following would prevent unauthorized devices from gaining access to computer resources?"
+        "ms": "During a routine network check, a technician discovers multiple IP addresses recorded in the network logs that are not listed in the company's inventory. None of the devices have wireless network cards. Which of the following would prevent unauthorized devices from gaining access to computer resources?",
+        "zh-Hans": "During a routine network check, a technician discovers multiple IP addresses recorded in the network logs that are not listed in the company's inventory. None of the devices have wireless network cards. Which of the following would prevent unauthorized devices from gaining access to computer resources?",
+        "zh-Hant": "During a routine network check, a technician discovers multiple IP addresses recorded in the network logs that are not listed in the company's inventory. None of the devices have wireless network cards. Which of the following would prevent unauthorized devices from gaining access to computer resources?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -432,7 +532,9 @@
           "text": {
             "en": "A. DHCP",
             "zh": "A. DHCP",
-            "ms": "A. DHCP"
+            "ms": "A. DHCP",
+            "zh-Hans": "A. DHCP",
+            "zh-Hant": "A. DHCP"
           }
         },
         {
@@ -440,7 +542,9 @@
           "text": {
             "en": "B. Geofencing",
             "zh": "B. Geofencing",
-            "ms": "B. Geofencing"
+            "ms": "B. Geofencing",
+            "zh-Hans": "B. Geofencing",
+            "zh-Hant": "B. Geofencing"
           }
         },
         {
@@ -448,7 +552,9 @@
           "text": {
             "en": "C. SFTP",
             "zh": "C. SFTP",
-            "ms": "C. SFTP"
+            "ms": "C. SFTP",
+            "zh-Hans": "C. SFTP",
+            "zh-Hant": "C. SFTP"
           }
         },
         {
@@ -456,7 +562,9 @@
           "text": {
             "en": "D. Port security",
             "zh": "D. Port security",
-            "ms": "D. Port security"
+            "ms": "D. Port security",
+            "zh-Hans": "D. Port security",
+            "zh-Hant": "D. Port security"
           }
         }
       ],
@@ -470,12 +578,16 @@
       "question": {
         "en": "A technician needs to connect two systems. The only available path for the cabling passes close to some equipment that emits large amounts of interference. Which of the following would be the BEST type of cable to install between the two systems?",
         "zh": "A technician needs to connect two systems. The only available path for the cabling passes close to some equipment that emits large amounts of interference. Which of the following would be the BEST type of cable to install between the two systems?",
-        "ms": "A technician needs to connect two systems. The only available path for the cabling passes close to some equipment that emits large amounts of interference. Which of the following would be the BEST type of cable to install between the two systems?"
+        "ms": "A technician needs to connect two systems. The only available path for the cabling passes close to some equipment that emits large amounts of interference. Which of the following would be the BEST type of cable to install between the two systems?",
+        "zh-Hans": "A technician needs to connect two systems. The only available path for the cabling passes close to some equipment that emits large amounts of interference. Which of the following would be the BEST type of cable to install between the two systems?",
+        "zh-Hant": "A technician needs to connect two systems. The only available path for the cabling passes close to some equipment that emits large amounts of interference. Which of the following would be the BEST type of cable to install between the two systems?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -483,7 +595,9 @@
           "text": {
             "en": "A. Crossover",
             "zh": "A. Crossover",
-            "ms": "A. Crossover"
+            "ms": "A. Crossover",
+            "zh-Hans": "A. Crossover",
+            "zh-Hant": "A. Crossover"
           }
         },
         {
@@ -491,7 +605,9 @@
           "text": {
             "en": "B. Cat 3",
             "zh": "B. Cat 3",
-            "ms": "B. Cat 3"
+            "ms": "B. Cat 3",
+            "zh-Hans": "B. Cat 3",
+            "zh-Hant": "B. Cat 3"
           }
         },
         {
@@ -499,7 +615,9 @@
           "text": {
             "en": "C. Shielded twisted pair",
             "zh": "C. Shielded twisted pair",
-            "ms": "C. Shielded twisted pair"
+            "ms": "C. Shielded twisted pair",
+            "zh-Hans": "C. Shielded twisted pair",
+            "zh-Hant": "C. Shielded twisted pair"
           }
         },
         {
@@ -507,7 +625,9 @@
           "text": {
             "en": "D. Plenum-rated",
             "zh": "D. Plenum-rated",
-            "ms": "D. Plenum-rated"
+            "ms": "D. Plenum-rated",
+            "zh-Hans": "D. Plenum-rated",
+            "zh-Hant": "D. Plenum-rated"
           }
         }
       ],

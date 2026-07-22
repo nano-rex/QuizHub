@@ -11,12 +11,16 @@
       "question": {
         "en": "Which of the following is the BEST use-case scenario for a Chrome OS device?",
         "zh": "Which of the following is the BEST use-case scenario for a Chrome OS device?",
-        "ms": "Which of the following is the BEST use-case scenario for a Chrome OS device?"
+        "ms": "Which of the following is the BEST use-case scenario for a Chrome OS device?",
+        "zh-Hans": "Which of the following is the BEST use-case scenario for a Chrome OS device?",
+        "zh-Hant": "Which of the following is the BEST use-case scenario for a Chrome OS device?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -24,7 +28,9 @@
           "text": {
             "en": "A. Web browsing and email",
             "zh": "A. Web browsing and email",
-            "ms": "A. Web browsing and email"
+            "ms": "A. Web browsing and email",
+            "zh-Hans": "A. Web browsing and email",
+            "zh-Hant": "A. Web browsing and email"
           }
         },
         {
@@ -32,7 +38,9 @@
           "text": {
             "en": "B. Photo and video editing",
             "zh": "B. Photo and video editing",
-            "ms": "B. Photo and video editing"
+            "ms": "B. Photo and video editing",
+            "zh-Hans": "B. Photo and video editing",
+            "zh-Hant": "B. Photo and video editing"
           }
         },
         {
@@ -40,7 +48,9 @@
           "text": {
             "en": "C. Application development",
             "zh": "C. Application development",
-            "ms": "C. Application development"
+            "ms": "C. Application development",
+            "zh-Hans": "C. Application development",
+            "zh-Hant": "C. Application development"
           }
         },
         {
@@ -48,7 +58,9 @@
           "text": {
             "en": "D. Database queries",
             "zh": "D. Database queries",
-            "ms": "D. Database queries"
+            "ms": "D. Database queries",
+            "zh-Hans": "D. Database queries",
+            "zh-Hant": "D. Database queries"
           }
         }
       ],
@@ -62,12 +74,16 @@
       "question": {
         "en": "A technician implements a Group Policy change and needs to apply it without restarting the workstation. Which of the following commands can be used to accomplish this task?",
         "zh": "A technician implements a Group Policy change and needs to apply it without restarting the workstation. Which of the following commands can be used to accomplish this task?",
-        "ms": "A technician implements a Group Policy change and needs to apply it without restarting the workstation. Which of the following commands can be used to accomplish this task?"
+        "ms": "A technician implements a Group Policy change and needs to apply it without restarting the workstation. Which of the following commands can be used to accomplish this task?",
+        "zh-Hans": "A technician implements a Group Policy change and needs to apply it without restarting the workstation. Which of the following commands can be used to accomplish this task?",
+        "zh-Hant": "A technician implements a Group Policy change and needs to apply it without restarting the workstation. Which of the following commands can be used to accomplish this task?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -75,7 +91,9 @@
           "text": {
             "en": "A. gpupdate",
             "zh": "A. gpupdate",
-            "ms": "A. gpupdate"
+            "ms": "A. gpupdate",
+            "zh-Hans": "A. gpupdate",
+            "zh-Hant": "A. gpupdate"
           }
         },
         {
@@ -83,7 +101,9 @@
           "text": {
             "en": "B. gpresult",
             "zh": "B. gpresult",
-            "ms": "B. gpresult"
+            "ms": "B. gpresult",
+            "zh-Hans": "B. gpresult",
+            "zh-Hant": "B. gpresult"
           }
         },
         {
@@ -91,7 +111,9 @@
           "text": {
             "en": "C. netstat",
             "zh": "C. netstat",
-            "ms": "C. netstat"
+            "ms": "C. netstat",
+            "zh-Hans": "C. netstat",
+            "zh-Hant": "C. netstat"
           }
         },
         {
@@ -99,7 +121,9 @@
           "text": {
             "en": "D. Dism",
             "zh": "D. Dism",
-            "ms": "D. Dism"
+            "ms": "D. Dism",
+            "zh-Hans": "D. Dism",
+            "zh-Hant": "D. Dism"
           }
         }
       ],
@@ -113,12 +137,16 @@
       "question": {
         "en": "An end user has requested assistance from the help desk to install new video editing software. The user wants to create several .wma files. Which of the following should the help desk consider before installing the software?",
         "zh": "An end user has requested assistance from the help desk to install new video editing software. The user wants to create several .wma files. Which of the following should the help desk consider before installing the software?",
-        "ms": "An end user has requested assistance from the help desk to install new video editing software. The user wants to create several .wma files. Which of the following should the help desk consider before installing the software?"
+        "ms": "An end user has requested assistance from the help desk to install new video editing software. The user wants to create several .wma files. Which of the following should the help desk consider before installing the software?",
+        "zh-Hans": "An end user has requested assistance from the help desk to install new video editing software. The user wants to create several .wma files. Which of the following should the help desk consider before installing the software?",
+        "zh-Hant": "An end user has requested assistance from the help desk to install new video editing software. The user wants to create several .wma files. Which of the following should the help desk consider before installing the software?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -126,7 +154,9 @@
           "text": {
             "en": "A. Disk space",
             "zh": "A. Disk space",
-            "ms": "A. Disk space"
+            "ms": "A. Disk space",
+            "zh-Hans": "A. Disk space",
+            "zh-Hant": "A. Disk space"
           }
         },
         {
@@ -134,7 +164,9 @@
           "text": {
             "en": "B. Network connection",
             "zh": "B. Network connection",
-            "ms": "B. Network connection"
+            "ms": "B. Network connection",
+            "zh-Hans": "B. Network connection",
+            "zh-Hant": "B. Network connection"
           }
         },
         {
@@ -142,7 +174,9 @@
           "text": {
             "en": "C. Aspect ratio",
             "zh": "C. Aspect ratio",
-            "ms": "C. Aspect ratio"
+            "ms": "C. Aspect ratio",
+            "zh-Hans": "C. Aspect ratio",
+            "zh-Hant": "C. Aspect ratio"
           }
         },
         {
@@ -150,7 +184,9 @@
           "text": {
             "en": "D. Power supply",
             "zh": "D. Power supply",
-            "ms": "D. Power supply"
+            "ms": "D. Power supply",
+            "zh-Hans": "D. Power supply",
+            "zh-Hant": "D. Power supply"
           }
         }
       ],
@@ -164,12 +200,16 @@
       "question": {
         "en": "A new security requirement for logging on to a company network has been put in place for all users. Which of the following should a systems administrator enforce to BEST meet this requirement? (Select TWO).",
         "zh": "A new security requirement for logging on to a company network has been put in place for all users. Which of the following should a systems administrator enforce to BEST meet this requirement? (Select TWO).",
-        "ms": "A new security requirement for logging on to a company network has been put in place for all users. Which of the following should a systems administrator enforce to BEST meet this requirement? (Select TWO)."
+        "ms": "A new security requirement for logging on to a company network has been put in place for all users. Which of the following should a systems administrator enforce to BEST meet this requirement? (Select TWO).",
+        "zh-Hans": "A new security requirement for logging on to a company network has been put in place for all users. Which of the following should a systems administrator enforce to BEST meet this requirement? (Select TWO).",
+        "zh-Hant": "A new security requirement for logging on to a company network has been put in place for all users. Which of the following should a systems administrator enforce to BEST meet this requirement? (Select TWO)."
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -177,7 +217,9 @@
           "text": {
             "en": "A. Strong passwords",
             "zh": "A. Strong passwords",
-            "ms": "A. Strong passwords"
+            "ms": "A. Strong passwords",
+            "zh-Hans": "A. Strong passwords",
+            "zh-Hant": "A. Strong passwords"
           }
         },
         {
@@ -185,7 +227,9 @@
           "text": {
             "en": "B. Folder redirection",
             "zh": "B. Folder redirection",
-            "ms": "B. Folder redirection"
+            "ms": "B. Folder redirection",
+            "zh-Hans": "B. Folder redirection",
+            "zh-Hant": "B. Folder redirection"
           }
         },
         {
@@ -193,7 +237,9 @@
           "text": {
             "en": "C. Email filtering",
             "zh": "C. Email filtering",
-            "ms": "C. Email filtering"
+            "ms": "C. Email filtering",
+            "zh-Hans": "C. Email filtering",
+            "zh-Hant": "C. Email filtering"
           }
         },
         {
@@ -201,7 +247,9 @@
           "text": {
             "en": "D. Multifactor authentication",
             "zh": "D. Multifactor authentication",
-            "ms": "D. Multifactor authentication"
+            "ms": "D. Multifactor authentication",
+            "zh-Hans": "D. Multifactor authentication",
+            "zh-Hant": "D. Multifactor authentication"
           }
         }
       ],
@@ -215,12 +263,16 @@
       "question": {
         "en": "Which of the following password choices increases the chance that a brute force attack will succeed?",
         "zh": "Which of the following password choices increases the chance that a brute force attack will succeed?",
-        "ms": "Which of the following password choices increases the chance that a brute force attack will succeed?"
+        "ms": "Which of the following password choices increases the chance that a brute force attack will succeed?",
+        "zh-Hans": "Which of the following password choices increases the chance that a brute force attack will succeed?",
+        "zh-Hant": "Which of the following password choices increases the chance that a brute force attack will succeed?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -228,7 +280,9 @@
           "text": {
             "en": "A. Dictionary words",
             "zh": "A. Dictionary words",
-            "ms": "A. Dictionary words"
+            "ms": "A. Dictionary words",
+            "zh-Hans": "A. Dictionary words",
+            "zh-Hant": "A. Dictionary words"
           }
         },
         {
@@ -236,7 +290,9 @@
           "text": {
             "en": "B. Special characters",
             "zh": "B. Special characters",
-            "ms": "B. Special characters"
+            "ms": "B. Special characters",
+            "zh-Hans": "B. Special characters",
+            "zh-Hant": "B. Special characters"
           }
         },
         {
@@ -244,7 +300,9 @@
           "text": {
             "en": "C. Long passwords",
             "zh": "C. Long passwords",
-            "ms": "C. Long passwords"
+            "ms": "C. Long passwords",
+            "zh-Hans": "C. Long passwords",
+            "zh-Hant": "C. Long passwords"
           }
         },
         {
@@ -252,7 +310,9 @@
           "text": {
             "en": "D. Capital letters",
             "zh": "D. Capital letters",
-            "ms": "D. Capital letters"
+            "ms": "D. Capital letters",
+            "zh-Hans": "D. Capital letters",
+            "zh-Hant": "D. Capital letters"
           }
         }
       ],
@@ -266,12 +326,16 @@
       "question": {
         "en": "A user connects a printer to a workstation. As the printer drivers are installed, an error message appears. The default drivers appear to be incompatible with the OS. Which of the following should a technician use FIRST to troubleshoot the problem?",
         "zh": "A user connects a printer to a workstation. As the printer drivers are installed, an error message appears. The default drivers appear to be incompatible with the OS. Which of the following should a technician use FIRST to troubleshoot the problem?",
-        "ms": "A user connects a printer to a workstation. As the printer drivers are installed, an error message appears. The default drivers appear to be incompatible with the OS. Which of the following should a technician use FIRST to troubleshoot the problem?"
+        "ms": "A user connects a printer to a workstation. As the printer drivers are installed, an error message appears. The default drivers appear to be incompatible with the OS. Which of the following should a technician use FIRST to troubleshoot the problem?",
+        "zh-Hans": "A user connects a printer to a workstation. As the printer drivers are installed, an error message appears. The default drivers appear to be incompatible with the OS. Which of the following should a technician use FIRST to troubleshoot the problem?",
+        "zh-Hant": "A user connects a printer to a workstation. As the printer drivers are installed, an error message appears. The default drivers appear to be incompatible with the OS. Which of the following should a technician use FIRST to troubleshoot the problem?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -279,7 +343,9 @@
           "text": {
             "en": "A. Services",
             "zh": "A. Services",
-            "ms": "A. Services"
+            "ms": "A. Services",
+            "zh-Hans": "A. Services",
+            "zh-Hant": "A. Services"
           }
         },
         {
@@ -287,7 +353,9 @@
           "text": {
             "en": "B. Device Manager",
             "zh": "B. Device Manager",
-            "ms": "B. Device Manager"
+            "ms": "B. Device Manager",
+            "zh-Hans": "B. Device Manager",
+            "zh-Hant": "B. Device Manager"
           }
         },
         {
@@ -295,7 +363,9 @@
           "text": {
             "en": "C. Programs and Features",
             "zh": "C. Programs and Features",
-            "ms": "C. Programs and Features"
+            "ms": "C. Programs and Features",
+            "zh-Hans": "C. Programs and Features",
+            "zh-Hant": "C. Programs and Features"
           }
         },
         {
@@ -303,7 +373,9 @@
           "text": {
             "en": "D. Task Manager",
             "zh": "D. Task Manager",
-            "ms": "D. Task Manager"
+            "ms": "D. Task Manager",
+            "zh-Hans": "D. Task Manager",
+            "zh-Hant": "D. Task Manager"
           }
         }
       ],
@@ -317,12 +389,16 @@
       "question": {
         "en": "Joe, a user, forgot his password and was unable to log in to a workstation. Joe remembers the password later, but he is still unable to log in. Which of the following is the MOST likely cause of the issue?",
         "zh": "Joe, a user, forgot his password and was unable to log in to a workstation. Joe remembers the password later, but he is still unable to log in. Which of the following is the MOST likely cause of the issue?",
-        "ms": "Joe, a user, forgot his password and was unable to log in to a workstation. Joe remembers the password later, but he is still unable to log in. Which of the following is the MOST likely cause of the issue?"
+        "ms": "Joe, a user, forgot his password and was unable to log in to a workstation. Joe remembers the password later, but he is still unable to log in. Which of the following is the MOST likely cause of the issue?",
+        "zh-Hans": "Joe, a user, forgot his password and was unable to log in to a workstation. Joe remembers the password later, but he is still unable to log in. Which of the following is the MOST likely cause of the issue?",
+        "zh-Hant": "Joe, a user, forgot his password and was unable to log in to a workstation. Joe remembers the password later, but he is still unable to log in. Which of the following is the MOST likely cause of the issue?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -330,7 +406,9 @@
           "text": {
             "en": "A. Reset account",
             "zh": "A. Reset account",
-            "ms": "A. Reset account"
+            "ms": "A. Reset account",
+            "zh-Hans": "A. Reset account",
+            "zh-Hant": "A. Reset account"
           }
         },
         {
@@ -338,7 +416,9 @@
           "text": {
             "en": "B. Deleted account",
             "zh": "B. Deleted account",
-            "ms": "B. Deleted account"
+            "ms": "B. Deleted account",
+            "zh-Hans": "B. Deleted account",
+            "zh-Hant": "B. Deleted account"
           }
         },
         {
@@ -346,7 +426,9 @@
           "text": {
             "en": "C. Locked account",
             "zh": "C. Locked account",
-            "ms": "C. Locked account"
+            "ms": "C. Locked account",
+            "zh-Hans": "C. Locked account",
+            "zh-Hant": "C. Locked account"
           }
         },
         {
@@ -354,7 +436,9 @@
           "text": {
             "en": "D. Limited-user account",
             "zh": "D. Limited-user account",
-            "ms": "D. Limited-user account"
+            "ms": "D. Limited-user account",
+            "zh-Hans": "D. Limited-user account",
+            "zh-Hant": "D. Limited-user account"
           }
         }
       ],
@@ -368,12 +452,16 @@
       "question": {
         "en": "A user reports a phone battery does not last the entire day, and the phone's navigation is slow. Which of the following should a technician do FIRST to troubleshoot the device?",
         "zh": "A user reports a phone battery does not last the entire day, and the phone's navigation is slow. Which of the following should a technician do FIRST to troubleshoot the device?",
-        "ms": "A user reports a phone battery does not last the entire day, and the phone's navigation is slow. Which of the following should a technician do FIRST to troubleshoot the device?"
+        "ms": "A user reports a phone battery does not last the entire day, and the phone's navigation is slow. Which of the following should a technician do FIRST to troubleshoot the device?",
+        "zh-Hans": "A user reports a phone battery does not last the entire day, and the phone's navigation is slow. Which of the following should a technician do FIRST to troubleshoot the device?",
+        "zh-Hant": "A user reports a phone battery does not last the entire day, and the phone's navigation is slow. Which of the following should a technician do FIRST to troubleshoot the device?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -381,7 +469,9 @@
           "text": {
             "en": "A. Examine the running apps.",
             "zh": "A. Examine the running apps.",
-            "ms": "A. Examine the running apps."
+            "ms": "A. Examine the running apps.",
+            "zh-Hans": "A. Examine the running apps.",
+            "zh-Hant": "A. Examine the running apps."
           }
         },
         {
@@ -389,7 +479,9 @@
           "text": {
             "en": "B. Update the firmware.",
             "zh": "B. Update the firmware.",
-            "ms": "B. Update the firmware."
+            "ms": "B. Update the firmware.",
+            "zh-Hans": "B. Update the firmware.",
+            "zh-Hant": "B. Update the firmware."
           }
         },
         {
@@ -397,7 +489,9 @@
           "text": {
             "en": "C. Reinstall the most-used application.",
             "zh": "C. Reinstall the most-used application.",
-            "ms": "C. Reinstall the most-used application."
+            "ms": "C. Reinstall the most-used application.",
+            "zh-Hans": "C. Reinstall the most-used application.",
+            "zh-Hant": "C. Reinstall the most-used application."
           }
         },
         {
@@ -405,7 +499,9 @@
           "text": {
             "en": "D. Turn off all network services.",
             "zh": "D. Turn off all network services.",
-            "ms": "D. Turn off all network services."
+            "ms": "D. Turn off all network services.",
+            "zh-Hans": "D. Turn off all network services.",
+            "zh-Hant": "D. Turn off all network services."
           }
         }
       ],
@@ -419,12 +515,16 @@
       "question": {
         "en": "Which of the following is the proper way to dispose of batteries?",
         "zh": "Which of the following is the proper way to dispose of batteries?",
-        "ms": "Which of the following is the proper way to dispose of batteries?"
+        "ms": "Which of the following is the proper way to dispose of batteries?",
+        "zh-Hans": "Which of the following is the proper way to dispose of batteries?",
+        "zh-Hant": "Which of the following is the proper way to dispose of batteries?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -432,7 +532,9 @@
           "text": {
             "en": "A. Shred",
             "zh": "A. Shred",
-            "ms": "A. Shred"
+            "ms": "A. Shred",
+            "zh-Hans": "A. Shred",
+            "zh-Hant": "A. Shred"
           }
         },
         {
@@ -440,7 +542,9 @@
           "text": {
             "en": "B. Recycle",
             "zh": "B. Recycle",
-            "ms": "B. Recycle"
+            "ms": "B. Recycle",
+            "zh-Hans": "B. Recycle",
+            "zh-Hant": "B. Recycle"
           }
         },
         {
@@ -448,7 +552,9 @@
           "text": {
             "en": "C. Dispose in trash",
             "zh": "C. Dispose in trash",
-            "ms": "C. Dispose in trash"
+            "ms": "C. Dispose in trash",
+            "zh-Hans": "C. Dispose in trash",
+            "zh-Hant": "C. Dispose in trash"
           }
         },
         {
@@ -456,7 +562,9 @@
           "text": {
             "en": "D. Incinerate",
             "zh": "D. Incinerate",
-            "ms": "D. Incinerate"
+            "ms": "D. Incinerate",
+            "zh-Hans": "D. Incinerate",
+            "zh-Hant": "D. Incinerate"
           }
         }
       ],
@@ -470,12 +578,16 @@
       "question": {
         "en": "To prevent electrical damage to a PC while working on it, which of the following should be disconnected before work begins?",
         "zh": "To prevent electrical damage to a PC while working on it, which of the following should be disconnected before work begins?",
-        "ms": "To prevent electrical damage to a PC while working on it, which of the following should be disconnected before work begins?"
+        "ms": "To prevent electrical damage to a PC while working on it, which of the following should be disconnected before work begins?",
+        "zh-Hans": "To prevent electrical damage to a PC while working on it, which of the following should be disconnected before work begins?",
+        "zh-Hant": "To prevent electrical damage to a PC while working on it, which of the following should be disconnected before work begins?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -483,7 +595,9 @@
           "text": {
             "en": "A. Power cable",
             "zh": "A. Power cable",
-            "ms": "A. Power cable"
+            "ms": "A. Power cable",
+            "zh-Hans": "A. Power cable",
+            "zh-Hant": "A. Power cable"
           }
         },
         {
@@ -491,7 +605,9 @@
           "text": {
             "en": "B. Video cable",
             "zh": "B. Video cable",
-            "ms": "B. Video cable"
+            "ms": "B. Video cable",
+            "zh-Hans": "B. Video cable",
+            "zh-Hant": "B. Video cable"
           }
         },
         {
@@ -499,7 +615,9 @@
           "text": {
             "en": "C. USB cable",
             "zh": "C. USB cable",
-            "ms": "C. USB cable"
+            "ms": "C. USB cable",
+            "zh-Hans": "C. USB cable",
+            "zh-Hant": "C. USB cable"
           }
         },
         {
@@ -507,7 +625,9 @@
           "text": {
             "en": "D. Serial cable",
             "zh": "D. Serial cable",
-            "ms": "D. Serial cable"
+            "ms": "D. Serial cable",
+            "zh-Hans": "D. Serial cable",
+            "zh-Hant": "D. Serial cable"
           }
         }
       ],
