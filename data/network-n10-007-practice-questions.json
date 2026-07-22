@@ -1,0 +1,517 @@
+{
+  "id": "network-n10-007-practice-questions",
+  "title": "CompTia Network+",
+  "source": "network+/network-n10-007-practice-questions.html",
+  "questions": [
+    {
+      "id": "network-n10-007-practice-questions-01",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "A network technician is connecting to a switch to modify the configuration. DHCP is not enabled on the management port. Which of the following does the technician need to configure to connect to the device?",
+        "zh": "A network technician is connecting to a switch to modify the configuration. DHCP is not enabled on the management port. Which of the following does the technician need to configure to connect to the device?",
+        "ms": "A network technician is connecting to a switch to modify the configuration. DHCP is not enabled on the management port. Which of the following does the technician need to configure to connect to the device?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. IP address",
+            "zh": "A. IP address",
+            "ms": "A. IP address"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Default gateway",
+            "zh": "B. Default gateway",
+            "ms": "B. Default gateway"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C.  DNS address",
+            "zh": "C.  DNS address",
+            "ms": "C.  DNS address"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Loopback address",
+            "zh": "D. Loopback address",
+            "ms": "D. Loopback address"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "network-n10-007-practice-questions-02",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "An architect designs the building blueprint  for a new office. The IT team has to purchase equipment and cabling. Upon inspection of the building layout, it is discovered that no designation was made for network infrastructure wiring, cabling, and services  for the building. Which of the following needs to be documented in the blueprint for building connectivity?",
+        "zh": "An architect designs the building blueprint  for a new office. The IT team has to purchase equipment and cabling. Upon inspection of the building layout, it is discovered that no designation was made for network infrastructure wiring, cabling, and services  for the building. Which of the following needs to be documented in the blueprint for building connectivity?",
+        "ms": "An architect designs the building blueprint  for a new office. The IT team has to purchase equipment and cabling. Upon inspection of the building layout, it is discovered that no designation was made for network infrastructure wiring, cabling, and services  for the building. Which of the following needs to be documented in the blueprint for building connectivity?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. HVAC",
+            "zh": "A. HVAC",
+            "ms": "A. HVAC"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Server room",
+            "zh": "B. Server room",
+            "ms": "B. Server room"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. MDF",
+            "zh": "C. MDF",
+            "ms": "C. MDF"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Mechanical room",
+            "zh": "D. Mechanical room",
+            "ms": "D. Mechanical room"
+          }
+        }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": "network-n10-007-practice-questions-03",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "A network technician has been notified that an available wireless SSID is using insecure WEP encryption and has been asked to investigate what other options are available on the existing wireless hardware. The technician has found that the WAPs support AES-CCMP. Which of the following should the technician configure?",
+        "zh": "A network technician has been notified that an available wireless SSID is using insecure WEP encryption and has been asked to investigate what other options are available on the existing wireless hardware. The technician has found that the WAPs support AES-CCMP. Which of the following should the technician configure?",
+        "ms": "A network technician has been notified that an available wireless SSID is using insecure WEP encryption and has been asked to investigate what other options are available on the existing wireless hardware. The technician has found that the WAPs support AES-CCMP. Which of the following should the technician configure?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A.  WPA2",
+            "zh": "A.  WPA2",
+            "ms": "A.  WPA2"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. MAC filtering",
+            "zh": "B. MAC filtering",
+            "ms": "B. MAC filtering"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. MD5",
+            "zh": "C. MD5",
+            "ms": "C. MD5"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. WPS",
+            "zh": "D. WPS",
+            "ms": "D. WPS"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "network-n10-007-practice-questions-04",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "A technician is called to troubleshoot a client PC that is not connecting to the network. The technician first examines the LEDs on the NIC and connection to the wall jack. Then the technician runs a loopback test on the NIC. Which of the following troubleshooting skills is the technician demonstrating?",
+        "zh": "A technician is called to troubleshoot a client PC that is not connecting to the network. The technician first examines the LEDs on the NIC and connection to the wall jack. Then the technician runs a loopback test on the NIC. Which of the following troubleshooting skills is the technician demonstrating?",
+        "ms": "A technician is called to troubleshoot a client PC that is not connecting to the network. The technician first examines the LEDs on the NIC and connection to the wall jack. Then the technician runs a loopback test on the NIC. Which of the following troubleshooting skills is the technician demonstrating?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Inductive reasoning",
+            "zh": "A. Inductive reasoning",
+            "ms": "A. Inductive reasoning"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. OSI model bottom-to-top",
+            "zh": "B. OSI model bottom-to-top",
+            "ms": "B. OSI model bottom-to-top"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Trial-and-error",
+            "zh": "C. Trial-and-error",
+            "ms": "C. Trial-and-error"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Divide and conquer",
+            "zh": "D. Divide and conquer",
+            "ms": "D. Divide and conquer"
+          }
+        }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": "network-n10-007-practice-questions-05",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "Users within an office building report wireless connectivity is sporadic.  A wireless technician troubleshooting the issue notices there are multiple WAPs visible in the same hallway within 20ft (6m) of one another. Which of the following is causing the issue?",
+        "zh": "Users within an office building report wireless connectivity is sporadic.  A wireless technician troubleshooting the issue notices there are multiple WAPs visible in the same hallway within 20ft (6m) of one another. Which of the following is causing the issue?",
+        "ms": "Users within an office building report wireless connectivity is sporadic.  A wireless technician troubleshooting the issue notices there are multiple WAPs visible in the same hallway within 20ft (6m) of one another. Which of the following is causing the issue?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Incorrect antenna type",
+            "zh": "A. Incorrect antenna type",
+            "ms": "A. Incorrect antenna type"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Interference",
+            "zh": "B. Interference",
+            "ms": "B. Interference"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Frequency mismatch",
+            "zh": "C. Frequency mismatch",
+            "ms": "C. Frequency mismatch"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Signal reflection",
+            "zh": "D. Signal reflection",
+            "ms": "D. Signal reflection"
+          }
+        }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": "network-n10-007-practice-questions-06",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "A network technician is tasked with troubleshooting intermittent network connectivity issues within an organization.  Which of the following are possible network service issues? (Select TWO).",
+        "zh": "A network technician is tasked with troubleshooting intermittent network connectivity issues within an organization.  Which of the following are possible network service issues? (Select TWO).",
+        "ms": "A network technician is tasked with troubleshooting intermittent network connectivity issues within an organization.  Which of the following are possible network service issues? (Select TWO)."
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Duplicate IP address",
+            "zh": "A. Duplicate IP address",
+            "ms": "A. Duplicate IP address"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Phishing",
+            "zh": "B. Phishing",
+            "ms": "B. Phishing"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. MAC filtering",
+            "zh": "C. MAC filtering",
+            "ms": "C. MAC filtering"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Exhausted DHCP scope",
+            "zh": "D. Exhausted DHCP scope",
+            "ms": "D. Exhausted DHCP scope"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "network-n10-007-practice-questions-07",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "Which of the following components should be used to manage multiple virtual machines existing on one host?",
+        "zh": "Which of the following components should be used to manage multiple virtual machines existing on one host?",
+        "ms": "Which of the following components should be used to manage multiple virtual machines existing on one host?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Hypervisor",
+            "zh": "A. Hypervisor",
+            "ms": "A. Hypervisor"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Virtual router",
+            "zh": "B. Virtual router",
+            "ms": "B. Virtual router"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Virtual switch",
+            "zh": "C. Virtual switch",
+            "ms": "C. Virtual switch"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Virtual NIC",
+            "zh": "D. Virtual NIC",
+            "ms": "D. Virtual NIC"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "network-n10-007-practice-questions-08",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "Which of the following is aimed at irreversibly damaging and disabling IoT devices?",
+        "zh": "Which of the following is aimed at irreversibly damaging and disabling IoT devices?",
+        "ms": "Which of the following is aimed at irreversibly damaging and disabling IoT devices?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. PDoS",
+            "zh": "A. PDoS",
+            "ms": "A. PDoS"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Spoofing",
+            "zh": "B. Spoofing",
+            "ms": "B. Spoofing"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Ransomware",
+            "zh": "C. Ransomware",
+            "ms": "C. Ransomware"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. Logic bomb",
+            "zh": "D. Logic bomb",
+            "ms": "D. Logic bomb"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "network-n10-007-practice-questions-09",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "In troubleshooting network performance issues on a computer, a technician finds that the CAT5e cable was run through a conduit with power lines. There is plenty of spare room in the conduit, and a cable continuity test is successful. Which of the following is the MOST likely issue?",
+        "zh": "In troubleshooting network performance issues on a computer, a technician finds that the CAT5e cable was run through a conduit with power lines. There is plenty of spare room in the conduit, and a cable continuity test is successful. Which of the following is the MOST likely issue?",
+        "ms": "In troubleshooting network performance issues on a computer, a technician finds that the CAT5e cable was run through a conduit with power lines. There is plenty of spare room in the conduit, and a cable continuity test is successful. Which of the following is the MOST likely issue?"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. Attenuation",
+            "zh": "A. Attenuation",
+            "ms": "A. Attenuation"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. Crosstalk",
+            "zh": "B. Crosstalk",
+            "ms": "B. Crosstalk"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. Incorrect cable type",
+            "zh": "C. Incorrect cable type",
+            "ms": "C. Incorrect cable type"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. EMI",
+            "zh": "D. EMI",
+            "ms": "D. EMI"
+          }
+        }
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": "network-n10-007-practice-questions-10",
+      "type": "multiple-choice",
+      "subject": "network Plus",
+      "topic": "CompTia Network+",
+      "question": {
+        "en": "One purpose of network segmentation is to:",
+        "zh": "One purpose of network segmentation is to:",
+        "ms": "One purpose of network segmentation is to:"
+      },
+      "variants": {
+        "en": [],
+        "zh": [],
+        "ms": []
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "A. protect sensitive data from the rest of the network.",
+            "zh": "A. protect sensitive data from the rest of the network.",
+            "ms": "A. protect sensitive data from the rest of the network."
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "B. make file transfers easier for end-users.",
+            "zh": "B. make file transfers easier for end-users.",
+            "ms": "B. make file transfers easier for end-users."
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "C. allow certain services to talk to each other without a choke point",
+            "zh": "C. allow certain services to talk to each other without a choke point",
+            "ms": "C. allow certain services to talk to each other without a choke point"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "D. hold all hardened baseline images for deployment.",
+            "zh": "D. hold all hardened baseline images for deployment.",
+            "ms": "D. hold all hardened baseline images for deployment."
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    }
+  ]
+}
