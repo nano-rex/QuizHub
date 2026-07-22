@@ -2,7 +2,7 @@
 
 QuizHub is a static JSON-powered practice site. Open `index.html` in a browser, or serve this directory with any static web server.
 
-All question-bank JSON files are stored exclusively under [`question-banks/`](question-banks/). Their former category pages now redirect to QuizHub.
+All question-bank JSON files are stored exclusively under [`question-banks/`](question-banks/). The former category pages are retained in the hidden `.legacy-backup/` directory for reference.
 
 ## Question-bank JSON format
 
