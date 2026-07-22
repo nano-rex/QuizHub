@@ -11,12 +11,16 @@
       "question": {
         "en": "Which of the following symptoms is MOST likely a sign of ransomware?",
         "zh": "Which of the following symptoms is MOST likely a sign of ransomware?",
-        "ms": "Which of the following symptoms is MOST likely a sign of ransomware?"
+        "ms": "Which of the following symptoms is MOST likely a sign of ransomware?",
+        "zh-Hans": "Which of the following symptoms is MOST likely a sign of ransomware?",
+        "zh-Hant": "Which of the following symptoms is MOST likely a sign of ransomware?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -24,7 +28,9 @@
           "text": {
             "en": "A. Internet connectivity is lost.",
             "zh": "A. Internet connectivity is lost.",
-            "ms": "A. Internet connectivity is lost."
+            "ms": "A. Internet connectivity is lost.",
+            "zh-Hans": "A. Internet connectivity is lost.",
+            "zh-Hant": "A. Internet connectivity is lost."
           }
         },
         {
@@ -32,7 +38,9 @@
           "text": {
             "en": "B. Battery life is reduced.",
             "zh": "B. Battery life is reduced.",
-            "ms": "B. Battery life is reduced."
+            "ms": "B. Battery life is reduced.",
+            "zh-Hans": "B. Battery life is reduced.",
+            "zh-Hant": "B. Battery life is reduced."
           }
         },
         {
@@ -40,7 +48,9 @@
           "text": {
             "en": "C. Files on devices are inaccessible.",
             "zh": "C. Files on devices are inaccessible.",
-            "ms": "C. Files on devices are inaccessible."
+            "ms": "C. Files on devices are inaccessible.",
+            "zh-Hans": "C. Files on devices are inaccessible.",
+            "zh-Hant": "C. Files on devices are inaccessible."
           }
         },
         {
@@ -48,7 +58,9 @@
           "text": {
             "en": "D. A large number of ads appear.",
             "zh": "D. A large number of ads appear.",
-            "ms": "D. A large number of ads appear."
+            "ms": "D. A large number of ads appear.",
+            "zh-Hans": "D. A large number of ads appear.",
+            "zh-Hant": "D. A large number of ads appear."
           }
         }
       ],
@@ -62,12 +74,16 @@
       "question": {
         "en": "A technician has been directed to dispose of hard drives from company laptops properly. Company standards require the use of a high-powered magnet to destroy data on decommissioned hard drives. Which of the following data destruction methods should the technician choose?",
         "zh": "A technician has been directed to dispose of hard drives from company laptops properly. Company standards require the use of a high-powered magnet to destroy data on decommissioned hard drives. Which of the following data destruction methods should the technician choose?",
-        "ms": "A technician has been directed to dispose of hard drives from company laptops properly. Company standards require the use of a high-powered magnet to destroy data on decommissioned hard drives. Which of the following data destruction methods should the technician choose?"
+        "ms": "A technician has been directed to dispose of hard drives from company laptops properly. Company standards require the use of a high-powered magnet to destroy data on decommissioned hard drives. Which of the following data destruction methods should the technician choose?",
+        "zh-Hans": "A technician has been directed to dispose of hard drives from company laptops properly. Company standards require the use of a high-powered magnet to destroy data on decommissioned hard drives. Which of the following data destruction methods should the technician choose?",
+        "zh-Hant": "A technician has been directed to dispose of hard drives from company laptops properly. Company standards require the use of a high-powered magnet to destroy data on decommissioned hard drives. Which of the following data destruction methods should the technician choose?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -75,7 +91,9 @@
           "text": {
             "en": "A. Degaussing",
             "zh": "A. Degaussing",
-            "ms": "A. Degaussing"
+            "ms": "A. Degaussing",
+            "zh-Hans": "A. Degaussing",
+            "zh-Hant": "A. Degaussing"
           }
         },
         {
@@ -83,7 +101,9 @@
           "text": {
             "en": "B. Drilling",
             "zh": "B. Drilling",
-            "ms": "B. Drilling"
+            "ms": "B. Drilling",
+            "zh-Hans": "B. Drilling",
+            "zh-Hant": "B. Drilling"
           }
         },
         {
@@ -91,7 +111,9 @@
           "text": {
             "en": "C. Incinerating",
             "zh": "C. Incinerating",
-            "ms": "C. Incinerating"
+            "ms": "C. Incinerating",
+            "zh-Hans": "C. Incinerating",
+            "zh-Hant": "C. Incinerating"
           }
         },
         {
@@ -99,7 +121,9 @@
           "text": {
             "en": "D. Shredding",
             "zh": "D. Shredding",
-            "ms": "D. Shredding"
+            "ms": "D. Shredding",
+            "zh-Hans": "D. Shredding",
+            "zh-Hant": "D. Shredding"
           }
         }
       ],
@@ -113,12 +137,16 @@
       "question": {
         "en": "A user reports being unable to access the Internet or use wireless headphones on a mobile device. The technician confirms the headphones properly connect to another device. Which of the following should the technician do to solve the issue?",
         "zh": "A user reports being unable to access the Internet or use wireless headphones on a mobile device. The technician confirms the headphones properly connect to another device. Which of the following should the technician do to solve the issue?",
-        "ms": "A user reports being unable to access the Internet or use wireless headphones on a mobile device. The technician confirms the headphones properly connect to another device. Which of the following should the technician do to solve the issue?"
+        "ms": "A user reports being unable to access the Internet or use wireless headphones on a mobile device. The technician confirms the headphones properly connect to another device. Which of the following should the technician do to solve the issue?",
+        "zh-Hans": "A user reports being unable to access the Internet or use wireless headphones on a mobile device. The technician confirms the headphones properly connect to another device. Which of the following should the technician do to solve the issue?",
+        "zh-Hant": "A user reports being unable to access the Internet or use wireless headphones on a mobile device. The technician confirms the headphones properly connect to another device. Which of the following should the technician do to solve the issue?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -126,7 +154,9 @@
           "text": {
             "en": "A. Turn off airplane mode.",
             "zh": "A. Turn off airplane mode.",
-            "ms": "A. Turn off airplane mode."
+            "ms": "A. Turn off airplane mode.",
+            "zh-Hans": "A. Turn off airplane mode.",
+            "zh-Hant": "A. Turn off airplane mode."
           }
         },
         {
@@ -134,7 +164,9 @@
           "text": {
             "en": "B. Connect to a different service set identifier.",
             "zh": "B. Connect to a different service set identifier.",
-            "ms": "B. Connect to a different service set identifier."
+            "ms": "B. Connect to a different service set identifier.",
+            "zh-Hans": "B. Connect to a different service set identifier.",
+            "zh-Hant": "B. Connect to a different service set identifier."
           }
         },
         {
@@ -142,7 +174,9 @@
           "text": {
             "en": "C. Test the battery on the device.",
             "zh": "C. Test the battery on the device.",
-            "ms": "C. Test the battery on the device."
+            "ms": "C. Test the battery on the device.",
+            "zh-Hans": "C. Test the battery on the device.",
+            "zh-Hant": "C. Test the battery on the device."
           }
         },
         {
@@ -150,7 +184,9 @@
           "text": {
             "en": "D. Disable near-field communication.",
             "zh": "D. Disable near-field communication.",
-            "ms": "D. Disable near-field communication."
+            "ms": "D. Disable near-field communication.",
+            "zh-Hans": "D. Disable near-field communication.",
+            "zh-Hant": "D. Disable near-field communication."
           }
         }
       ],
@@ -164,12 +200,16 @@
       "question": {
         "en": "A sales staff member recently left a laptop at a hotel and needs a new one immediately. After remotely wiping the old laptop, a support technician prepares to take a new laptop out of inventory to begin the deployment process. Which of the following should the technician do FIRST?",
         "zh": "A sales staff member recently left a laptop at a hotel and needs a new one immediately. After remotely wiping the old laptop, a support technician prepares to take a new laptop out of inventory to begin the deployment process. Which of the following should the technician do FIRST?",
-        "ms": "A sales staff member recently left a laptop at a hotel and needs a new one immediately. After remotely wiping the old laptop, a support technician prepares to take a new laptop out of inventory to begin the deployment process. Which of the following should the technician do FIRST?"
+        "ms": "A sales staff member recently left a laptop at a hotel and needs a new one immediately. After remotely wiping the old laptop, a support technician prepares to take a new laptop out of inventory to begin the deployment process. Which of the following should the technician do FIRST?",
+        "zh-Hans": "A sales staff member recently left a laptop at a hotel and needs a new one immediately. After remotely wiping the old laptop, a support technician prepares to take a new laptop out of inventory to begin the deployment process. Which of the following should the technician do FIRST?",
+        "zh-Hant": "A sales staff member recently left a laptop at a hotel and needs a new one immediately. After remotely wiping the old laptop, a support technician prepares to take a new laptop out of inventory to begin the deployment process. Which of the following should the technician do FIRST?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -177,7 +217,9 @@
           "text": {
             "en": "A. Recycle all the cardboard and other shipping materials appropriately.",
             "zh": "A. Recycle all the cardboard and other shipping materials appropriately.",
-            "ms": "A. Recycle all the cardboard and other shipping materials appropriately."
+            "ms": "A. Recycle all the cardboard and other shipping materials appropriately.",
+            "zh-Hans": "A. Recycle all the cardboard and other shipping materials appropriately.",
+            "zh-Hant": "A. Recycle all the cardboard and other shipping materials appropriately."
           }
         },
         {
@@ -185,7 +227,9 @@
           "text": {
             "en": "B. Call the hotel and demand the old laptop be sent back to the repair depot.",
             "zh": "B. Call the hotel and demand the old laptop be sent back to the repair depot.",
-            "ms": "B. Call the hotel and demand the old laptop be sent back to the repair depot."
+            "ms": "B. Call the hotel and demand the old laptop be sent back to the repair depot.",
+            "zh-Hans": "B. Call the hotel and demand the old laptop be sent back to the repair depot.",
+            "zh-Hant": "B. Call the hotel and demand the old laptop be sent back to the repair depot."
           }
         },
         {
@@ -193,7 +237,9 @@
           "text": {
             "en": "C. Confirm the shipping address for the new laptop with the sales staff member.",
             "zh": "C. Confirm the shipping address for the new laptop with the sales staff member.",
-            "ms": "C. Confirm the shipping address for the new laptop with the sales staff member."
+            "ms": "C. Confirm the shipping address for the new laptop with the sales staff member.",
+            "zh-Hans": "C. Confirm the shipping address for the new laptop with the sales staff member.",
+            "zh-Hant": "C. Confirm the shipping address for the new laptop with the sales staff member."
           }
         },
         {
@@ -201,7 +247,9 @@
           "text": {
             "en": "D. Document the serial numbers and usernames for asset management.",
             "zh": "D. Document the serial numbers and usernames for asset management.",
-            "ms": "D. Document the serial numbers and usernames for asset management."
+            "ms": "D. Document the serial numbers and usernames for asset management.",
+            "zh-Hans": "D. Document the serial numbers and usernames for asset management.",
+            "zh-Hant": "D. Document the serial numbers and usernames for asset management."
           }
         }
       ],
@@ -215,12 +263,16 @@
       "question": {
         "en": "A technician is installing M.2 devices in several workstations. Which of the following would be required when installing the devices?",
         "zh": "A technician is installing M.2 devices in several workstations. Which of the following would be required when installing the devices?",
-        "ms": "A technician is installing M.2 devices in several workstations. Which of the following would be required when installing the devices?"
+        "ms": "A technician is installing M.2 devices in several workstations. Which of the following would be required when installing the devices?",
+        "zh-Hans": "A technician is installing M.2 devices in several workstations. Which of the following would be required when installing the devices?",
+        "zh-Hant": "A technician is installing M.2 devices in several workstations. Which of the following would be required when installing the devices?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -228,7 +280,9 @@
           "text": {
             "en": "A. Air filtration",
             "zh": "A. Air filtration",
-            "ms": "A. Air filtration"
+            "ms": "A. Air filtration",
+            "zh-Hans": "A. Air filtration",
+            "zh-Hant": "A. Air filtration"
           }
         },
         {
@@ -236,7 +290,9 @@
           "text": {
             "en": "B. Heat-resistant gloves",
             "zh": "B. Heat-resistant gloves",
-            "ms": "B. Heat-resistant gloves"
+            "ms": "B. Heat-resistant gloves",
+            "zh-Hans": "B. Heat-resistant gloves",
+            "zh-Hant": "B. Heat-resistant gloves"
           }
         },
         {
@@ -244,7 +300,9 @@
           "text": {
             "en": "C. Ergonomic floor mats",
             "zh": "C. Ergonomic floor mats",
-            "ms": "C. Ergonomic floor mats"
+            "ms": "C. Ergonomic floor mats",
+            "zh-Hans": "C. Ergonomic floor mats",
+            "zh-Hant": "C. Ergonomic floor mats"
           }
         },
         {
@@ -252,7 +310,9 @@
           "text": {
             "en": "D. Electrostatic discharge straps",
             "zh": "D. Electrostatic discharge straps",
-            "ms": "D. Electrostatic discharge straps"
+            "ms": "D. Electrostatic discharge straps",
+            "zh-Hans": "D. Electrostatic discharge straps",
+            "zh-Hant": "D. Electrostatic discharge straps"
           }
         }
       ],
@@ -266,12 +326,16 @@
       "question": {
         "en": "A user's Windows desktop continuously crashes during boot. A technician runs the following command in safe mode and then reboots the desktop:",
         "zh": "A user's Windows desktop continuously crashes during boot. A technician runs the following command in safe mode and then reboots the desktop:",
-        "ms": "A user's Windows desktop continuously crashes during boot. A technician runs the following command in safe mode and then reboots the desktop:"
+        "ms": "A user's Windows desktop continuously crashes during boot. A technician runs the following command in safe mode and then reboots the desktop:",
+        "zh-Hans": "A user's Windows desktop continuously crashes during boot. A technician runs the following command in safe mode and then reboots the desktop:",
+        "zh-Hant": "A user's Windows desktop continuously crashes during boot. A technician runs the following command in safe mode and then reboots the desktop:"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -279,7 +343,9 @@
           "text": {
             "en": "A. The user's profile is damaged.",
             "zh": "A. The user's profile is damaged.",
-            "ms": "A. The user's profile is damaged."
+            "ms": "A. The user's profile is damaged.",
+            "zh-Hans": "A. The user's profile is damaged.",
+            "zh-Hant": "A. The user's profile is damaged."
           }
         },
         {
@@ -287,7 +353,9 @@
           "text": {
             "en": "B. The system files are corrupted.",
             "zh": "B. The system files are corrupted.",
-            "ms": "B. The system files are corrupted."
+            "ms": "B. The system files are corrupted.",
+            "zh-Hans": "B. The system files are corrupted.",
+            "zh-Hant": "B. The system files are corrupted."
           }
         },
         {
@@ -295,7 +363,9 @@
           "text": {
             "en": "C. The hard drive needs to be defragmented.",
             "zh": "C. The hard drive needs to be defragmented.",
-            "ms": "C. The hard drive needs to be defragmented."
+            "ms": "C. The hard drive needs to be defragmented.",
+            "zh-Hans": "C. The hard drive needs to be defragmented.",
+            "zh-Hant": "C. The hard drive needs to be defragmented."
           }
         },
         {
@@ -303,7 +373,9 @@
           "text": {
             "en": "D. The system needs to have a restore performed.",
             "zh": "D. The system needs to have a restore performed.",
-            "ms": "D. The system needs to have a restore performed."
+            "ms": "D. The system needs to have a restore performed.",
+            "zh-Hans": "D. The system needs to have a restore performed.",
+            "zh-Hant": "D. The system needs to have a restore performed."
           }
         }
       ],
@@ -317,12 +389,16 @@
       "question": {
         "en": "A user calls the IT help desk and explains that all the data on the user's computer is encrypted. The user also indicates that a pop-up message on the screen is asking for payment in Bitcoins to unlock the encrypted data. The user's computer is MOST likely infected with which of the following?",
         "zh": "A user calls the IT help desk and explains that all the data on the user's computer is encrypted. The user also indicates that a pop-up message on the screen is asking for payment in Bitcoins to unlock the encrypted data. The user's computer is MOST likely infected with which of the following?",
-        "ms": "A user calls the IT help desk and explains that all the data on the user's computer is encrypted. The user also indicates that a pop-up message on the screen is asking for payment in Bitcoins to unlock the encrypted data. The user's computer is MOST likely infected with which of the following?"
+        "ms": "A user calls the IT help desk and explains that all the data on the user's computer is encrypted. The user also indicates that a pop-up message on the screen is asking for payment in Bitcoins to unlock the encrypted data. The user's computer is MOST likely infected with which of the following?",
+        "zh-Hans": "A user calls the IT help desk and explains that all the data on the user's computer is encrypted. The user also indicates that a pop-up message on the screen is asking for payment in Bitcoins to unlock the encrypted data. The user's computer is MOST likely infected with which of the following?",
+        "zh-Hant": "A user calls the IT help desk and explains that all the data on the user's computer is encrypted. The user also indicates that a pop-up message on the screen is asking for payment in Bitcoins to unlock the encrypted data. The user's computer is MOST likely infected with which of the following?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -330,7 +406,9 @@
           "text": {
             "en": "A. Botnet",
             "zh": "A. Botnet",
-            "ms": "A. Botnet"
+            "ms": "A. Botnet",
+            "zh-Hans": "A. Botnet",
+            "zh-Hant": "A. Botnet"
           }
         },
         {
@@ -338,7 +416,9 @@
           "text": {
             "en": "B. Spyware",
             "zh": "B. Spyware",
-            "ms": "B. Spyware"
+            "ms": "B. Spyware",
+            "zh-Hans": "B. Spyware",
+            "zh-Hant": "B. Spyware"
           }
         },
         {
@@ -346,7 +426,9 @@
           "text": {
             "en": "C. Ransomware",
             "zh": "C. Ransomware",
-            "ms": "C. Ransomware"
+            "ms": "C. Ransomware",
+            "zh-Hans": "C. Ransomware",
+            "zh-Hant": "C. Ransomware"
           }
         },
         {
@@ -354,7 +436,9 @@
           "text": {
             "en": "D. Rootkit",
             "zh": "D. Rootkit",
-            "ms": "D. Rootkit"
+            "ms": "D. Rootkit",
+            "zh-Hans": "D. Rootkit",
+            "zh-Hant": "D. Rootkit"
           }
         }
       ],
@@ -368,12 +452,16 @@
       "question": {
         "en": "A network engineer needs to update a network firewall, which will cause a temporary outage. The network engineer submits a change request form to perform the required maintenance. If the firewall update fails, which of the following is the NEXT step?",
         "zh": "A network engineer needs to update a network firewall, which will cause a temporary outage. The network engineer submits a change request form to perform the required maintenance. If the firewall update fails, which of the following is the NEXT step?",
-        "ms": "A network engineer needs to update a network firewall, which will cause a temporary outage. The network engineer submits a change request form to perform the required maintenance. If the firewall update fails, which of the following is the NEXT step?"
+        "ms": "A network engineer needs to update a network firewall, which will cause a temporary outage. The network engineer submits a change request form to perform the required maintenance. If the firewall update fails, which of the following is the NEXT step?",
+        "zh-Hans": "A network engineer needs to update a network firewall, which will cause a temporary outage. The network engineer submits a change request form to perform the required maintenance. If the firewall update fails, which of the following is the NEXT step?",
+        "zh-Hant": "A network engineer needs to update a network firewall, which will cause a temporary outage. The network engineer submits a change request form to perform the required maintenance. If the firewall update fails, which of the following is the NEXT step?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -381,7 +469,9 @@
           "text": {
             "en": "A. Perform a risk analysis.",
             "zh": "A. Perform a risk analysis.",
-            "ms": "A. Perform a risk analysis."
+            "ms": "A. Perform a risk analysis.",
+            "zh-Hans": "A. Perform a risk analysis.",
+            "zh-Hant": "A. Perform a risk analysis."
           }
         },
         {
@@ -389,7 +479,9 @@
           "text": {
             "en": "B. Execute a backout plan.",
             "zh": "B. Execute a backout plan.",
-            "ms": "B. Execute a backout plan."
+            "ms": "B. Execute a backout plan.",
+            "zh-Hans": "B. Execute a backout plan.",
+            "zh-Hant": "B. Execute a backout plan."
           }
         },
         {
@@ -397,7 +489,9 @@
           "text": {
             "en": "C. Request a change approval.",
             "zh": "C. Request a change approval.",
-            "ms": "C. Request a change approval."
+            "ms": "C. Request a change approval.",
+            "zh-Hans": "C. Request a change approval.",
+            "zh-Hant": "C. Request a change approval."
           }
         },
         {
@@ -405,7 +499,9 @@
           "text": {
             "en": "D. Acquire end user acceptance.",
             "zh": "D. Acquire end user acceptance.",
-            "ms": "D. Acquire end user acceptance."
+            "ms": "D. Acquire end user acceptance.",
+            "zh-Hans": "D. Acquire end user acceptance.",
+            "zh-Hant": "D. Acquire end user acceptance."
           }
         }
       ],
@@ -419,12 +515,16 @@
       "question": {
         "en": "Which of the following workstation operating systems uses NTFS for the standard filesystem type?",
         "zh": "Which of the following workstation operating systems uses NTFS for the standard filesystem type?",
-        "ms": "Which of the following workstation operating systems uses NTFS for the standard filesystem type?"
+        "ms": "Which of the following workstation operating systems uses NTFS for the standard filesystem type?",
+        "zh-Hans": "Which of the following workstation operating systems uses NTFS for the standard filesystem type?",
+        "zh-Hant": "Which of the following workstation operating systems uses NTFS for the standard filesystem type?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -432,7 +532,9 @@
           "text": {
             "en": "A. macOS",
             "zh": "A. macOS",
-            "ms": "A. macOS"
+            "ms": "A. macOS",
+            "zh-Hans": "A. macOS",
+            "zh-Hant": "A. macOS"
           }
         },
         {
@@ -440,7 +542,9 @@
           "text": {
             "en": "B. Windows",
             "zh": "B. Windows",
-            "ms": "B. Windows"
+            "ms": "B. Windows",
+            "zh-Hans": "B. Windows",
+            "zh-Hant": "B. Windows"
           }
         },
         {
@@ -448,7 +552,9 @@
           "text": {
             "en": "C. Chrome OS",
             "zh": "C. Chrome OS",
-            "ms": "C. Chrome OS"
+            "ms": "C. Chrome OS",
+            "zh-Hans": "C. Chrome OS",
+            "zh-Hant": "C. Chrome OS"
           }
         },
         {
@@ -456,7 +562,9 @@
           "text": {
             "en": "D. Linux",
             "zh": "D. Linux",
-            "ms": "D. Linux"
+            "ms": "D. Linux",
+            "zh-Hans": "D. Linux",
+            "zh-Hant": "D. Linux"
           }
         }
       ],
@@ -470,12 +578,16 @@
       "question": {
         "en": "Which of the following Linux commands will display a directory of files?",
         "zh": "Which of the following Linux commands will display a directory of files?",
-        "ms": "Which of the following Linux commands will display a directory of files?"
+        "ms": "Which of the following Linux commands will display a directory of files?",
+        "zh-Hans": "Which of the following Linux commands will display a directory of files?",
+        "zh-Hant": "Which of the following Linux commands will display a directory of files?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -483,7 +595,9 @@
           "text": {
             "en": "A. chown",
             "zh": "A. chown",
-            "ms": "A. chown"
+            "ms": "A. chown",
+            "zh-Hans": "A. chown",
+            "zh-Hant": "A. chown"
           }
         },
         {
@@ -491,7 +605,9 @@
           "text": {
             "en": "B. ls",
             "zh": "B. ls",
-            "ms": "B. ls"
+            "ms": "B. ls",
+            "zh-Hans": "B. ls",
+            "zh-Hant": "B. ls"
           }
         },
         {
@@ -499,7 +615,9 @@
           "text": {
             "en": "C. chmod",
             "zh": "C. chmod",
-            "ms": "C. chmod"
+            "ms": "C. chmod",
+            "zh-Hans": "C. chmod",
+            "zh-Hant": "C. chmod"
           }
         },
         {
@@ -507,7 +625,9 @@
           "text": {
             "en": "D. cls",
             "zh": "D. cls",
-            "ms": "D. cls"
+            "ms": "D. cls",
+            "zh-Hans": "D. cls",
+            "zh-Hant": "D. cls"
           }
         }
       ],

@@ -11,12 +11,16 @@
       "question": {
         "en": "A technician needs to replace a failed power supply on a server. The server in question only has one power supply. The server contains two processors that need 100w, five hard drives that need 9w, and a GPU that uses 200w. Which of the following power supplies should the technician use?",
         "zh": "A technician needs to replace a failed power supply on a server. The server in question only has one power supply. The server contains two processors that need 100w, five hard drives that need 9w, and a GPU that uses 200w. Which of the following power supplies should the technician use?",
-        "ms": "A technician needs to replace a failed power supply on a server. The server in question only has one power supply. The server contains two processors that need 100w, five hard drives that need 9w, and a GPU that uses 200w. Which of the following power supplies should the technician use?"
+        "ms": "A technician needs to replace a failed power supply on a server. The server in question only has one power supply. The server contains two processors that need 100w, five hard drives that need 9w, and a GPU that uses 200w. Which of the following power supplies should the technician use?",
+        "zh-Hans": "A technician needs to replace a failed power supply on a server. The server in question only has one power supply. The server contains two processors that need 100w, five hard drives that need 9w, and a GPU that uses 200w. Which of the following power supplies should the technician use?",
+        "zh-Hant": "A technician needs to replace a failed power supply on a server. The server in question only has one power supply. The server contains two processors that need 100w, five hard drives that need 9w, and a GPU that uses 200w. Which of the following power supplies should the technician use?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -24,7 +28,9 @@
           "text": {
             "en": "A. 375w",
             "zh": "A. 375w",
-            "ms": "A. 375w"
+            "ms": "A. 375w",
+            "zh-Hans": "A. 375w",
+            "zh-Hant": "A. 375w"
           }
         },
         {
@@ -32,7 +38,9 @@
           "text": {
             "en": "B. 425w",
             "zh": "B. 425w",
-            "ms": "B. 425w"
+            "ms": "B. 425w",
+            "zh-Hans": "B. 425w",
+            "zh-Hant": "B. 425w"
           }
         },
         {
@@ -40,7 +48,9 @@
           "text": {
             "en": "C. 325w",
             "zh": "C. 325w",
-            "ms": "C. 325w"
+            "ms": "C. 325w",
+            "zh-Hans": "C. 325w",
+            "zh-Hant": "C. 325w"
           }
         },
         {
@@ -48,7 +58,9 @@
           "text": {
             "en": "D. 500w",
             "zh": "D. 500w",
-            "ms": "D. 500w"
+            "ms": "D. 500w",
+            "zh-Hans": "D. 500w",
+            "zh-Hant": "D. 500w"
           }
         }
       ],
@@ -62,12 +74,16 @@
       "question": {
         "en": "An organization uses a cloud storage service to store company files. The file synchronization client for this cloud service is installed on every user's computer. One user reports that a file synced with the client to their computer does not contain information a co-worker of theirs added earlier today. Indicate the BEST action to take when troubleshooting this problem.",
         "zh": "An organization uses a cloud storage service to store company files. The file synchronization client for this cloud service is installed on every user's computer. One user reports that a file synced with the client to their computer does not contain information a co-worker of theirs added earlier today. Indicate the BEST action to take when troubleshooting this problem.",
-        "ms": "An organization uses a cloud storage service to store company files. The file synchronization client for this cloud service is installed on every user's computer. One user reports that a file synced with the client to their computer does not contain information a co-worker of theirs added earlier today. Indicate the BEST action to take when troubleshooting this problem."
+        "ms": "An organization uses a cloud storage service to store company files. The file synchronization client for this cloud service is installed on every user's computer. One user reports that a file synced with the client to their computer does not contain information a co-worker of theirs added earlier today. Indicate the BEST action to take when troubleshooting this problem.",
+        "zh-Hans": "An organization uses a cloud storage service to store company files. The file synchronization client for this cloud service is installed on every user's computer. One user reports that a file synced with the client to their computer does not contain information a co-worker of theirs added earlier today. Indicate the BEST action to take when troubleshooting this problem.",
+        "zh-Hant": "An organization uses a cloud storage service to store company files. The file synchronization client for this cloud service is installed on every user's computer. One user reports that a file synced with the client to their computer does not contain information a co-worker of theirs added earlier today. Indicate the BEST action to take when troubleshooting this problem."
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -75,7 +91,9 @@
           "text": {
             "en": "A. Exit the cloud service's client that is locally installed, restart the computer, and check to see if the file contains the information that is missing.",
             "zh": "A. Exit the cloud service's client that is locally installed, restart the computer, and check to see if the file contains the information that is missing.",
-            "ms": "A. Exit the cloud service's client that is locally installed, restart the computer, and check to see if the file contains the information that is missing."
+            "ms": "A. Exit the cloud service's client that is locally installed, restart the computer, and check to see if the file contains the information that is missing.",
+            "zh-Hans": "A. Exit the cloud service's client that is locally installed, restart the computer, and check to see if the file contains the information that is missing.",
+            "zh-Hant": "A. Exit the cloud service's client that is locally installed, restart the computer, and check to see if the file contains the information that is missing."
           }
         },
         {
@@ -83,7 +101,9 @@
           "text": {
             "en": "B. Visit the cloud service's website, locate the service status page, and determine if their is a service outage impacting the organization.",
             "zh": "B. Visit the cloud service's website, locate the service status page, and determine if their is a service outage impacting the organization.",
-            "ms": "B. Visit the cloud service's website, locate the service status page, and determine if their is a service outage impacting the organization."
+            "ms": "B. Visit the cloud service's website, locate the service status page, and determine if their is a service outage impacting the organization.",
+            "zh-Hans": "B. Visit the cloud service's website, locate the service status page, and determine if their is a service outage impacting the organization.",
+            "zh-Hant": "B. Visit the cloud service's website, locate the service status page, and determine if their is a service outage impacting the organization."
           }
         },
         {
@@ -91,7 +111,9 @@
           "text": {
             "en": "C. Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors.",
             "zh": "C. Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors.",
-            "ms": "C. Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors."
+            "ms": "C. Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors.",
+            "zh-Hans": "C. Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors.",
+            "zh-Hant": "C. Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors."
           }
         },
         {
@@ -99,7 +121,9 @@
           "text": {
             "en": "D. Open the cloud service's client that is locally installed and check to see if there are any updates available for the client.",
             "zh": "D. Open the cloud service's client that is locally installed and check to see if there are any updates available for the client.",
-            "ms": "D. Open the cloud service's client that is locally installed and check to see if there are any updates available for the client."
+            "ms": "D. Open the cloud service's client that is locally installed and check to see if there are any updates available for the client.",
+            "zh-Hans": "D. Open the cloud service's client that is locally installed and check to see if there are any updates available for the client.",
+            "zh-Hant": "D. Open the cloud service's client that is locally installed and check to see if there are any updates available for the client."
           }
         }
       ],
@@ -113,12 +137,16 @@
       "question": {
         "en": "A technician is helping a user configure a new mobile phone. The user could pay for purchases with the previous phone by touching the phone to the payment system. Which of the following features should the technician enable so that the user can use the new phone to also pay for purchases this way?",
         "zh": "A technician is helping a user configure a new mobile phone. The user could pay for purchases with the previous phone by touching the phone to the payment system. Which of the following features should the technician enable so that the user can use the new phone to also pay for purchases this way?",
-        "ms": "A technician is helping a user configure a new mobile phone. The user could pay for purchases with the previous phone by touching the phone to the payment system. Which of the following features should the technician enable so that the user can use the new phone to also pay for purchases this way?"
+        "ms": "A technician is helping a user configure a new mobile phone. The user could pay for purchases with the previous phone by touching the phone to the payment system. Which of the following features should the technician enable so that the user can use the new phone to also pay for purchases this way?",
+        "zh-Hans": "A technician is helping a user configure a new mobile phone. The user could pay for purchases with the previous phone by touching the phone to the payment system. Which of the following features should the technician enable so that the user can use the new phone to also pay for purchases this way?",
+        "zh-Hant": "A technician is helping a user configure a new mobile phone. The user could pay for purchases with the previous phone by touching the phone to the payment system. Which of the following features should the technician enable so that the user can use the new phone to also pay for purchases this way?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -126,7 +154,9 @@
           "text": {
             "en": "A. PAN",
             "zh": "A. PAN",
-            "ms": "A. PAN"
+            "ms": "A. PAN",
+            "zh-Hans": "A. PAN",
+            "zh-Hant": "A. PAN"
           }
         },
         {
@@ -134,7 +164,9 @@
           "text": {
             "en": "B. RFID",
             "zh": "B. RFID",
-            "ms": "B. RFID"
+            "ms": "B. RFID",
+            "zh-Hans": "B. RFID",
+            "zh-Hant": "B. RFID"
           }
         },
         {
@@ -142,7 +174,9 @@
           "text": {
             "en": "C. NFC",
             "zh": "C. NFC",
-            "ms": "C. NFC"
+            "ms": "C. NFC",
+            "zh-Hans": "C. NFC",
+            "zh-Hant": "C. NFC"
           }
         },
         {
@@ -150,7 +184,9 @@
           "text": {
             "en": "D. Bluetooth",
             "zh": "D. Bluetooth",
-            "ms": "D. Bluetooth"
+            "ms": "D. Bluetooth",
+            "zh-Hans": "D. Bluetooth",
+            "zh-Hant": "D. Bluetooth"
           }
         }
       ],
@@ -164,12 +200,16 @@
       "question": {
         "en": "A user recently reported that every few days the system clock is approximately three minutes behind. The user also received an error message on the BIOS screen. Which of the following would MOST likely fix the clock issue?",
         "zh": "A user recently reported that every few days the system clock is approximately three minutes behind. The user also received an error message on the BIOS screen. Which of the following would MOST likely fix the clock issue?",
-        "ms": "A user recently reported that every few days the system clock is approximately three minutes behind. The user also received an error message on the BIOS screen. Which of the following would MOST likely fix the clock issue?"
+        "ms": "A user recently reported that every few days the system clock is approximately three minutes behind. The user also received an error message on the BIOS screen. Which of the following would MOST likely fix the clock issue?",
+        "zh-Hans": "A user recently reported that every few days the system clock is approximately three minutes behind. The user also received an error message on the BIOS screen. Which of the following would MOST likely fix the clock issue?",
+        "zh-Hant": "A user recently reported that every few days the system clock is approximately three minutes behind. The user also received an error message on the BIOS screen. Which of the following would MOST likely fix the clock issue?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -177,7 +217,9 @@
           "text": {
             "en": "A. Enable dual-channel memory by adding a second RAM stick.",
             "zh": "A. Enable dual-channel memory by adding a second RAM stick.",
-            "ms": "A. Enable dual-channel memory by adding a second RAM stick."
+            "ms": "A. Enable dual-channel memory by adding a second RAM stick.",
+            "zh-Hans": "A. Enable dual-channel memory by adding a second RAM stick.",
+            "zh-Hant": "A. Enable dual-channel memory by adding a second RAM stick."
           }
         },
         {
@@ -185,7 +227,9 @@
           "text": {
             "en": "B. Install a new power supply.",
             "zh": "B. Install a new power supply.",
-            "ms": "B. Install a new power supply."
+            "ms": "B. Install a new power supply.",
+            "zh-Hans": "B. Install a new power supply.",
+            "zh-Hant": "B. Install a new power supply."
           }
         },
         {
@@ -193,7 +237,9 @@
           "text": {
             "en": "C. Replace the motherboard's CMOS battery.",
             "zh": "C. Replace the motherboard's CMOS battery.",
-            "ms": "C. Replace the motherboard's CMOS battery."
+            "ms": "C. Replace the motherboard's CMOS battery.",
+            "zh-Hans": "C. Replace the motherboard's CMOS battery.",
+            "zh-Hant": "C. Replace the motherboard's CMOS battery."
           }
         },
         {
@@ -201,7 +247,9 @@
           "text": {
             "en": "D. Configure the PC to be an NTP server.",
             "zh": "D. Configure the PC to be an NTP server.",
-            "ms": "D. Configure the PC to be an NTP server."
+            "ms": "D. Configure the PC to be an NTP server.",
+            "zh-Hans": "D. Configure the PC to be an NTP server.",
+            "zh-Hant": "D. Configure the PC to be an NTP server."
           }
         }
       ],
@@ -215,12 +263,16 @@
       "question": {
         "en": "A user with a new 5G smartphone notices the device has separated at the seam on one edge and is measurably thicker at that point. Which of the following actions should the user take FIRST?",
         "zh": "A user with a new 5G smartphone notices the device has separated at the seam on one edge and is measurably thicker at that point. Which of the following actions should the user take FIRST?",
-        "ms": "A user with a new 5G smartphone notices the device has separated at the seam on one edge and is measurably thicker at that point. Which of the following actions should the user take FIRST?"
+        "ms": "A user with a new 5G smartphone notices the device has separated at the seam on one edge and is measurably thicker at that point. Which of the following actions should the user take FIRST?",
+        "zh-Hans": "A user with a new 5G smartphone notices the device has separated at the seam on one edge and is measurably thicker at that point. Which of the following actions should the user take FIRST?",
+        "zh-Hant": "A user with a new 5G smartphone notices the device has separated at the seam on one edge and is measurably thicker at that point. Which of the following actions should the user take FIRST?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -228,7 +280,9 @@
           "text": {
             "en": "A. Power off the smartphone and place it in a bucket of rice for 48 hours.",
             "zh": "A. Power off the smartphone and place it in a bucket of rice for 48 hours.",
-            "ms": "A. Power off the smartphone and place it in a bucket of rice for 48 hours."
+            "ms": "A. Power off the smartphone and place it in a bucket of rice for 48 hours.",
+            "zh-Hans": "A. Power off the smartphone and place it in a bucket of rice for 48 hours.",
+            "zh-Hant": "A. Power off the smartphone and place it in a bucket of rice for 48 hours."
           }
         },
         {
@@ -236,7 +290,9 @@
           "text": {
             "en": "B. Place the smartphone in a refrigerator between 35°F (1.6°C) and 40°F",
             "zh": "B. Place the smartphone in a refrigerator between 35°F (1.6°C) and 40°F",
-            "ms": "B. Place the smartphone in a refrigerator between 35°F (1.6°C) and 40°F"
+            "ms": "B. Place the smartphone in a refrigerator between 35°F (1.6°C) and 40°F",
+            "zh-Hans": "B. Place the smartphone in a refrigerator between 35°F (1.6°C) and 40°F",
+            "zh-Hant": "B. Place the smartphone in a refrigerator between 35°F (1.6°C) and 40°F"
           }
         },
         {
@@ -244,7 +300,9 @@
           "text": {
             "en": "C. Fully deplete the phone's battery and then charge it to 100%.",
             "zh": "C. Fully deplete the phone's battery and then charge it to 100%.",
-            "ms": "C. Fully deplete the phone's battery and then charge it to 100%."
+            "ms": "C. Fully deplete the phone's battery and then charge it to 100%.",
+            "zh-Hans": "C. Fully deplete the phone's battery and then charge it to 100%.",
+            "zh-Hant": "C. Fully deplete the phone's battery and then charge it to 100%."
           }
         },
         {
@@ -252,7 +310,9 @@
           "text": {
             "en": "D. Contact the smartphone manufacturer for warranty support.",
             "zh": "D. Contact the smartphone manufacturer for warranty support.",
-            "ms": "D. Contact the smartphone manufacturer for warranty support."
+            "ms": "D. Contact the smartphone manufacturer for warranty support.",
+            "zh-Hans": "D. Contact the smartphone manufacturer for warranty support.",
+            "zh-Hant": "D. Contact the smartphone manufacturer for warranty support."
           }
         }
       ],
@@ -266,12 +326,16 @@
       "question": {
         "en": "A technician is replacing a laptop's HDD with an SSD. Which of the following should the technician do FIRST?",
         "zh": "A technician is replacing a laptop's HDD with an SSD. Which of the following should the technician do FIRST?",
-        "ms": "A technician is replacing a laptop's HDD with an SSD. Which of the following should the technician do FIRST?"
+        "ms": "A technician is replacing a laptop's HDD with an SSD. Which of the following should the technician do FIRST?",
+        "zh-Hans": "A technician is replacing a laptop's HDD with an SSD. Which of the following should the technician do FIRST?",
+        "zh-Hant": "A technician is replacing a laptop's HDD with an SSD. Which of the following should the technician do FIRST?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -279,7 +343,9 @@
           "text": {
             "en": "A. Create a backup of the HDD.",
             "zh": "A. Create a backup of the HDD.",
-            "ms": "A. Create a backup of the HDD."
+            "ms": "A. Create a backup of the HDD.",
+            "zh-Hans": "A. Create a backup of the HDD.",
+            "zh-Hant": "A. Create a backup of the HDD."
           }
         },
         {
@@ -287,7 +353,9 @@
           "text": {
             "en": "B. Upgrade the RAM on the laptop.",
             "zh": "B. Upgrade the RAM on the laptop.",
-            "ms": "B. Upgrade the RAM on the laptop."
+            "ms": "B. Upgrade the RAM on the laptop.",
+            "zh-Hans": "B. Upgrade the RAM on the laptop.",
+            "zh-Hant": "B. Upgrade the RAM on the laptop."
           }
         },
         {
@@ -295,7 +363,9 @@
           "text": {
             "en": "C. Enable SSD support at BIOS.",
             "zh": "C. Enable SSD support at BIOS.",
-            "ms": "C. Enable SSD support at BIOS."
+            "ms": "C. Enable SSD support at BIOS.",
+            "zh-Hans": "C. Enable SSD support at BIOS.",
+            "zh-Hant": "C. Enable SSD support at BIOS."
           }
         },
         {
@@ -303,7 +373,9 @@
           "text": {
             "en": "D. Install SSD drivers inside the OS.",
             "zh": "D. Install SSD drivers inside the OS.",
-            "ms": "D. Install SSD drivers inside the OS."
+            "ms": "D. Install SSD drivers inside the OS.",
+            "zh-Hans": "D. Install SSD drivers inside the OS.",
+            "zh-Hant": "D. Install SSD drivers inside the OS."
           }
         }
       ],
@@ -317,12 +389,16 @@
       "question": {
         "en": "Which of the following technologies has the FASTEST connection speed?",
         "zh": "Which of the following technologies has the FASTEST connection speed?",
-        "ms": "Which of the following technologies has the FASTEST connection speed?"
+        "ms": "Which of the following technologies has the FASTEST connection speed?",
+        "zh-Hans": "Which of the following technologies has the FASTEST connection speed?",
+        "zh-Hant": "Which of the following technologies has the FASTEST connection speed?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -330,7 +406,9 @@
           "text": {
             "en": "A. Fiber",
             "zh": "A. Fiber",
-            "ms": "A. Fiber"
+            "ms": "A. Fiber",
+            "zh-Hans": "A. Fiber",
+            "zh-Hant": "A. Fiber"
           }
         },
         {
@@ -338,7 +416,9 @@
           "text": {
             "en": "B. Satellite",
             "zh": "B. Satellite",
-            "ms": "B. Satellite"
+            "ms": "B. Satellite",
+            "zh-Hans": "B. Satellite",
+            "zh-Hant": "B. Satellite"
           }
         },
         {
@@ -346,7 +426,9 @@
           "text": {
             "en": "C. DSL",
             "zh": "C. DSL",
-            "ms": "C. DSL"
+            "ms": "C. DSL",
+            "zh-Hans": "C. DSL",
+            "zh-Hant": "C. DSL"
           }
         },
         {
@@ -354,7 +436,9 @@
           "text": {
             "en": "D. Cable",
             "zh": "D. Cable",
-            "ms": "D. Cable"
+            "ms": "D. Cable",
+            "zh-Hans": "D. Cable",
+            "zh-Hant": "D. Cable"
           }
         }
       ],
@@ -368,12 +452,16 @@
       "question": {
         "en": "A PC in a conference room will be connected to a large-screen TV for video presentations during training sessions. Which of the following video connectors is the MOST likely choice for this environment?",
         "zh": "A PC in a conference room will be connected to a large-screen TV for video presentations during training sessions. Which of the following video connectors is the MOST likely choice for this environment?",
-        "ms": "A PC in a conference room will be connected to a large-screen TV for video presentations during training sessions. Which of the following video connectors is the MOST likely choice for this environment?"
+        "ms": "A PC in a conference room will be connected to a large-screen TV for video presentations during training sessions. Which of the following video connectors is the MOST likely choice for this environment?",
+        "zh-Hans": "A PC in a conference room will be connected to a large-screen TV for video presentations during training sessions. Which of the following video connectors is the MOST likely choice for this environment?",
+        "zh-Hant": "A PC in a conference room will be connected to a large-screen TV for video presentations during training sessions. Which of the following video connectors is the MOST likely choice for this environment?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -381,7 +469,9 @@
           "text": {
             "en": "A. Video Graphics Array",
             "zh": "A. Video Graphics Array",
-            "ms": "A. Video Graphics Array"
+            "ms": "A. Video Graphics Array",
+            "zh-Hans": "A. Video Graphics Array",
+            "zh-Hant": "A. Video Graphics Array"
           }
         },
         {
@@ -389,7 +479,9 @@
           "text": {
             "en": "B. Thunderbolt",
             "zh": "B. Thunderbolt",
-            "ms": "B. Thunderbolt"
+            "ms": "B. Thunderbolt",
+            "zh-Hans": "B. Thunderbolt",
+            "zh-Hant": "B. Thunderbolt"
           }
         },
         {
@@ -397,7 +489,9 @@
           "text": {
             "en": "C. Digital Visual Interface",
             "zh": "C. Digital Visual Interface",
-            "ms": "C. Digital Visual Interface"
+            "ms": "C. Digital Visual Interface",
+            "zh-Hans": "C. Digital Visual Interface",
+            "zh-Hant": "C. Digital Visual Interface"
           }
         },
         {
@@ -405,7 +499,9 @@
           "text": {
             "en": "D. High-Definition Multimedia Interface",
             "zh": "D. High-Definition Multimedia Interface",
-            "ms": "D. High-Definition Multimedia Interface"
+            "ms": "D. High-Definition Multimedia Interface",
+            "zh-Hans": "D. High-Definition Multimedia Interface",
+            "zh-Hant": "D. High-Definition Multimedia Interface"
           }
         }
       ],

@@ -11,12 +11,16 @@
       "question": {
         "en": "A network technician is connecting to a switch to modify the configuration. DHCP is not enabled on the management port. Which of the following does the technician need to configure to connect to the device?",
         "zh": "A network technician is connecting to a switch to modify the configuration. DHCP is not enabled on the management port. Which of the following does the technician need to configure to connect to the device?",
-        "ms": "A network technician is connecting to a switch to modify the configuration. DHCP is not enabled on the management port. Which of the following does the technician need to configure to connect to the device?"
+        "ms": "A network technician is connecting to a switch to modify the configuration. DHCP is not enabled on the management port. Which of the following does the technician need to configure to connect to the device?",
+        "zh-Hans": "A network technician is connecting to a switch to modify the configuration. DHCP is not enabled on the management port. Which of the following does the technician need to configure to connect to the device?",
+        "zh-Hant": "A network technician is connecting to a switch to modify the configuration. DHCP is not enabled on the management port. Which of the following does the technician need to configure to connect to the device?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -24,7 +28,9 @@
           "text": {
             "en": "A. IP address",
             "zh": "A. IP address",
-            "ms": "A. IP address"
+            "ms": "A. IP address",
+            "zh-Hans": "A. IP address",
+            "zh-Hant": "A. IP address"
           }
         },
         {
@@ -32,7 +38,9 @@
           "text": {
             "en": "B. Default gateway",
             "zh": "B. Default gateway",
-            "ms": "B. Default gateway"
+            "ms": "B. Default gateway",
+            "zh-Hans": "B. Default gateway",
+            "zh-Hant": "B. Default gateway"
           }
         },
         {
@@ -40,7 +48,9 @@
           "text": {
             "en": "C.  DNS address",
             "zh": "C.  DNS address",
-            "ms": "C.  DNS address"
+            "ms": "C.  DNS address",
+            "zh-Hans": "C.  DNS address",
+            "zh-Hant": "C.  DNS address"
           }
         },
         {
@@ -48,7 +58,9 @@
           "text": {
             "en": "D. Loopback address",
             "zh": "D. Loopback address",
-            "ms": "D. Loopback address"
+            "ms": "D. Loopback address",
+            "zh-Hans": "D. Loopback address",
+            "zh-Hant": "D. Loopback address"
           }
         }
       ],
@@ -62,12 +74,16 @@
       "question": {
         "en": "An architect designs the building blueprint  for a new office. The IT team has to purchase equipment and cabling. Upon inspection of the building layout, it is discovered that no designation was made for network infrastructure wiring, cabling, and services  for the building. Which of the following needs to be documented in the blueprint for building connectivity?",
         "zh": "An architect designs the building blueprint  for a new office. The IT team has to purchase equipment and cabling. Upon inspection of the building layout, it is discovered that no designation was made for network infrastructure wiring, cabling, and services  for the building. Which of the following needs to be documented in the blueprint for building connectivity?",
-        "ms": "An architect designs the building blueprint  for a new office. The IT team has to purchase equipment and cabling. Upon inspection of the building layout, it is discovered that no designation was made for network infrastructure wiring, cabling, and services  for the building. Which of the following needs to be documented in the blueprint for building connectivity?"
+        "ms": "An architect designs the building blueprint  for a new office. The IT team has to purchase equipment and cabling. Upon inspection of the building layout, it is discovered that no designation was made for network infrastructure wiring, cabling, and services  for the building. Which of the following needs to be documented in the blueprint for building connectivity?",
+        "zh-Hans": "An architect designs the building blueprint  for a new office. The IT team has to purchase equipment and cabling. Upon inspection of the building layout, it is discovered that no designation was made for network infrastructure wiring, cabling, and services  for the building. Which of the following needs to be documented in the blueprint for building connectivity?",
+        "zh-Hant": "An architect designs the building blueprint  for a new office. The IT team has to purchase equipment and cabling. Upon inspection of the building layout, it is discovered that no designation was made for network infrastructure wiring, cabling, and services  for the building. Which of the following needs to be documented in the blueprint for building connectivity?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -75,7 +91,9 @@
           "text": {
             "en": "A. HVAC",
             "zh": "A. HVAC",
-            "ms": "A. HVAC"
+            "ms": "A. HVAC",
+            "zh-Hans": "A. HVAC",
+            "zh-Hant": "A. HVAC"
           }
         },
         {
@@ -83,7 +101,9 @@
           "text": {
             "en": "B. Server room",
             "zh": "B. Server room",
-            "ms": "B. Server room"
+            "ms": "B. Server room",
+            "zh-Hans": "B. Server room",
+            "zh-Hant": "B. Server room"
           }
         },
         {
@@ -91,7 +111,9 @@
           "text": {
             "en": "C. MDF",
             "zh": "C. MDF",
-            "ms": "C. MDF"
+            "ms": "C. MDF",
+            "zh-Hans": "C. MDF",
+            "zh-Hant": "C. MDF"
           }
         },
         {
@@ -99,7 +121,9 @@
           "text": {
             "en": "D. Mechanical room",
             "zh": "D. Mechanical room",
-            "ms": "D. Mechanical room"
+            "ms": "D. Mechanical room",
+            "zh-Hans": "D. Mechanical room",
+            "zh-Hant": "D. Mechanical room"
           }
         }
       ],
@@ -113,12 +137,16 @@
       "question": {
         "en": "A network technician has been notified that an available wireless SSID is using insecure WEP encryption and has been asked to investigate what other options are available on the existing wireless hardware. The technician has found that the WAPs support AES-CCMP. Which of the following should the technician configure?",
         "zh": "A network technician has been notified that an available wireless SSID is using insecure WEP encryption and has been asked to investigate what other options are available on the existing wireless hardware. The technician has found that the WAPs support AES-CCMP. Which of the following should the technician configure?",
-        "ms": "A network technician has been notified that an available wireless SSID is using insecure WEP encryption and has been asked to investigate what other options are available on the existing wireless hardware. The technician has found that the WAPs support AES-CCMP. Which of the following should the technician configure?"
+        "ms": "A network technician has been notified that an available wireless SSID is using insecure WEP encryption and has been asked to investigate what other options are available on the existing wireless hardware. The technician has found that the WAPs support AES-CCMP. Which of the following should the technician configure?",
+        "zh-Hans": "A network technician has been notified that an available wireless SSID is using insecure WEP encryption and has been asked to investigate what other options are available on the existing wireless hardware. The technician has found that the WAPs support AES-CCMP. Which of the following should the technician configure?",
+        "zh-Hant": "A network technician has been notified that an available wireless SSID is using insecure WEP encryption and has been asked to investigate what other options are available on the existing wireless hardware. The technician has found that the WAPs support AES-CCMP. Which of the following should the technician configure?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -126,7 +154,9 @@
           "text": {
             "en": "A.  WPA2",
             "zh": "A.  WPA2",
-            "ms": "A.  WPA2"
+            "ms": "A.  WPA2",
+            "zh-Hans": "A.  WPA2",
+            "zh-Hant": "A.  WPA2"
           }
         },
         {
@@ -134,7 +164,9 @@
           "text": {
             "en": "B. MAC filtering",
             "zh": "B. MAC filtering",
-            "ms": "B. MAC filtering"
+            "ms": "B. MAC filtering",
+            "zh-Hans": "B. MAC filtering",
+            "zh-Hant": "B. MAC filtering"
           }
         },
         {
@@ -142,7 +174,9 @@
           "text": {
             "en": "C. MD5",
             "zh": "C. MD5",
-            "ms": "C. MD5"
+            "ms": "C. MD5",
+            "zh-Hans": "C. MD5",
+            "zh-Hant": "C. MD5"
           }
         },
         {
@@ -150,7 +184,9 @@
           "text": {
             "en": "D. WPS",
             "zh": "D. WPS",
-            "ms": "D. WPS"
+            "ms": "D. WPS",
+            "zh-Hans": "D. WPS",
+            "zh-Hant": "D. WPS"
           }
         }
       ],
@@ -164,12 +200,16 @@
       "question": {
         "en": "A technician is called to troubleshoot a client PC that is not connecting to the network. The technician first examines the LEDs on the NIC and connection to the wall jack. Then the technician runs a loopback test on the NIC. Which of the following troubleshooting skills is the technician demonstrating?",
         "zh": "A technician is called to troubleshoot a client PC that is not connecting to the network. The technician first examines the LEDs on the NIC and connection to the wall jack. Then the technician runs a loopback test on the NIC. Which of the following troubleshooting skills is the technician demonstrating?",
-        "ms": "A technician is called to troubleshoot a client PC that is not connecting to the network. The technician first examines the LEDs on the NIC and connection to the wall jack. Then the technician runs a loopback test on the NIC. Which of the following troubleshooting skills is the technician demonstrating?"
+        "ms": "A technician is called to troubleshoot a client PC that is not connecting to the network. The technician first examines the LEDs on the NIC and connection to the wall jack. Then the technician runs a loopback test on the NIC. Which of the following troubleshooting skills is the technician demonstrating?",
+        "zh-Hans": "A technician is called to troubleshoot a client PC that is not connecting to the network. The technician first examines the LEDs on the NIC and connection to the wall jack. Then the technician runs a loopback test on the NIC. Which of the following troubleshooting skills is the technician demonstrating?",
+        "zh-Hant": "A technician is called to troubleshoot a client PC that is not connecting to the network. The technician first examines the LEDs on the NIC and connection to the wall jack. Then the technician runs a loopback test on the NIC. Which of the following troubleshooting skills is the technician demonstrating?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -177,7 +217,9 @@
           "text": {
             "en": "A. Inductive reasoning",
             "zh": "A. Inductive reasoning",
-            "ms": "A. Inductive reasoning"
+            "ms": "A. Inductive reasoning",
+            "zh-Hans": "A. Inductive reasoning",
+            "zh-Hant": "A. Inductive reasoning"
           }
         },
         {
@@ -185,7 +227,9 @@
           "text": {
             "en": "B. OSI model bottom-to-top",
             "zh": "B. OSI model bottom-to-top",
-            "ms": "B. OSI model bottom-to-top"
+            "ms": "B. OSI model bottom-to-top",
+            "zh-Hans": "B. OSI model bottom-to-top",
+            "zh-Hant": "B. OSI model bottom-to-top"
           }
         },
         {
@@ -193,7 +237,9 @@
           "text": {
             "en": "C. Trial-and-error",
             "zh": "C. Trial-and-error",
-            "ms": "C. Trial-and-error"
+            "ms": "C. Trial-and-error",
+            "zh-Hans": "C. Trial-and-error",
+            "zh-Hant": "C. Trial-and-error"
           }
         },
         {
@@ -201,7 +247,9 @@
           "text": {
             "en": "D. Divide and conquer",
             "zh": "D. Divide and conquer",
-            "ms": "D. Divide and conquer"
+            "ms": "D. Divide and conquer",
+            "zh-Hans": "D. Divide and conquer",
+            "zh-Hant": "D. Divide and conquer"
           }
         }
       ],
@@ -215,12 +263,16 @@
       "question": {
         "en": "Users within an office building report wireless connectivity is sporadic.  A wireless technician troubleshooting the issue notices there are multiple WAPs visible in the same hallway within 20ft (6m) of one another. Which of the following is causing the issue?",
         "zh": "Users within an office building report wireless connectivity is sporadic.  A wireless technician troubleshooting the issue notices there are multiple WAPs visible in the same hallway within 20ft (6m) of one another. Which of the following is causing the issue?",
-        "ms": "Users within an office building report wireless connectivity is sporadic.  A wireless technician troubleshooting the issue notices there are multiple WAPs visible in the same hallway within 20ft (6m) of one another. Which of the following is causing the issue?"
+        "ms": "Users within an office building report wireless connectivity is sporadic.  A wireless technician troubleshooting the issue notices there are multiple WAPs visible in the same hallway within 20ft (6m) of one another. Which of the following is causing the issue?",
+        "zh-Hans": "Users within an office building report wireless connectivity is sporadic.  A wireless technician troubleshooting the issue notices there are multiple WAPs visible in the same hallway within 20ft (6m) of one another. Which of the following is causing the issue?",
+        "zh-Hant": "Users within an office building report wireless connectivity is sporadic.  A wireless technician troubleshooting the issue notices there are multiple WAPs visible in the same hallway within 20ft (6m) of one another. Which of the following is causing the issue?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -228,7 +280,9 @@
           "text": {
             "en": "A. Incorrect antenna type",
             "zh": "A. Incorrect antenna type",
-            "ms": "A. Incorrect antenna type"
+            "ms": "A. Incorrect antenna type",
+            "zh-Hans": "A. Incorrect antenna type",
+            "zh-Hant": "A. Incorrect antenna type"
           }
         },
         {
@@ -236,7 +290,9 @@
           "text": {
             "en": "B. Interference",
             "zh": "B. Interference",
-            "ms": "B. Interference"
+            "ms": "B. Interference",
+            "zh-Hans": "B. Interference",
+            "zh-Hant": "B. Interference"
           }
         },
         {
@@ -244,7 +300,9 @@
           "text": {
             "en": "C. Frequency mismatch",
             "zh": "C. Frequency mismatch",
-            "ms": "C. Frequency mismatch"
+            "ms": "C. Frequency mismatch",
+            "zh-Hans": "C. Frequency mismatch",
+            "zh-Hant": "C. Frequency mismatch"
           }
         },
         {
@@ -252,7 +310,9 @@
           "text": {
             "en": "D. Signal reflection",
             "zh": "D. Signal reflection",
-            "ms": "D. Signal reflection"
+            "ms": "D. Signal reflection",
+            "zh-Hans": "D. Signal reflection",
+            "zh-Hant": "D. Signal reflection"
           }
         }
       ],
@@ -266,12 +326,16 @@
       "question": {
         "en": "A network technician is tasked with troubleshooting intermittent network connectivity issues within an organization.  Which of the following are possible network service issues? (Select TWO).",
         "zh": "A network technician is tasked with troubleshooting intermittent network connectivity issues within an organization.  Which of the following are possible network service issues? (Select TWO).",
-        "ms": "A network technician is tasked with troubleshooting intermittent network connectivity issues within an organization.  Which of the following are possible network service issues? (Select TWO)."
+        "ms": "A network technician is tasked with troubleshooting intermittent network connectivity issues within an organization.  Which of the following are possible network service issues? (Select TWO).",
+        "zh-Hans": "A network technician is tasked with troubleshooting intermittent network connectivity issues within an organization.  Which of the following are possible network service issues? (Select TWO).",
+        "zh-Hant": "A network technician is tasked with troubleshooting intermittent network connectivity issues within an organization.  Which of the following are possible network service issues? (Select TWO)."
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -279,7 +343,9 @@
           "text": {
             "en": "A. Duplicate IP address",
             "zh": "A. Duplicate IP address",
-            "ms": "A. Duplicate IP address"
+            "ms": "A. Duplicate IP address",
+            "zh-Hans": "A. Duplicate IP address",
+            "zh-Hant": "A. Duplicate IP address"
           }
         },
         {
@@ -287,7 +353,9 @@
           "text": {
             "en": "B. Phishing",
             "zh": "B. Phishing",
-            "ms": "B. Phishing"
+            "ms": "B. Phishing",
+            "zh-Hans": "B. Phishing",
+            "zh-Hant": "B. Phishing"
           }
         },
         {
@@ -295,7 +363,9 @@
           "text": {
             "en": "C. MAC filtering",
             "zh": "C. MAC filtering",
-            "ms": "C. MAC filtering"
+            "ms": "C. MAC filtering",
+            "zh-Hans": "C. MAC filtering",
+            "zh-Hant": "C. MAC filtering"
           }
         },
         {
@@ -303,7 +373,9 @@
           "text": {
             "en": "D. Exhausted DHCP scope",
             "zh": "D. Exhausted DHCP scope",
-            "ms": "D. Exhausted DHCP scope"
+            "ms": "D. Exhausted DHCP scope",
+            "zh-Hans": "D. Exhausted DHCP scope",
+            "zh-Hant": "D. Exhausted DHCP scope"
           }
         }
       ],
@@ -317,12 +389,16 @@
       "question": {
         "en": "Which of the following components should be used to manage multiple virtual machines existing on one host?",
         "zh": "Which of the following components should be used to manage multiple virtual machines existing on one host?",
-        "ms": "Which of the following components should be used to manage multiple virtual machines existing on one host?"
+        "ms": "Which of the following components should be used to manage multiple virtual machines existing on one host?",
+        "zh-Hans": "Which of the following components should be used to manage multiple virtual machines existing on one host?",
+        "zh-Hant": "Which of the following components should be used to manage multiple virtual machines existing on one host?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -330,7 +406,9 @@
           "text": {
             "en": "A. Hypervisor",
             "zh": "A. Hypervisor",
-            "ms": "A. Hypervisor"
+            "ms": "A. Hypervisor",
+            "zh-Hans": "A. Hypervisor",
+            "zh-Hant": "A. Hypervisor"
           }
         },
         {
@@ -338,7 +416,9 @@
           "text": {
             "en": "B. Virtual router",
             "zh": "B. Virtual router",
-            "ms": "B. Virtual router"
+            "ms": "B. Virtual router",
+            "zh-Hans": "B. Virtual router",
+            "zh-Hant": "B. Virtual router"
           }
         },
         {
@@ -346,7 +426,9 @@
           "text": {
             "en": "C. Virtual switch",
             "zh": "C. Virtual switch",
-            "ms": "C. Virtual switch"
+            "ms": "C. Virtual switch",
+            "zh-Hans": "C. Virtual switch",
+            "zh-Hant": "C. Virtual switch"
           }
         },
         {
@@ -354,7 +436,9 @@
           "text": {
             "en": "D. Virtual NIC",
             "zh": "D. Virtual NIC",
-            "ms": "D. Virtual NIC"
+            "ms": "D. Virtual NIC",
+            "zh-Hans": "D. Virtual NIC",
+            "zh-Hant": "D. Virtual NIC"
           }
         }
       ],
@@ -368,12 +452,16 @@
       "question": {
         "en": "Which of the following is aimed at irreversibly damaging and disabling IoT devices?",
         "zh": "Which of the following is aimed at irreversibly damaging and disabling IoT devices?",
-        "ms": "Which of the following is aimed at irreversibly damaging and disabling IoT devices?"
+        "ms": "Which of the following is aimed at irreversibly damaging and disabling IoT devices?",
+        "zh-Hans": "Which of the following is aimed at irreversibly damaging and disabling IoT devices?",
+        "zh-Hant": "Which of the following is aimed at irreversibly damaging and disabling IoT devices?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -381,7 +469,9 @@
           "text": {
             "en": "A. PDoS",
             "zh": "A. PDoS",
-            "ms": "A. PDoS"
+            "ms": "A. PDoS",
+            "zh-Hans": "A. PDoS",
+            "zh-Hant": "A. PDoS"
           }
         },
         {
@@ -389,7 +479,9 @@
           "text": {
             "en": "B. Spoofing",
             "zh": "B. Spoofing",
-            "ms": "B. Spoofing"
+            "ms": "B. Spoofing",
+            "zh-Hans": "B. Spoofing",
+            "zh-Hant": "B. Spoofing"
           }
         },
         {
@@ -397,7 +489,9 @@
           "text": {
             "en": "C. Ransomware",
             "zh": "C. Ransomware",
-            "ms": "C. Ransomware"
+            "ms": "C. Ransomware",
+            "zh-Hans": "C. Ransomware",
+            "zh-Hant": "C. Ransomware"
           }
         },
         {
@@ -405,7 +499,9 @@
           "text": {
             "en": "D. Logic bomb",
             "zh": "D. Logic bomb",
-            "ms": "D. Logic bomb"
+            "ms": "D. Logic bomb",
+            "zh-Hans": "D. Logic bomb",
+            "zh-Hant": "D. Logic bomb"
           }
         }
       ],
@@ -419,12 +515,16 @@
       "question": {
         "en": "In troubleshooting network performance issues on a computer, a technician finds that the CAT5e cable was run through a conduit with power lines. There is plenty of spare room in the conduit, and a cable continuity test is successful. Which of the following is the MOST likely issue?",
         "zh": "In troubleshooting network performance issues on a computer, a technician finds that the CAT5e cable was run through a conduit with power lines. There is plenty of spare room in the conduit, and a cable continuity test is successful. Which of the following is the MOST likely issue?",
-        "ms": "In troubleshooting network performance issues on a computer, a technician finds that the CAT5e cable was run through a conduit with power lines. There is plenty of spare room in the conduit, and a cable continuity test is successful. Which of the following is the MOST likely issue?"
+        "ms": "In troubleshooting network performance issues on a computer, a technician finds that the CAT5e cable was run through a conduit with power lines. There is plenty of spare room in the conduit, and a cable continuity test is successful. Which of the following is the MOST likely issue?",
+        "zh-Hans": "In troubleshooting network performance issues on a computer, a technician finds that the CAT5e cable was run through a conduit with power lines. There is plenty of spare room in the conduit, and a cable continuity test is successful. Which of the following is the MOST likely issue?",
+        "zh-Hant": "In troubleshooting network performance issues on a computer, a technician finds that the CAT5e cable was run through a conduit with power lines. There is plenty of spare room in the conduit, and a cable continuity test is successful. Which of the following is the MOST likely issue?"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -432,7 +532,9 @@
           "text": {
             "en": "A. Attenuation",
             "zh": "A. Attenuation",
-            "ms": "A. Attenuation"
+            "ms": "A. Attenuation",
+            "zh-Hans": "A. Attenuation",
+            "zh-Hant": "A. Attenuation"
           }
         },
         {
@@ -440,7 +542,9 @@
           "text": {
             "en": "B. Crosstalk",
             "zh": "B. Crosstalk",
-            "ms": "B. Crosstalk"
+            "ms": "B. Crosstalk",
+            "zh-Hans": "B. Crosstalk",
+            "zh-Hant": "B. Crosstalk"
           }
         },
         {
@@ -448,7 +552,9 @@
           "text": {
             "en": "C. Incorrect cable type",
             "zh": "C. Incorrect cable type",
-            "ms": "C. Incorrect cable type"
+            "ms": "C. Incorrect cable type",
+            "zh-Hans": "C. Incorrect cable type",
+            "zh-Hant": "C. Incorrect cable type"
           }
         },
         {
@@ -456,7 +562,9 @@
           "text": {
             "en": "D. EMI",
             "zh": "D. EMI",
-            "ms": "D. EMI"
+            "ms": "D. EMI",
+            "zh-Hans": "D. EMI",
+            "zh-Hant": "D. EMI"
           }
         }
       ],
@@ -470,12 +578,16 @@
       "question": {
         "en": "One purpose of network segmentation is to:",
         "zh": "One purpose of network segmentation is to:",
-        "ms": "One purpose of network segmentation is to:"
+        "ms": "One purpose of network segmentation is to:",
+        "zh-Hans": "One purpose of network segmentation is to:",
+        "zh-Hant": "One purpose of network segmentation is to:"
       },
       "variants": {
         "en": [],
         "zh": [],
-        "ms": []
+        "ms": [],
+        "zh-Hans": [],
+        "zh-Hant": []
       },
       "answers": [
         {
@@ -483,7 +595,9 @@
           "text": {
             "en": "A. protect sensitive data from the rest of the network.",
             "zh": "A. protect sensitive data from the rest of the network.",
-            "ms": "A. protect sensitive data from the rest of the network."
+            "ms": "A. protect sensitive data from the rest of the network.",
+            "zh-Hans": "A. protect sensitive data from the rest of the network.",
+            "zh-Hant": "A. protect sensitive data from the rest of the network."
           }
         },
         {
@@ -491,7 +605,9 @@
           "text": {
             "en": "B. make file transfers easier for end-users.",
             "zh": "B. make file transfers easier for end-users.",
-            "ms": "B. make file transfers easier for end-users."
+            "ms": "B. make file transfers easier for end-users.",
+            "zh-Hans": "B. make file transfers easier for end-users.",
+            "zh-Hant": "B. make file transfers easier for end-users."
           }
         },
         {
@@ -499,7 +615,9 @@
           "text": {
             "en": "C. allow certain services to talk to each other without a choke point",
             "zh": "C. allow certain services to talk to each other without a choke point",
-            "ms": "C. allow certain services to talk to each other without a choke point"
+            "ms": "C. allow certain services to talk to each other without a choke point",
+            "zh-Hans": "C. allow certain services to talk to each other without a choke point",
+            "zh-Hant": "C. allow certain services to talk to each other without a choke point"
           }
         },
         {
@@ -507,7 +625,9 @@
           "text": {
             "en": "D. hold all hardened baseline images for deployment.",
             "zh": "D. hold all hardened baseline images for deployment.",
-            "ms": "D. hold all hardened baseline images for deployment."
+            "ms": "D. hold all hardened baseline images for deployment.",
+            "zh-Hans": "D. hold all hardened baseline images for deployment.",
+            "zh-Hant": "D. hold all hardened baseline images for deployment."
           }
         }
       ],

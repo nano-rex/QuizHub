@@ -7,11 +7,55 @@
       "type": "multi-step",
       "subject": "Mathematics",
       "topic": "Linear equations",
-      "question": {"en":"Solve 3x + 6 = 21.","zh":"解方程 3x + 6 = 21。","ms":"Selesaikan 3x + 6 = 21."},
-      "variants": {"en":["Find x in 3x + 6 = 21."],"zh":["求 3x + 6 = 21 中的 x。"],"ms":["Cari nilai x bagi 3x + 6 = 21."]},
+      "question": {
+        "en": "Solve 3x + 6 = 21.",
+        "zh": "解方程 3x + 6 = 21。",
+        "ms": "Selesaikan 3x + 6 = 21.",
+        "zh-Hans": "解方程 3x + 6 = 21。",
+        "zh-Hant": "解方程 3x + 6 = 21。"
+      },
+      "variants": {
+        "en": [
+          "Find x in 3x + 6 = 21."
+        ],
+        "zh": [
+          "求 3x + 6 = 21 中的 x。"
+        ],
+        "ms": [
+          "Cari nilai x bagi 3x + 6 = 21."
+        ],
+        "zh-Hans": [
+          "求 3x + 6 = 21 中的 x。"
+        ],
+        "zh-Hant": [
+          "求 3x + 6 = 21 中的 x。"
+        ]
+      },
       "steps": [
-        {"prompt":{"en":"Subtract 6 from both sides:","zh":"等式两边减去 6：","ms":"Tolak 6 pada kedua-dua belah:"},"acceptedAnswers":[15]},
-        {"prompt":{"en":"Divide both sides by 3. x =","zh":"等式两边除以 3。x =","ms":"Bahagi kedua-dua belah dengan 3. x ="},"acceptedAnswers":[5]}
+        {
+          "prompt": {
+            "en": "Subtract 6 from both sides:",
+            "zh": "等式两边减去 6：",
+            "ms": "Tolak 6 pada kedua-dua belah:",
+            "zh-Hans": "等式两边减去 6：",
+            "zh-Hant": "等式两边减去 6："
+          },
+          "acceptedAnswers": [
+            15
+          ]
+        },
+        {
+          "prompt": {
+            "en": "Divide both sides by 3. x =",
+            "zh": "等式两边除以 3。x =",
+            "ms": "Bahagi kedua-dua belah dengan 3. x =",
+            "zh-Hans": "等式两边除以 3。x =",
+            "zh-Hant": "等式两边除以 3。x ="
+          },
+          "acceptedAnswers": [
+            5
+          ]
+        }
       ]
     },
     {
@@ -19,11 +63,57 @@
       "type": "multi-step",
       "subject": "Mathematics",
       "topic": "Percentages",
-      "question": {"en":"A $80 item is discounted by 15%. Find the sale price.","zh":"一件 80 元的商品打 85 折。求折后价格。","ms":"Sebuah barang berharga $80 diberi diskaun 15%. Cari harga jualan."},
-      "variants": {"en":["Calculate the final price after a 15% discount on $80."],"zh":["计算 80 元商品减价 15% 后的最终价格。"],"ms":["Kira harga akhir barang $80 selepas diskaun 15%."]},
+      "question": {
+        "en": "A $80 item is discounted by 15%. Find the sale price.",
+        "zh": "一件 80 元的商品打 85 折。求折后价格。",
+        "ms": "Sebuah barang berharga $80 diberi diskaun 15%. Cari harga jualan.",
+        "zh-Hans": "一件 80 元的商品打 85 折。求折后价格。",
+        "zh-Hant": "一件 80 元的商品打 85 折。求折后价格。"
+      },
+      "variants": {
+        "en": [
+          "Calculate the final price after a 15% discount on $80."
+        ],
+        "zh": [
+          "计算 80 元商品减价 15% 后的最终价格。"
+        ],
+        "ms": [
+          "Kira harga akhir barang $80 selepas diskaun 15%."
+        ],
+        "zh-Hans": [
+          "计算 80 元商品减价 15% 后的最终价格。"
+        ],
+        "zh-Hant": [
+          "计算 80 元商品减价 15% 后的最终价格。"
+        ]
+      },
       "steps": [
-        {"prompt":{"en":"Calculate the discount amount:","zh":"计算折扣金额：","ms":"Kira jumlah diskaun:"},"acceptedAnswers":[12],"tolerance":0.01},
-        {"prompt":{"en":"Subtract the discount from $80. Sale price =","zh":"从 80 元中减去折扣。折后价格 =","ms":"Tolak diskaun daripada $80. Harga jualan ="},"acceptedAnswers":[68],"tolerance":0.01}
+        {
+          "prompt": {
+            "en": "Calculate the discount amount:",
+            "zh": "计算折扣金额：",
+            "ms": "Kira jumlah diskaun:",
+            "zh-Hans": "计算折扣金额：",
+            "zh-Hant": "计算折扣金额："
+          },
+          "acceptedAnswers": [
+            12
+          ],
+          "tolerance": 0.01
+        },
+        {
+          "prompt": {
+            "en": "Subtract the discount from $80. Sale price =",
+            "zh": "从 80 元中减去折扣。折后价格 =",
+            "ms": "Tolak diskaun daripada $80. Harga jualan =",
+            "zh-Hans": "从 80 元中减去折扣。折后价格 =",
+            "zh-Hant": "从 80 元中减去折扣。折后价格 ="
+          },
+          "acceptedAnswers": [
+            68
+          ],
+          "tolerance": 0.01
+        }
       ]
     }
   ]

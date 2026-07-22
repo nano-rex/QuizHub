@@ -2,10 +2,375 @@
   "id": "comptia-a-1001",
   "title": "CompTIA A+ 1001",
   "questions": [
-    {"id":"a1001-01","subject":"Mobile devices","topic":"Mobile technology","question":{"en":"Which device provides the portability of a mobile phone and the functionality of a laptop or desktop?","zh":"哪种设备兼具手机的便携性和笔记本电脑或台式电脑的功能？","ms":"Peranti manakah yang menyediakan kemudahalihan telefon mudah alih dan fungsi komputer riba atau desktop?"},"variants":{"en":["Which device combines phone portability with computer functionality?","What device is designed to be portable like a phone while working like a computer?"],"zh":["哪种设备结合了手机的便携性与电脑的功能？","什么设备像手机一样便携，同时具备电脑功能？"],"ms":["Peranti manakah yang menggabungkan kemudahalihan telefon dengan fungsi komputer?","Apakah peranti yang mudah dibawa seperti telefon tetapi berfungsi seperti komputer?"]},"answers":[{"id":"A","text":{"en":"Tablet","zh":"平板电脑","ms":"Tablet"}},{"id":"B","text":{"en":"GPS unit","zh":"GPS 设备","ms":"Unit GPS"}},{"id":"C","text":{"en":"E-reader","zh":"电子阅读器","ms":"Pembaca elektronik"}},{"id":"D","text":{"en":"Fitness monitor","zh":"健身监测器","ms":"Monitor kecergasan"}}],"correctAnswer":"A"},
-    {"id":"a1001-02","subject":"Mobile devices","topic":"Connectivity","question":{"en":"A smartphone cannot make calls, receive calls, or connect to Wi-Fi, but its applications work. What is most likely causing the problem?","zh":"智能手机无法拨打或接听电话，也无法连接 Wi-Fi，但应用程序仍能运行。最可能的原因是什么？","ms":"Telefon pintar tidak boleh membuat atau menerima panggilan atau menyambung ke Wi-Fi, tetapi aplikasinya berfungsi. Apakah punca yang paling mungkin?"},"variants":{"en":["What setting could disable both cellular and Wi-Fi connectivity on this phone?","Which phone mode would cause these connectivity symptoms?"],"zh":["哪项设置可能同时停用这部手机的移动网络和 Wi-Fi？","哪种手机模式会造成这些连接问题？"],"ms":["Tetapan apakah yang boleh melumpuhkan sambungan selular dan Wi-Fi telefon ini?","Mod telefon manakah yang menyebabkan gejala sambungan ini?"]},"answers":[{"id":"A","text":{"en":"Airplane mode","zh":"飞行模式","ms":"Mod kapal terbang"}},{"id":"B","text":{"en":"Tethering","zh":"网络共享","ms":"Penambatan"}},{"id":"C","text":{"en":"Disabled hotspot","zh":"已停用的热点","ms":"Hotspot dilumpuhkan"}},{"id":"D","text":{"en":"VPN","zh":"VPN","ms":"VPN"}}],"correctAnswer":"A"},
-    {"id":"a1001-03","subject":"Networking","topic":"Wireless security","question":{"en":"Which technology can be used for wireless payments?","zh":"哪种技术可用于无线支付？","ms":"Teknologi manakah boleh digunakan untuk pembayaran tanpa wayar?"},"variants":{"en":["What technology enables contactless wireless payments?"],"zh":["什么技术支持非接触式无线支付？"],"ms":["Teknologi apakah yang membolehkan pembayaran tanpa sentuh?"]},"answers":[{"id":"A","text":{"en":"NFC","zh":"NFC","ms":"NFC"}},{"id":"B","text":{"en":"Bluetooth","zh":"蓝牙","ms":"Bluetooth"}},{"id":"C","text":{"en":"IR","zh":"红外线","ms":"IR"}},{"id":"D","text":{"en":"LTE","zh":"LTE","ms":"LTE"}}],"correctAnswer":"A"},
-    {"id":"a1001-04","subject":"Hardware","topic":"Connectors","question":{"en":"Which connector can be plugged into a device right-side up or upside down?","zh":"哪种连接器正面或反面都可以插入设备？","ms":"Penyambung manakah boleh dipasang pada peranti dalam kedua-dua arah?"},"variants":{"en":["Which connector is reversible?"],"zh":["哪种连接器具有可逆插拔设计？"],"ms":["Penyambung manakah mempunyai reka bentuk boleh balik?"]},"answers":[{"id":"A","text":{"en":"USB","zh":"USB","ms":"USB"}},{"id":"B","text":{"en":"USB-C","zh":"USB-C","ms":"USB-C"}},{"id":"C","text":{"en":"Mini-USB","zh":"Mini-USB","ms":"Mini-USB"}},{"id":"D","text":{"en":"Micro-USB","zh":"Micro-USB","ms":"Micro-USB"}}],"correctAnswer":"B"},
-    {"id":"a1001-05","subject":"Hardware","topic":"Expansion cards","question":{"en":"Which connection type is most likely used to connect a high-end video card to a motherboard?","zh":"高端显卡最可能通过哪种连接类型连接到主板？","ms":"Jenis sambungan manakah yang paling mungkin digunakan untuk menyambungkan kad video berprestasi tinggi kepada papan induk?"},"variants":{"en":["What motherboard slot is normally used by a modern graphics card?"],"zh":["现代显卡通常使用主板上的哪种插槽？"],"ms":["Slot papan induk manakah biasanya digunakan oleh kad grafik moden?"]},"answers":[{"id":"A","text":{"en":"PCIe","zh":"PCIe","ms":"PCIe"}},{"id":"B","text":{"en":"ISA","zh":"ISA","ms":"ISA"}},{"id":"C","text":{"en":"AGP","zh":"AGP","ms":"AGP"}},{"id":"D","text":{"en":"USB","zh":"USB","ms":"USB"}}],"correctAnswer":"A"}
+    {
+      "id": "a1001-01",
+      "subject": "Mobile devices",
+      "topic": "Mobile technology",
+      "question": {
+        "en": "Which device provides the portability of a mobile phone and the functionality of a laptop or desktop?",
+        "zh": "哪种设备兼具手机的便携性和笔记本电脑或台式电脑的功能？",
+        "ms": "Peranti manakah yang menyediakan kemudahalihan telefon mudah alih dan fungsi komputer riba atau desktop?",
+        "zh-Hans": "哪种设备兼具手机的便携性和笔记本电脑或台式电脑的功能？",
+        "zh-Hant": "哪种设备兼具手机的便携性和笔记本电脑或台式电脑的功能？"
+      },
+      "variants": {
+        "en": [
+          "Which device combines phone portability with computer functionality?",
+          "What device is designed to be portable like a phone while working like a computer?"
+        ],
+        "zh": [
+          "哪种设备结合了手机的便携性与电脑的功能？",
+          "什么设备像手机一样便携，同时具备电脑功能？"
+        ],
+        "ms": [
+          "Peranti manakah yang menggabungkan kemudahalihan telefon dengan fungsi komputer?",
+          "Apakah peranti yang mudah dibawa seperti telefon tetapi berfungsi seperti komputer?"
+        ],
+        "zh-Hans": [
+          "哪种设备结合了手机的便携性与电脑的功能？",
+          "什么设备像手机一样便携，同时具备电脑功能？"
+        ],
+        "zh-Hant": [
+          "哪种设备结合了手机的便携性与电脑的功能？",
+          "什么设备像手机一样便携，同时具备电脑功能？"
+        ]
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "Tablet",
+            "zh": "平板电脑",
+            "ms": "Tablet",
+            "zh-Hans": "平板电脑",
+            "zh-Hant": "平板电脑"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "GPS unit",
+            "zh": "GPS 设备",
+            "ms": "Unit GPS",
+            "zh-Hans": "GPS 设备",
+            "zh-Hant": "GPS 设备"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "E-reader",
+            "zh": "电子阅读器",
+            "ms": "Pembaca elektronik",
+            "zh-Hans": "电子阅读器",
+            "zh-Hant": "电子阅读器"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "Fitness monitor",
+            "zh": "健身监测器",
+            "ms": "Monitor kecergasan",
+            "zh-Hans": "健身监测器",
+            "zh-Hant": "健身监测器"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "a1001-02",
+      "subject": "Mobile devices",
+      "topic": "Connectivity",
+      "question": {
+        "en": "A smartphone cannot make calls, receive calls, or connect to Wi-Fi, but its applications work. What is most likely causing the problem?",
+        "zh": "智能手机无法拨打或接听电话，也无法连接 Wi-Fi，但应用程序仍能运行。最可能的原因是什么？",
+        "ms": "Telefon pintar tidak boleh membuat atau menerima panggilan atau menyambung ke Wi-Fi, tetapi aplikasinya berfungsi. Apakah punca yang paling mungkin?",
+        "zh-Hans": "智能手机无法拨打或接听电话，也无法连接 Wi-Fi，但应用程序仍能运行。最可能的原因是什么？",
+        "zh-Hant": "智能手机无法拨打或接听电话，也无法连接 Wi-Fi，但应用程序仍能运行。最可能的原因是什么？"
+      },
+      "variants": {
+        "en": [
+          "What setting could disable both cellular and Wi-Fi connectivity on this phone?",
+          "Which phone mode would cause these connectivity symptoms?"
+        ],
+        "zh": [
+          "哪项设置可能同时停用这部手机的移动网络和 Wi-Fi？",
+          "哪种手机模式会造成这些连接问题？"
+        ],
+        "ms": [
+          "Tetapan apakah yang boleh melumpuhkan sambungan selular dan Wi-Fi telefon ini?",
+          "Mod telefon manakah yang menyebabkan gejala sambungan ini?"
+        ],
+        "zh-Hans": [
+          "哪项设置可能同时停用这部手机的移动网络和 Wi-Fi？",
+          "哪种手机模式会造成这些连接问题？"
+        ],
+        "zh-Hant": [
+          "哪项设置可能同时停用这部手机的移动网络和 Wi-Fi？",
+          "哪种手机模式会造成这些连接问题？"
+        ]
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "Airplane mode",
+            "zh": "飞行模式",
+            "ms": "Mod kapal terbang",
+            "zh-Hans": "飞行模式",
+            "zh-Hant": "飞行模式"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "Tethering",
+            "zh": "网络共享",
+            "ms": "Penambatan",
+            "zh-Hans": "网络共享",
+            "zh-Hant": "网络共享"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "Disabled hotspot",
+            "zh": "已停用的热点",
+            "ms": "Hotspot dilumpuhkan",
+            "zh-Hans": "已停用的热点",
+            "zh-Hant": "已停用的热点"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "VPN",
+            "zh": "VPN",
+            "ms": "VPN",
+            "zh-Hans": "VPN",
+            "zh-Hant": "VPN"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "a1001-03",
+      "subject": "Networking",
+      "topic": "Wireless security",
+      "question": {
+        "en": "Which technology can be used for wireless payments?",
+        "zh": "哪种技术可用于无线支付？",
+        "ms": "Teknologi manakah boleh digunakan untuk pembayaran tanpa wayar?",
+        "zh-Hans": "哪种技术可用于无线支付？",
+        "zh-Hant": "哪种技术可用于无线支付？"
+      },
+      "variants": {
+        "en": [
+          "What technology enables contactless wireless payments?"
+        ],
+        "zh": [
+          "什么技术支持非接触式无线支付？"
+        ],
+        "ms": [
+          "Teknologi apakah yang membolehkan pembayaran tanpa sentuh?"
+        ],
+        "zh-Hans": [
+          "什么技术支持非接触式无线支付？"
+        ],
+        "zh-Hant": [
+          "什么技术支持非接触式无线支付？"
+        ]
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "NFC",
+            "zh": "NFC",
+            "ms": "NFC",
+            "zh-Hans": "NFC",
+            "zh-Hant": "NFC"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "Bluetooth",
+            "zh": "蓝牙",
+            "ms": "Bluetooth",
+            "zh-Hans": "蓝牙",
+            "zh-Hant": "蓝牙"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "IR",
+            "zh": "红外线",
+            "ms": "IR",
+            "zh-Hans": "红外线",
+            "zh-Hant": "红外线"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "LTE",
+            "zh": "LTE",
+            "ms": "LTE",
+            "zh-Hans": "LTE",
+            "zh-Hant": "LTE"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "a1001-04",
+      "subject": "Hardware",
+      "topic": "Connectors",
+      "question": {
+        "en": "Which connector can be plugged into a device right-side up or upside down?",
+        "zh": "哪种连接器正面或反面都可以插入设备？",
+        "ms": "Penyambung manakah boleh dipasang pada peranti dalam kedua-dua arah?",
+        "zh-Hans": "哪种连接器正面或反面都可以插入设备？",
+        "zh-Hant": "哪种连接器正面或反面都可以插入设备？"
+      },
+      "variants": {
+        "en": [
+          "Which connector is reversible?"
+        ],
+        "zh": [
+          "哪种连接器具有可逆插拔设计？"
+        ],
+        "ms": [
+          "Penyambung manakah mempunyai reka bentuk boleh balik?"
+        ],
+        "zh-Hans": [
+          "哪种连接器具有可逆插拔设计？"
+        ],
+        "zh-Hant": [
+          "哪种连接器具有可逆插拔设计？"
+        ]
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "USB",
+            "zh": "USB",
+            "ms": "USB",
+            "zh-Hans": "USB",
+            "zh-Hant": "USB"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "USB-C",
+            "zh": "USB-C",
+            "ms": "USB-C",
+            "zh-Hans": "USB-C",
+            "zh-Hant": "USB-C"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "Mini-USB",
+            "zh": "Mini-USB",
+            "ms": "Mini-USB",
+            "zh-Hans": "Mini-USB",
+            "zh-Hant": "Mini-USB"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "Micro-USB",
+            "zh": "Micro-USB",
+            "ms": "Micro-USB",
+            "zh-Hans": "Micro-USB",
+            "zh-Hant": "Micro-USB"
+          }
+        }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": "a1001-05",
+      "subject": "Hardware",
+      "topic": "Expansion cards",
+      "question": {
+        "en": "Which connection type is most likely used to connect a high-end video card to a motherboard?",
+        "zh": "高端显卡最可能通过哪种连接类型连接到主板？",
+        "ms": "Jenis sambungan manakah yang paling mungkin digunakan untuk menyambungkan kad video berprestasi tinggi kepada papan induk?",
+        "zh-Hans": "高端显卡最可能通过哪种连接类型连接到主板？",
+        "zh-Hant": "高端显卡最可能通过哪种连接类型连接到主板？"
+      },
+      "variants": {
+        "en": [
+          "What motherboard slot is normally used by a modern graphics card?"
+        ],
+        "zh": [
+          "现代显卡通常使用主板上的哪种插槽？"
+        ],
+        "ms": [
+          "Slot papan induk manakah biasanya digunakan oleh kad grafik moden?"
+        ],
+        "zh-Hans": [
+          "现代显卡通常使用主板上的哪种插槽？"
+        ],
+        "zh-Hant": [
+          "现代显卡通常使用主板上的哪种插槽？"
+        ]
+      },
+      "answers": [
+        {
+          "id": "A",
+          "text": {
+            "en": "PCIe",
+            "zh": "PCIe",
+            "ms": "PCIe",
+            "zh-Hans": "PCIe",
+            "zh-Hant": "PCIe"
+          }
+        },
+        {
+          "id": "B",
+          "text": {
+            "en": "ISA",
+            "zh": "ISA",
+            "ms": "ISA",
+            "zh-Hans": "ISA",
+            "zh-Hant": "ISA"
+          }
+        },
+        {
+          "id": "C",
+          "text": {
+            "en": "AGP",
+            "zh": "AGP",
+            "ms": "AGP",
+            "zh-Hans": "AGP",
+            "zh-Hant": "AGP"
+          }
+        },
+        {
+          "id": "D",
+          "text": {
+            "en": "USB",
+            "zh": "USB",
+            "ms": "USB",
+            "zh-Hans": "USB",
+            "zh-Hant": "USB"
+          }
+        }
+      ],
+      "correctAnswer": "A"
+    }
   ]
 }
