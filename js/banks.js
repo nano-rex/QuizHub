@@ -1,4 +1,5 @@
 import { $, state } from './state.js';
+import { saveUploadedBank } from './upload-storage.js';
 
 export function normalizeBank(bank, source) {
   if (!bank || !Array.isArray(bank.questions)) throw new Error(`${source}: expected a questions array`);
@@ -67,7 +68,10 @@ export function rebuildQuestions() {
 export async function addFiles(files) {
   const errors = [];
   for (const file of files) {
-    try { state.banks.push(normalizeBank(JSON.parse(await file.text()), file.name)); }
+    try {
+      const bank = normalizeBank(JSON.parse(await file.text()), file.name);
+      state.banks.push(bank); await saveUploadedBank(bank);
+    }
     catch (error) { errors.push(error.message); }
   }
   $('errors').textContent = errors.join('\n');

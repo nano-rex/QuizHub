@@ -4,10 +4,11 @@ import { renderQuiz } from './render.js';
 import { checkAnswers, createQuiz } from './quiz.js';
 import { readSettings } from './settings.js';
 import { initializeTheme } from './theme.js';
+import { loadUploadedBanks } from './upload-storage.js';
 
 async function boot() {
   try {
-    state.banks.push(...await loadBundledBanks());
+    state.banks.push(...await loadBundledBanks(), ...await loadUploadedBanks());
     const settings = readSettings();
     const selected = new Set(settings.filters);
     const pool = state.banks.flatMap((bank) => bank.questions).filter((question) =>

@@ -2,6 +2,7 @@ import { $, state } from './state.js';
 import { loadBundledBanks } from './banks.js';
 import { displayText, text } from './languages.js';
 import { initializeTheme } from './theme.js';
+import { loadUploadedBanks } from './upload-storage.js';
 
 function searchable(question, language) {
   const answerText = (question.answers || []).map((answer) => text(answer.text, language)).join(' ');
@@ -43,7 +44,7 @@ function renderResults() {
 
 async function boot() {
   try {
-    state.banks.push(...await loadBundledBanks());
+    state.banks.push(...await loadBundledBanks(), ...await loadUploadedBanks());
     state.questions = state.banks.flatMap((bank) => bank.questions);
     renderFilters(); renderResults();
   } catch (error) { $('search-status').textContent = `Could not load question banks: ${error.message}`; }
