@@ -89,7 +89,8 @@ function renderQuiz() {
     const alternatives = question.variants?.[language] || question.variants?.en || [];
     legend.textContent = `${index + 1}. ${alternatives[variantIndex - 1] || text(question.question, language)}`;
     fieldset.append(legend);
-    if (question.type === 'multi-step') {
+    if (question.type === 'multi-step' || question.answerMode === 'subjective') {
+      if (question.type === 'multi-step') {
       question.steps.forEach((step, stepIndex) => {
         const wrapper = document.createElement('div'); wrapper.className = 'math-step';
         const label = document.createElement('label');
@@ -98,6 +99,13 @@ function renderQuiz() {
         input.dataset.questionIndex = index; input.dataset.stepIndex = stepIndex;
         label.append(input); wrapper.append(label); fieldset.append(wrapper);
       });
+      } else {
+        const label = document.createElement('label'); label.className = 'math-step';
+        label.textContent = 'Answer:';
+        const input = document.createElement('input'); input.type = 'text'; input.autocomplete = 'off';
+        input.dataset.questionIndex = index;
+        label.append(input); fieldset.append(label);
+      }
     } else {
       shuffled(question.answers).forEach((answer) => {
         const label = document.createElement('label'); label.className = 'answer';
@@ -115,7 +123,12 @@ function startQuiz() {
   const pool = selectedPool();
   const requested = Math.max(1, Number.parseInt($('question-count').value, 10) || 1);
   if (!pool.length) return $('errors').textContent = 'Select at least one subject and topic.';
-  state.quiz = shuffled(pool).slice(0, Math.min(requested, pool.length));
+  const answerMode = $('answer-mode').value;
+  state.quiz = shuffled(pool).slice(0, Math.min(requested, pool.length)).map((question) => ({
+    ...question,
+    answerMode: question.type === 'multi-step' ? 'subjective' :
+      (answerMode === 'mixed' ? (Math.random() < 0.5 ? 'objective' : 'subjective') : answerMode)
+  }));
   $('errors').textContent = requested > pool.length ? `Only ${pool.length} matching question(s) are available; loading all of them.` : '';
   $('quiz').classList.remove('hidden'); $('quiz-title').textContent = state.banks.map((bank) => bank.title).join(' · ');
   renderQuiz(); $('quiz').scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -136,6 +149,13 @@ function checkAnswers() {
       return;
     }
     points++;
+    if (question.answerMode === 'subjective') {
+      const input = element.querySelector('input[type="text"]');
+      const correct = isSubjectiveCorrect(input.value, question, $('language').value);
+      input.parentElement.classList.toggle('correct', correct); input.parentElement.classList.toggle('wrong', !correct);
+      if (correct) score++;
+      return;
+    }
     const selected = element.querySelector('input:checked')?.value;
     element.querySelectorAll('.answer').forEach((answer) => {
       const input = answer.querySelector('input');
@@ -157,6 +177,14 @@ function isStepCorrect(value, step) {
     return Number.isFinite(actual) && accepted.some((answer) => Math.abs(actual - Number(answer)) <= Number(step.tolerance));
   }
   return false;
+}
+
+function isSubjectiveCorrect(value, question, language) {
+  const correctAnswer = question.answers.find((answer) => answer.id === question.correctAnswer);
+  const accepted = question.subjectiveAnswers?.[language] || question.subjectiveAnswers?.en ||
+    (correctAnswer ? [text(correctAnswer.text, language)] : []);
+  const normalize = (answer) => String(answer).trim().replace(/\s+/g, ' ').toLowerCase();
+  return accepted.some((answer) => normalize(answer) === normalize(value));
 }
 
 async function addFiles(files) {
