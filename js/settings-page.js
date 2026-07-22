@@ -2,10 +2,11 @@ import { $, state } from './state.js';
 import { addFiles, loadBundledBanks, rebuildQuestions, updateAvailability } from './banks.js';
 import { applySettingsToForm, readSettings, saveSettings, settingsFromForm } from './settings.js';
 import { initializeTheme } from './theme.js';
+import { loadUploadedBanks } from './upload-storage.js';
 
 async function boot() {
   try {
-    state.banks.push(...await loadBundledBanks());
+    state.banks.push(...await loadBundledBanks(), ...await loadUploadedBanks());
     rebuildQuestions();
     const settings = readSettings();
     applySettingsToForm(settings);
