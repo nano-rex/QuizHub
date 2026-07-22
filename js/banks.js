@@ -22,8 +22,9 @@ export async function loadBank(url) {
 }
 
 export async function loadBundledBanks() {
-  const manifest = await (await fetch('question-banks/index.json')).json();
-  return Promise.all((manifest.files || []).map((file) => loadBank(`question-banks/${file}`)));
+  const root = document.body?.dataset.appRoot || '';
+  const manifest = await (await fetch(`${root}question-banks/index.json`)).json();
+  return Promise.all((manifest.files || []).map((file) => loadBank(`${root}question-banks/${file}`)));
 }
 
 export function selectedPool() {

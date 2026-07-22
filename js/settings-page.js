@@ -20,7 +20,7 @@ $('start').addEventListener('click', () => {
   if (!settings.languages.length) { $('errors').textContent = 'Select at least one display language.'; return; }
   if (!settings.filters.length) { $('errors').textContent = 'Select at least one subject and topic.'; return; }
   saveSettings(settings);
-  location.href = 'index.html?start=1';
+  location.href = '../index.html?start=1';
 });
 $('json-upload').addEventListener('change', async (event) => {
   await addFiles([...event.target.files]);
