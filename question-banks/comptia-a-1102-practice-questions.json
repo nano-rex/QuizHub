@@ -31,7 +31,8 @@
             "ms": "A. Internet connectivity is lost.",
             "zh-Hans": "A. Internet connectivity is lost.",
             "zh-Hant": "A. Internet connectivity is lost."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -41,7 +42,8 @@
             "ms": "B. Battery life is reduced.",
             "zh-Hans": "B. Battery life is reduced.",
             "zh-Hant": "B. Battery life is reduced."
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -51,7 +53,8 @@
             "ms": "C. Files on devices are inaccessible.",
             "zh-Hans": "C. Files on devices are inaccessible.",
             "zh-Hant": "C. Files on devices are inaccessible."
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -61,10 +64,26 @@
             "ms": "D. A large number of ads appear.",
             "zh-Hans": "D. A large number of ads appear.",
             "zh-Hant": "D. A large number of ads appear."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "C",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "C. Files on devices are inaccessible."
+        ],
+        "zh-Hans": [
+          "C. Files on devices are inaccessible."
+        ],
+        "zh-Hant": [
+          "C. Files on devices are inaccessible."
+        ],
+        "ms": [
+          "C. Files on devices are inaccessible."
+        ]
+      }
     },
     {
       "id": "comptia-a-1102-practice-questions-02",
@@ -94,7 +113,8 @@
             "ms": "A. Degaussing",
             "zh-Hans": "A. Degaussing",
             "zh-Hant": "A. Degaussing"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -104,7 +124,8 @@
             "ms": "B. Drilling",
             "zh-Hans": "B. Drilling",
             "zh-Hant": "B. Drilling"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -114,7 +135,8 @@
             "ms": "C. Incinerating",
             "zh-Hans": "C. Incinerating",
             "zh-Hant": "C. Incinerating"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -124,10 +146,26 @@
             "ms": "D. Shredding",
             "zh-Hans": "D. Shredding",
             "zh-Hant": "D. Shredding"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Degaussing"
+        ],
+        "zh-Hans": [
+          "A. Degaussing"
+        ],
+        "zh-Hant": [
+          "A. Degaussing"
+        ],
+        "ms": [
+          "A. Degaussing"
+        ]
+      }
     },
     {
       "id": "comptia-a-1102-practice-questions-03",
@@ -157,7 +195,8 @@
             "ms": "A. Turn off airplane mode.",
             "zh-Hans": "A. Turn off airplane mode.",
             "zh-Hant": "A. Turn off airplane mode."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -167,7 +206,8 @@
             "ms": "B. Connect to a different service set identifier.",
             "zh-Hans": "B. Connect to a different service set identifier.",
             "zh-Hant": "B. Connect to a different service set identifier."
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -177,7 +217,8 @@
             "ms": "C. Test the battery on the device.",
             "zh-Hans": "C. Test the battery on the device.",
             "zh-Hant": "C. Test the battery on the device."
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -187,10 +228,26 @@
             "ms": "D. Disable near-field communication.",
             "zh-Hans": "D. Disable near-field communication.",
             "zh-Hant": "D. Disable near-field communication."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Turn off airplane mode."
+        ],
+        "zh-Hans": [
+          "A. Turn off airplane mode."
+        ],
+        "zh-Hant": [
+          "A. Turn off airplane mode."
+        ],
+        "ms": [
+          "A. Turn off airplane mode."
+        ]
+      }
     },
     {
       "id": "comptia-a-1102-practice-questions-04",
@@ -220,7 +277,8 @@
             "ms": "A. Recycle all the cardboard and other shipping materials appropriately.",
             "zh-Hans": "A. Recycle all the cardboard and other shipping materials appropriately.",
             "zh-Hant": "A. Recycle all the cardboard and other shipping materials appropriately."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -230,7 +288,8 @@
             "ms": "B. Call the hotel and demand the old laptop be sent back to the repair depot.",
             "zh-Hans": "B. Call the hotel and demand the old laptop be sent back to the repair depot.",
             "zh-Hant": "B. Call the hotel and demand the old laptop be sent back to the repair depot."
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -240,7 +299,8 @@
             "ms": "C. Confirm the shipping address for the new laptop with the sales staff member.",
             "zh-Hans": "C. Confirm the shipping address for the new laptop with the sales staff member.",
             "zh-Hant": "C. Confirm the shipping address for the new laptop with the sales staff member."
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -250,10 +310,26 @@
             "ms": "D. Document the serial numbers and usernames for asset management.",
             "zh-Hans": "D. Document the serial numbers and usernames for asset management.",
             "zh-Hant": "D. Document the serial numbers and usernames for asset management."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "D"
+      "correctAnswer": "D",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "D. Document the serial numbers and usernames for asset management."
+        ],
+        "zh-Hans": [
+          "D. Document the serial numbers and usernames for asset management."
+        ],
+        "zh-Hant": [
+          "D. Document the serial numbers and usernames for asset management."
+        ],
+        "ms": [
+          "D. Document the serial numbers and usernames for asset management."
+        ]
+      }
     },
     {
       "id": "comptia-a-1102-practice-questions-05",
@@ -283,7 +359,8 @@
             "ms": "A. Air filtration",
             "zh-Hans": "A. Air filtration",
             "zh-Hant": "A. Air filtration"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -293,7 +370,8 @@
             "ms": "B. Heat-resistant gloves",
             "zh-Hans": "B. Heat-resistant gloves",
             "zh-Hant": "B. Heat-resistant gloves"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -303,7 +381,8 @@
             "ms": "C. Ergonomic floor mats",
             "zh-Hans": "C. Ergonomic floor mats",
             "zh-Hant": "C. Ergonomic floor mats"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -313,10 +392,26 @@
             "ms": "D. Electrostatic discharge straps",
             "zh-Hans": "D. Electrostatic discharge straps",
             "zh-Hant": "D. Electrostatic discharge straps"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "D"
+      "correctAnswer": "D",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "D. Electrostatic discharge straps"
+        ],
+        "zh-Hans": [
+          "D. Electrostatic discharge straps"
+        ],
+        "zh-Hant": [
+          "D. Electrostatic discharge straps"
+        ],
+        "ms": [
+          "D. Electrostatic discharge straps"
+        ]
+      }
     },
     {
       "id": "comptia-a-1102-practice-questions-06",
@@ -346,7 +441,8 @@
             "ms": "A. The user's profile is damaged.",
             "zh-Hans": "A. The user's profile is damaged.",
             "zh-Hant": "A. The user's profile is damaged."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -356,7 +452,8 @@
             "ms": "B. The system files are corrupted.",
             "zh-Hans": "B. The system files are corrupted.",
             "zh-Hant": "B. The system files are corrupted."
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -366,7 +463,8 @@
             "ms": "C. The hard drive needs to be defragmented.",
             "zh-Hans": "C. The hard drive needs to be defragmented.",
             "zh-Hant": "C. The hard drive needs to be defragmented."
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -376,10 +474,26 @@
             "ms": "D. The system needs to have a restore performed.",
             "zh-Hans": "D. The system needs to have a restore performed.",
             "zh-Hant": "D. The system needs to have a restore performed."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "B",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "B. The system files are corrupted."
+        ],
+        "zh-Hans": [
+          "B. The system files are corrupted."
+        ],
+        "zh-Hant": [
+          "B. The system files are corrupted."
+        ],
+        "ms": [
+          "B. The system files are corrupted."
+        ]
+      }
     },
     {
       "id": "comptia-a-1102-practice-questions-07",
@@ -409,7 +523,8 @@
             "ms": "A. Botnet",
             "zh-Hans": "A. Botnet",
             "zh-Hant": "A. Botnet"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -419,7 +534,8 @@
             "ms": "B. Spyware",
             "zh-Hans": "B. Spyware",
             "zh-Hant": "B. Spyware"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -429,7 +545,8 @@
             "ms": "C. Ransomware",
             "zh-Hans": "C. Ransomware",
             "zh-Hant": "C. Ransomware"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -439,10 +556,26 @@
             "ms": "D. Rootkit",
             "zh-Hans": "D. Rootkit",
             "zh-Hant": "D. Rootkit"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "C",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "C. Ransomware"
+        ],
+        "zh-Hans": [
+          "C. Ransomware"
+        ],
+        "zh-Hant": [
+          "C. Ransomware"
+        ],
+        "ms": [
+          "C. Ransomware"
+        ]
+      }
     },
     {
       "id": "comptia-a-1102-practice-questions-08",
@@ -472,7 +605,8 @@
             "ms": "A. Perform a risk analysis.",
             "zh-Hans": "A. Perform a risk analysis.",
             "zh-Hant": "A. Perform a risk analysis."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -482,7 +616,8 @@
             "ms": "B. Execute a backout plan.",
             "zh-Hans": "B. Execute a backout plan.",
             "zh-Hant": "B. Execute a backout plan."
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -492,7 +627,8 @@
             "ms": "C. Request a change approval.",
             "zh-Hans": "C. Request a change approval.",
             "zh-Hant": "C. Request a change approval."
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -502,10 +638,26 @@
             "ms": "D. Acquire end user acceptance.",
             "zh-Hans": "D. Acquire end user acceptance.",
             "zh-Hant": "D. Acquire end user acceptance."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "B",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "B. Execute a backout plan."
+        ],
+        "zh-Hans": [
+          "B. Execute a backout plan."
+        ],
+        "zh-Hant": [
+          "B. Execute a backout plan."
+        ],
+        "ms": [
+          "B. Execute a backout plan."
+        ]
+      }
     },
     {
       "id": "comptia-a-1102-practice-questions-09",
@@ -535,7 +687,8 @@
             "ms": "A. macOS",
             "zh-Hans": "A. macOS",
             "zh-Hant": "A. macOS"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -545,7 +698,8 @@
             "ms": "B. Windows",
             "zh-Hans": "B. Windows",
             "zh-Hant": "B. Windows"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -555,7 +709,8 @@
             "ms": "C. Chrome OS",
             "zh-Hans": "C. Chrome OS",
             "zh-Hant": "C. Chrome OS"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -565,10 +720,26 @@
             "ms": "D. Linux",
             "zh-Hans": "D. Linux",
             "zh-Hant": "D. Linux"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "B",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "B. Windows"
+        ],
+        "zh-Hans": [
+          "B. Windows"
+        ],
+        "zh-Hant": [
+          "B. Windows"
+        ],
+        "ms": [
+          "B. Windows"
+        ]
+      }
     },
     {
       "id": "comptia-a-1102-practice-questions-10",
@@ -598,7 +769,8 @@
             "ms": "A. chown",
             "zh-Hans": "A. chown",
             "zh-Hant": "A. chown"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -608,7 +780,8 @@
             "ms": "B. ls",
             "zh-Hans": "B. ls",
             "zh-Hant": "B. ls"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -618,7 +791,8 @@
             "ms": "C. chmod",
             "zh-Hans": "C. chmod",
             "zh-Hant": "C. chmod"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -628,10 +802,26 @@
             "ms": "D. cls",
             "zh-Hans": "D. cls",
             "zh-Hant": "D. cls"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "B",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "B. ls"
+        ],
+        "zh-Hans": [
+          "B. ls"
+        ],
+        "zh-Hant": [
+          "B. ls"
+        ],
+        "ms": [
+          "B. ls"
+        ]
+      }
     }
   ]
 }

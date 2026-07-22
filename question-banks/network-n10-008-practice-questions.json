@@ -31,7 +31,8 @@
             "ms": "A. Biometric authentication",
             "zh-Hans": "A. Biometric authentication",
             "zh-Hant": "A. Biometric authentication"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -41,7 +42,8 @@
             "ms": "B. Least privilege",
             "zh-Hans": "B. Least privilege",
             "zh-Hant": "B. Least privilege"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -51,7 +53,8 @@
             "ms": "C. Role-based access",
             "zh-Hans": "C. Role-based access",
             "zh-Hant": "C. Role-based access"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -61,10 +64,26 @@
             "ms": "D. Multifactor authentication",
             "zh-Hans": "D. Multifactor authentication",
             "zh-Hant": "D. Multifactor authentication"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "D"
+      "correctAnswer": "D",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "D. Multifactor authentication"
+        ],
+        "zh-Hans": [
+          "D. Multifactor authentication"
+        ],
+        "zh-Hant": [
+          "D. Multifactor authentication"
+        ],
+        "ms": [
+          "D. Multifactor authentication"
+        ]
+      }
     },
     {
       "id": "network-n10-008-practice-questions-02",
@@ -94,7 +113,8 @@
             "ms": "A. Geofencing",
             "zh-Hans": "A. Geofencing",
             "zh-Hant": "A. Geofencing"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -104,7 +124,8 @@
             "ms": "B. Smart locker",
             "zh-Hans": "B. Smart locker",
             "zh-Hant": "B. Smart locker"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -114,7 +135,8 @@
             "ms": "C. Chain of custody",
             "zh-Hans": "C. Chain of custody",
             "zh-Hant": "C. Chain of custody"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -124,10 +146,26 @@
             "ms": "D. Asset tagging",
             "zh-Hans": "D. Asset tagging",
             "zh-Hant": "D. Asset tagging"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "D"
+      "correctAnswer": "D",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "D. Asset tagging"
+        ],
+        "zh-Hans": [
+          "D. Asset tagging"
+        ],
+        "zh-Hant": [
+          "D. Asset tagging"
+        ],
+        "ms": [
+          "D. Asset tagging"
+        ]
+      }
     },
     {
       "id": "network-n10-008-practice-questions-03",
@@ -157,7 +195,8 @@
             "ms": "A. Network",
             "zh-Hans": "A. Network",
             "zh-Hant": "A. Network"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -167,7 +206,8 @@
             "ms": "B. Application",
             "zh-Hans": "B. Application",
             "zh-Hant": "B. Application"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -177,7 +217,8 @@
             "ms": "C. Presentation",
             "zh-Hans": "C. Presentation",
             "zh-Hant": "C. Presentation"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -187,10 +228,26 @@
             "ms": "D. Physical",
             "zh-Hans": "D. Physical",
             "zh-Hant": "D. Physical"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "D"
+      "correctAnswer": "D",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "D. Physical"
+        ],
+        "zh-Hans": [
+          "D. Physical"
+        ],
+        "zh-Hant": [
+          "D. Physical"
+        ],
+        "ms": [
+          "D. Physical"
+        ]
+      }
     },
     {
       "id": "network-n10-008-practice-questions-04",
@@ -220,7 +277,8 @@
             "ms": "A. DNS",
             "zh-Hans": "A. DNS",
             "zh-Hant": "A. DNS"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -230,7 +288,8 @@
             "ms": "B. DHCP",
             "zh-Hans": "B. DHCP",
             "zh-Hant": "B. DHCP"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -240,7 +299,8 @@
             "ms": "C. FTP",
             "zh-Hans": "C. FTP",
             "zh-Hant": "C. FTP"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -250,10 +310,26 @@
             "ms": "D. HTTP",
             "zh-Hans": "D. HTTP",
             "zh-Hant": "D. HTTP"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. DNS"
+        ],
+        "zh-Hans": [
+          "A. DNS"
+        ],
+        "zh-Hant": [
+          "A. DNS"
+        ],
+        "ms": [
+          "A. DNS"
+        ]
+      }
     },
     {
       "id": "network-n10-008-practice-questions-05",
@@ -283,7 +359,8 @@
             "ms": "A. Star",
             "zh-Hans": "A. Star",
             "zh-Hant": "A. Star"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -293,7 +370,8 @@
             "ms": "B. Bus",
             "zh-Hans": "B. Bus",
             "zh-Hant": "B. Bus"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -303,7 +381,8 @@
             "ms": "C. Mesh",
             "zh-Hans": "C. Mesh",
             "zh-Hant": "C. Mesh"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -313,10 +392,26 @@
             "ms": "D. Ring",
             "zh-Hans": "D. Ring",
             "zh-Hant": "D. Ring"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "C",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "C. Mesh"
+        ],
+        "zh-Hans": [
+          "C. Mesh"
+        ],
+        "zh-Hant": [
+          "C. Mesh"
+        ],
+        "ms": [
+          "C. Mesh"
+        ]
+      }
     },
     {
       "id": "network-n10-008-practice-questions-06",
@@ -346,7 +441,8 @@
             "ms": "A. DNS",
             "zh-Hans": "A. DNS",
             "zh-Hant": "A. DNS"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -356,7 +452,8 @@
             "ms": "B. STP",
             "zh-Hans": "B. STP",
             "zh-Hant": "B. STP"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -366,7 +463,8 @@
             "ms": "C. NTP",
             "zh-Hans": "C. NTP",
             "zh-Hant": "C. NTP"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -376,10 +474,26 @@
             "ms": "D. DHCP",
             "zh-Hans": "D. DHCP",
             "zh-Hant": "D. DHCP"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "C",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "C. NTP"
+        ],
+        "zh-Hans": [
+          "C. NTP"
+        ],
+        "zh-Hant": [
+          "C. NTP"
+        ],
+        "ms": [
+          "C. NTP"
+        ]
+      }
     },
     {
       "id": "network-n10-008-practice-questions-07",
@@ -409,7 +523,8 @@
             "ms": "A. An access point",
             "zh-Hans": "A. An access point",
             "zh-Hant": "A. An access point"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -419,7 +534,8 @@
             "ms": "B. A hub",
             "zh-Hans": "B. A hub",
             "zh-Hant": "B. A hub"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -429,7 +545,8 @@
             "ms": "C. A proxy server",
             "zh-Hans": "C. A proxy server",
             "zh-Hant": "C. A proxy server"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -439,10 +556,26 @@
             "ms": "D. A Layer 3 switch",
             "zh-Hans": "D. A Layer 3 switch",
             "zh-Hant": "D. A Layer 3 switch"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "D"
+      "correctAnswer": "D",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "D. A Layer 3 switch"
+        ],
+        "zh-Hans": [
+          "D. A Layer 3 switch"
+        ],
+        "zh-Hant": [
+          "D. A Layer 3 switch"
+        ],
+        "ms": [
+          "D. A Layer 3 switch"
+        ]
+      }
     },
     {
       "id": "network-n10-008-practice-questions-08",
@@ -472,7 +605,8 @@
             "ms": "A. tracert",
             "zh-Hans": "A. tracert",
             "zh-Hant": "A. tracert"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -482,7 +616,8 @@
             "ms": "B. arp",
             "zh-Hans": "B. arp",
             "zh-Hant": "B. arp"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -492,7 +627,8 @@
             "ms": "C. tcpdump",
             "zh-Hans": "C. tcpdump",
             "zh-Hant": "C. tcpdump"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -502,10 +638,26 @@
             "ms": "D. netstat",
             "zh-Hans": "D. netstat",
             "zh-Hant": "D. netstat"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. tracert"
+        ],
+        "zh-Hans": [
+          "A. tracert"
+        ],
+        "zh-Hant": [
+          "A. tracert"
+        ],
+        "ms": [
+          "A. tracert"
+        ]
+      }
     },
     {
       "id": "network-n10-008-practice-questions-09",
@@ -535,7 +687,8 @@
             "ms": "A. DHCP",
             "zh-Hans": "A. DHCP",
             "zh-Hant": "A. DHCP"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -545,7 +698,8 @@
             "ms": "B. Geofencing",
             "zh-Hans": "B. Geofencing",
             "zh-Hant": "B. Geofencing"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -555,7 +709,8 @@
             "ms": "C. SFTP",
             "zh-Hans": "C. SFTP",
             "zh-Hant": "C. SFTP"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -565,10 +720,26 @@
             "ms": "D. Port security",
             "zh-Hans": "D. Port security",
             "zh-Hant": "D. Port security"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "D"
+      "correctAnswer": "D",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "D. Port security"
+        ],
+        "zh-Hans": [
+          "D. Port security"
+        ],
+        "zh-Hant": [
+          "D. Port security"
+        ],
+        "ms": [
+          "D. Port security"
+        ]
+      }
     },
     {
       "id": "network-n10-008-practice-questions-10",
@@ -598,7 +769,8 @@
             "ms": "A. Crossover",
             "zh-Hans": "A. Crossover",
             "zh-Hant": "A. Crossover"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -608,7 +780,8 @@
             "ms": "B. Cat 3",
             "zh-Hans": "B. Cat 3",
             "zh-Hant": "B. Cat 3"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -618,7 +791,8 @@
             "ms": "C. Shielded twisted pair",
             "zh-Hans": "C. Shielded twisted pair",
             "zh-Hant": "C. Shielded twisted pair"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -628,10 +802,26 @@
             "ms": "D. Plenum-rated",
             "zh-Hans": "D. Plenum-rated",
             "zh-Hant": "D. Plenum-rated"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "C",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "C. Shielded twisted pair"
+        ],
+        "zh-Hans": [
+          "C. Shielded twisted pair"
+        ],
+        "zh-Hant": [
+          "C. Shielded twisted pair"
+        ],
+        "ms": [
+          "C. Shielded twisted pair"
+        ]
+      }
     }
   ]
 }

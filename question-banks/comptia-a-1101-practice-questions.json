@@ -31,7 +31,8 @@
             "ms": "A. 375w",
             "zh-Hans": "A. 375w",
             "zh-Hant": "A. 375w"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -41,7 +42,8 @@
             "ms": "B. 425w",
             "zh-Hans": "B. 425w",
             "zh-Hant": "B. 425w"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -51,7 +53,8 @@
             "ms": "C. 325w",
             "zh-Hans": "C. 325w",
             "zh-Hant": "C. 325w"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -61,10 +64,26 @@
             "ms": "D. 500w",
             "zh-Hans": "D. 500w",
             "zh-Hant": "D. 500w"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "D"
+      "correctAnswer": "D",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "D. 500w"
+        ],
+        "zh-Hans": [
+          "D. 500w"
+        ],
+        "zh-Hant": [
+          "D. 500w"
+        ],
+        "ms": [
+          "D. 500w"
+        ]
+      }
     },
     {
       "id": "comptia-a-1101-practice-questions-02",
@@ -94,7 +113,8 @@
             "ms": "A. Exit the cloud service's client that is locally installed, restart the computer, and check to see if the file contains the information that is missing.",
             "zh-Hans": "A. Exit the cloud service's client that is locally installed, restart the computer, and check to see if the file contains the information that is missing.",
             "zh-Hant": "A. Exit the cloud service's client that is locally installed, restart the computer, and check to see if the file contains the information that is missing."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -104,7 +124,8 @@
             "ms": "B. Visit the cloud service's website, locate the service status page, and determine if their is a service outage impacting the organization.",
             "zh-Hans": "B. Visit the cloud service's website, locate the service status page, and determine if their is a service outage impacting the organization.",
             "zh-Hant": "B. Visit the cloud service's website, locate the service status page, and determine if their is a service outage impacting the organization."
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -114,7 +135,8 @@
             "ms": "C. Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors.",
             "zh-Hans": "C. Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors.",
             "zh-Hant": "C. Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors."
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -124,10 +146,26 @@
             "ms": "D. Open the cloud service's client that is locally installed and check to see if there are any updates available for the client.",
             "zh-Hans": "D. Open the cloud service's client that is locally installed and check to see if there are any updates available for the client.",
             "zh-Hant": "D. Open the cloud service's client that is locally installed and check to see if there are any updates available for the client."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "C",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "C. Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors."
+        ],
+        "zh-Hans": [
+          "C. Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors."
+        ],
+        "zh-Hant": [
+          "C. Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors."
+        ],
+        "ms": [
+          "C. Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors."
+        ]
+      }
     },
     {
       "id": "comptia-a-1101-practice-questions-03",
@@ -157,7 +195,8 @@
             "ms": "A. PAN",
             "zh-Hans": "A. PAN",
             "zh-Hant": "A. PAN"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -167,7 +206,8 @@
             "ms": "B. RFID",
             "zh-Hans": "B. RFID",
             "zh-Hant": "B. RFID"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -177,7 +217,8 @@
             "ms": "C. NFC",
             "zh-Hans": "C. NFC",
             "zh-Hant": "C. NFC"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -187,10 +228,26 @@
             "ms": "D. Bluetooth",
             "zh-Hans": "D. Bluetooth",
             "zh-Hant": "D. Bluetooth"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "C",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "C. NFC"
+        ],
+        "zh-Hans": [
+          "C. NFC"
+        ],
+        "zh-Hant": [
+          "C. NFC"
+        ],
+        "ms": [
+          "C. NFC"
+        ]
+      }
     },
     {
       "id": "comptia-a-1101-practice-questions-04",
@@ -220,7 +277,8 @@
             "ms": "A. Enable dual-channel memory by adding a second RAM stick.",
             "zh-Hans": "A. Enable dual-channel memory by adding a second RAM stick.",
             "zh-Hant": "A. Enable dual-channel memory by adding a second RAM stick."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -230,7 +288,8 @@
             "ms": "B. Install a new power supply.",
             "zh-Hans": "B. Install a new power supply.",
             "zh-Hant": "B. Install a new power supply."
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -240,7 +299,8 @@
             "ms": "C. Replace the motherboard's CMOS battery.",
             "zh-Hans": "C. Replace the motherboard's CMOS battery.",
             "zh-Hant": "C. Replace the motherboard's CMOS battery."
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -250,10 +310,26 @@
             "ms": "D. Configure the PC to be an NTP server.",
             "zh-Hans": "D. Configure the PC to be an NTP server.",
             "zh-Hant": "D. Configure the PC to be an NTP server."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "C",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "C. Replace the motherboard's CMOS battery."
+        ],
+        "zh-Hans": [
+          "C. Replace the motherboard's CMOS battery."
+        ],
+        "zh-Hant": [
+          "C. Replace the motherboard's CMOS battery."
+        ],
+        "ms": [
+          "C. Replace the motherboard's CMOS battery."
+        ]
+      }
     },
     {
       "id": "comptia-a-1101-practice-questions-05",
@@ -283,7 +359,8 @@
             "ms": "A. Power off the smartphone and place it in a bucket of rice for 48 hours.",
             "zh-Hans": "A. Power off the smartphone and place it in a bucket of rice for 48 hours.",
             "zh-Hant": "A. Power off the smartphone and place it in a bucket of rice for 48 hours."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -293,7 +370,8 @@
             "ms": "B. Place the smartphone in a refrigerator between 35°F (1.6°C) and 40°F",
             "zh-Hans": "B. Place the smartphone in a refrigerator between 35°F (1.6°C) and 40°F",
             "zh-Hant": "B. Place the smartphone in a refrigerator between 35°F (1.6°C) and 40°F"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -303,7 +381,8 @@
             "ms": "C. Fully deplete the phone's battery and then charge it to 100%.",
             "zh-Hans": "C. Fully deplete the phone's battery and then charge it to 100%.",
             "zh-Hant": "C. Fully deplete the phone's battery and then charge it to 100%."
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -313,10 +392,26 @@
             "ms": "D. Contact the smartphone manufacturer for warranty support.",
             "zh-Hans": "D. Contact the smartphone manufacturer for warranty support.",
             "zh-Hant": "D. Contact the smartphone manufacturer for warranty support."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "D"
+      "correctAnswer": "D",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "D. Contact the smartphone manufacturer for warranty support."
+        ],
+        "zh-Hans": [
+          "D. Contact the smartphone manufacturer for warranty support."
+        ],
+        "zh-Hant": [
+          "D. Contact the smartphone manufacturer for warranty support."
+        ],
+        "ms": [
+          "D. Contact the smartphone manufacturer for warranty support."
+        ]
+      }
     },
     {
       "id": "comptia-a-1101-practice-questions-06",
@@ -346,7 +441,8 @@
             "ms": "A. Create a backup of the HDD.",
             "zh-Hans": "A. Create a backup of the HDD.",
             "zh-Hant": "A. Create a backup of the HDD."
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -356,7 +452,8 @@
             "ms": "B. Upgrade the RAM on the laptop.",
             "zh-Hans": "B. Upgrade the RAM on the laptop.",
             "zh-Hant": "B. Upgrade the RAM on the laptop."
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -366,7 +463,8 @@
             "ms": "C. Enable SSD support at BIOS.",
             "zh-Hans": "C. Enable SSD support at BIOS.",
             "zh-Hant": "C. Enable SSD support at BIOS."
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -376,10 +474,26 @@
             "ms": "D. Install SSD drivers inside the OS.",
             "zh-Hans": "D. Install SSD drivers inside the OS.",
             "zh-Hant": "D. Install SSD drivers inside the OS."
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Create a backup of the HDD."
+        ],
+        "zh-Hans": [
+          "A. Create a backup of the HDD."
+        ],
+        "zh-Hant": [
+          "A. Create a backup of the HDD."
+        ],
+        "ms": [
+          "A. Create a backup of the HDD."
+        ]
+      }
     },
     {
       "id": "comptia-a-1101-practice-questions-07",
@@ -409,7 +523,8 @@
             "ms": "A. Fiber",
             "zh-Hans": "A. Fiber",
             "zh-Hant": "A. Fiber"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -419,7 +534,8 @@
             "ms": "B. Satellite",
             "zh-Hans": "B. Satellite",
             "zh-Hant": "B. Satellite"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -429,7 +545,8 @@
             "ms": "C. DSL",
             "zh-Hans": "C. DSL",
             "zh-Hant": "C. DSL"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -439,10 +556,26 @@
             "ms": "D. Cable",
             "zh-Hans": "D. Cable",
             "zh-Hant": "D. Cable"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "A. Fiber"
+        ],
+        "zh-Hans": [
+          "A. Fiber"
+        ],
+        "zh-Hant": [
+          "A. Fiber"
+        ],
+        "ms": [
+          "A. Fiber"
+        ]
+      }
     },
     {
       "id": "comptia-a-1101-practice-questions-08",
@@ -472,7 +605,8 @@
             "ms": "A. Video Graphics Array",
             "zh-Hans": "A. Video Graphics Array",
             "zh-Hant": "A. Video Graphics Array"
-          }
+          },
+          "images": []
         },
         {
           "id": "B",
@@ -482,7 +616,8 @@
             "ms": "B. Thunderbolt",
             "zh-Hans": "B. Thunderbolt",
             "zh-Hant": "B. Thunderbolt"
-          }
+          },
+          "images": []
         },
         {
           "id": "C",
@@ -492,7 +627,8 @@
             "ms": "C. Digital Visual Interface",
             "zh-Hans": "C. Digital Visual Interface",
             "zh-Hant": "C. Digital Visual Interface"
-          }
+          },
+          "images": []
         },
         {
           "id": "D",
@@ -502,10 +638,26 @@
             "ms": "D. High-Definition Multimedia Interface",
             "zh-Hans": "D. High-Definition Multimedia Interface",
             "zh-Hant": "D. High-Definition Multimedia Interface"
-          }
+          },
+          "images": []
         }
       ],
-      "correctAnswer": "D"
+      "correctAnswer": "D",
+      "images": [],
+      "subjectiveAnswers": {
+        "en": [
+          "D. High-Definition Multimedia Interface"
+        ],
+        "zh-Hans": [
+          "D. High-Definition Multimedia Interface"
+        ],
+        "zh-Hant": [
+          "D. High-Definition Multimedia Interface"
+        ],
+        "ms": [
+          "D. High-Definition Multimedia Interface"
+        ]
+      }
     }
   ]
 }
