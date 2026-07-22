@@ -1,0 +1,96 @@
+{
+  "id": "workplace-communication-resources",
+  "title": "Workplace communication, etiquette, and relationships",
+  "kind": "reference-extraction",
+  "description": "Source inventory for communication skills, professional etiquette, workplace relationships, conflict, teamwork, and interview communication. Protected source text is not republished here.",
+  "questions": [
+    {
+      "id": "saylor-bus210-workplace-conflict-assessment",
+      "type": "source-reference",
+      "subject": "Workplace Relationships",
+      "topic": "Conflict management",
+      "question": {
+        "en": "Which assessment resource is especially useful for studying supervisor and coworker conflict in the workplace?",
+        "zh-Hans": "哪项评估资源特别适合学习职场中的主管和同事冲突？",
+        "zh-Hant": "哪項評估資源特別適合學習職場中的主管和同事衝突？",
+        "ms": "Sumber penilaian manakah yang berguna untuk mempelajari konflik dengan penyelia dan rakan sekerja?"
+      },
+      "variants": {"en": ["Where can a workplace conflict assessment with an answer key be found?"]},
+      "images": [],
+      "solution": {
+        "en": "Saylor BUS210 provides a Workplace Conflict Assessment and a separate Answer Key. Topics include avoidance, defensive communication, face-saving, empathy, proactive communication, incompatible perspectives, and constructive conflict responses.",
+        "zh-Hans": "Saylor BUS210 提供《职场冲突评估》和单独的答案键。主题包括回避、防御性沟通、保全面子、同理心、主动沟通、不一致的观点以及建设性的冲突应对。",
+        "zh-Hant": "Saylor BUS210 提供《職場衝突評估》和獨立的答案鍵。主題包括迴避、防禦性溝通、保全面子、同理心、主動溝通、不一致的觀點以及建設性的衝突應對。",
+        "ms": "Saylor BUS210 menyediakan Workplace Conflict Assessment dan Answer Key berasingan. Topik termasuk pengelakan, komunikasi defensif, strategi menjaga maruah, empati, komunikasi proaktif, perspektif tidak sepadan dan tindak balas konflik yang membina."
+      },
+      "answerStatus": "Separate answer-key PDF is available. The archived host returned HTTP 403 during local download, so no source text was embedded.",
+      "source": {"name": "Saylor BUS210 Workplace Conflict Assessment", "url": "https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2012/08/BUS210Workplace-Conflict-Assessment-Fixed.pdf", "answerUrl": "https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2011/09/BUS210-WorkplaceConflict-AnswerKey-FINAL.pdf", "license": "Archived Saylor Foundation educational resource; verify current reuse terms before redistribution"}
+    },
+    {
+      "id": "lumen-effective-communication",
+      "type": "source-reference",
+      "subject": "Communication Skills",
+      "topic": "Communication barriers and feedback",
+      "question": {
+        "en": "What workplace communication topics are covered by Lumen Learning's Effective Communication and Barriers chapter?",
+        "zh-Hans": "Lumen Learning 的《有效沟通与沟通障碍》章节涵盖哪些职场沟通主题？",
+        "zh-Hant": "Lumen Learning 的《有效溝通與溝通障礙》章節涵蓋哪些職場溝通主題？",
+        "ms": "Apakah topik komunikasi tempat kerja yang dibincangkan dalam bab Effective Communication and Barriers oleh Lumen Learning?"
+      },
+      "variants": {"en": ["Which source covers feedback, bias, filtering, and cultural differences in communication?"]},
+      "images": [],
+      "solution": {
+        "en": "The chapter discusses communication filters and barriers, feedback, bias, language and cultural differences, and workplace effects such as job satisfaction. It includes a short interactive check with an answer.",
+        "zh-Hans": "该章节讨论沟通过滤器和障碍、反馈、偏见、语言与文化差异，以及工作满意度等职场影响。章节还包含带答案的简短互动检查。",
+        "zh-Hant": "該章節討論溝通過濾器和障礙、回饋、偏見、語言與文化差異，以及工作滿意度等職場影響。章節還包含帶答案的簡短互動檢查。",
+        "ms": "Bab ini membincangkan penapis dan halangan komunikasi, maklum balas, bias, perbezaan bahasa dan budaya serta kesan di tempat kerja seperti kepuasan kerja. Ia mempunyai semakan interaktif ringkas dengan jawapan."
+      },
+      "answerStatus": "One interactive check answer is visible; it is not a full test paper or answer key.",
+      "source": {"name": "Lumen Learning MGMT-1010 Effective Communication and Barriers", "url": "https://uen.pressbooks.pub/introbusiness/chapter/effective-communication/", "license": "CC BY 4.0, except where otherwise noted"}
+    },
+    {
+      "id": "pressbooks-interpersonal-workplace-communication",
+      "type": "source-reference",
+      "subject": "Professional Communication",
+      "topic": "Etiquette, professionalism, and interviews",
+      "question": {
+        "en": "What practical workplace skills are covered in the Interpersonal Workplace Communication chapter?",
+        "zh-Hans": "《职场人际沟通》章节涵盖哪些实用职场技能？",
+        "zh-Hant": "《職場人際溝通》章節涵蓋哪些實用職場技能？",
+        "ms": "Apakah kemahiran tempat kerja praktikal yang dibincangkan dalam bab Interpersonal Workplace Communication?"
+      },
+      "variants": {"en": ["Which resource covers professionalism, telephone communication, etiquette, and interviews?"]},
+      "images": [],
+      "solution": {
+        "en": "The chapter covers professional behavior, ethics, conversation skills, telephone communication, business etiquette, workplace harassment awareness, and standard and behavioral interview preparation. It provides exercises rather than a complete answer key.",
+        "zh-Hans": "该章节涵盖职业行为、伦理、会话技巧、电话沟通、商务礼仪、职场骚扰意识，以及一般和行为面试准备。它提供练习，但没有完整答案键。",
+        "zh-Hant": "該章節涵蓋職業行為、倫理、會話技巧、電話溝通、商務禮儀、職場騷擾意識，以及一般和行為面試準備。它提供練習，但沒有完整答案鍵。",
+        "ms": "Bab ini meliputi tingkah laku profesional, etika, kemahiran perbualan, komunikasi telefon, etiket perniagaan, kesedaran gangguan di tempat kerja serta persediaan temu duga standard dan tingkah laku. Ia menyediakan latihan tetapi tiada kunci jawapan lengkap."
+      },
+      "answerStatus": "Chapter exercises available; no complete answer key identified.",
+      "source": {"name": "Strategies for Effective Business Communication, Chapter 10", "url": "https://louis.pressbooks.pub/businessprofessionalcomm/chapter/chapter-10-interpersonal-workplace-communication/", "license": "Pressbooks resource; verify the book's individual license before adaptation"}
+    },
+    {
+      "id": "ecampus-professional-communication-etiquette",
+      "type": "source-reference",
+      "subject": "Workplace Etiquette",
+      "topic": "Email, meetings, and professional conduct",
+      "question": {
+        "en": "Which workplace etiquette practices are emphasized by the Professional Communication resource?",
+        "zh-Hans": "《专业沟通》资源强调哪些职场礼仪做法？",
+        "zh-Hant": "《專業溝通》資源強調哪些職場禮儀做法？",
+        "ms": "Apakah amalan etiket tempat kerja yang ditekankan oleh sumber Professional Communication?"
+      },
+      "variants": {"en": ["Where can guidance on professional email and meeting etiquette be found?"]},
+      "images": [],
+      "solution": {
+        "en": "It emphasizes timely and courteous responses, active listening, avoiding distractions, meeting agendas and punctuality, clear speaking, follow-up, meaningful email subjects, professional greetings, proofreading, careful attachments, and avoiding unnecessary Reply All messages.",
+        "zh-Hans": "它强调及时礼貌地回复、积极倾听、避免分心、会议议程与守时、清晰表达、后续跟进、有意义的邮件主题、专业问候、校对、谨慎处理附件，以及避免不必要的全部回复。",
+        "zh-Hant": "它強調及時禮貌地回覆、積極傾聽、避免分心、會議議程與守時、清晰表達、後續跟進、有意義的郵件主題、專業問候、校對、謹慎處理附件，以及避免不必要的全部回覆。",
+        "ms": "Ia menekankan balasan yang tepat pada masanya dan sopan, mendengar secara aktif, mengelakkan gangguan, agenda dan ketepatan masa mesyuarat, pertuturan jelas, susulan, subjek e-mel bermakna, salam profesional, semakan ejaan, lampiran berhati-hati dan mengelakkan Reply All yang tidak perlu."
+      },
+      "answerStatus": "Guidance and exercises are available; no formal answer key identified.",
+      "source": {"name": "eCampusOntario Professional Communication", "url": "https://ecampusontario.pressbooks.pub/capstoneresources/chapter/professional-communication/", "license": "Open educational resource; verify individual section terms before adaptation"}
+    }
+  ]
+}
