@@ -23,6 +23,14 @@ function displayQuestion(question, languages, variantIndex) {
   }).join('\n');
 }
 
+function displayReferenceAnswer(question, languages) {
+  if (question.solution) return `Solution:\n${displayText(question.solution, languages)}`;
+  if (Array.isArray(question.sourceAnswerLogic) && question.sourceAnswerLogic.length) {
+    return `Source answer logic:\n${question.sourceAnswerLogic.join('\n')}`;
+  }
+  return question.answerStatus || 'No static answer was available in the source extraction.';
+}
+
 function appendImages(parent, images, languages, fallbackAlt) {
   if (!Array.isArray(images) || !images.length) return;
   const gallery = document.createElement('div'); gallery.className = 'image-gallery';
@@ -42,7 +50,9 @@ function normalizeBank(bank, source) {
   if (!bank || !Array.isArray(bank.questions)) throw new Error(`${source}: expected a questions array`);
   const questions = bank.questions.map((question, index) => {
     const isMultiStep = question.type === 'multi-step';
-    if (!question.question || (isMultiStep ? !Array.isArray(question.steps) || !question.steps.length : !Array.isArray(question.answers) || !question.correctAnswer)) {
+    const isReference = question.type === 'source-reference';
+    if (!question.question || (isMultiStep ? !Array.isArray(question.steps) || !question.steps.length :
+      (isReference ? false : !Array.isArray(question.answers) || !question.correctAnswer))) {
       throw new Error(`${source}: question ${index + 1} is missing required question data`);
     }
     return {
@@ -121,7 +131,11 @@ function renderQuiz() {
     legend.textContent = `${index + 1}. ${displayQuestion(question, languages, variantIndex)}`;
     fieldset.append(legend);
     appendImages(fieldset, question.images, languages, 'Question illustration');
-    if (question.type === 'multi-step' || question.answerMode === 'subjective') {
+    if (question.type === 'source-reference') {
+      const reference = document.createElement('p'); reference.className = 'reference-answer';
+      reference.textContent = `${displayReferenceAnswer(question, languages)}\nSource: ${question.sourcePath || question.source?.url || 'included reference metadata'}`;
+      fieldset.append(reference);
+    } else if (question.type === 'multi-step' || question.answerMode === 'subjective') {
       if (question.type === 'multi-step') {
       question.steps.forEach((step, stepIndex) => {
         const wrapper = document.createElement('div'); wrapper.className = 'math-step';
@@ -172,6 +186,7 @@ function checkAnswers() {
   let score = 0; let points = 0;
   document.querySelectorAll('.question').forEach((element, index) => {
     const question = state.quiz[index];
+    if (question.type === 'source-reference') return;
     if (question.type === 'multi-step') {
       question.steps.forEach((step, stepIndex) => {
         const wrapper = element.querySelectorAll('.math-step')[stepIndex];
@@ -198,6 +213,10 @@ function checkAnswers() {
     });
     if (selected === question.correctAnswer) score++;
   });
+  if (!points) {
+    $('score').textContent = 'Reference entries are available for study and are not graded.';
+    return;
+  }
   const percentage = Math.round((score / points) * 100);
   $('score').textContent = `You scored ${score} out of ${points} point(s) (${percentage}%).`;
 }
