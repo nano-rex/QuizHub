@@ -46,7 +46,7 @@ Question and answer objects can include an `images` array. Put the image files i
 
 ## Extracted source references
 
-Reference JSON files are stored under [`question-banks/reference-extractions/`](question-banks/reference-extractions/) and are intentionally excluded from the active manifest. They contain 233 MIT entries, 91 OpenStax entries, and 29,378 WeBWorK entries with source paths, solutions or source-native answer expressions, and attribution metadata. Entries marked `type: "source-reference"` are now compatible with QuizHub and display as read-only study references; they do not count toward quiz scores until converted into graded questions.
+Reference JSON files are stored under [`question-banks/reference-extractions/`](question-banks/reference-extractions/) and are intentionally excluded from the active manifest. They contain 233 MIT mathematics entries, 91 OpenStax mathematics entries, 29,378 WeBWorK entries, and 9 computer-science entries with source paths, solutions or source-native answer expressions, and attribution metadata. Entries marked `type: "source-reference"` are now compatible with QuizHub and display as read-only study references; they do not count toward quiz scores until converted into graded questions.
 
 ## Multi-step mathematics
 
