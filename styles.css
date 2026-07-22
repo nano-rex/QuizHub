@@ -20,4 +20,6 @@ button, .upload-button { display: inline-block; padding: 11px 16px; border: 0; b
 .question legend { font-weight: 700; margin-bottom: 12px; } fieldset { border: 0; padding: 0; margin: 0; }
 .answer { display: block; padding: 9px; margin: 5px 0; border-radius: 7px; font-weight: 400; } .answer:hover { background: #f3f6ff; }
 .answer input { width: auto; margin-right: 8px; } .correct { color: #137333; background: #e8f5e9; } .wrong { color: #b42318; background: #fff0f0; }
+.math-step { margin: 12px 0; } .math-step label { font-weight: 500; } .math-step input { max-width: 260px; }
+.math-step.correct input { border-color: #137333; background: #e8f5e9; } .math-step.wrong input { border-color: #b42318; background: #fff0f0; }
 .score { margin-top: 18px; font-size: 1.15rem; font-weight: 700; }
