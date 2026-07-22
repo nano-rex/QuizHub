@@ -44,6 +44,10 @@ Use the **Display languages** checklist to show English, Simplified Chinese, Tra
 
 Question and answer objects can include an `images` array. Put the image files in [`images/`](images/) and reference them with paths such as `images/network-diagram.png`. Each entry may be a path string or an object with `src` and multilingual `alt`; data URLs are also supported for uploaded/custom JSON banks.
 
+## Source extraction cache
+
+Selected open-licensed sources are downloaded and extracted locally under `.source-cache/`; the cache is intentionally not committed. The current extraction contains MIT 18.01SC problem/solution candidates, OpenStax exercise candidates, and WeBWorK OPL text plus its source-native answer expressions. The OPL and OpenStax materials require attribution and license compliance, and some OpenStax answer keys are restricted, so these candidates must be reviewed and converted into graded QuizHub JSON before being added to the active manifest.
+
 ## Multi-step mathematics
 
 Use `type: "multi-step"` for mathematics or other worked problems. Every step gets its own input and contributes one point. `acceptedAnswers` can contain equivalent answers, and `tolerance` allows numeric answers within a permitted difference.
