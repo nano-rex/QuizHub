@@ -1,0 +1,96 @@
+{
+  "id": "university-medical-exams",
+  "title": "University medical-study exams and answer resources",
+  "kind": "reference-extraction",
+  "description": "A source inventory for medical study. It records answer availability and licensing without republishing protected exam text.",
+  "questions": [
+    {
+      "id": "virginia-tech-human-anatomy-self-assessment",
+      "type": "source-reference",
+      "subject": "Human Anatomy",
+      "topic": "Regional anatomy",
+      "question": {
+        "en": "What does the Virginia Tech Carilion School of Medicine human-anatomy workbook provide for learners?",
+        "zh-Hans": "弗吉尼亚理工卡里利恩医学院的人体解剖学练习册为学习者提供了什么？",
+        "zh-Hant": "維吉尼亞理工卡里利恩醫學院的人體解剖學練習冊為學習者提供了什麼？",
+        "ms": "Apakah yang disediakan oleh buku kerja anatomi manusia Virginia Tech Carilion School of Medicine untuk pelajar?"
+      },
+      "variants": {"en": ["What is included in the Virginia Tech anatomy self-assessment resource?"]},
+      "images": [],
+      "solution": {
+        "en": "It provides self-assessment questions organized across 14 anatomical regions, followed by a full answer key. The workbook is published under CC BY 4.0, so adaptations must retain attribution.",
+        "zh-Hans": "它按 14 个解剖区域组织自测题，并在后面提供完整答案。该练习册采用 CC BY 4.0 发布，改编时必须保留署名。",
+        "zh-Hant": "它按 14 個解剖區域組織自測題，並在後面提供完整答案。該練習冊採用 CC BY 4.0 發布，改編時必須保留署名。",
+        "ms": "Ia menyediakan soalan penilaian kendiri untuk 14 kawasan anatomi, diikuti kunci jawapan lengkap. Buku kerja ini CC BY 4.0 dan atribusi mesti dikekalkan untuk adaptasi."
+      },
+      "answerStatus": "Answer key included in the same PDF; 173-page PDF extracted for source verification.",
+      "source": {"name": "Virginia Tech Carilion School of Medicine Human Anatomy: Self-Assessment Review Questions", "url": "https://open.umn.edu/opentextbooks/formats/3103", "license": "CC BY 4.0"}
+    },
+    {
+      "id": "mit-705-general-biochemistry-exams",
+      "type": "source-reference",
+      "subject": "Biochemistry",
+      "topic": "Metabolism and biomolecules",
+      "question": {
+        "en": "Which official MIT 7.05 General Biochemistry assessment resources include separate solutions?",
+        "zh-Hans": "MIT 7.05 普通生物化学的哪些官方评估资源提供了单独的解答？",
+        "zh-Hant": "MIT 7.05 普通生物化學的哪些官方評估資源提供了獨立的解答？",
+        "ms": "Apakah sumber penilaian rasmi MIT 7.05 General Biochemistry yang mempunyai penyelesaian berasingan?"
+      },
+      "variants": {"en": ["Where are the MIT 7.05 exam answer keys located?"]},
+      "images": [],
+      "solution": {
+        "en": "The course page lists Exam 3 and Exam 4, each with a corresponding solutions PDF. The exams focus on the course’s later biochemistry material, including metabolism.",
+        "zh-Hans": "课程页面列出考试 3 和考试 4，并分别提供解答 PDF。这些考试侧重课程后半部分的生物化学内容，包括代谢。",
+        "zh-Hant": "課程頁面列出考試 3 和考試 4，並分別提供解答 PDF。這些考試側重課程後半部分的生物化學內容，包括代謝。",
+        "ms": "Halaman kursus menyenaraikan Peperiksaan 3 dan 4, masing-masing dengan PDF penyelesaian. Peperiksaan memberi tumpuan kepada bahan biokimia bahagian akhir termasuk metabolisme."
+      },
+      "answerStatus": "Exam 3 and Exam 4 each have an official solution PDF; source PDFs were downloaded and text-extracted for verification.",
+      "source": {"name": "MIT OpenCourseWare 7.05 General Biochemistry exams", "url": "https://ocw.mit.edu/courses/7-05-general-biochemistry-spring-2020/pages/exams/", "license": "MIT OCW course material; check the individual resource terms before redistribution"}
+    },
+    {
+      "id": "mit-hst-131-neuroscience-practice-solutions",
+      "type": "source-reference",
+      "subject": "Neuroscience",
+      "topic": "Graduate neuroscience review",
+      "question": {
+        "en": "What does MIT HST.131 provide for its neuroscience practice exam problems?",
+        "zh-Hans": "MIT HST.131 为神经科学练习考试题提供了什么？",
+        "zh-Hant": "MIT HST.131 為神經科學練習考試題提供了什麼？",
+        "ms": "Apakah yang disediakan oleh MIT HST.131 untuk soalan peperiksaan latihan neurosains?"
+      },
+      "variants": {"en": ["Is a solution resource available for the MIT HST.131 practice exam?"]},
+      "images": [],
+      "solution": {
+        "en": "MIT publishes a PDF titled 2004 Exam 4 Answers, described as solutions to practice exam problems. Use it with the official course material and do not republish protected text.",
+        "zh-Hans": "MIT 发布了名为《2004 Exam 4 Answers》的 PDF，并说明其为练习考试题的解答。应结合官方课程材料使用，不要重新发布受保护的文字。",
+        "zh-Hant": "MIT 發布了名為《2004 Exam 4 Answers》的 PDF，並說明其為練習考試題的解答。應結合官方課程材料使用，不要重新發布受保護的文字。",
+        "ms": "MIT menerbitkan PDF bertajuk 2004 Exam 4 Answers yang diterangkan sebagai penyelesaian soalan peperiksaan latihan. Gunakannya bersama bahan rasmi dan jangan terbitkan semula teks dilindungi."
+      },
+      "answerStatus": "Official answer PDF found; the entry is a source pointer, not a copied question bank.",
+      "source": {"name": "MIT HST.131 Introduction to Neuroscience practice-exam answers", "url": "https://live.ocw.mit.edu/courses/hst-131-introduction-to-neuroscience-fall-2005/resources/2004_exam4_ans/", "license": "MIT OCW course material; check the individual resource terms before redistribution"}
+    },
+    {
+      "id": "mit-20320-biomolecular-problem-sets",
+      "type": "source-reference",
+      "subject": "Biochemistry",
+      "topic": "Biomolecular and cellular systems",
+      "question": {
+        "en": "What kind of medical-study practice material is listed in MIT 20.320 study materials?",
+        "zh-Hans": "MIT 20.320 学习材料中列出了哪类医学学习练习资料？",
+        "zh-Hant": "MIT 20.320 學習材料中列出了哪類醫學學習練習資料？",
+        "ms": "Apakah jenis bahan latihan pengajian perubatan yang disenaraikan dalam bahan pembelajaran MIT 20.320?"
+      },
+      "variants": {"en": ["Where can biomolecular and cellular systems problem sets with solutions be found?"]},
+      "images": [],
+      "solution": {
+        "en": "MIT’s study-materials page lists problem sets and solution files for analysis of biomolecular and cellular systems. These are useful source leads for creating original, medically safe practice questions.",
+        "zh-Hans": "MIT 的学习材料页面列出了生物分子和细胞系统分析的习题集及解答文件。这些资料可作为创建原创且医学安全练习题的来源线索。",
+        "zh-Hant": "MIT 的學習材料頁面列出了生物分子和細胞系統分析的習題集及解答文件。這些資料可作為建立原創且醫學安全練習題的來源線索。",
+        "ms": "Halaman bahan pembelajaran MIT menyenaraikan set masalah dan fail penyelesaian untuk analisis sistem biomolekul dan sel. Ia berguna sebagai petunjuk sumber bagi soalan latihan asli yang selamat dari segi perubatan."
+      },
+      "answerStatus": "Problem-set solutions are listed by the course; no source text is embedded.",
+      "source": {"name": "MIT OpenCourseWare 20.320 Analysis of Biomolecular and Cellular Systems study materials", "url": "https://ocw.mit.edu/courses/20-320-analysis-of-biomolecular-and-cellular-systems-fall-2012/pages/study-materials/", "license": "MIT OCW course material; check the individual resource terms before redistribution"}
+    }
+  ]
+}
