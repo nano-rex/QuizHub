@@ -1,0 +1,4 @@
+#!/bin/sh
+
+APP_HOME=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+exec "${GRADLE_HOME:-gradle}" -p "$APP_HOME" "$@"
