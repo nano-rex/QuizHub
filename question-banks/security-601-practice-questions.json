@@ -10,14 +10,12 @@
       "topic": "CompTIA Security+",
       "question": {
         "en": "A Chief Financial Officer (CFO) has been receiving email messages that have suspicious links embedded from unrecognized senders. The emails ask the recipient for identity verification. The IT department has not received reports of this happening to anyone else. Which of the following is the MOST likely explanation for this behavior?",
-        "zh": "A Chief Financial Officer (CFO) has been receiving email messages that have suspicious links embedded from unrecognized senders. The emails ask the recipient for identity verification. The IT department has not received reports of this happening to anyone else. Which of the following is the MOST likely explanation for this behavior?",
         "ms": "A Chief Financial Officer (CFO) has been receiving email messages that have suspicious links embedded from unrecognized senders. The emails ask the recipient for identity verification. The IT department has not received reports of this happening to anyone else. Which of the following is the MOST likely explanation for this behavior?",
         "zh-Hans": "A Chief Financial Officer (CFO) has been receiving email messages that have suspicious links embedded from unrecognized senders. The emails ask the recipient for identity verification. The IT department has not received reports of this happening to anyone else. Which of the following is the MOST likely explanation for this behavior?",
         "zh-Hant": "A Chief Financial Officer (CFO) has been receiving email messages that have suspicious links embedded from unrecognized senders. The emails ask the recipient for identity verification. The IT department has not received reports of this happening to anyone else. Which of the following is the MOST likely explanation for this behavior?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -27,7 +25,6 @@
           "id": "A",
           "text": {
             "en": "A. The CFO is the target of a whaling attack.",
-            "zh": "A. The CFO is the target of a whaling attack.",
             "ms": "A. The CFO is the target of a whaling attack.",
             "zh-Hans": "A. The CFO is the target of a whaling attack.",
             "zh-Hant": "A. The CFO is the target of a whaling attack."
@@ -38,7 +35,6 @@
           "id": "B",
           "text": {
             "en": "B. The CFO is the target of identity fraud.",
-            "zh": "B. The CFO is the target of identity fraud.",
             "ms": "B. The CFO is the target of identity fraud.",
             "zh-Hans": "B. The CFO is the target of identity fraud.",
             "zh-Hant": "B. The CFO is the target of identity fraud."
@@ -49,7 +45,6 @@
           "id": "C",
           "text": {
             "en": "C. The CFO is receiving spam that got past the mail filters.",
-            "zh": "C. The CFO is receiving spam that got past the mail filters.",
             "ms": "C. The CFO is receiving spam that got past the mail filters.",
             "zh-Hans": "C. The CFO is receiving spam that got past the mail filters.",
             "zh-Hant": "C. The CFO is receiving spam that got past the mail filters."
@@ -60,7 +55,6 @@
           "id": "D",
           "text": {
             "en": "D. The CFO is experiencing an impersonation attack.",
-            "zh": "D. The CFO is experiencing an impersonation attack.",
             "ms": "D. The CFO is experiencing an impersonation attack.",
             "zh-Hans": "D. The CFO is experiencing an impersonation attack.",
             "zh-Hant": "D. The CFO is experiencing an impersonation attack."
@@ -92,14 +86,12 @@
       "topic": "CompTIA Security+",
       "question": {
         "en": "Joe, an employee, knows he is going to be fired in three days. Which of the following characterizations describes the employee?",
-        "zh": "Joe, an employee, knows he is going to be fired in three days. Which of the following characterizations describes the employee?",
         "ms": "Joe, an employee, knows he is going to be fired in three days. Which of the following characterizations describes the employee?",
         "zh-Hans": "Joe, an employee, knows he is going to be fired in three days. Which of the following characterizations describes the employee?",
         "zh-Hant": "Joe, an employee, knows he is going to be fired in three days. Which of the following characterizations describes the employee?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -109,7 +101,6 @@
           "id": "A",
           "text": {
             "en": "A. An insider threat",
-            "zh": "A. An insider threat",
             "ms": "A. An insider threat",
             "zh-Hans": "A. An insider threat",
             "zh-Hant": "A. An insider threat"
@@ -120,7 +111,6 @@
           "id": "B",
           "text": {
             "en": "B. A competitor",
-            "zh": "B. A competitor",
             "ms": "B. A competitor",
             "zh-Hans": "B. A competitor",
             "zh-Hant": "B. A competitor"
@@ -131,7 +121,6 @@
           "id": "C",
           "text": {
             "en": "C. A hacktivist",
-            "zh": "C. A hacktivist",
             "ms": "C. A hacktivist",
             "zh-Hans": "C. A hacktivist",
             "zh-Hant": "C. A hacktivist"
@@ -142,7 +131,6 @@
           "id": "D",
           "text": {
             "en": "D. A state actor",
-            "zh": "D. A state actor",
             "ms": "D. A state actor",
             "zh-Hans": "D. A state actor",
             "zh-Hant": "D. A state actor"
@@ -174,14 +162,12 @@
       "topic": "CompTIA Security+",
       "question": {
         "en": "The IT department receives a call one morning about users being unable to access files on the network shared drives. An IT technician investigates and determines the files became encrypted at 12:00 a.m. While the files are being recovered from backups, one of the IT supervisors realizes the day is the birthday of a technician who was fired two months prior. Which of the following describes what MOST likely occurred?",
-        "zh": "The IT department receives a call one morning about users being unable to access files on the network shared drives. An IT technician investigates and determines the files became encrypted at 12:00 a.m. While the files are being recovered from backups, one of the IT supervisors realizes the day is the birthday of a technician who was fired two months prior. Which of the following describes what MOST likely occurred?",
         "ms": "The IT department receives a call one morning about users being unable to access files on the network shared drives. An IT technician investigates and determines the files became encrypted at 12:00 a.m. While the files are being recovered from backups, one of the IT supervisors realizes the day is the birthday of a technician who was fired two months prior. Which of the following describes what MOST likely occurred?",
         "zh-Hans": "The IT department receives a call one morning about users being unable to access files on the network shared drives. An IT technician investigates and determines the files became encrypted at 12:00 a.m. While the files are being recovered from backups, one of the IT supervisors realizes the day is the birthday of a technician who was fired two months prior. Which of the following describes what MOST likely occurred?",
         "zh-Hant": "The IT department receives a call one morning about users being unable to access files on the network shared drives. An IT technician investigates and determines the files became encrypted at 12:00 a.m. While the files are being recovered from backups, one of the IT supervisors realizes the day is the birthday of a technician who was fired two months prior. Which of the following describes what MOST likely occurred?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -191,7 +177,6 @@
           "id": "A",
           "text": {
             "en": "A. The fired technician placed a logic bomb.",
-            "zh": "A. The fired technician placed a logic bomb.",
             "ms": "A. The fired technician placed a logic bomb.",
             "zh-Hans": "A. The fired technician placed a logic bomb.",
             "zh-Hant": "A. The fired technician placed a logic bomb."
@@ -202,7 +187,6 @@
           "id": "B",
           "text": {
             "en": "B. The fired technician installed a rootkit on all the affected users' computers.",
-            "zh": "B. The fired technician installed a rootkit on all the affected users' computers.",
             "ms": "B. The fired technician installed a rootkit on all the affected users' computers.",
             "zh-Hans": "B. The fired technician installed a rootkit on all the affected users' computers.",
             "zh-Hant": "B. The fired technician installed a rootkit on all the affected users' computers."
@@ -213,7 +197,6 @@
           "id": "C",
           "text": {
             "en": "C. The fired technician installed ransomware on the file server.",
-            "zh": "C. The fired technician installed ransomware on the file server.",
             "ms": "C. The fired technician installed ransomware on the file server.",
             "zh-Hans": "C. The fired technician installed ransomware on the file server.",
             "zh-Hant": "C. The fired technician installed ransomware on the file server."
@@ -224,7 +207,6 @@
           "id": "D",
           "text": {
             "en": "D. The fired technician left a network worm on an old work computer.",
-            "zh": "D. The fired technician left a network worm on an old work computer.",
             "ms": "D. The fired technician left a network worm on an old work computer.",
             "zh-Hans": "D. The fired technician left a network worm on an old work computer.",
             "zh-Hant": "D. The fired technician left a network worm on an old work computer."
@@ -256,14 +238,12 @@
       "topic": "CompTIA Security+",
       "question": {
         "en": "An organization has a policy in place that states the person who approves firewall controls/changes cannot be the one implementing the changes. Which of the following describes this policy?",
-        "zh": "An organization has a policy in place that states the person who approves firewall controls/changes cannot be the one implementing the changes. Which of the following describes this policy?",
         "ms": "An organization has a policy in place that states the person who approves firewall controls/changes cannot be the one implementing the changes. Which of the following describes this policy?",
         "zh-Hans": "An organization has a policy in place that states the person who approves firewall controls/changes cannot be the one implementing the changes. Which of the following describes this policy?",
         "zh-Hant": "An organization has a policy in place that states the person who approves firewall controls/changes cannot be the one implementing the changes. Which of the following describes this policy?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -273,7 +253,6 @@
           "id": "A",
           "text": {
             "en": "A. Change management",
-            "zh": "A. Change management",
             "ms": "A. Change management",
             "zh-Hans": "A. Change management",
             "zh-Hant": "A. Change management"
@@ -284,7 +263,6 @@
           "id": "B",
           "text": {
             "en": "B. Job rotation",
-            "zh": "B. Job rotation",
             "ms": "B. Job rotation",
             "zh-Hans": "B. Job rotation",
             "zh-Hant": "B. Job rotation"
@@ -295,7 +273,6 @@
           "id": "C",
           "text": {
             "en": "C. Separation of duties",
-            "zh": "C. Separation of duties",
             "ms": "C. Separation of duties",
             "zh-Hans": "C. Separation of duties",
             "zh-Hant": "C. Separation of duties"
@@ -306,7 +283,6 @@
           "id": "D",
           "text": {
             "en": "D. Least privilege",
-            "zh": "D. Least privilege",
             "ms": "D. Least privilege",
             "zh-Hans": "D. Least privilege",
             "zh-Hant": "D. Least privilege"
@@ -338,14 +314,12 @@
       "topic": "CompTIA Security+",
       "question": {
         "en": "Which of the following would be the BEST method to prevent the physical theft of staff laptops at an open-plan bank location with a high volume of customers each day?",
-        "zh": "Which of the following would be the BEST method to prevent the physical theft of staff laptops at an open-plan bank location with a high volume of customers each day?",
         "ms": "Which of the following would be the BEST method to prevent the physical theft of staff laptops at an open-plan bank location with a high volume of customers each day?",
         "zh-Hans": "Which of the following would be the BEST method to prevent the physical theft of staff laptops at an open-plan bank location with a high volume of customers each day?",
         "zh-Hant": "Which of the following would be the BEST method to prevent the physical theft of staff laptops at an open-plan bank location with a high volume of customers each day?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -355,7 +329,6 @@
           "id": "A",
           "text": {
             "en": "A. Guards at the door",
-            "zh": "A. Guards at the door",
             "ms": "A. Guards at the door",
             "zh-Hans": "A. Guards at the door",
             "zh-Hant": "A. Guards at the door"
@@ -366,7 +339,6 @@
           "id": "B",
           "text": {
             "en": "B. Cable locks",
-            "zh": "B. Cable locks",
             "ms": "B. Cable locks",
             "zh-Hans": "B. Cable locks",
             "zh-Hant": "B. Cable locks"
@@ -377,7 +349,6 @@
           "id": "C",
           "text": {
             "en": "C. Visitor logs",
-            "zh": "C. Visitor logs",
             "ms": "C. Visitor logs",
             "zh-Hans": "C. Visitor logs",
             "zh-Hant": "C. Visitor logs"
@@ -388,7 +359,6 @@
           "id": "D",
           "text": {
             "en": "D. Cameras",
-            "zh": "D. Cameras",
             "ms": "D. Cameras",
             "zh-Hans": "D. Cameras",
             "zh-Hant": "D. Cameras"
@@ -420,14 +390,12 @@
       "topic": "CompTIA Security+",
       "question": {
         "en": "Which of the following disaster recovery sites would require the MOST time to get operations back online?",
-        "zh": "Which of the following disaster recovery sites would require the MOST time to get operations back online?",
         "ms": "Which of the following disaster recovery sites would require the MOST time to get operations back online?",
         "zh-Hans": "Which of the following disaster recovery sites would require the MOST time to get operations back online?",
         "zh-Hant": "Which of the following disaster recovery sites would require the MOST time to get operations back online?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -437,7 +405,6 @@
           "id": "A",
           "text": {
             "en": "A. Colocation",
-            "zh": "A. Colocation",
             "ms": "A. Colocation",
             "zh-Hans": "A. Colocation",
             "zh-Hant": "A. Colocation"
@@ -448,7 +415,6 @@
           "id": "B",
           "text": {
             "en": "B. Cold",
-            "zh": "B. Cold",
             "ms": "B. Cold",
             "zh-Hans": "B. Cold",
             "zh-Hant": "B. Cold"
@@ -459,7 +425,6 @@
           "id": "C",
           "text": {
             "en": "C. Hot",
-            "zh": "C. Hot",
             "ms": "C. Hot",
             "zh-Hans": "C. Hot",
             "zh-Hant": "C. Hot"
@@ -470,7 +435,6 @@
           "id": "D",
           "text": {
             "en": "D. Warm",
-            "zh": "D. Warm",
             "ms": "D. Warm",
             "zh-Hans": "D. Warm",
             "zh-Hant": "D. Warm"
@@ -502,14 +466,12 @@
       "topic": "CompTIA Security+",
       "question": {
         "en": "A security manager needed to protect a high-security datacenter, so the manager installed an access control vestibule that can detect an employee's heartbeat, weight, and badge. Which of the following did the security manager implement?",
-        "zh": "A security manager needed to protect a high-security datacenter, so the manager installed an access control vestibule that can detect an employee's heartbeat, weight, and badge. Which of the following did the security manager implement?",
         "ms": "A security manager needed to protect a high-security datacenter, so the manager installed an access control vestibule that can detect an employee's heartbeat, weight, and badge. Which of the following did the security manager implement?",
         "zh-Hans": "A security manager needed to protect a high-security datacenter, so the manager installed an access control vestibule that can detect an employee's heartbeat, weight, and badge. Which of the following did the security manager implement?",
         "zh-Hant": "A security manager needed to protect a high-security datacenter, so the manager installed an access control vestibule that can detect an employee's heartbeat, weight, and badge. Which of the following did the security manager implement?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -519,7 +481,6 @@
           "id": "A",
           "text": {
             "en": "A. A physical control",
-            "zh": "A. A physical control",
             "ms": "A. A physical control",
             "zh-Hans": "A. A physical control",
             "zh-Hant": "A. A physical control"
@@ -530,7 +491,6 @@
           "id": "B",
           "text": {
             "en": "B. A corrective control",
-            "zh": "B. A corrective control",
             "ms": "B. A corrective control",
             "zh-Hans": "B. A corrective control",
             "zh-Hant": "B. A corrective control"
@@ -541,7 +501,6 @@
           "id": "C",
           "text": {
             "en": "C. A compensating control",
-            "zh": "C. A compensating control",
             "ms": "C. A compensating control",
             "zh-Hans": "C. A compensating control",
             "zh-Hant": "C. A compensating control"
@@ -552,7 +511,6 @@
           "id": "D",
           "text": {
             "en": "D. A managerial control",
-            "zh": "D. A managerial control",
             "ms": "D. A managerial control",
             "zh-Hans": "D. A managerial control",
             "zh-Hant": "D. A managerial control"
