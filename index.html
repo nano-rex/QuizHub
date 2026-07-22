@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exam practice</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">JSON-powered practice exams</p>
+      <h1>Choose your practice set</h1>
+      <p>Load one or more question banks, choose the subjects you want, and get a random quiz.</p>
+    </header>
+
+    <section class="panel" aria-labelledby="settings-title">
+      <h2 id="settings-title">Quiz settings</h2>
+      <div class="controls">
+        <label>Language
+          <select id="language">
+            <option value="en">English</option>
+            <option value="zh">中文</option>
+            <option value="ms">Bahasa Melayu</option>
+          </select>
+        </label>
+        <label>Question wording
+          <select id="variant">
+            <option value="0">Standard</option>
+            <option value="1">Alternative wording</option>
+            <option value="2">Another wording</option>
+          </select>
+        </label>
+        <label>Questions to fetch
+          <input id="question-count" type="number" min="1" value="10">
+        </label>
+      </div>
+
+      <h3>Subjects and topics</h3>
+      <div id="filters" class="check-grid"><p class="muted">Loading question banks…</p></div>
+
+      <div class="actions">
+        <button id="start" type="button">Start random quiz</button>
+        <label class="upload-button">Add JSON files
+          <input id="json-upload" type="file" accept="application/json,.json" multiple>
+        </label>
+      </div>
+      <p id="bank-status" class="muted" role="status"></p>
+      <p id="errors" class="error" role="alert"></p>
+    </section>
+
+    <section id="quiz" class="panel hidden" aria-live="polite">
+      <div class="quiz-heading"><h2 id="quiz-title">Quiz</h2><span id="progress"></span></div>
+      <div id="questions"></div>
+      <button id="submit" type="button">Check answers</button>
+      <div id="score" class="score"></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
