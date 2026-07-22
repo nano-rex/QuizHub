@@ -10,14 +10,12 @@
       "topic": "CompTIA Security+",
       "question": {
         "en": "Joe, a security analyst, is asked by a co-worker, \"What is this AAA thing all about in the security world? Sounds like something I can use for my car.\" Which of the following terms should Joe discuss in his response to his co-worker? (Select THREE).",
-        "zh": "Joe, a security analyst, is asked by a co-worker, \"What is this AAA thing all about in the security world? Sounds like something I can use for my car.\" Which of the following terms should Joe discuss in his response to his co-worker? (Select THREE).",
         "ms": "Joe, a security analyst, is asked by a co-worker, \"What is this AAA thing all about in the security world? Sounds like something I can use for my car.\" Which of the following terms should Joe discuss in his response to his co-worker? (Select THREE).",
         "zh-Hans": "Joe, a security analyst, is asked by a co-worker, \"What is this AAA thing all about in the security world? Sounds like something I can use for my car.\" Which of the following terms should Joe discuss in his response to his co-worker? (Select THREE).",
         "zh-Hant": "Joe, a security analyst, is asked by a co-worker, \"What is this AAA thing all about in the security world? Sounds like something I can use for my car.\" Which of the following terms should Joe discuss in his response to his co-worker? (Select THREE)."
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -27,7 +25,6 @@
           "id": "A",
           "text": {
             "en": "A. Accounting",
-            "zh": "A. Accounting",
             "ms": "A. Accounting",
             "zh-Hans": "A. Accounting",
             "zh-Hant": "A. Accounting"
@@ -38,7 +35,6 @@
           "id": "B",
           "text": {
             "en": "B. Accountability",
-            "zh": "B. Accountability",
             "ms": "B. Accountability",
             "zh-Hans": "B. Accountability",
             "zh-Hant": "B. Accountability"
@@ -49,7 +45,6 @@
           "id": "C",
           "text": {
             "en": "C. Authorization",
-            "zh": "C. Authorization",
             "ms": "C. Authorization",
             "zh-Hans": "C. Authorization",
             "zh-Hant": "C. Authorization"
@@ -60,7 +55,6 @@
           "id": "D",
           "text": {
             "en": "D. Authentication",
-            "zh": "D. Authentication",
             "ms": "D. Authentication",
             "zh-Hans": "D. Authentication",
             "zh-Hant": "D. Authentication"
@@ -92,14 +86,12 @@
       "topic": "CompTIA Security+",
       "question": {
         "en": "A system administrator is configuring accounts on a newly established server. Which of the following characteristics BEST differentiates service accounts from other types of accounts?",
-        "zh": "A system administrator is configuring accounts on a newly established server. Which of the following characteristics BEST differentiates service accounts from other types of accounts?",
         "ms": "A system administrator is configuring accounts on a newly established server. Which of the following characteristics BEST differentiates service accounts from other types of accounts?",
         "zh-Hans": "A system administrator is configuring accounts on a newly established server. Which of the following characteristics BEST differentiates service accounts from other types of accounts?",
         "zh-Hant": "A system administrator is configuring accounts on a newly established server. Which of the following characteristics BEST differentiates service accounts from other types of accounts?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -109,7 +101,6 @@
           "id": "A",
           "text": {
             "en": "A. They can often be restricted in privilege.",
-            "zh": "A. They can often be restricted in privilege.",
             "ms": "A. They can often be restricted in privilege.",
             "zh-Hans": "A. They can often be restricted in privilege.",
             "zh-Hant": "A. They can often be restricted in privilege."
@@ -120,7 +111,6 @@
           "id": "B",
           "text": {
             "en": "B. They are meant for non-person entities.",
-            "zh": "B. They are meant for non-person entities.",
             "ms": "B. They are meant for non-person entities.",
             "zh-Hans": "B. They are meant for non-person entities.",
             "zh-Hant": "B. They are meant for non-person entities."
@@ -131,7 +121,6 @@
           "id": "C",
           "text": {
             "en": "C. They require special permissions to OS files and folders.",
-            "zh": "C. They require special permissions to OS files and folders.",
             "ms": "C. They require special permissions to OS files and folders.",
             "zh-Hans": "C. They require special permissions to OS files and folders.",
             "zh-Hant": "C. They require special permissions to OS files and folders."
@@ -142,7 +131,6 @@
           "id": "D",
           "text": {
             "en": "D. They remain disabled in operations.",
-            "zh": "D. They remain disabled in operations.",
             "ms": "D. They remain disabled in operations.",
             "zh-Hans": "D. They remain disabled in operations.",
             "zh-Hant": "D. They remain disabled in operations."
@@ -174,14 +162,12 @@
       "topic": "CompTIA Security+",
       "question": {
         "en": "Recently, a company has been facing an issue with shoulder surfing. Which of the following safeguards would help with this?",
-        "zh": "Recently, a company has been facing an issue with shoulder surfing. Which of the following safeguards would help with this?",
         "ms": "Recently, a company has been facing an issue with shoulder surfing. Which of the following safeguards would help with this?",
         "zh-Hans": "Recently, a company has been facing an issue with shoulder surfing. Which of the following safeguards would help with this?",
         "zh-Hant": "Recently, a company has been facing an issue with shoulder surfing. Which of the following safeguards would help with this?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -191,7 +177,6 @@
           "id": "A",
           "text": {
             "en": "A. Screen filters",
-            "zh": "A. Screen filters",
             "ms": "A. Screen filters",
             "zh-Hans": "A. Screen filters",
             "zh-Hant": "A. Screen filters"
@@ -202,7 +187,6 @@
           "id": "B",
           "text": {
             "en": "B. Biometric authentication",
-            "zh": "B. Biometric authentication",
             "ms": "B. Biometric authentication",
             "zh-Hans": "B. Biometric authentication",
             "zh-Hant": "B. Biometric authentication"
@@ -213,7 +197,6 @@
           "id": "C",
           "text": {
             "en": "C. Smart cards",
-            "zh": "C. Smart cards",
             "ms": "C. Smart cards",
             "zh-Hans": "C. Smart cards",
             "zh-Hant": "C. Smart cards"
@@ -224,7 +207,6 @@
           "id": "D",
           "text": {
             "en": "D. Video cameras",
-            "zh": "D. Video cameras",
             "ms": "D. Video cameras",
             "zh-Hans": "D. Video cameras",
             "zh-Hant": "D. Video cameras"
@@ -256,14 +238,12 @@
       "topic": "CompTIA Security+",
       "question": {
         "en": "The process of presenting a user ID to a validating system is known as:",
-        "zh": "The process of presenting a user ID to a validating system is known as:",
         "ms": "The process of presenting a user ID to a validating system is known as:",
         "zh-Hans": "The process of presenting a user ID to a validating system is known as:",
         "zh-Hant": "The process of presenting a user ID to a validating system is known as:"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -273,7 +253,6 @@
           "id": "A",
           "text": {
             "en": "A. authorization.",
-            "zh": "A. authorization.",
             "ms": "A. authorization.",
             "zh-Hans": "A. authorization.",
             "zh-Hant": "A. authorization."
@@ -284,7 +263,6 @@
           "id": "B",
           "text": {
             "en": "B. authentication.",
-            "zh": "B. authentication.",
             "ms": "B. authentication.",
             "zh-Hans": "B. authentication.",
             "zh-Hant": "B. authentication."
@@ -295,7 +273,6 @@
           "id": "C",
           "text": {
             "en": "C. identification.",
-            "zh": "C. identification.",
             "ms": "C. identification.",
             "zh-Hans": "C. identification.",
             "zh-Hant": "C. identification."
@@ -306,7 +283,6 @@
           "id": "D",
           "text": {
             "en": "D. single sign-on.",
-            "zh": "D. single sign-on.",
             "ms": "D. single sign-on.",
             "zh-Hans": "D. single sign-on.",
             "zh-Hant": "D. single sign-on."
@@ -338,14 +314,12 @@
       "topic": "CompTIA Security+",
       "question": {
         "en": "An input field that is accepting more data than has been allocated for it in memory is an attribute of:",
-        "zh": "An input field that is accepting more data than has been allocated for it in memory is an attribute of:",
         "ms": "An input field that is accepting more data than has been allocated for it in memory is an attribute of:",
         "zh-Hans": "An input field that is accepting more data than has been allocated for it in memory is an attribute of:",
         "zh-Hant": "An input field that is accepting more data than has been allocated for it in memory is an attribute of:"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -355,7 +329,6 @@
           "id": "A",
           "text": {
             "en": "A. buffer overflow.",
-            "zh": "A. buffer overflow.",
             "ms": "A. buffer overflow.",
             "zh-Hans": "A. buffer overflow.",
             "zh-Hant": "A. buffer overflow."
@@ -366,7 +339,6 @@
           "id": "B",
           "text": {
             "en": "B. memory leak.",
-            "zh": "B. memory leak.",
             "ms": "B. memory leak.",
             "zh-Hans": "B. memory leak.",
             "zh-Hant": "B. memory leak."
@@ -377,7 +349,6 @@
           "id": "C",
           "text": {
             "en": "C. cross-site request forgery.",
-            "zh": "C. cross-site request forgery.",
             "ms": "C. cross-site request forgery.",
             "zh-Hans": "C. cross-site request forgery.",
             "zh-Hant": "C. cross-site request forgery."
@@ -388,7 +359,6 @@
           "id": "D",
           "text": {
             "en": "D. resource exhaustion.",
-            "zh": "D. resource exhaustion.",
             "ms": "D. resource exhaustion.",
             "zh-Hans": "D. resource exhaustion.",
             "zh-Hant": "D. resource exhaustion."
@@ -420,14 +390,12 @@
       "topic": "CompTIA Security+",
       "question": {
         "en": "Which of the following if used would BEST reduce the number of successful phishing attacks?",
-        "zh": "Which of the following if used would BEST reduce the number of successful phishing attacks?",
         "ms": "Which of the following if used would BEST reduce the number of successful phishing attacks?",
         "zh-Hans": "Which of the following if used would BEST reduce the number of successful phishing attacks?",
         "zh-Hant": "Which of the following if used would BEST reduce the number of successful phishing attacks?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -437,7 +405,6 @@
           "id": "A",
           "text": {
             "en": "A. Two-factor authentication",
-            "zh": "A. Two-factor authentication",
             "ms": "A. Two-factor authentication",
             "zh-Hans": "A. Two-factor authentication",
             "zh-Hant": "A. Two-factor authentication"
@@ -448,7 +415,6 @@
           "id": "B",
           "text": {
             "en": "B. Application layer firewall",
-            "zh": "B. Application layer firewall",
             "ms": "B. Application layer firewall",
             "zh-Hans": "B. Application layer firewall",
             "zh-Hant": "B. Application layer firewall"
@@ -459,7 +425,6 @@
           "id": "C",
           "text": {
             "en": "C. Mantraps",
-            "zh": "C. Mantraps",
             "ms": "C. Mantraps",
             "zh-Hans": "C. Mantraps",
             "zh-Hant": "C. Mantraps"
@@ -470,7 +435,6 @@
           "id": "D",
           "text": {
             "en": "D. User training",
-            "zh": "D. User training",
             "ms": "D. User training",
             "zh-Hans": "D. User training",
             "zh-Hant": "D. User training"

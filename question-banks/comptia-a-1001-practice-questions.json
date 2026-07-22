@@ -10,14 +10,12 @@
       "topic": "CompTia A+",
       "question": {
         "en": "Which of the following devices provides the portability of a mobile phone and functionality of a laptop/desktop?",
-        "zh": "Which of the following devices provides the portability of a mobile phone and functionality of a laptop/desktop?",
         "ms": "Which of the following devices provides the portability of a mobile phone and functionality of a laptop/desktop?",
         "zh-Hans": "Which of the following devices provides the portability of a mobile phone and functionality of a laptop/desktop?",
         "zh-Hant": "Which of the following devices provides the portability of a mobile phone and functionality of a laptop/desktop?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -27,7 +25,6 @@
           "id": "A",
           "text": {
             "en": "A. Tablet",
-            "zh": "A. Tablet",
             "ms": "A. Tablet",
             "zh-Hans": "A. Tablet",
             "zh-Hant": "A. Tablet"
@@ -38,7 +35,6 @@
           "id": "B",
           "text": {
             "en": "B. GPS unit",
-            "zh": "B. GPS unit",
             "ms": "B. GPS unit",
             "zh-Hans": "B. GPS unit",
             "zh-Hant": "B. GPS unit"
@@ -49,7 +45,6 @@
           "id": "C",
           "text": {
             "en": "C. E-reader",
-            "zh": "C. E-reader",
             "ms": "C. E-reader",
             "zh-Hans": "C. E-reader",
             "zh-Hant": "C. E-reader"
@@ -60,7 +55,6 @@
           "id": "D",
           "text": {
             "en": "D. Fitness monitor",
-            "zh": "D. Fitness monitor",
             "ms": "D. Fitness monitor",
             "zh-Hans": "D. Fitness monitor",
             "zh-Hant": "D. Fitness monitor"
@@ -92,14 +86,12 @@
       "topic": "CompTia A+",
       "question": {
         "en": "A user brings in a smartphone for repair. The device is unable to send/receive calls or connect to WiFi. All applications on the device are working unless they require connectivity. Which of the following is MOST likely causing the problem?",
-        "zh": "A user brings in a smartphone for repair. The device is unable to send/receive calls or connect to WiFi. All applications on the device are working unless they require connectivity. Which of the following is MOST likely causing the problem?",
         "ms": "A user brings in a smartphone for repair. The device is unable to send/receive calls or connect to WiFi. All applications on the device are working unless they require connectivity. Which of the following is MOST likely causing the problem?",
         "zh-Hans": "A user brings in a smartphone for repair. The device is unable to send/receive calls or connect to WiFi. All applications on the device are working unless they require connectivity. Which of the following is MOST likely causing the problem?",
         "zh-Hant": "A user brings in a smartphone for repair. The device is unable to send/receive calls or connect to WiFi. All applications on the device are working unless they require connectivity. Which of the following is MOST likely causing the problem?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -109,7 +101,6 @@
           "id": "A",
           "text": {
             "en": "A. Airplane mode",
-            "zh": "A. Airplane mode",
             "ms": "A. Airplane mode",
             "zh-Hans": "A. Airplane mode",
             "zh-Hant": "A. Airplane mode"
@@ -120,7 +111,6 @@
           "id": "B",
           "text": {
             "en": "B. Tethering",
-            "zh": "B. Tethering",
             "ms": "B. Tethering",
             "zh-Hans": "B. Tethering",
             "zh-Hant": "B. Tethering"
@@ -131,7 +121,6 @@
           "id": "C",
           "text": {
             "en": "C. Disabled hotspot",
-            "zh": "C. Disabled hotspot",
             "ms": "C. Disabled hotspot",
             "zh-Hans": "C. Disabled hotspot",
             "zh-Hant": "C. Disabled hotspot"
@@ -142,7 +131,6 @@
           "id": "D",
           "text": {
             "en": "D. VPN",
-            "zh": "D. VPN",
             "ms": "D. VPN",
             "zh-Hans": "D. VPN",
             "zh-Hant": "D. VPN"
@@ -174,14 +162,12 @@
       "topic": "CompTia A+",
       "question": {
         "en": "A human resources manager requests wireless APs to be set up for the office. A server will manage the wireless settings, and authorized devices should be able to access confidential records over WiFi. Which of the following settings should be configured to meet the requirements?",
-        "zh": "A human resources manager requests wireless APs to be set up for the office. A server will manage the wireless settings, and authorized devices should be able to access confidential records over WiFi. Which of the following settings should be configured to meet the requirements?",
         "ms": "A human resources manager requests wireless APs to be set up for the office. A server will manage the wireless settings, and authorized devices should be able to access confidential records over WiFi. Which of the following settings should be configured to meet the requirements?",
         "zh-Hans": "A human resources manager requests wireless APs to be set up for the office. A server will manage the wireless settings, and authorized devices should be able to access confidential records over WiFi. Which of the following settings should be configured to meet the requirements?",
         "zh-Hant": "A human resources manager requests wireless APs to be set up for the office. A server will manage the wireless settings, and authorized devices should be able to access confidential records over WiFi. Which of the following settings should be configured to meet the requirements?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -191,7 +177,6 @@
           "id": "A",
           "text": {
             "en": "A. WPA2 encryption, UPnP, and MAC filtering",
-            "zh": "A. WPA2 encryption, UPnP, and MAC filtering",
             "ms": "A. WPA2 encryption, UPnP, and MAC filtering",
             "zh-Hans": "A. WPA2 encryption, UPnP, and MAC filtering",
             "zh-Hant": "A. WPA2 encryption, UPnP, and MAC filtering"
@@ -202,7 +187,6 @@
           "id": "B",
           "text": {
             "en": "B. WPA encryption, UPnP, and blocklisting",
-            "zh": "B. WPA encryption, UPnP, and blocklisting",
             "ms": "B. WPA encryption, UPnP, and blocklisting",
             "zh-Hans": "B. WPA encryption, UPnP, and blocklisting",
             "zh-Hant": "B. WPA encryption, UPnP, and blocklisting"
@@ -213,7 +197,6 @@
           "id": "C",
           "text": {
             "en": "C. WPA encryption, infrastructure mode, and MAC filtering",
-            "zh": "C. WPA encryption, infrastructure mode, and MAC filtering",
             "ms": "C. WPA encryption, infrastructure mode, and MAC filtering",
             "zh-Hans": "C. WPA encryption, infrastructure mode, and MAC filtering",
             "zh-Hant": "C. WPA encryption, infrastructure mode, and MAC filtering"
@@ -224,7 +207,6 @@
           "id": "D",
           "text": {
             "en": "D. WPA2 encryption, infrastructure mode, and QoS",
-            "zh": "D. WPA2 encryption, infrastructure mode, and QoS",
             "ms": "D. WPA2 encryption, infrastructure mode, and QoS",
             "zh-Hans": "D. WPA2 encryption, infrastructure mode, and QoS",
             "zh-Hant": "D. WPA2 encryption, infrastructure mode, and QoS"
@@ -256,14 +238,12 @@
       "topic": "CompTia A+",
       "question": {
         "en": "Which of the following technologies can be used for wireless payments?",
-        "zh": "Which of the following technologies can be used for wireless payments?",
         "ms": "Which of the following technologies can be used for wireless payments?",
         "zh-Hans": "Which of the following technologies can be used for wireless payments?",
         "zh-Hant": "Which of the following technologies can be used for wireless payments?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -273,7 +253,6 @@
           "id": "A",
           "text": {
             "en": "A. NFC",
-            "zh": "A. NFC",
             "ms": "A. NFC",
             "zh-Hans": "A. NFC",
             "zh-Hant": "A. NFC"
@@ -284,7 +263,6 @@
           "id": "B",
           "text": {
             "en": "B. Bluetooth",
-            "zh": "B. Bluetooth",
             "ms": "B. Bluetooth",
             "zh-Hans": "B. Bluetooth",
             "zh-Hant": "B. Bluetooth"
@@ -295,7 +273,6 @@
           "id": "C",
           "text": {
             "en": "C. IR",
-            "zh": "C. IR",
             "ms": "C. IR",
             "zh-Hans": "C. IR",
             "zh-Hant": "C. IR"
@@ -306,7 +283,6 @@
           "id": "D",
           "text": {
             "en": "D. LTE",
-            "zh": "D. LTE",
             "ms": "D. LTE",
             "zh-Hans": "D. LTE",
             "zh-Hant": "D. LTE"
@@ -338,14 +314,12 @@
       "topic": "CompTia A+",
       "question": {
         "en": "Which of the following connector types can be plugged into a device both right-side up and upside down?",
-        "zh": "Which of the following connector types can be plugged into a device both right-side up and upside down?",
         "ms": "Which of the following connector types can be plugged into a device both right-side up and upside down?",
         "zh-Hans": "Which of the following connector types can be plugged into a device both right-side up and upside down?",
         "zh-Hant": "Which of the following connector types can be plugged into a device both right-side up and upside down?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -355,7 +329,6 @@
           "id": "A",
           "text": {
             "en": "A. USB",
-            "zh": "A. USB",
             "ms": "A. USB",
             "zh-Hans": "A. USB",
             "zh-Hant": "A. USB"
@@ -366,7 +339,6 @@
           "id": "B",
           "text": {
             "en": "B. USB-C",
-            "zh": "B. USB-C",
             "ms": "B. USB-C",
             "zh-Hans": "B. USB-C",
             "zh-Hant": "B. USB-C"
@@ -377,7 +349,6 @@
           "id": "C",
           "text": {
             "en": "C. Mini-USB",
-            "zh": "C. Mini-USB",
             "ms": "C. Mini-USB",
             "zh-Hans": "C. Mini-USB",
             "zh-Hant": "C. Mini-USB"
@@ -388,7 +359,6 @@
           "id": "D",
           "text": {
             "en": "D. Micro-USB",
-            "zh": "D. Micro-USB",
             "ms": "D. Micro-USB",
             "zh-Hans": "D. Micro-USB",
             "zh-Hant": "D. Micro-USB"
@@ -420,14 +390,12 @@
       "topic": "CompTia A+",
       "question": {
         "en": "A user wants to build a computer with a high-end CPU, plenty of RAM, and a high-end graphics card for online gaming. The user wants to verify that the graphics card is compatible with the motherboard. Which of the following connection types would the user MOST likely utilize to connect the video card to the motherboard?",
-        "zh": "A user wants to build a computer with a high-end CPU, plenty of RAM, and a high-end graphics card for online gaming. The user wants to verify that the graphics card is compatible with the motherboard. Which of the following connection types would the user MOST likely utilize to connect the video card to the motherboard?",
         "ms": "A user wants to build a computer with a high-end CPU, plenty of RAM, and a high-end graphics card for online gaming. The user wants to verify that the graphics card is compatible with the motherboard. Which of the following connection types would the user MOST likely utilize to connect the video card to the motherboard?",
         "zh-Hans": "A user wants to build a computer with a high-end CPU, plenty of RAM, and a high-end graphics card for online gaming. The user wants to verify that the graphics card is compatible with the motherboard. Which of the following connection types would the user MOST likely utilize to connect the video card to the motherboard?",
         "zh-Hant": "A user wants to build a computer with a high-end CPU, plenty of RAM, and a high-end graphics card for online gaming. The user wants to verify that the graphics card is compatible with the motherboard. Which of the following connection types would the user MOST likely utilize to connect the video card to the motherboard?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -437,7 +405,6 @@
           "id": "A",
           "text": {
             "en": "A. PCIe",
-            "zh": "A. PCIe",
             "ms": "A. PCIe",
             "zh-Hans": "A. PCIe",
             "zh-Hant": "A. PCIe"
@@ -448,7 +415,6 @@
           "id": "B",
           "text": {
             "en": "B. ISA",
-            "zh": "B. ISA",
             "ms": "B. ISA",
             "zh-Hans": "B. ISA",
             "zh-Hant": "B. ISA"
@@ -459,7 +425,6 @@
           "id": "C",
           "text": {
             "en": "C. AGP",
-            "zh": "C. AGP",
             "ms": "C. AGP",
             "zh-Hans": "C. AGP",
             "zh-Hant": "C. AGP"
@@ -470,7 +435,6 @@
           "id": "D",
           "text": {
             "en": "D. USB",
-            "zh": "D. USB",
             "ms": "D. USB",
             "zh-Hans": "D. USB",
             "zh-Hant": "D. USB"
@@ -502,14 +466,12 @@
       "topic": "CompTia A+",
       "question": {
         "en": "Which of the following peripheral types is MOST likely to be used to input actions into a PC?",
-        "zh": "Which of the following peripheral types is MOST likely to be used to input actions into a PC?",
         "ms": "Which of the following peripheral types is MOST likely to be used to input actions into a PC?",
         "zh-Hans": "Which of the following peripheral types is MOST likely to be used to input actions into a PC?",
         "zh-Hant": "Which of the following peripheral types is MOST likely to be used to input actions into a PC?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -519,7 +481,6 @@
           "id": "A",
           "text": {
             "en": "A. Webcam",
-            "zh": "A. Webcam",
             "ms": "A. Webcam",
             "zh-Hans": "A. Webcam",
             "zh-Hant": "A. Webcam"
@@ -530,7 +491,6 @@
           "id": "B",
           "text": {
             "en": "B. Mouse",
-            "zh": "B. Mouse",
             "ms": "B. Mouse",
             "zh-Hans": "B. Mouse",
             "zh-Hant": "B. Mouse"
@@ -541,7 +501,6 @@
           "id": "C",
           "text": {
             "en": "C. Monitor",
-            "zh": "C. Monitor",
             "ms": "C. Monitor",
             "zh-Hans": "C. Monitor",
             "zh-Hant": "C. Monitor"
@@ -552,7 +511,6 @@
           "id": "D",
           "text": {
             "en": "D. Optical drive",
-            "zh": "D. Optical drive",
             "ms": "D. Optical drive",
             "zh-Hans": "D. Optical drive",
             "zh-Hant": "D. Optical drive"
@@ -584,14 +542,12 @@
       "topic": "CompTia A+",
       "question": {
         "en": "Which of the following resource types would be BEST suited to saving photographs from a mobile device with limited on-board storage?",
-        "zh": "Which of the following resource types would be BEST suited to saving photographs from a mobile device with limited on-board storage?",
         "ms": "Which of the following resource types would be BEST suited to saving photographs from a mobile device with limited on-board storage?",
         "zh-Hans": "Which of the following resource types would be BEST suited to saving photographs from a mobile device with limited on-board storage?",
         "zh-Hant": "Which of the following resource types would be BEST suited to saving photographs from a mobile device with limited on-board storage?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -601,7 +557,6 @@
           "id": "A",
           "text": {
             "en": "A. Cloud file services",
-            "zh": "A. Cloud file services",
             "ms": "A. Cloud file services",
             "zh-Hans": "A. Cloud file services",
             "zh-Hant": "A. Cloud file services"
@@ -612,7 +567,6 @@
           "id": "B",
           "text": {
             "en": "B. Virtual desktop",
-            "zh": "B. Virtual desktop",
             "ms": "B. Virtual desktop",
             "zh-Hans": "B. Virtual desktop",
             "zh-Hant": "B. Virtual desktop"
@@ -623,7 +577,6 @@
           "id": "C",
           "text": {
             "en": "C. Off-site email",
-            "zh": "C. Off-site email",
             "ms": "C. Off-site email",
             "zh-Hans": "C. Off-site email",
             "zh-Hant": "C. Off-site email"
@@ -634,7 +587,6 @@
           "id": "D",
           "text": {
             "en": "D. Resource pooling",
-            "zh": "D. Resource pooling",
             "ms": "D. Resource pooling",
             "zh-Hans": "D. Resource pooling",
             "zh-Hant": "D. Resource pooling"
@@ -666,14 +618,12 @@
       "topic": "CompTia A+",
       "question": {
         "en": "An engineer's workstation experiences a BSOD whenever loading very large CAD files to modify. Which of the following troubleshooting steps should a technician take to isolate the issue?",
-        "zh": "An engineer's workstation experiences a BSOD whenever loading very large CAD files to modify. Which of the following troubleshooting steps should a technician take to isolate the issue?",
         "ms": "An engineer's workstation experiences a BSOD whenever loading very large CAD files to modify. Which of the following troubleshooting steps should a technician take to isolate the issue?",
         "zh-Hans": "An engineer's workstation experiences a BSOD whenever loading very large CAD files to modify. Which of the following troubleshooting steps should a technician take to isolate the issue?",
         "zh-Hant": "An engineer's workstation experiences a BSOD whenever loading very large CAD files to modify. Which of the following troubleshooting steps should a technician take to isolate the issue?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -683,7 +633,6 @@
           "id": "A",
           "text": {
             "en": "A. Install additional RAM rated at the fastest speed the motherboard will support.",
-            "zh": "A. Install additional RAM rated at the fastest speed the motherboard will support.",
             "ms": "A. Install additional RAM rated at the fastest speed the motherboard will support.",
             "zh-Hans": "A. Install additional RAM rated at the fastest speed the motherboard will support.",
             "zh-Hant": "A. Install additional RAM rated at the fastest speed the motherboard will support."
@@ -694,7 +643,6 @@
           "id": "B",
           "text": {
             "en": "B. Perform a hard drive scan to identify and lock out any bad sectors from use.",
-            "zh": "B. Perform a hard drive scan to identify and lock out any bad sectors from use.",
             "ms": "B. Perform a hard drive scan to identify and lock out any bad sectors from use.",
             "zh-Hans": "B. Perform a hard drive scan to identify and lock out any bad sectors from use.",
             "zh-Hant": "B. Perform a hard drive scan to identify and lock out any bad sectors from use."
@@ -705,7 +653,6 @@
           "id": "C",
           "text": {
             "en": "C. Run a memory test to verify all memory addresses can be reliably written to and read from.",
-            "zh": "C. Run a memory test to verify all memory addresses can be reliably written to and read from.",
             "ms": "C. Run a memory test to verify all memory addresses can be reliably written to and read from.",
             "zh-Hans": "C. Run a memory test to verify all memory addresses can be reliably written to and read from.",
             "zh-Hant": "C. Run a memory test to verify all memory addresses can be reliably written to and read from."
@@ -716,7 +663,6 @@
           "id": "D",
           "text": {
             "en": "D. Increase the size of the swap file to ensure adequate virtual memory is available.",
-            "zh": "D. Increase the size of the swap file to ensure adequate virtual memory is available.",
             "ms": "D. Increase the size of the swap file to ensure adequate virtual memory is available.",
             "zh-Hans": "D. Increase the size of the swap file to ensure adequate virtual memory is available.",
             "zh-Hant": "D. Increase the size of the swap file to ensure adequate virtual memory is available."
@@ -748,14 +694,12 @@
       "topic": "CompTia A+",
       "question": {
         "en": "A user is unable to browse Internet websites. A technician runs ipconfig and sees the following output:\n\n\n\n IP address............: 192.168.0.31\n\n Subnet mask...........: 255.255.255.0\n\n Default gateway.......: 192.168.0.254\n\n\n\n The technician pings the gateway and gets a reply. The technician then pings an external IP address and also gets a reply. Which of the following commands would MOST likely resolve the issue?",
-        "zh": "A user is unable to browse Internet websites. A technician runs ipconfig and sees the following output:\n\n\n\n IP address............: 192.168.0.31\n\n Subnet mask...........: 255.255.255.0\n\n Default gateway.......: 192.168.0.254\n\n\n\n The technician pings the gateway and gets a reply. The technician then pings an external IP address and also gets a reply. Which of the following commands would MOST likely resolve the issue?",
         "ms": "A user is unable to browse Internet websites. A technician runs ipconfig and sees the following output:\n\n\n\n IP address............: 192.168.0.31\n\n Subnet mask...........: 255.255.255.0\n\n Default gateway.......: 192.168.0.254\n\n\n\n The technician pings the gateway and gets a reply. The technician then pings an external IP address and also gets a reply. Which of the following commands would MOST likely resolve the issue?",
         "zh-Hans": "A user is unable to browse Internet websites. A technician runs ipconfig and sees the following output:\n\n\n\n IP address............: 192.168.0.31\n\n Subnet mask...........: 255.255.255.0\n\n Default gateway.......: 192.168.0.254\n\n\n\n The technician pings the gateway and gets a reply. The technician then pings an external IP address and also gets a reply. Which of the following commands would MOST likely resolve the issue?",
         "zh-Hant": "A user is unable to browse Internet websites. A technician runs ipconfig and sees the following output:\n\n\n\n IP address............: 192.168.0.31\n\n Subnet mask...........: 255.255.255.0\n\n Default gateway.......: 192.168.0.254\n\n\n\n The technician pings the gateway and gets a reply. The technician then pings an external IP address and also gets a reply. Which of the following commands would MOST likely resolve the issue?"
       },
       "variants": {
         "en": [],
-        "zh": [],
         "ms": [],
         "zh-Hans": [],
         "zh-Hant": []
@@ -765,7 +709,6 @@
           "id": "A",
           "text": {
             "en": "A. netstat -nbt",
-            "zh": "A. netstat -nbt",
             "ms": "A. netstat -nbt",
             "zh-Hans": "A. netstat -nbt",
             "zh-Hant": "A. netstat -nbt"
@@ -776,7 +719,6 @@
           "id": "B",
           "text": {
             "en": "B. netsh int ip reset",
-            "zh": "B. netsh int ip reset",
             "ms": "B. netsh int ip reset",
             "zh-Hans": "B. netsh int ip reset",
             "zh-Hant": "B. netsh int ip reset"
@@ -787,7 +729,6 @@
           "id": "C",
           "text": {
             "en": "C. ipconfig /flushdns",
-            "zh": "C. ipconfig /flushdns",
             "ms": "C. ipconfig /flushdns",
             "zh-Hans": "C. ipconfig /flushdns",
             "zh-Hant": "C. ipconfig /flushdns"
@@ -798,7 +739,6 @@
           "id": "D",
           "text": {
             "en": "D. nslookup 192.168.0.254",
-            "zh": "D. nslookup 192.168.0.254",
             "ms": "D. nslookup 192.168.0.254",
             "zh-Hans": "D. nslookup 192.168.0.254",
             "zh-Hant": "D. nslookup 192.168.0.254"
