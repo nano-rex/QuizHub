@@ -44,9 +44,9 @@ Use the **Display languages** checklist to show English, Simplified Chinese, Tra
 
 Question and answer objects can include an `images` array. Put the image files in [`images/`](images/) and reference them with paths such as `images/network-diagram.png`. Each entry may be a path string or an object with `src` and multilingual `alt`; data URLs are also supported for uploaded/custom JSON banks.
 
-## Source extraction cache
+## Extracted source references
 
-Selected open-licensed sources are downloaded and extracted locally under `.source-cache/`; the cache is intentionally not committed. The current extraction contains MIT 18.01SC problem/solution candidates, OpenStax exercise candidates, and WeBWorK OPL text plus its source-native answer expressions. The OPL and OpenStax materials require attribution and license compliance, and some OpenStax answer keys are restricted, so these candidates must be reviewed and converted into graded QuizHub JSON before being added to the active manifest.
+Reference JSON files are stored under [`question-banks/reference-extractions/`](question-banks/reference-extractions/) and are intentionally excluded from the active manifest. They contain 233 MIT entries, 91 OpenStax entries, and 29,378 WeBWorK entries with source paths, solutions or source-native answer expressions, and attribution metadata. Entries marked `type: "source-reference"` require review before becoming graded QuizHub questions.
 
 ## Multi-step mathematics
 
