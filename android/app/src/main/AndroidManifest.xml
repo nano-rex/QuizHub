@@ -4,6 +4,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizHub">
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".StatisticsActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
