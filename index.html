@@ -17,13 +17,14 @@
     <section class="panel" aria-labelledby="settings-title">
       <h2 id="settings-title">Quiz settings</h2>
       <div class="controls">
-        <label>Language
-          <select id="language">
-            <option value="en">English</option>
-            <option value="zh">中文</option>
-            <option value="ms">Bahasa Melayu</option>
-          </select>
-        </label>
+        <fieldset class="setting-group">
+          <legend>Display languages</legend>
+          <div id="languages" class="language-options">
+            <label><input type="checkbox" value="en" checked> English</label>
+            <label><input type="checkbox" value="zh"> 中文</label>
+            <label><input type="checkbox" value="ms"> Bahasa Melayu</label>
+          </div>
+        </fieldset>
         <label>Question wording
           <select id="variant">
             <option value="0">Standard</option>

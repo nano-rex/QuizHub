@@ -8,6 +8,8 @@ h2 { margin-top: 0; } h3 { margin-bottom: 10px; }
 .panel { margin-top: 24px; padding: 24px; background: white; border: 1px solid #dce3f0; border-radius: 14px; box-shadow: 0 8px 24px #1e3a5f0c; }
 .controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px; }
 label { display: grid; gap: 6px; font-weight: 650; } select, input { width: 100%; padding: 10px; border: 1px solid #b9c4d8; border-radius: 8px; font: inherit; background: white; }
+.setting-group { min-width: 220px; padding: 0; border: 0; } .setting-group legend { font-weight: 650; margin-bottom: 6px; }
+.language-options { display: flex; flex-wrap: wrap; gap: 8px 14px; } .language-options label { display: flex; align-items: center; gap: 6px; font-weight: 500; } .language-options input { width: auto; }
 .check-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 8px; }
 .check-grid label { display: flex; flex-direction: row; align-items: center; gap: 8px; padding: 9px 10px; border: 1px solid #e0e6f1; border-radius: 8px; font-weight: 500; }
 .check-grid input { width: auto; }
@@ -17,8 +19,8 @@ button, .upload-button { display: inline-block; padding: 11px 16px; border: 0; b
 .muted { color: #68758d; } .error { color: #b42318; white-space: pre-line; }
 .hidden { display: none; } .quiz-heading { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
 .question { border-top: 1px solid #e0e6f1; padding: 20px 0; } .question:first-child { border-top: 0; }
-.question legend { font-weight: 700; margin-bottom: 12px; } fieldset { border: 0; padding: 0; margin: 0; }
-.answer { display: block; padding: 9px; margin: 5px 0; border-radius: 7px; font-weight: 400; } .answer:hover { background: #f3f6ff; }
+.question legend { font-weight: 700; margin-bottom: 12px; white-space: pre-line; } fieldset { border: 0; padding: 0; margin: 0; }
+.answer { display: block; padding: 9px; margin: 5px 0; border-radius: 7px; font-weight: 400; white-space: pre-line; } .answer:hover { background: #f3f6ff; }
 .answer input { width: auto; margin-right: 8px; } .correct { color: #137333; background: #e8f5e9; } .wrong { color: #b42318; background: #fff0f0; }
 .math-step { margin: 12px 0; } .math-step label { font-weight: 500; } .math-step input { max-width: 260px; }
 .math-step.correct input { border-color: #137333; background: #e8f5e9; } .math-step.wrong input { border-color: #b42318; background: #fff0f0; }

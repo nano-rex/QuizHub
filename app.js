@@ -1,9 +1,26 @@
 const state = { banks: [], questions: [], quiz: [] };
 const $ = (id) => document.getElementById(id);
+const LANGUAGE_NAMES = { en: 'English', zh: '中文', ms: 'Bahasa Melayu' };
 
 function text(value, language) {
   if (typeof value === 'string') return value;
   return value?.[language] || value?.en || value?.zh || value?.ms || '';
+}
+
+function selectedLanguages() {
+  const languages = [...document.querySelectorAll('#languages input:checked')].map((input) => input.value);
+  return languages.length ? languages : ['en'];
+}
+
+function displayText(value, languages) {
+  return languages.map((language) => `${LANGUAGE_NAMES[language]}: ${text(value, language)}`).join('\n');
+}
+
+function displayQuestion(question, languages, variantIndex) {
+  return languages.map((language) => {
+    const alternatives = question.variants?.[language] || question.variants?.en || [];
+    return `${LANGUAGE_NAMES[language]}: ${alternatives[variantIndex - 1] || text(question.question, language)}`;
+  }).join('\n');
 }
 
 function normalizeBank(bank, source) {
@@ -80,21 +97,20 @@ function selectedPool() {
 }
 
 function renderQuiz() {
-  const language = $('language').value;
+  const languages = selectedLanguages();
   const variantIndex = Number($('variant').value);
   const container = $('questions'); container.replaceChildren();
   state.quiz.forEach((question, index) => {
     const fieldset = document.createElement('fieldset'); fieldset.className = 'question';
     const legend = document.createElement('legend');
-    const alternatives = question.variants?.[language] || question.variants?.en || [];
-    legend.textContent = `${index + 1}. ${alternatives[variantIndex - 1] || text(question.question, language)}`;
+    legend.textContent = `${index + 1}. ${displayQuestion(question, languages, variantIndex)}`;
     fieldset.append(legend);
     if (question.type === 'multi-step' || question.answerMode === 'subjective') {
       if (question.type === 'multi-step') {
       question.steps.forEach((step, stepIndex) => {
         const wrapper = document.createElement('div'); wrapper.className = 'math-step';
         const label = document.createElement('label');
-        label.textContent = `${stepIndex + 1}. ${text(step.prompt, language)}`;
+        label.textContent = `${stepIndex + 1}. ${displayText(step.prompt, languages)}`;
         const input = document.createElement('input'); input.type = 'text'; input.autocomplete = 'off';
         input.dataset.questionIndex = index; input.dataset.stepIndex = stepIndex;
         label.append(input); wrapper.append(label); fieldset.append(wrapper);
@@ -110,7 +126,7 @@ function renderQuiz() {
       shuffled(question.answers).forEach((answer) => {
         const label = document.createElement('label'); label.className = 'answer';
         const input = document.createElement('input'); input.type = 'radio'; input.name = `question-${index}`; input.value = answer.id;
-        label.append(input, document.createTextNode(`${answer.id}. ${text(answer.text, language)}`)); fieldset.append(label);
+        label.append(input, document.createTextNode(`${answer.id}. ${displayText(answer.text, languages)}`)); fieldset.append(label);
       });
     }
     container.append(fieldset);
@@ -151,7 +167,7 @@ function checkAnswers() {
     points++;
     if (question.answerMode === 'subjective') {
       const input = element.querySelector('input[type="text"]');
-      const correct = isSubjectiveCorrect(input.value, question, $('language').value);
+      const correct = isSubjectiveCorrect(input.value, question, selectedLanguages());
       input.parentElement.classList.toggle('correct', correct); input.parentElement.classList.toggle('wrong', !correct);
       if (correct) score++;
       return;
@@ -179,10 +195,10 @@ function isStepCorrect(value, step) {
   return false;
 }
 
-function isSubjectiveCorrect(value, question, language) {
+function isSubjectiveCorrect(value, question, languages) {
   const correctAnswer = question.answers.find((answer) => answer.id === question.correctAnswer);
-  const accepted = question.subjectiveAnswers?.[language] || question.subjectiveAnswers?.en ||
-    (correctAnswer ? [text(correctAnswer.text, language)] : []);
+  const accepted = languages.flatMap((language) => question.subjectiveAnswers?.[language] ||
+    (correctAnswer ? [text(correctAnswer.text, language)] : []));
   const normalize = (answer) => String(answer).trim().replace(/\s+/g, ' ').toLowerCase();
   return accepted.some((answer) => normalize(answer) === normalize(value));
 }
@@ -207,6 +223,9 @@ async function boot() {
 $('start').addEventListener('click', startQuiz);
 $('submit').addEventListener('click', checkAnswers);
 $('json-upload').addEventListener('change', (event) => addFiles([...event.target.files]));
-$('language').addEventListener('change', () => { if (state.quiz.length) renderQuiz(); });
+$('languages').addEventListener('change', (event) => {
+  if (!document.querySelector('#languages input:checked')) event.target.checked = true;
+  if (state.quiz.length) renderQuiz();
+});
 $('variant').addEventListener('change', () => { if (state.quiz.length) renderQuiz(); });
 boot();
