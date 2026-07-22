@@ -7,6 +7,7 @@ index.html              Quiz screen and application entry page
 pages/                  Secondary HTML pages
   settings.html         Quiz configuration and JSON-bank upload
   search.html           Question-library search
+  statistics.html       Persistent performance summaries
 css/                    Stylesheets
   styles.css            CSS entry point and imports
   base.css              Global and layout rules

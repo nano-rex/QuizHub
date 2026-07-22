@@ -2,7 +2,7 @@
 
 QuizHub is a static JSON-powered practice site. Open `index.html` in a browser, or serve this directory with any static web server.
 
-The application structure and naming conventions are documented in [`docs/architecture.md`](docs/architecture.md). The main quiz is at [`index.html`](index.html); secondary screens are under [`pages/`](pages/).
+The application structure and naming conventions are documented in [`docs/architecture.md`](docs/architecture.md). The main quiz is at [`index.html`](index.html); secondary screens for settings, search, and statistics are under [`pages/`](pages/).
 
 The Android companion is under [`android/`](android/) and follows the Java/Gradle layout used by the other nano-rex Android projects. Its build copies active root-level question-bank JSON into Android assets, keeping the web and Android versions on the same content source.
 
