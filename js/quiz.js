@@ -20,7 +20,7 @@ export function startQuiz() {
   const answerMode = $('answer-mode').value;
   state.quiz = shuffled(pool).slice(0, Math.min(requested, pool.length)).map((question) => ({
     ...question,
-    answerMode: question.type === 'multi-step' ? 'subjective' :
+    answerMode: question.type === 'multi-step' ? 'subjective' : Array.isArray(question.correctAnswer) ? 'objective' :
       (answerMode === 'mixed' ? (Math.random() < 0.5 ? 'objective' : 'subjective') : answerMode)
   }));
   state.attemptRecorded = false;
@@ -35,7 +35,7 @@ export function createQuiz(pool, settings) {
   state.attemptRecorded = false;
   return shuffled(pool).slice(0, Math.min(requested, pool.length)).map((question) => ({
     ...question,
-    answerMode: question.type === 'multi-step' ? 'subjective' :
+    answerMode: question.type === 'multi-step' ? 'subjective' : Array.isArray(question.correctAnswer) ? 'objective' :
       (answerMode === 'mixed' ? (Math.random() < 0.5 ? 'objective' : 'subjective') : answerMode)
   }));
 }
@@ -89,14 +89,16 @@ export function checkAnswers() {
       addBreakdown(question, correct ? 1 : 0, 1);
       return;
     }
-    const selected = element.querySelector('input:checked')?.value;
+    const selected = [...element.querySelectorAll('input:checked')].map((input) => input.value);
+    const correctAnswers = Array.isArray(question.correctAnswer) ? question.correctAnswer : [question.correctAnswer];
     element.querySelectorAll('.answer').forEach((answer) => {
       const input = answer.querySelector('input');
-      answer.classList.toggle('correct', input.value === question.correctAnswer);
-      answer.classList.toggle('wrong', input.checked && input.value !== question.correctAnswer);
+      answer.classList.toggle('correct', correctAnswers.includes(input.value));
+      answer.classList.toggle('wrong', input.checked && !correctAnswers.includes(input.value));
     });
-    if (selected === question.correctAnswer) score++;
-    addBreakdown(question, selected === question.correctAnswer ? 1 : 0, 1);
+    const isExact = selected.length === correctAnswers.length && selected.every((answer) => correctAnswers.includes(answer));
+    if (isExact) score++;
+    addBreakdown(question, isExact ? 1 : 0, 1);
   });
   if (!points) { $('score').textContent = 'Reference entries are available for study and are not graded.'; return; }
   const percentage = Math.round((score / points) * 100);

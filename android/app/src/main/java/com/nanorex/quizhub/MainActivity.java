@@ -3,9 +3,10 @@ package com.nanorex.quizhub;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -110,14 +111,15 @@ public final class MainActivity extends AppCompatActivity {
             prompt.setTextSize(18);
             prompt.setPadding(0, 28, 0, 8);
             questionContainer.addView(prompt, matchWrap());
-            RadioGroup choices = new RadioGroup(this);
+            LinearLayout choices = new LinearLayout(this);
+            choices.setOrientation(LinearLayout.VERTICAL);
             for (int answerIndex = 0; answerIndex < question.answers.length(); answerIndex++) {
                 JSONObject answer = question.answers.optJSONObject(answerIndex);
                 if (answer == null) continue;
-                RadioButton button = new RadioButton(this);
+                CompoundButton button = question.multiple ? new CheckBox(this) : new RadioButton(this);
                 button.setText(answer.optString("id") + ". " + localized(answer.opt("text")));
                 button.setTag(answer.optString("id"));
-                choices.addView(button, matchWrap());
+                choices.addView(button, matchWrap()); question.controls.add(button);
             }
             questionContainer.addView(choices, matchWrap());
             question.view = choices;
@@ -125,17 +127,17 @@ public final class MainActivity extends AppCompatActivity {
     }
 
     private void checkAnswers() {
-        correct = 0; answered = 0;
+        correct = 0; answered = 0; int points = 0;
         for (Question question : questions) {
             if (question.view == null) continue;
-            int checked = question.view.getCheckedRadioButtonId();
-            if (checked == -1) continue;
-            answered++;
-            RadioButton selected = question.view.findViewById(checked);
-            if (question.correctAnswer.equals(String.valueOf(selected.getTag()))) correct++;
+            points++;
+            List<String> selected = new ArrayList<>();
+            for (CompoundButton control : question.controls) if (control.isChecked()) selected.add(String.valueOf(control.getTag()));
+            if (!selected.isEmpty()) answered++;
+            if (selected.size() == question.correctAnswers.size() && selected.containsAll(question.correctAnswers)) { correct++; question.lastScore = 1; } else question.lastScore = 0;
         }
-        score.setText("Score: " + correct + " / " + answered + " answered");
-        if (!attemptRecorded) { StatisticsStore.record(this, correct, answered, questions); attemptRecorded = true; }
+        score.setText("Score: " + correct + " / " + points + " point(s) (" + answered + " answered)");
+        if (!attemptRecorded) { StatisticsStore.record(this, correct, points, questions); attemptRecorded = true; }
     }
 
     private String readAsset(String path) throws Exception {
@@ -163,15 +165,21 @@ public final class MainActivity extends AppCompatActivity {
     static final class Question {
         final JSONObject data;
         final JSONArray answers;
-        final String correctAnswer;
+        final List<String> correctAnswers = new ArrayList<>();
         final String subject;
         final String topic;
-        RadioGroup view;
+        final boolean multiple;
+        final List<CompoundButton> controls = new ArrayList<>();
+        LinearLayout view;
+        int lastScore;
 
         Question(JSONObject data) {
             this.data = data;
             this.answers = data.optJSONArray("answers") == null ? new JSONArray() : data.optJSONArray("answers");
-            this.correctAnswer = data.optString("correctAnswer");
+            Object answersValue = data.opt("correctAnswer");
+            if (answersValue instanceof JSONArray) for (int index = 0; index < ((JSONArray) answersValue).length(); index++) correctAnswers.add(((JSONArray) answersValue).optString(index));
+            else correctAnswers.add(data.optString("correctAnswer"));
+            this.multiple = correctAnswers.size() > 1 || data.optInt("selectionCount", 1) > 1;
             this.subject = data.optString("subject", "General");
             this.topic = data.optString("topic", "General");
         }

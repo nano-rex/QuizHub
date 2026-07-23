@@ -62,7 +62,8 @@
           "images": []
         }
       ],
-      "correctAnswer": "A",
+      "selectionCount": 3,
+      "correctAnswer": ["A", "C", "D"],
       "images": [],
       "subjectiveAnswers": {
         "en": [

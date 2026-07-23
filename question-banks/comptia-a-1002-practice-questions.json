@@ -290,7 +290,8 @@
           "images": []
         }
       ],
-      "correctAnswer": "A",
+      "selectionCount": 2,
+      "correctAnswer": ["A", "D"],
       "images": [],
       "subjectiveAnswers": {
         "en": [

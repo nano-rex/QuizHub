@@ -45,7 +45,7 @@ export function renderQuiz() {
       }
     } else question.answers.forEach((answer) => {
       const label = document.createElement('label'); label.className = 'answer';
-      const input = document.createElement('input'); input.type = 'radio'; input.name = `question-${index}`; input.value = answer.id;
+      const input = document.createElement('input'); input.type = Array.isArray(question.correctAnswer) ? 'checkbox' : 'radio'; input.name = `question-${index}`; input.value = answer.id;
       label.append(input, document.createTextNode(`${answer.id}. ${displayText(answer.text, languages)}`));
       appendImages(label, answer.images, languages, `Answer ${answer.id} illustration`);
       fieldset.append(label);
