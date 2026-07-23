@@ -23,5 +23,18 @@ async function boot() {
 }
 
 $('submit').addEventListener('click', checkAnswers);
+$('new-quiz').addEventListener('click', () => {
+  const settings = readSettings();
+  const selected = new Set(settings.filters);
+  const pool = state.questions.filter((question) =>
+    !selected.size || (selected.has(`subject:${question.subject}`) && selected.has(`topic:${question.topic}`)));
+  if (!pool.length) {
+    $('errors').textContent = 'No questions match the saved settings. Open Settings and choose a subject or topic.';
+    return;
+  }
+  state.quiz = createQuiz(pool, settings);
+  $('errors').textContent = '';
+  renderQuiz();
+});
 initializeTheme();
 boot();

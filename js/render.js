@@ -54,4 +54,5 @@ export function renderQuiz() {
   });
   $('progress').textContent = `${state.quiz.length} question(s)`;
   $('score').textContent = '';
+  $('new-quiz')?.classList.add('hidden');
 }
