@@ -1,6 +1,6 @@
 import { $, state } from './state.js';
 import { selectedPool } from './banks.js';
-import { selectedLanguages, text } from './languages.js';
+import { displayText, selectedLanguages, text } from './languages.js';
 import { renderQuiz } from './render.js';
 import { recordAttempt } from './statistics.js';
 
@@ -58,6 +58,32 @@ export function isSubjectiveCorrect(value, question, languages) {
   return accepted.some((answer) => normalize(answer) === normalize(value));
 }
 
+function showCorrectAnswers(element, question, languages) {
+  element.querySelector('.correct-answer-summary')?.remove();
+  const summary = document.createElement('div');
+  summary.className = 'correct-answer-summary';
+  const lines = [];
+  if (question.type === 'multi-step') {
+    question.steps.forEach((step, index) => {
+      const accepted = step.acceptedAnswers || [step.correctAnswer];
+      lines.push(`${index + 1}. ${accepted.join(' / ')}`);
+    });
+  } else if (question.answerMode === 'subjective') {
+    const answer = question.answers.find((item) => item.id === question.correctAnswer);
+    const accepted = languages.flatMap((language) => question.subjectiveAnswers?.[language] || (answer ? [text(answer.text, language)] : []));
+    summary.textContent = `Correct answer: ${accepted.join(' / ')}`;
+  } else {
+    const correctAnswers = Array.isArray(question.correctAnswer) ? question.correctAnswer : [question.correctAnswer];
+    const answers = correctAnswers.map((id) => {
+      const answer = question.answers.find((item) => item.id === id);
+      return answer ? `${id}. ${displayText(answer.text, languages)}` : id;
+    });
+    summary.textContent = `Correct answer${answers.length > 1 ? 's' : ''}: ${answers.join(' | ')}`;
+  }
+  if (lines.length) summary.textContent = `Correct answers:\n${lines.join('\n')}`;
+  element.append(summary);
+}
+
 export function checkAnswers() {
   let score = 0; let points = 0;
   const breakdown = new Map();
@@ -78,6 +104,7 @@ export function checkAnswers() {
         points++; if (correct) { score++; questionScore++; }
       });
       addBreakdown(question, questionScore, question.steps.length);
+      showCorrectAnswers(element, question, selectedLanguages());
       return;
     }
     points++;
@@ -87,6 +114,7 @@ export function checkAnswers() {
       input.parentElement.classList.toggle('correct', correct); input.parentElement.classList.toggle('wrong', !correct);
       if (correct) score++;
       addBreakdown(question, correct ? 1 : 0, 1);
+      showCorrectAnswers(element, question, selectedLanguages());
       return;
     }
     const selected = [...element.querySelectorAll('input:checked')].map((input) => input.value);
@@ -99,6 +127,7 @@ export function checkAnswers() {
     const isExact = selected.length === correctAnswers.length && selected.every((answer) => correctAnswers.includes(answer));
     if (isExact) score++;
     addBreakdown(question, isExact ? 1 : 0, 1);
+    showCorrectAnswers(element, question, selectedLanguages());
   });
   if (!points) { $('score').textContent = 'Reference entries are available for study and are not graded.'; return; }
   const percentage = Math.round((score / points) * 100);
