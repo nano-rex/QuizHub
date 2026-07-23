@@ -28,6 +28,7 @@ public final class MainActivity extends AppCompatActivity {
     private final List<Question> questions = new ArrayList<>();
     private LinearLayout questionContainer;
     private TextView score;
+    private Button newQuiz;
     private int correct;
     private int answered;
     private boolean attemptRecorded;
@@ -96,11 +97,28 @@ public final class MainActivity extends AppCompatActivity {
         score = new TextView(this);
         score.setTextSize(18);
         root.addView(score, matchWrap());
+        newQuiz = new Button(this);
+        newQuiz.setText("Start a new quiz");
+        newQuiz.setVisibility(Button.GONE);
+        newQuiz.setOnClickListener(view -> {
+            attemptRecorded = false;
+            score.setText("");
+            newQuiz.setVisibility(Button.GONE);
+            renderRandomQuestions();
+        });
+        root.addView(newQuiz, matchWrap());
         setContentView(scroll);
         renderRandomQuestions();
     }
 
     private void renderRandomQuestions() {
+        questionContainer.removeAllViews();
+        for (Question question : questions) {
+            question.view = null;
+            question.controls.clear();
+            question.correctAnswerView = null;
+            question.lastScore = 0;
+        }
         List<Question> selected = new ArrayList<>(questions);
         Collections.shuffle(selected);
         int count = Math.min(AppPreferences.questionCount(this), selected.size());
@@ -145,6 +163,7 @@ public final class MainActivity extends AppCompatActivity {
             question.correctAnswerView.setVisibility(TextView.VISIBLE);
         }
         score.setText("Score: " + correct + " / " + points + " point(s) (" + answered + " answered)");
+        newQuiz.setVisibility(Button.VISIBLE);
         if (!attemptRecorded) { StatisticsStore.record(this, correct, points, questions); attemptRecorded = true; }
     }
 

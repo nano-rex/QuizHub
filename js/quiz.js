@@ -129,9 +129,14 @@ export function checkAnswers() {
     addBreakdown(question, isExact ? 1 : 0, 1);
     showCorrectAnswers(element, question, selectedLanguages());
   });
-  if (!points) { $('score').textContent = 'Reference entries are available for study and are not graded.'; return; }
+  if (!points) {
+    $('score').textContent = 'Reference entries are available for study and are not graded.';
+    $('new-quiz')?.classList.remove('hidden');
+    return;
+  }
   const percentage = Math.round((score / points) * 100);
   $('score').textContent = `You scored ${score} out of ${points} point(s) (${percentage}%).`;
+  $('new-quiz')?.classList.remove('hidden');
   if (!state.attemptRecorded) {
     recordAttempt({ score, points, questions: state.quiz.filter((question) => question.type !== 'source-reference').length, breakdown: [...breakdown.values()] });
     state.attemptRecorded = true;
