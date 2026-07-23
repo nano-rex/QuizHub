@@ -21,14 +21,12 @@ public final class StatisticsStore {
             JSONArray breakdown = new JSONArray();
             for (MainActivity.Question question : questions) {
                 if (question.view == null) continue;
-                int selectedId = question.view.getCheckedRadioButtonId();
-                if (selectedId == -1) continue;
                 JSONObject item = new JSONObject();
                 item.put("subject", question.subject);
                 item.put("topic", question.topic);
                 item.put("questions", 1);
                 item.put("points", 1);
-                item.put("score", question.correctAnswer.equals(String.valueOf(question.view.findViewById(selectedId).getTag())) ? 1 : 0);
+                item.put("score", question.lastScore);
                 breakdown.put(item);
             }
             JSONObject attempt = new JSONObject();

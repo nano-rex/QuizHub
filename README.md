@@ -52,6 +52,8 @@ The bundled [`healthcare-education-scenarios.json`](question-banks/healthcare-ed
 
 Use the **Display languages** checklist to show English, Simplified Chinese, Traditional Chinese, Malay, or any combination of them together. Use `zh-Hans` and `zh-Hant` for separate Chinese translations. At quiz start, **Answer type** controls how questions are presented: Objective shows choices, Subjective shows a text field, and Mixed randomly chooses between them for each regular question. A regular question can provide optional `subjectiveAnswers` arrays when typed answers need to differ from the correct option’s displayed text. Multi-step questions always use step-by-step text fields.
 
+For objective questions with multiple correct choices, use a `correctAnswer` array and `selectionCount`; QuizHub renders checkboxes and requires the complete set. For example: `"selectionCount": 2, "correctAnswer": ["A", "D"]`.
+
 Question and answer objects can include an `images` array. Put the image files in [`images/`](images/) and reference them with paths such as `images/network-diagram.png`. Each entry may be a path string or an object with `src` and multilingual `alt`; data URLs are also supported for uploaded/custom JSON banks.
 
 ## Extracted source references
