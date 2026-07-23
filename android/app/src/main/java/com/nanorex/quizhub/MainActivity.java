@@ -123,6 +123,12 @@ public final class MainActivity extends AppCompatActivity {
             }
             questionContainer.addView(choices, matchWrap());
             question.view = choices;
+            TextView correctAnswer = new TextView(this);
+            correctAnswer.setVisibility(TextView.GONE);
+            correctAnswer.setTextSize(16);
+            correctAnswer.setPadding(0, 8, 0, 16);
+            question.correctAnswerView = correctAnswer;
+            questionContainer.addView(correctAnswer, matchWrap());
         }
     }
 
@@ -135,6 +141,8 @@ public final class MainActivity extends AppCompatActivity {
             for (CompoundButton control : question.controls) if (control.isChecked()) selected.add(String.valueOf(control.getTag()));
             if (!selected.isEmpty()) answered++;
             if (selected.size() == question.correctAnswers.size() && selected.containsAll(question.correctAnswers)) { correct++; question.lastScore = 1; } else question.lastScore = 0;
+            question.correctAnswerView.setText("Correct answer" + (question.correctAnswers.size() > 1 ? "s" : "") + ": " + question.correctAnswerText());
+            question.correctAnswerView.setVisibility(TextView.VISIBLE);
         }
         score.setText("Score: " + correct + " / " + points + " point(s) (" + answered + " answered)");
         if (!attemptRecorded) { StatisticsStore.record(this, correct, points, questions); attemptRecorded = true; }
@@ -171,6 +179,7 @@ public final class MainActivity extends AppCompatActivity {
         final boolean multiple;
         final List<CompoundButton> controls = new ArrayList<>();
         LinearLayout view;
+        TextView correctAnswerView;
         int lastScore;
 
         Question(JSONObject data) {
@@ -185,5 +194,19 @@ public final class MainActivity extends AppCompatActivity {
         }
 
         String prompt() { return localized(data.opt("question")); }
+
+        String correctAnswerText() {
+            List<String> labels = new ArrayList<>();
+            for (String id : correctAnswers) {
+                for (int index = 0; index < answers.length(); index++) {
+                    JSONObject answer = answers.optJSONObject(index);
+                    if (answer != null && id.equals(answer.optString("id"))) {
+                        labels.add(id + ". " + localized(answer.opt("text")));
+                        break;
+                    }
+                }
+            }
+            return String.join(" | ", labels);
+        }
     }
 }
