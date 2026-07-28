@@ -318,7 +318,11 @@ public final class MainActivity extends AppCompatActivity {
                 JSONArray steps = data.optJSONArray("steps");
                 for (int index = 0; steps != null && index < steps.length(); index++) {
                     JSONArray accepted = steps.optJSONObject(index).optJSONArray("acceptedAnswers");
-                    if (accepted != null && accepted.length() > 0) labels.add((index + 1) + ". " + accepted.join(" / "));
+                    if (accepted != null && accepted.length() > 0) {
+                        List<String> answers = new ArrayList<>();
+                        for (int answerIndex = 0; answerIndex < accepted.length(); answerIndex++) answers.add(String.valueOf(accepted.opt(answerIndex)));
+                        labels.add((index + 1) + ". " + String.join(" / ", answers));
+                    }
                 }
                 return String.join("\n", labels);
             }
