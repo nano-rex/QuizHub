@@ -44,11 +44,6 @@ Add any number of `.json` files with this shape. Add bundled files to [`question
 
 The quiz selects questions randomly from the checked subjects and topics. If the requested count is larger than the filtered pool, all matching questions are used. Browser file uploads have no application-defined file-count limit.
 
-The bundled [`it-job-scenarios.json`](question-banks/it-job-scenarios.json) contains original, role-based workplace scenarios for L1 helpdesk, L2 support, system administration, network engineering, and security analysis. It is based on public task frameworks and troubleshooting guidance, with source attribution retained in the bank metadata.
-
-The bundled [`malaysia-business-compliance.json`](question-banks/malaysia-business-compliance.json) contains original Malaysia-focused scenarios for SSM registration and MBRS, LHDN payroll and tax records, KWSP, PERKESO, financial controls, audit evidence, and transfer pricing. Because agency rules, rates, deadlines, and exemptions can change, this bank links to official sources and should be reviewed against the latest guidance before practical use.
-
-The bundled [`healthcare-education-scenarios.json`](question-banks/healthcare-education-scenarios.json) is an educational-only bank for clinic safety, medication reconciliation, infection prevention, nutrition, obesity screening, and referral workflows. It is not a diagnostic or prescribing tool; medical content should be reviewed against current local clinical guidance.
 
 Use the **Display languages** checklist to show English, Simplified Chinese, Traditional Chinese, Malay, or any combination of them together. Use `zh-Hans` and `zh-Hant` for separate Chinese translations. At quiz start, **Answer type** controls how questions are presented: Objective shows choices, Subjective shows a text field, and Mixed randomly chooses between them for each regular question. A regular question can provide optional `subjectiveAnswers` arrays when typed answers need to differ from the correct option’s displayed text. Multi-step questions always use step-by-step text fields.
 
