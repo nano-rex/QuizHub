@@ -5,6 +5,7 @@ import android.view.Gravity;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.ScrollView;
@@ -54,7 +55,7 @@ public final class MainActivity extends AppCompatActivity {
                 for (int questionIndex = 0; questionIndex < bankQuestions.length(); questionIndex++) {
                     JSONObject item = bankQuestions.getJSONObject(questionIndex);
                     String type = item.optString("type", "multiple-choice");
-                    if ("multiple-choice".equals(type)) questions.add(new Question(item));
+                    if ("multiple-choice".equals(type) || "multi-step".equals(type)) questions.add(new Question(item));
                 }
             }
         } catch (Exception error) {
@@ -116,8 +117,10 @@ public final class MainActivity extends AppCompatActivity {
         for (Question question : questions) {
             question.view = null;
             question.controls.clear();
+            question.stepInputs.clear();
             question.correctAnswerView = null;
             question.lastScore = 0;
+            question.lastPoints = 0;
         }
         List<Question> selected = new ArrayList<>();
         for (Question question : questions) if (AppPreferences.isSubjectEnabled(this, question.subject)) selected.add(question);
@@ -133,13 +136,34 @@ public final class MainActivity extends AppCompatActivity {
             questionContainer.addView(prompt, matchWrap());
             LinearLayout choices = new LinearLayout(this);
             choices.setOrientation(LinearLayout.VERTICAL);
-            for (int answerIndex = 0; answerIndex < question.answers.length(); answerIndex++) {
-                JSONObject answer = question.answers.optJSONObject(answerIndex);
-                if (answer == null) continue;
-                CompoundButton button = question.multiple ? new CheckBox(this) : new RadioButton(this);
-                button.setText(answer.optString("id") + ". " + localized(answer.opt("text"), languages));
-                button.setTag(answer.optString("id"));
-                choices.addView(button, matchWrap()); question.controls.add(button);
+            if (question.multiStep) {
+                JSONArray steps = question.data.optJSONArray("steps");
+                for (int stepIndex = 0; steps != null && stepIndex < steps.length(); stepIndex++) {
+                    JSONObject step = steps.optJSONObject(stepIndex);
+                    if (step == null) continue;
+                    TextView stepPrompt = new TextView(this);
+                    stepPrompt.setText((stepIndex + 1) + ". " + localized(step.opt("prompt"), languages));
+                    choices.addView(stepPrompt, matchWrap());
+                    EditText input = new EditText(this);
+                    input.setInputType(android.text.InputType.TYPE_CLASS_TEXT);
+                    input.setSingleLine(true);
+                    choices.addView(input, matchWrap());
+                    question.stepInputs.add(input);
+                }
+            } else {
+                if (question.multiple) {
+                    TextView instruction = new TextView(this);
+                    instruction.setText("Select all that apply");
+                    choices.addView(instruction, matchWrap());
+                }
+                for (int answerIndex = 0; answerIndex < question.answers.length(); answerIndex++) {
+                    JSONObject answer = question.answers.optJSONObject(answerIndex);
+                    if (answer == null) continue;
+                    CompoundButton button = question.multiple ? new CheckBox(this) : new RadioButton(this);
+                    button.setText(answer.optString("id") + ". " + localized(answer.opt("text"), languages));
+                    button.setTag(answer.optString("id"));
+                    choices.addView(button, matchWrap()); question.controls.add(button);
+                }
             }
             questionContainer.addView(choices, matchWrap());
             question.view = choices;
@@ -156,6 +180,23 @@ public final class MainActivity extends AppCompatActivity {
         correct = 0; answered = 0; int points = 0;
         for (Question question : questions) {
             if (question.view == null) continue;
+            if (question.multiStep) {
+                int questionCorrect = 0;
+                for (int stepIndex = 0; stepIndex < question.stepInputs.size(); stepIndex++) {
+                    EditText input = question.stepInputs.get(stepIndex);
+                    JSONObject step = question.data.optJSONArray("steps").optJSONObject(stepIndex);
+                    boolean stepCorrect = isStepCorrect(input.getText().toString(), step);
+                    if (stepCorrect) questionCorrect++;
+                    if (!input.getText().toString().trim().isEmpty()) answered++;
+                }
+                points += question.stepInputs.size();
+                correct += questionCorrect;
+                question.lastScore = questionCorrect;
+                question.lastPoints = question.stepInputs.size();
+                question.correctAnswerView.setText("Correct answers:\n" + question.correctAnswerText(AppPreferences.languages(this)));
+                question.correctAnswerView.setVisibility(TextView.VISIBLE);
+                continue;
+            }
             points++;
             List<String> selected = new ArrayList<>();
             for (CompoundButton control : question.controls) if (control.isChecked()) selected.add(String.valueOf(control.getTag()));
@@ -163,10 +204,31 @@ public final class MainActivity extends AppCompatActivity {
             if (selected.size() == question.correctAnswers.size() && selected.containsAll(question.correctAnswers)) { correct++; question.lastScore = 1; } else question.lastScore = 0;
             question.correctAnswerView.setText("Correct answer" + (question.correctAnswers.size() > 1 ? "s" : "") + ": " + question.correctAnswerText(AppPreferences.languages(this)));
             question.correctAnswerView.setVisibility(TextView.VISIBLE);
+            question.lastPoints = 1;
         }
         score.setText("Score: " + correct + " / " + points + " point(s) (" + answered + " answered)");
         newQuiz.setVisibility(Button.VISIBLE);
         if (!attemptRecorded) { StatisticsStore.record(this, correct, points, questions); attemptRecorded = true; }
+    }
+
+    private static boolean isStepCorrect(String value, JSONObject step) {
+        String normalized = value.trim().replace(",", "").toLowerCase();
+        JSONArray accepted = step.optJSONArray("acceptedAnswers");
+        if (accepted == null || normalized.isEmpty()) return false;
+        for (int index = 0; index < accepted.length(); index++) {
+            Object answer = accepted.opt(index);
+            if (String.valueOf(answer).trim().replace(",", "").toLowerCase().equals(normalized)) return true;
+        }
+        if (step.has("tolerance")) {
+            try {
+                double actual = Double.parseDouble(normalized);
+                double tolerance = step.optDouble("tolerance");
+                for (int index = 0; index < accepted.length(); index++) {
+                    if (Math.abs(actual - accepted.optDouble(index)) <= tolerance) return true;
+                }
+            } catch (NumberFormatException ignored) { }
+        }
+        return false;
     }
 
     private String readAsset(String path) throws Exception {
@@ -211,10 +273,13 @@ public final class MainActivity extends AppCompatActivity {
         final String subject;
         final String topic;
         final boolean multiple;
+        final boolean multiStep;
         final List<CompoundButton> controls = new ArrayList<>();
+        final List<EditText> stepInputs = new ArrayList<>();
         LinearLayout view;
         TextView correctAnswerView;
         int lastScore;
+        int lastPoints;
 
         Question(JSONObject data) {
             this.data = data;
@@ -223,6 +288,7 @@ public final class MainActivity extends AppCompatActivity {
             if (answersValue instanceof JSONArray) for (int index = 0; index < ((JSONArray) answersValue).length(); index++) correctAnswers.add(((JSONArray) answersValue).optString(index));
             else correctAnswers.add(data.optString("correctAnswer"));
             this.multiple = correctAnswers.size() > 1 || data.optInt("selectionCount", 1) > 1;
+            this.multiStep = "multi-step".equals(data.optString("type"));
             this.subject = data.optString("subject", "General");
             this.topic = data.optString("topic", "General");
         }
@@ -231,6 +297,14 @@ public final class MainActivity extends AppCompatActivity {
 
         String correctAnswerText(List<String> languages) {
             List<String> labels = new ArrayList<>();
+            if (multiStep) {
+                JSONArray steps = data.optJSONArray("steps");
+                for (int index = 0; steps != null && index < steps.length(); index++) {
+                    JSONArray accepted = steps.optJSONObject(index).optJSONArray("acceptedAnswers");
+                    if (accepted != null && accepted.length() > 0) labels.add((index + 1) + ". " + accepted.join(" / "));
+                }
+                return String.join("\n", labels);
+            }
             for (String id : correctAnswers) {
                 for (int index = 0; index < answers.length(); index++) {
                     JSONObject answer = answers.optJSONObject(index);
