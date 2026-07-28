@@ -5,8 +5,6 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.Spinner;
-import android.widget.ArrayAdapter;
 import android.widget.Switch;
 import android.widget.TextView;
 
@@ -35,12 +33,19 @@ public final class SettingsActivity extends AppCompatActivity {
 
         TextView countLabel = new TextView(this); countLabel.setText("Questions to fetch"); root.addView(countLabel);
         EditText count = new EditText(this); count.setInputType(2); count.setText(String.valueOf(AppPreferences.questionCount(this))); root.addView(count, matchWrap());
-        TextView languageLabel = new TextView(this); languageLabel.setText("Display language"); root.addView(languageLabel);
-        Spinner language = new Spinner(this);
-        language.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, new String[]{"English", "Simplified Chinese", "Traditional Chinese", "Bahasa Melayu"}));
+        TextView languageLabel = new TextView(this); languageLabel.setText("Display languages (select one or more)"); root.addView(languageLabel, matchWrap());
         String[] codes = {"en", "zh-Hans", "zh-Hant", "ms"};
-        for (int index = 0; index < codes.length; index++) if (codes[index].equals(AppPreferences.language(this))) language.setSelection(index);
-        root.addView(language, matchWrap());
+        String[] names = {"English", "Simplified Chinese", "Traditional Chinese", "Bahasa Melayu"};
+        List<String> savedLanguages = AppPreferences.languages(this);
+        List<CheckBox> languageControls = new ArrayList<>();
+        for (int index = 0; index < codes.length; index++) {
+            CheckBox control = new CheckBox(this);
+            control.setText(names[index]);
+            control.setTag(codes[index]);
+            control.setChecked(savedLanguages.contains(codes[index]));
+            languageControls.add(control);
+            root.addView(control, matchWrap());
+        }
         Switch darkMode = new Switch(this); darkMode.setText("Dark mode"); darkMode.setChecked(AppPreferences.darkMode(this)); root.addView(darkMode, matchWrap());
         TextView subjectsLabel = new TextView(this); subjectsLabel.setText("Enabled subjects"); root.addView(subjectsLabel, matchWrap());
         List<CheckBox> subjectControls = new ArrayList<>();
@@ -58,7 +63,10 @@ public final class SettingsActivity extends AppCompatActivity {
             try { number = Math.max(1, Integer.parseInt(count.getText().toString())); } catch (NumberFormatException error) { number = 10; }
             Set<String> enabledSubjects = new HashSet<>();
             for (CheckBox control : subjectControls) if (control.isChecked()) enabledSubjects.add(control.getText().toString());
-            AppPreferences.save(this, number, codes[language.getSelectedItemPosition()], darkMode.isChecked(), enabledSubjects);
+            List<String> languages = new ArrayList<>();
+            for (CheckBox control : languageControls) if (control.isChecked()) languages.add(String.valueOf(control.getTag()));
+            if (languages.isEmpty()) languages.add("en");
+            AppPreferences.save(this, number, languages, darkMode.isChecked(), enabledSubjects);
             AppCompatDelegate.setDefaultNightMode(darkMode.isChecked() ? AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO);
             finish();
         });
