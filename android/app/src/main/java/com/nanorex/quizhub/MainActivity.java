@@ -119,7 +119,8 @@ public final class MainActivity extends AppCompatActivity {
             question.correctAnswerView = null;
             question.lastScore = 0;
         }
-        List<Question> selected = new ArrayList<>(questions);
+        List<Question> selected = new ArrayList<>();
+        for (Question question : questions) if (AppPreferences.isSubjectEnabled(this, question.subject)) selected.add(question);
         Collections.shuffle(selected);
         int count = Math.min(AppPreferences.questionCount(this), selected.size());
         for (int index = 0; index < count; index++) {
