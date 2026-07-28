@@ -85,7 +85,6 @@ public final class SettingsActivity extends AppCompatActivity {
                 if (questions == null) continue;
                 for (int questionIndex = 0; questionIndex < questions.length(); questionIndex++) {
                     JSONObject question = questions.getJSONObject(questionIndex);
-                    if (!"multiple-choice".equals(question.optString("type", "multiple-choice"))) continue;
                     String subject = question.optString("subject", "General");
                     if (!subject.isEmpty()) subjects.add(subject);
                 }

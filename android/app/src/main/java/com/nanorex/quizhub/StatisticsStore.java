@@ -25,7 +25,7 @@ public final class StatisticsStore {
                 item.put("subject", question.subject);
                 item.put("topic", question.topic);
                 item.put("questions", 1);
-                item.put("points", 1);
+                item.put("points", question.lastPoints);
                 item.put("score", question.lastScore);
                 breakdown.put(item);
             }
