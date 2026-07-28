@@ -121,12 +121,13 @@ public final class MainActivity extends AppCompatActivity {
         }
         List<Question> selected = new ArrayList<>();
         for (Question question : questions) if (AppPreferences.isSubjectEnabled(this, question.subject)) selected.add(question);
+        List<String> languages = AppPreferences.languages(this);
         Collections.shuffle(selected);
         int count = Math.min(AppPreferences.questionCount(this), selected.size());
         for (int index = 0; index < count; index++) {
             Question question = selected.get(index);
             TextView prompt = new TextView(this);
-            prompt.setText((index + 1) + ". " + question.prompt());
+            prompt.setText((index + 1) + ". " + question.prompt(languages));
             prompt.setTextSize(18);
             prompt.setPadding(0, 28, 0, 8);
             questionContainer.addView(prompt, matchWrap());
@@ -136,7 +137,7 @@ public final class MainActivity extends AppCompatActivity {
                 JSONObject answer = question.answers.optJSONObject(answerIndex);
                 if (answer == null) continue;
                 CompoundButton button = question.multiple ? new CheckBox(this) : new RadioButton(this);
-                button.setText(answer.optString("id") + ". " + localized(answer.opt("text")));
+                button.setText(answer.optString("id") + ". " + localized(answer.opt("text"), languages));
                 button.setTag(answer.optString("id"));
                 choices.addView(button, matchWrap()); question.controls.add(button);
             }
@@ -160,7 +161,7 @@ public final class MainActivity extends AppCompatActivity {
             for (CompoundButton control : question.controls) if (control.isChecked()) selected.add(String.valueOf(control.getTag()));
             if (!selected.isEmpty()) answered++;
             if (selected.size() == question.correctAnswers.size() && selected.containsAll(question.correctAnswers)) { correct++; question.lastScore = 1; } else question.lastScore = 0;
-            question.correctAnswerView.setText("Correct answer" + (question.correctAnswers.size() > 1 ? "s" : "") + ": " + question.correctAnswerText());
+            question.correctAnswerView.setText("Correct answer" + (question.correctAnswers.size() > 1 ? "s" : "") + ": " + question.correctAnswerText(AppPreferences.languages(this)));
             question.correctAnswerView.setVisibility(TextView.VISIBLE);
         }
         score.setText("Score: " + correct + " / " + points + " point(s) (" + answered + " answered)");
@@ -177,13 +178,26 @@ public final class MainActivity extends AppCompatActivity {
         return result.toString();
     }
 
-    private static String localized(Object value) {
+    private static String localized(Object value, List<String> languages) {
         if (value instanceof String) return (String) value;
         if (value instanceof JSONObject) {
             JSONObject text = (JSONObject) value;
+            List<String> lines = new ArrayList<>();
+            for (String language : languages) {
+                String translation = text.optString(language, "");
+                if (!translation.isEmpty()) lines.add(languageName(language) + ": " + translation);
+            }
+            if (!lines.isEmpty()) return String.join("\n", lines);
             return text.optString("en", text.optString("zh-Hans", text.optString("ms", "")));
         }
         return "";
+    }
+
+    private static String languageName(String code) {
+        if ("zh-Hans".equals(code)) return "简体中文";
+        if ("zh-Hant".equals(code)) return "繁體中文";
+        if ("ms".equals(code)) return "Bahasa Melayu";
+        return "English";
     }
 
     private static LinearLayout.LayoutParams matchWrap() {
@@ -213,15 +227,15 @@ public final class MainActivity extends AppCompatActivity {
             this.topic = data.optString("topic", "General");
         }
 
-        String prompt() { return localized(data.opt("question")); }
+        String prompt(List<String> languages) { return localized(data.opt("question"), languages); }
 
-        String correctAnswerText() {
+        String correctAnswerText(List<String> languages) {
             List<String> labels = new ArrayList<>();
             for (String id : correctAnswers) {
                 for (int index = 0; index < answers.length(); index++) {
                     JSONObject answer = answers.optJSONObject(index);
                     if (answer != null && id.equals(answer.optString("id"))) {
-                        labels.add(id + ". " + localized(answer.opt("text")));
+                        labels.add(id + ". " + localized(answer.opt("text"), languages));
                         break;
                     }
                 }
