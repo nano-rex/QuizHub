@@ -5,6 +5,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.Switch;
 import android.widget.TextView;
 
@@ -30,6 +31,10 @@ public final class SettingsActivity extends AppCompatActivity {
         setTitle("QuizHub Settings");
         LinearLayout root = new LinearLayout(this);
         root.setOrientation(LinearLayout.VERTICAL); root.setPadding(32, 32, 32, 32);
+        ScrollView scroll = new ScrollView(this);
+        scroll.setVerticalScrollBarEnabled(true);
+        scroll.setScrollbarFadingEnabled(false);
+        scroll.addView(root);
 
         TextView countLabel = new TextView(this); countLabel.setText("Questions to fetch"); root.addView(countLabel);
         EditText count = new EditText(this); count.setInputType(2); count.setText(String.valueOf(AppPreferences.questionCount(this))); root.addView(count, matchWrap());
@@ -70,7 +75,7 @@ public final class SettingsActivity extends AppCompatActivity {
             AppCompatDelegate.setDefaultNightMode(darkMode.isChecked() ? AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO);
             finish();
         });
-        setContentView(root);
+        setContentView(scroll);
     }
 
     private List<String> loadSubjects() {
