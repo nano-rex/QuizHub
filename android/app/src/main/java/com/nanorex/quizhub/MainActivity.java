@@ -33,6 +33,7 @@ public final class MainActivity extends AppCompatActivity {
     private int correct;
     private int answered;
     private boolean attemptRecorded;
+    private boolean refreshAfterSettings;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,7 +82,10 @@ public final class MainActivity extends AppCompatActivity {
         root.addView(status, matchWrap());
 
         LinearLayout navigation = new LinearLayout(this);
-        Button settings = new Button(this); settings.setText("Settings"); settings.setOnClickListener(view -> startActivity(new android.content.Intent(this, SettingsActivity.class)));
+        Button settings = new Button(this); settings.setText("Settings"); settings.setOnClickListener(view -> {
+            refreshAfterSettings = true;
+            startActivity(new android.content.Intent(this, SettingsActivity.class));
+        });
         Button statistics = new Button(this); statistics.setText("Statistics"); statistics.setOnClickListener(view -> startActivity(new android.content.Intent(this, StatisticsActivity.class)));
         navigation.addView(settings, new LinearLayout.LayoutParams(0, -2, 1)); navigation.addView(statistics, new LinearLayout.LayoutParams(0, -2, 1));
         root.addView(navigation, matchWrap());
@@ -108,8 +112,21 @@ public final class MainActivity extends AppCompatActivity {
             renderRandomQuestions();
         });
         root.addView(newQuiz, matchWrap());
+        scroll.setVerticalScrollBarEnabled(true);
+        scroll.setScrollbarFadingEnabled(false);
         setContentView(scroll);
         renderRandomQuestions();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (refreshAfterSettings && questionContainer != null) {
+            refreshAfterSettings = false;
+            score.setText("");
+            newQuiz.setVisibility(Button.GONE);
+            renderRandomQuestions();
+        }
     }
 
     private void renderRandomQuestions() {

@@ -3,6 +3,7 @@ package com.nanorex.quizhub;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,6 +22,10 @@ public final class StatisticsActivity extends AppCompatActivity {
 
     private void render() {
         LinearLayout root = new LinearLayout(this); root.setOrientation(LinearLayout.VERTICAL); root.setPadding(32, 32, 32, 32);
+        ScrollView scroll = new ScrollView(this);
+        scroll.setVerticalScrollBarEnabled(true);
+        scroll.setScrollbarFadingEnabled(false);
+        scroll.addView(root);
         JSONArray history = StatisticsStore.history(this); int score = 0; int points = 0;
         Map<String, int[]> subjects = new HashMap<>(); Map<String, int[]> topics = new HashMap<>();
         try {
@@ -37,7 +42,7 @@ public final class StatisticsActivity extends AppCompatActivity {
         TextView overall = new TextView(this); overall.setText("Tests taken: " + history.length() + "\nOverall performance: " + percent(score, points) + "%"); overall.setTextSize(20); root.addView(overall, matchWrap());
         addSection(root, "By subject", subjects); addSection(root, "By topic", topics);
         Button clear = new Button(this); clear.setText("Clear statistics"); clear.setOnClickListener(view -> { StatisticsStore.clear(this); render(); }); root.addView(clear, matchWrap());
-        setContentView(root);
+        setContentView(scroll);
     }
 
     private static void addSection(LinearLayout root, String title, Map<String, int[]> values) {
