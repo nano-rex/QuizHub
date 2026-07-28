@@ -109,6 +109,145 @@
         }
       ],
       "images": []
+    },
+    {
+      "id": "math-003",
+      "type": "multi-step",
+      "subject": "Mathematics",
+      "topic": "Ratios",
+      "question": {"en": "A drink uses water and juice in the ratio 2:3. If 25 cups are made, how many cups of each are needed?", "ms": "Minuman menggunakan air dan jus dalam nisbah 2:3. Jika 25 cawan dibuat, berapa cawan bagi setiap bahan diperlukan?", "zh-Hans": "饮料中水和果汁的比例是 2:3。制作 25 杯需要各多少杯？", "zh-Hant": "飲料中水和果汁的比例是 2:3。製作 25 杯需要各多少杯？"},
+      "variants": {"en": ["Split 25 cups in the ratio 2:3."], "ms": ["Bahagikan 25 cawan dalam nisbah 2:3。"], "zh-Hans": ["按 2:3 的比例分配 25 杯。"], "zh-Hant": ["按 2:3 的比例分配 25 杯。"]},
+      "steps": [
+        {"prompt": {"en": "Total ratio parts:", "ms": "Jumlah bahagian nisbah:", "zh-Hans": "比例总份数：", "zh-Hant": "比例總份數："}, "acceptedAnswers": [5], "images": []},
+        {"prompt": {"en": "Water cups:", "ms": "Cawan air:", "zh-Hans": "水的杯数：", "zh-Hant": "水的杯數："}, "acceptedAnswers": [10], "images": []},
+        {"prompt": {"en": "Juice cups:", "ms": "Cawan jus:", "zh-Hans": "果汁的杯数：", "zh-Hant": "果汁的杯數："}, "acceptedAnswers": [15], "images": []}
+      ],
+      "images": []
+    },
+    {
+      "id": "math-004",
+      "type": "multi-step",
+      "subject": "Mathematics",
+      "topic": "Linear equations",
+      "question": {"en": "Solve 5x - 7 = 18.", "ms": "Selesaikan 5x - 7 = 18.", "zh-Hans": "解方程 5x - 7 = 18。", "zh-Hant": "解方程 5x - 7 = 18。"},
+      "variants": {"en": ["Find x in 5x - 7 = 18."], "ms": ["Cari nilai x bagi 5x - 7 = 18。"], "zh-Hans": ["求 5x - 7 = 18 中的 x。"], "zh-Hant": ["求 5x - 7 = 18 中的 x。"]},
+      "steps": [
+        {"prompt": {"en": "Add 7 to both sides:", "ms": "Tambah 7 pada kedua-dua belah:", "zh-Hans": "等式两边加 7：", "zh-Hant": "等式兩邊加 7："}, "acceptedAnswers": [25], "images": []},
+        {"prompt": {"en": "Divide by 5. x =", "ms": "除以 5。x =", "zh-Hans": "除以 5。x =", "zh-Hant": "除以 5。x ="}, "acceptedAnswers": [5], "images": []}
+      ],
+      "images": []
+    },
+    {
+      "id": "math-005",
+      "type": "multi-step",
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "question": {"en": "A rectangle is 12 cm long and 7 cm wide. Find its area and perimeter.", "ms": "Sebuah segi empat tepat berukuran 12 cm panjang dan 7 cm lebar. Cari luas dan perimeternya.", "zh-Hans": "一个长方形长 12 厘米、宽 7 厘米。求面积和周长。", "zh-Hant": "一個長方形長 12 厘米、寬 7 厘米。求面積和周長。"},
+      "variants": {"en": ["Calculate the area and perimeter of a 12 cm by 7 cm rectangle."], "ms": ["Kira luas dan perimeter segi empat tepat 12 cm × 7 cm。"], "zh-Hans": ["计算 12 厘米 × 7 厘米长方形的面积和周长。"], "zh-Hant": ["計算 12 厘米 × 7 厘米長方形的面積和周長。"]},
+      "steps": [
+        {"prompt": {"en": "Area in cm²:", "ms": "Luas dalam cm²:", "zh-Hans": "面积（平方厘米）：", "zh-Hant": "面積（平方厘米）："}, "acceptedAnswers": [84], "images": []},
+        {"prompt": {"en": "Perimeter in cm:", "ms": "Perimeter dalam cm:", "zh-Hans": "周长（厘米）：", "zh-Hant": "周長（厘米）："}, "acceptedAnswers": [38], "images": []}
+      ],
+      "images": []
+    },
+    {
+      "id": "math-006",
+      "type": "multi-step",
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "question": {"en": "Find the simple interest and final amount on $1,200 at 5% per year for 2 years.", "ms": "Cari faedah mudah dan jumlah akhir bagi $1,200 pada kadar 5% setahun selama 2 tahun.", "zh-Hans": "求 1,200 元以年利率 5% 存放 2 年的单利和最终金额。", "zh-Hant": "求 1,200 元以年利率 5% 存放 2 年的單利和最終金額。"},
+      "variants": {"en": ["Calculate simple interest for $1,200 at 5% for 2 years, then find the total."], "ms": ["Kira faedah mudah $1,200 pada 5% selama 2 tahun dan jumlah keseluruhan。"], "zh-Hans": ["计算 1,200 元以 5% 利率存放 2 年的单利和总额。"], "zh-Hant": ["計算 1,200 元以 5% 利率存放 2 年的單利和總額。"]},
+      "steps": [
+        {"prompt": {"en": "Interest for one year:", "ms": "Faedah untuk satu tahun:", "zh-Hans": "一年的利息：", "zh-Hant": "一年的利息："}, "acceptedAnswers": [60], "images": []},
+        {"prompt": {"en": "Interest for two years:", "ms": "Faedah untuk dua tahun:", "zh-Hans": "两年的利息：", "zh-Hant": "兩年的利息："}, "acceptedAnswers": [120], "images": []},
+        {"prompt": {"en": "Final amount:", "ms": "Jumlah akhir:", "zh-Hans": "最终金额：", "zh-Hant": "最終金額："}, "acceptedAnswers": [1320], "images": []}
+      ],
+      "images": []
+    },
+    {
+      "id": "math-007",
+      "type": "multi-step",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "question": {"en": "A bag contains 3 red and 2 blue marbles. Find the probability of drawing a red marble.", "ms": "Sebuah beg mengandungi 3 guli merah dan 2 guli biru. Cari kebarangkalian mendapat guli merah.", "zh-Hans": "袋中有 3 个红球和 2 个蓝球。求抽到红球的概率。", "zh-Hant": "袋中有 3 個紅球和 2 個藍球。求抽到紅球的機率。"},
+      "variants": {"en": ["What is the probability of selecting a red marble?"], "ms": ["Apakah kebarangkalian memilih guli merah?"], "zh-Hans": ["抽到红球的概率是多少？"], "zh-Hant": ["抽到紅球的機率是多少？"]},
+      "steps": [
+        {"prompt": {"en": "Total marbles:", "ms": "Jumlah guli:", "zh-Hans": "弹珠总数：", "zh-Hant": "彈珠總數："}, "acceptedAnswers": [5], "images": []},
+        {"prompt": {"en": "Probability as a fraction:", "ms": "Kebarangkalian sebagai pecahan:", "zh-Hans": "概率（分数）：", "zh-Hant": "機率（分數）："}, "acceptedAnswers": ["3/5"], "images": []},
+        {"prompt": {"en": "Probability as a decimal:", "ms": "Kebarangkalian sebagai perpuluhan:", "zh-Hans": "概率（小数）：", "zh-Hant": "機率（小數）："}, "acceptedAnswers": [0.6], "tolerance": 0.01, "images": []}
+      ],
+      "images": []
+    },
+    {
+      "id": "math-008",
+      "type": "multi-step",
+      "subject": "Mathematics",
+      "topic": "Pythagorean theorem",
+      "question": {"en": "A right triangle has legs of 6 cm and 8 cm. Find the hypotenuse.", "ms": "Sebuah segi tiga bersudut tegak mempunyai sisi 6 cm dan 8 cm. Cari hipotenusnya.", "zh-Hans": "直角三角形的两条直角边为 6 厘米和 8 厘米。求斜边。", "zh-Hant": "直角三角形的兩條直角邊為 6 厘米和 8 厘米。求斜邊。"},
+      "variants": {"en": ["Use the Pythagorean theorem to find c when a = 6 and b = 8."], "ms": ["Gunakan teorem Pythagoras untuk mencari c apabila a = 6 dan b = 8。"], "zh-Hans": ["使用勾股定理求 a = 6、b = 8 时的 c。"], "zh-Hant": ["使用勾股定理求 a = 6、b = 8 時的 c。"]},
+      "steps": [
+        {"prompt": {"en": "6²:", "ms": "6²:", "zh-Hans": "6²：", "zh-Hant": "6²："}, "acceptedAnswers": [36], "images": []},
+        {"prompt": {"en": "8²:", "ms": "8²:", "zh-Hans": "8²：", "zh-Hant": "8²："}, "acceptedAnswers": [64], "images": []},
+        {"prompt": {"en": "6² + 8²:", "ms": "6² + 8²:", "zh-Hans": "6² + 8²：", "zh-Hant": "6² + 8²："}, "acceptedAnswers": [100], "images": []},
+        {"prompt": {"en": "Hypotenuse in cm:", "ms": "Hipotenus dalam cm:", "zh-Hans": "斜边（厘米）：", "zh-Hant": "斜邊（厘米）："}, "acceptedAnswers": [10], "images": []}
+      ],
+      "images": []
+    },
+    {
+      "id": "math-009",
+      "type": "multi-step",
+      "subject": "Mathematics",
+      "topic": "Statistics",
+      "question": {"en": "Find the mean of 12, 15, 9, and 14.", "ms": "Cari min bagi 12, 15, 9 dan 14.", "zh-Hans": "求 12、15、9 和 14 的平均数。", "zh-Hant": "求 12、15、9 和 14 的平均數。"},
+      "variants": {"en": ["Calculate the average of 12, 15, 9, and 14."], "ms": ["Kira purata 12, 15, 9 dan 14。"], "zh-Hans": ["计算 12、15、9 和 14 的平均值。"], "zh-Hant": ["計算 12、15、9 和 14 的平均值。"]},
+      "steps": [
+        {"prompt": {"en": "Sum of the values:", "ms": "Jumlah nilai:", "zh-Hans": "数值总和：", "zh-Hant": "數值總和："}, "acceptedAnswers": [50], "images": []},
+        {"prompt": {"en": "Number of values:", "ms": "Bilangan nilai:", "zh-Hans": "数值个数：", "zh-Hant": "數值個數："}, "acceptedAnswers": [4], "images": []},
+        {"prompt": {"en": "Mean:", "ms": "Min:", "zh-Hans": "平均数：", "zh-Hant": "平均數："}, "acceptedAnswers": [12.5], "tolerance": 0.01, "images": []}
+      ],
+      "images": []
+    },
+    {
+      "id": "math-010",
+      "type": "multi-step",
+      "subject": "Mathematics",
+      "topic": "Unit conversion",
+      "question": {"en": "Convert 2.5 kilometres to metres.", "ms": "Tukarkan 2.5 kilometer kepada meter.", "zh-Hans": "把 2.5 千米换算成米。", "zh-Hant": "把 2.5 千米換算成米。"},
+      "variants": {"en": ["How many metres are in 2.5 km?"], "ms": ["Berapakah meter dalam 2.5 km?"], "zh-Hans": ["2.5 千米等于多少米？"], "zh-Hant": ["2.5 千米等於多少米？"]},
+      "steps": [
+        {"prompt": {"en": "Metres in 2 kilometres:", "ms": "Meter dalam 2 kilometer:", "zh-Hans": "2 千米的米数：", "zh-Hant": "2 千米的米數："}, "acceptedAnswers": [2000], "images": []},
+        {"prompt": {"en": "Metres in 0.5 kilometres:", "ms": "Meter dalam 0.5 kilometer:", "zh-Hans": "0.5 千米的米数：", "zh-Hant": "0.5 千米的米數："}, "acceptedAnswers": [500], "images": []},
+        {"prompt": {"en": "Total metres:", "ms": "Jumlah meter:", "zh-Hans": "米的总数：", "zh-Hant": "米的總數："}, "acceptedAnswers": [2500], "images": []}
+      ],
+      "images": []
+    },
+    {
+      "id": "math-011",
+      "type": "multi-step",
+      "subject": "Mathematics",
+      "topic": "Fractions",
+      "question": {"en": "Calculate 3/4 + 2/3.", "ms": "Kira 3/4 + 2/3.", "zh-Hans": "计算 3/4 + 2/3。", "zh-Hant": "計算 3/4 + 2/3。"},
+      "variants": {"en": ["Add three quarters and two thirds."], "ms": ["Tambah tiga perempat dan dua pertiga。"], "zh-Hans": ["把四分之三和三分之二相加。"], "zh-Hant": ["把四分之三和三分之二相加。"]},
+      "steps": [
+        {"prompt": {"en": "Common denominator:", "ms": "Penyebut sepunya:", "zh-Hans": "公分母：", "zh-Hant": "公分母："}, "acceptedAnswers": [12], "images": []},
+        {"prompt": {"en": "3/4 as twelfths numerator:", "ms": "Pengangka 3/4 dalam perdua belas:", "zh-Hans": "3/4 换成十二分数的分子：", "zh-Hant": "3/4 換成十二分數的分子："}, "acceptedAnswers": [9], "images": []},
+        {"prompt": {"en": "2/3 as twelfths numerator:", "ms": "Pengangka 2/3 dalam perdua belas:", "zh-Hans": "2/3 换成十二分数的分子：", "zh-Hant": "2/3 換成十二分數的分子："}, "acceptedAnswers": [8], "images": []},
+        {"prompt": {"en": "Answer as a fraction:", "ms": "Jawapan sebagai pecahan:", "zh-Hans": "答案（分数）：", "zh-Hant": "答案（分數）："}, "acceptedAnswers": ["17/12"], "images": []}
+      ],
+      "images": []
+    },
+    {
+      "id": "math-012",
+      "type": "multi-step",
+      "subject": "Mathematics",
+      "topic": "Sales tax",
+      "question": {"en": "An item costs $250 before 8% sales tax. Find the tax and final price.", "ms": "Sebuah barang berharga $250 sebelum cukai jualan 8%. Cari cukai dan harga akhir.", "zh-Hans": "商品税前价格为 250 元，销售税为 8%。求税额和最终价格。", "zh-Hant": "商品稅前價格為 250 元，銷售稅為 8%。求稅額和最終價格。"},
+      "variants": {"en": ["Calculate 8% tax on $250 and the total including tax."], "ms": ["Kira cukai 8% bagi $250 dan jumlah termasuk cukai。"], "zh-Hans": ["计算 250 元的 8% 税额和含税总价。"], "zh-Hant": ["計算 250 元的 8% 稅額和含稅總價。"]},
+      "steps": [
+        {"prompt": {"en": "Sales tax amount:", "ms": "Jumlah cukai jualan:", "zh-Hans": "销售税额：", "zh-Hant": "銷售稅額："}, "acceptedAnswers": [20], "images": []},
+        {"prompt": {"en": "Final price:", "ms": "Harga akhir:", "zh-Hans": "最终价格：", "zh-Hant": "最終價格："}, "acceptedAnswers": [270], "images": []}
+      ],
+      "images": []
     }
   ]
 }
