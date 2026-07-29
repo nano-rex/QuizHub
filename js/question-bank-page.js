@@ -26,9 +26,9 @@ function answerText(answer, selected) {
   return `${answer.id}. ${displayText(answer.text, selected)}`;
 }
 
-function renderQuestion(question, number, selected) {
+function renderQuestion(question, number, selected, bankTitle) {
   const article = document.createElement('article'); article.className = 'bank-question';
-  const heading = document.createElement('h3'); heading.textContent = `${number}. ${question.subject || 'General'} · ${question.topic || 'General'}`;
+  const heading = document.createElement('h3'); heading.textContent = `${number}. ${bankTitle ? `${bankTitle} · ` : ''}${question.subject || 'General'} · ${question.topic || 'General'}`;
   const type = document.createElement('span'); type.className = 'result-type'; type.textContent = question.type || 'multiple-choice';
   heading.append(' ', type); article.append(heading);
   const prompt = document.createElement('p'); prompt.className = 'bank-prompt'; prompt.textContent = displayText(question.question, selected); article.append(prompt);
@@ -57,23 +57,29 @@ function renderQuestion(question, number, selected) {
 }
 
 function render() {
-  const bank = state.banks[Number($('bank-select').value)];
+  const bankIndex = Number($('bank-select').value); const query = $('bank-search').value.trim().toLowerCase();
   const selected = languages(); const container = $('bank-questions'); container.replaceChildren();
-  if (!bank) { $('bank-view-status').textContent = 'No JSON question banks are available.'; return; }
-  $('bank-view-status').textContent = `${bank.title} · ${bank.questions.length} question(s) · ${bank.source || 'bundled JSON'}`;
-  bank.questions.forEach((question, index) => container.append(renderQuestion(question, index + 1, selected)));
+  const banks = bankIndex === -1 ? state.banks : (state.banks[bankIndex] ? [state.banks[bankIndex]] : []);
+  if (!banks.length) { $('bank-view-status').textContent = 'No JSON question banks are available.'; return; }
+  const results = banks.flatMap((bank) => bank.questions.map((question) => ({ bank, question }))).filter(({ question }) => !query || questionToSearchText(question).includes(query));
+  $('bank-view-status').textContent = `${results.length} question(s) found${bankIndex === -1 ? ' across all banks' : ` in ${banks[0].title}`}`;
+  results.forEach(({ bank, question }, index) => container.append(renderQuestion(question, index + 1, selected, bankIndex === -1 ? bank.title : '')));
 }
+
+function questionToSearchText(question) { return JSON.stringify(question).toLowerCase(); }
 
 async function boot() {
   try {
     state.banks.push(...await loadBundledBanks(), ...await loadUploadedBanks());
     const select = $('bank-select'); select.replaceChildren();
+    const all = document.createElement('option'); all.value = '-1'; all.textContent = `All question banks (${state.banks.reduce((sum, bank) => sum + bank.questions.length, 0)})`; select.append(all);
     state.banks.forEach((bank, index) => { const option = document.createElement('option'); option.value = index; option.textContent = `${bank.title} (${bank.questions.length})`; select.append(option); });
     render();
   } catch (error) { $('bank-view-status').textContent = `Could not load question banks: ${error.message}`; }
 }
 
 $('bank-select').addEventListener('change', render);
+$('bank-search').addEventListener('input', render);
 document.querySelectorAll('#bank-languages input').forEach((input) => input.addEventListener('change', render));
 initializeTheme();
 boot();
