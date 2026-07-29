@@ -44,6 +44,14 @@ fieldset { border: 0; padding: 0; margin: 0; }
 .site-nav a:hover, .site-nav a[aria-current="page"] { text-decoration: underline; }
 .site-nav .brand { margin-right: auto; color: var(--text); font-size: 1.2rem; font-weight: 800; }
 .search-result { padding: 16px 0; border-top: 1px solid var(--border); }
+.bank-question { padding: 20px 0; border-top: 1px solid var(--border); }
+.bank-question:first-child { border-top: 0; }
+.bank-question h3 { margin-top: 0; }
+.bank-prompt, .bank-steps, .bank-answers { white-space: pre-line; }
+.bank-steps { padding-left: 28px; }
+.bank-steps li { padding: 8px 0; }
+.bank-answer { padding: 10px; margin: 5px 0; border-radius: 7px; white-space: pre-line; }
+.bank-answer.correct { font-weight: 700; }
 .search-result:first-child { border-top: 0; }
 .search-result h3 { display: inline; margin: 0 10px 0 0; }
 .search-result p { white-space: pre-line; }
