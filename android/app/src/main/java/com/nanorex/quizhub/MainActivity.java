@@ -8,6 +8,7 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -173,13 +174,26 @@ public final class MainActivity extends AppCompatActivity {
                     instruction.setText("Select all that apply");
                     choices.addView(instruction, matchWrap());
                 }
+                RadioGroup radioGroup = question.multiple ? null : new RadioGroup(this);
+                if (radioGroup != null) {
+                    radioGroup.setOrientation(RadioGroup.VERTICAL);
+                    choices.addView(radioGroup, matchWrap());
+                }
                 for (int answerIndex = 0; answerIndex < question.answers.length(); answerIndex++) {
                     JSONObject answer = question.answers.optJSONObject(answerIndex);
                     if (answer == null) continue;
                     CompoundButton button = question.multiple ? new CheckBox(this) : new RadioButton(this);
                     button.setText(answer.optString("id") + ". " + localized(answer.opt("text"), languages));
                     button.setTag(answer.optString("id"));
-                    choices.addView(button, matchWrap()); question.controls.add(button);
+                    if (radioGroup != null) radioGroup.addView(button, matchWrap());
+                    else choices.addView(button, matchWrap());
+                    question.controls.add(button);
+                }
+                if (radioGroup != null) {
+                    Button clear = new Button(this);
+                    clear.setText("Clear selection");
+                    clear.setOnClickListener(view -> radioGroup.clearCheck());
+                    choices.addView(clear, matchWrap());
                 }
             }
             questionContainer.addView(choices, matchWrap());
