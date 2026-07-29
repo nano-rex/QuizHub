@@ -3,6 +3,7 @@ package com.nanorex.quizhub;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.Spinner;
@@ -18,10 +19,14 @@ import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
+import android.text.Editable;
+import android.text.TextWatcher;
 
 public final class QuestionBankActivity extends AppCompatActivity {
     private final List<JSONObject> banks = new ArrayList<>();
     private LinearLayout questions;
+    private Spinner selector;
+    private EditText search;
 
     @Override
     protected void onCreate(Bundle state) {
@@ -33,16 +38,19 @@ public final class QuestionBankActivity extends AppCompatActivity {
         scroll.setVerticalScrollBarEnabled(true); scroll.setScrollbarFadingEnabled(false);
         LinearLayout root = new LinearLayout(this); root.setOrientation(LinearLayout.VERTICAL); root.setPadding(32, 32, 32, 48);
         TextView heading = new TextView(this); heading.setText("Question banks"); heading.setTextSize(26); heading.setGravity(Gravity.CENTER_HORIZONTAL); root.addView(heading, matchWrap());
-        Spinner selector = new Spinner(this);
+        selector = new Spinner(this);
         List<String> labels = new ArrayList<>();
+        labels.add("All question banks (" + totalQuestions() + ")");
         for (JSONObject bank : banks) labels.add(bank.optString("title", "Question bank") + " (" + bank.optJSONArray("questions").length() + ")");
         selector.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, labels));
         root.addView(selector, matchWrap());
+        search = new EditText(this); search.setHint("Search questions in selected scope"); search.setSingleLine(true); root.addView(search, matchWrap());
         root.addView(questions, matchWrap());
         selector.setOnItemSelectedListener(new android.widget.AdapterView.OnItemSelectedListener() {
-            @Override public void onItemSelected(android.widget.AdapterView<?> parent, android.view.View view, int position, long id) { render(banks.get(position)); }
+            @Override public void onItemSelected(android.widget.AdapterView<?> parent, android.view.View view, int position, long id) { render(position); }
             @Override public void onNothingSelected(android.widget.AdapterView<?> parent) { }
         });
+        search.addTextChangedListener(new TextWatcher() { @Override public void beforeTextChanged(CharSequence s, int start, int count, int after) { } @Override public void onTextChanged(CharSequence s, int start, int before, int count) { render(selector.getSelectedItemPosition()); } @Override public void afterTextChanged(Editable s) { } });
         scroll.addView(root); setContentView(scroll);
         if (banks.isEmpty()) addText("No JSON question banks are available.", 18);
     }
@@ -54,11 +62,15 @@ public final class QuestionBankActivity extends AppCompatActivity {
         } catch (Exception error) { addText("Could not load question banks: " + error.getMessage(), 16); }
     }
 
-    private void render(JSONObject bank) {
-        questions.removeAllViews(); JSONArray items = bank.optJSONArray("questions"); List<String> languages = AppPreferences.languages(this);
-        for (int index = 0; items != null && index < items.length(); index++) {
-            JSONObject question = items.optJSONObject(index); if (question == null) continue;
-            addText((index + 1) + ". " + question.optString("subject", "General") + " · " + question.optString("topic", "General"), 18);
+    private void render(int selection) {
+        questions.removeAllViews(); List<String> languages = AppPreferences.languages(this); String query = search == null ? "" : search.getText().toString().trim().toLowerCase(); int number = 0;
+        int start = selection == 0 ? 0 : selection - 1; int end = selection == 0 ? banks.size() : selection;
+        for (int bankIndex = start; bankIndex < end; bankIndex++) {
+            JSONObject bank = banks.get(bankIndex); JSONArray items = bank.optJSONArray("questions");
+            for (int index = 0; items != null && index < items.length(); index++) {
+                JSONObject question = items.optJSONObject(index); if (question == null || (!query.isEmpty() && !question.toString().toLowerCase().contains(query))) continue;
+                number++;
+                addText(number + ". " + (selection == 0 ? bank.optString("title", "Question bank") + " · " : "") + question.optString("subject", "General") + " · " + question.optString("topic", "General"), 18);
             addText(localized(question.opt("question"), languages), 16);
             if ("multi-step".equals(question.optString("type"))) {
                 JSONArray steps = question.optJSONArray("steps");
@@ -76,9 +88,12 @@ public final class QuestionBankActivity extends AppCompatActivity {
                     addText(id + ". " + localized(answer.opt("text"), languages) + (correct.contains(id) ? " ✓" : ""), 15);
                 }
             }
-            addText("", 8);
+                addText("", 8);
+            }
         }
     }
+
+    private int totalQuestions() { int total = 0; for (JSONObject bank : banks) total += bank.optJSONArray("questions").length(); return total; }
 
     private void addText(String value, float size) { TextView text = new TextView(this); text.setText(value); text.setTextSize(size); text.setPadding(0, 8, 0, 8); questions.addView(text, matchWrap()); }
     private static String values(JSONArray values) { List<String> result = new ArrayList<>(); for (int index = 0; values != null && index < values.length(); index++) result.add(values.optString(index)); return String.join(" / ", result); }
