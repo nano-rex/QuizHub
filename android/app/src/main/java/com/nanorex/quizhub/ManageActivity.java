@@ -16,6 +16,8 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.database.Cursor;
+import android.provider.OpenableColumns;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -37,6 +39,7 @@ import java.util.zip.ZipOutputStream;
 
 public final class ManageActivity extends AppCompatActivity {
     private static final int CREATE_ARCHIVE = 41;
+    private static final int OPEN_JSON = 42;
     private final List<BankFile> files = new ArrayList<>();
     private final List<CheckBox> controls = new ArrayList<>();
     private LinearLayout fileList;
@@ -59,7 +62,8 @@ public final class ManageActivity extends AppCompatActivity {
         LinearLayout actions = new LinearLayout(this); actions.setOrientation(LinearLayout.VERTICAL);
         Button export = button("Export selected"); export.setOnClickListener(view -> exportSelected()); actions.addView(export, wrap());
         Button delete = button("Delete selected"); delete.setOnClickListener(view -> deleteSelected()); actions.addView(delete, wrap());
-        Button edit = button("Edit selected"); edit.setOnClickListener(view -> editSelected()); actions.addView(edit, wrap()); root.addView(actions, wrap());
+        Button importJson = button("Import JSON"); importJson.setOnClickListener(view -> importJson()); actions.addView(importJson, wrap());
+        root.addView(actions, wrap());
         TextView note = new TextView(this); note.setText("Bundled files are protected. Edited copies are stored on this device."); note.setPadding(0, 12, 0, 12); root.addView(note, wrap());
     }
 
@@ -97,7 +101,32 @@ public final class ManageActivity extends AppCompatActivity {
     }
     private List<BankFile> pendingExport = new ArrayList<>();
 
-    @Override protected void onActivityResult(int request, int result, Intent data) { super.onActivityResult(request, result, data); if (request == CREATE_ARCHIVE && result == RESULT_OK && data != null) try (OutputStream output = getContentResolver().openOutputStream(data.getData()); ZipOutputStream zip = new ZipOutputStream(output)) { for (BankFile bank : pendingExport) { zip.putNextEntry(new ZipEntry(bank.name)); zip.write(bank.json.getBytes(StandardCharsets.UTF_8)); zip.closeEntry(); } Toast.makeText(this, "Export complete.", Toast.LENGTH_SHORT).show(); } catch (Exception error) { Toast.makeText(this, "Could not export: " + error.getMessage(), Toast.LENGTH_LONG).show(); } }
+    private void importJson() { Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT); intent.setType("application/json"); intent.putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true); intent.addCategory(Intent.CATEGORY_OPENABLE); startActivityForResult(intent, OPEN_JSON); }
+
+    @Override protected void onActivityResult(int request, int result, Intent data) {
+        super.onActivityResult(request, result, data);
+        if (request == CREATE_ARCHIVE && result == RESULT_OK && data != null) try (OutputStream output = getContentResolver().openOutputStream(data.getData()); ZipOutputStream zip = new ZipOutputStream(output)) { for (BankFile bank : pendingExport) { zip.putNextEntry(new ZipEntry(bank.name)); zip.write(bank.json.getBytes(StandardCharsets.UTF_8)); zip.closeEntry(); } Toast.makeText(this, "Export complete.", Toast.LENGTH_SHORT).show(); } catch (Exception error) { Toast.makeText(this, "Could not export: " + error.getMessage(), Toast.LENGTH_LONG).show(); }
+        if (request == OPEN_JSON && result == RESULT_OK && data != null) {
+            List<Uri> uris = new ArrayList<>();
+            if (data.getClipData() != null) for (int i = 0; i < data.getClipData().getItemCount(); i++) uris.add(data.getClipData().getItemAt(i).getUri());
+            else if (data.getData() != null) uris.add(data.getData());
+            int imported = 0;
+            for (Uri uri : uris) try { importOne(uri); imported++; } catch (Exception error) { Toast.makeText(this, "Could not import JSON: " + error.getMessage(), Toast.LENGTH_LONG).show(); }
+            if (imported > 0) { loadFiles(); renderFiles(); Toast.makeText(this, imported + " JSON file(s) imported.", Toast.LENGTH_SHORT).show(); }
+        }
+    }
+
+    private void importOne(Uri uri) throws Exception {
+        StringBuilder json = new StringBuilder();
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(getContentResolver().openInputStream(uri), StandardCharsets.UTF_8))) { String line; while ((line = reader.readLine()) != null) json.append(line).append('\n'); }
+        JSONObject parsed = new JSONObject(json.toString());
+        String name = "question-bank";
+        try (Cursor cursor = getContentResolver().query(uri, new String[]{OpenableColumns.DISPLAY_NAME}, null, null, null)) { if (cursor != null && cursor.moveToFirst()) name = cursor.getString(0); }
+        name = name.replaceAll("[^A-Za-z0-9._-]", "_"); if (!name.endsWith(".json")) name += ".json";
+        File directory = new File(getFilesDir(), "managed-banks"); directory.mkdirs();
+        File destination = new File(directory, "imported-" + System.currentTimeMillis() + "-" + name);
+        java.nio.file.Files.write(destination.toPath(), parsed.toString(2).getBytes(StandardCharsets.UTF_8));
+    }
 
     private void deleteSelected() {
         List<BankFile> selected = selected(); List<BankFile> removable = new ArrayList<>(); for (BankFile bank : selected) if (!bank.bundled) removable.add(bank);

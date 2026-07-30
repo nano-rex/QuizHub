@@ -82,17 +82,8 @@ public final class MainActivity extends AppCompatActivity {
         status.setText(questions.size() + " question(s) loaded from the shared JSON banks");
         root.addView(status, matchWrap());
 
-        LinearLayout navigation = new LinearLayout(this);
-        Button settings = new Button(this); settings.setText("Settings"); settings.setOnClickListener(view -> {
-            refreshAfterSettings = true;
-            startActivity(new android.content.Intent(this, SettingsActivity.class));
-        });
-        Button statistics = new Button(this); statistics.setText("Statistics"); statistics.setOnClickListener(view -> startActivity(new android.content.Intent(this, StatisticsActivity.class)));
-        Button banks = new Button(this); banks.setText("Question banks"); banks.setOnClickListener(view -> startActivity(new android.content.Intent(this, QuestionBankActivity.class)));
-        Button manage = new Button(this); manage.setText("Manage JSON"); manage.setOnClickListener(view -> startActivity(new android.content.Intent(this, ManageActivity.class)));
         Button menu = new Button(this); menu.setText("Main menu"); menu.setOnClickListener(view -> startActivity(new android.content.Intent(this, MainMenuActivity.class)));
-        navigation.addView(settings, new LinearLayout.LayoutParams(0, -2, 1)); navigation.addView(statistics, new LinearLayout.LayoutParams(0, -2, 1)); navigation.addView(banks, new LinearLayout.LayoutParams(0, -2, 1)); navigation.addView(manage, new LinearLayout.LayoutParams(0, -2, 1)); navigation.addView(menu, new LinearLayout.LayoutParams(0, -2, 1));
-        root.addView(navigation, matchWrap());
+        root.addView(menu, matchWrap());
 
         questionContainer = new LinearLayout(this);
         questionContainer.setOrientation(LinearLayout.VERTICAL);
