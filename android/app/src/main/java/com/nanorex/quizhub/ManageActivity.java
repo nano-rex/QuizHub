@@ -53,6 +53,7 @@ public final class ManageActivity extends AppCompatActivity {
         super.onCreate(state); setTitle("Manage JSON"); loadFiles();
         ScrollView scroll = new ScrollView(this); scroll.setVerticalScrollBarEnabled(true); scroll.setScrollbarFadingEnabled(false);
         root = new LinearLayout(this); root.setOrientation(LinearLayout.VERTICAL); root.setPadding(32, 32, 32, 48); scroll.addView(root); setContentView(scroll);
+        Button mainMenu = new Button(this); mainMenu.setText("Main menu"); mainMenu.setOnClickListener(view -> startActivity(new Intent(this, MainMenuActivity.class))); root.addView(mainMenu, wrap());
         TextView title = new TextView(this); title.setText("Manage JSON files"); title.setTextSize(26); root.addView(title, wrap());
         fileList = new LinearLayout(this); fileList.setOrientation(LinearLayout.VERTICAL); root.addView(fileList, wrap()); renderFiles();
         LinearLayout actions = new LinearLayout(this); actions.setOrientation(LinearLayout.VERTICAL);

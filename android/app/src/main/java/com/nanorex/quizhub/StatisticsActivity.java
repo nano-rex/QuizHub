@@ -26,6 +26,7 @@ public final class StatisticsActivity extends AppCompatActivity {
         scroll.setVerticalScrollBarEnabled(true);
         scroll.setScrollbarFadingEnabled(false);
         scroll.addView(root);
+        Button mainMenu = new Button(this); mainMenu.setText("Main menu"); mainMenu.setOnClickListener(view -> startActivity(new android.content.Intent(this, MainMenuActivity.class))); root.addView(mainMenu, matchWrap());
         JSONArray history = StatisticsStore.history(this); int score = 0; int points = 0;
         Map<String, int[]> subjects = new HashMap<>(); Map<String, int[]> topics = new HashMap<>();
         try {

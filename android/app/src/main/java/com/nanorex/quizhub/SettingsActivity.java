@@ -35,6 +35,7 @@ public final class SettingsActivity extends AppCompatActivity {
         scroll.setVerticalScrollBarEnabled(true);
         scroll.setScrollbarFadingEnabled(false);
         scroll.addView(root);
+        Button mainMenu = new Button(this); mainMenu.setText("Main menu"); mainMenu.setOnClickListener(view -> startActivity(new android.content.Intent(this, MainMenuActivity.class))); root.addView(mainMenu, matchWrap());
 
         TextView countLabel = new TextView(this); countLabel.setText("Questions to fetch"); root.addView(countLabel);
         EditText count = new EditText(this); count.setInputType(2); count.setText(String.valueOf(AppPreferences.questionCount(this))); root.addView(count, matchWrap());
