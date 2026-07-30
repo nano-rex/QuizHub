@@ -8,6 +8,8 @@
         <activity android:name=".StatisticsActivity" />
         <activity android:name=".QuestionBankActivity" />
         <activity android:name=".ManageActivity" />
+        <activity android:name=".ManageViewActivity" />
+        <activity android:name=".JsonEditorActivity" />
         <activity android:name=".MainMenuActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

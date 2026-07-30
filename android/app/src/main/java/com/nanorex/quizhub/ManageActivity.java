@@ -76,12 +76,19 @@ public final class ManageActivity extends AppCompatActivity {
     private void renderFiles() {
         fileList.removeAllViews(); controls.clear();
         for (int index = 0; index < files.size(); index++) {
-            BankFile bank = files.get(index); CheckBox check = new CheckBox(this); check.setText(label(bank)); check.setTag(index); controls.add(check); fileList.addView(check, wrap());
+            BankFile bank = files.get(index);
+            LinearLayout row = new LinearLayout(this); row.setOrientation(LinearLayout.HORIZONTAL);
+            CheckBox check = new CheckBox(this); check.setText(label(bank)); check.setTag(index); controls.add(check);
+            row.addView(check, new LinearLayout.LayoutParams(0, -2, 1));
+            Button view = button("View"); view.setOnClickListener(click -> openBank(ManageViewActivity.class, bank)); row.addView(view, new LinearLayout.LayoutParams(-2, -2));
+            Button edit = button("Edit"); edit.setOnClickListener(click -> openBank(JsonEditorActivity.class, bank)); row.addView(edit, new LinearLayout.LayoutParams(-2, -2));
+            fileList.addView(row, wrap());
         }
         if (files.isEmpty()) addText(fileList, "No JSON files are available.");
     }
 
     private String label(BankFile bank) { try { JSONObject data = new JSONObject(bank.json); return data.optString("title", bank.name) + (bank.bundled ? " · Bundled" : " · Local copy"); } catch (Exception error) { return bank.name; } }
+    private void openBank(Class<?> target, BankFile bank) { Intent intent = new Intent(this, target); intent.putExtra("bank-name", bank.name); intent.putExtra("bank-bundled", bank.bundled); startActivity(intent); }
     private List<BankFile> selected() { List<BankFile> result = new ArrayList<>(); for (CheckBox check : controls) if (check.isChecked()) result.add(files.get((Integer) check.getTag())); return result; }
 
     private void exportSelected() {
@@ -100,13 +107,15 @@ public final class ManageActivity extends AppCompatActivity {
 
     private void editSelected() {
         List<BankFile> selected = selected(); if (selected.size() != 1) { Toast.makeText(this, "Select exactly one JSON file to edit.", Toast.LENGTH_SHORT).show(); return; }
+        openBank(JsonEditorActivity.class, selected.get(0)); return;
+        /*
         editing = selected.get(0); if (editor != null) root.removeView(editor); if (find != null) root.removeView(find); if (replacement != null) root.removeView(replacement);
         TextView heading = new TextView(this); heading.setText("Editing: " + editing.name); heading.setTextSize(20); root.addView(heading, wrap());
         find = new EditText(this); find.setHint("Find"); find.setSingleLine(true); root.addView(find, wrap()); replacement = new EditText(this); replacement.setHint("Replace with"); replacement.setSingleLine(true); root.addView(replacement, wrap());
         LinearLayout controlsRow = new LinearLayout(this); Button previous = button("Previous"); Button next = button("Next"); Button one = button("Replace current"); Button all = button("Replace all"); Button save = button("Save JSON"); controlsRow.addView(previous, wrap()); controlsRow.addView(next, wrap()); controlsRow.addView(one, wrap()); controlsRow.addView(all, wrap()); controlsRow.addView(save, wrap()); root.addView(controlsRow, wrap());
         editorStatus = new TextView(this); root.addView(editorStatus, wrap()); editor = new EditText(this); editor.setGravity(android.view.Gravity.TOP); editor.setText(editing.json); editor.setMinLines(18); editor.setHorizontallyScrolling(true); editor.setTextSize(12); root.addView(editor, wrap());
         find.addTextChangedListener(new TextWatcher() { public void beforeTextChanged(CharSequence s, int st, int c, int a) { } public void onTextChanged(CharSequence s, int st, int b, int c) { matchIndex = 0; highlight(); } public void afterTextChanged(Editable e) { } });
-        previous.setOnClickListener(view -> moveMatch(-1)); next.setOnClickListener(view -> moveMatch(1)); one.setOnClickListener(view -> replaceCurrent()); all.setOnClickListener(view -> replaceAll()); save.setOnClickListener(view -> saveEditor()); highlight();
+        previous.setOnClickListener(view -> moveMatch(-1)); next.setOnClickListener(view -> moveMatch(1)); one.setOnClickListener(view -> replaceCurrent()); all.setOnClickListener(view -> replaceAll()); save.setOnClickListener(view -> saveEditor()); highlight();*/
     }
 
     private void findMatches(String value) { matches = new ArrayList<>(); String query = find == null ? "" : find.getText().toString(); if (query.isEmpty()) return; Matcher matcher = Pattern.compile(Pattern.quote(query), Pattern.CASE_INSENSITIVE).matcher(value); while (matcher.find()) matches.add(new int[]{matcher.start(), matcher.end()}); }
