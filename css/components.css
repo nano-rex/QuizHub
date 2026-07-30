@@ -60,6 +60,9 @@ fieldset { border: 0; padding: 0; margin: 0; }
 .json-editor:focus { border-color: var(--accent); }
 .editor-match { color: var(--text); background: #f5d90a; }
 .editor-match.current { background: #ff8c00; outline: 2px solid var(--accent); }
+.editor-wrap { display: grid; grid-template-columns: auto 1fr; margin-top: 14px; overflow: hidden; border: 1px solid var(--input-border); border-radius: 8px; background: var(--input-background); }
+.line-numbers { margin: 0; padding: 16px 12px; overflow: hidden; text-align: right; user-select: none; color: var(--muted); background: var(--panel-background); border-right: 1px solid var(--border); font: 0.9rem/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.editor-wrap .json-editor { min-height: 560px; margin: 0; overflow: auto; border: 0; border-radius: 0; white-space: pre-wrap; overflow-wrap: anywhere; }
 .search-result:first-child { border-top: 0; }
 .search-result h3 { display: inline; margin: 0 10px 0 0; }
 .search-result p { white-space: pre-line; }
