@@ -3,6 +3,7 @@ package com.nanorex.quizhub;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
@@ -37,6 +38,7 @@ public final class QuestionBankActivity extends AppCompatActivity {
         ScrollView scroll = new ScrollView(this);
         scroll.setVerticalScrollBarEnabled(true); scroll.setScrollbarFadingEnabled(false);
         LinearLayout root = new LinearLayout(this); root.setOrientation(LinearLayout.VERTICAL); root.setPadding(32, 32, 32, 48);
+        Button mainMenu = new Button(this); mainMenu.setText("Main menu"); mainMenu.setOnClickListener(view -> startActivity(new android.content.Intent(this, MainMenuActivity.class))); root.addView(mainMenu, matchWrap());
         TextView heading = new TextView(this); heading.setText("Question banks"); heading.setTextSize(26); heading.setGravity(Gravity.CENTER_HORIZONTAL); root.addView(heading, matchWrap());
         selector = new Spinner(this);
         List<String> labels = new ArrayList<>();
