@@ -1,34 +1,6 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>QuizHub</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <main class="shell">
-    <nav class="site-nav" aria-label="Main navigation">
-      <a class="brand" href="index.html">QuizHub</a>
-      <a href="pages/settings.html">Settings</a>
-      <a href="pages/search.html">Search questions</a>
-      <a href="pages/manage.html">Manage JSON</a>
-      <a href="pages/statistics.html">Statistics</a>
-    </nav>
-    <header>
-      <p class="eyebrow">QuizHub · JSON-powered practice</p>
-      <h1>Your quiz</h1>
-      <p id="intro">Configure subjects, languages, answer type, and question count in Settings.</p>
-    </header>
-    <section id="quiz" class="panel hidden" aria-live="polite">
-      <div class="quiz-heading"><h2 id="quiz-title">Quiz</h2><span id="progress"></span></div>
-      <div id="questions"></div>
-      <button id="submit" type="button">Check answers</button>
-      <div id="score" class="score"></div>
-      <button id="new-quiz" class="secondary hidden" type="button">Start a new quiz</button>
-    </section>
-    <p id="errors" class="error" role="alert"></p>
-  </main>
-  <script type="module" src="js/app.js"></script>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>QuizHub · Main menu</title><link rel="stylesheet" href="css/styles.css"></head>
+<body><main class="shell"><nav class="site-nav" aria-label="Main navigation"><a class="brand" href="index.html" aria-current="page">QuizHub</a><a href="pages/settings.html">Settings</a><a href="pages/search.html">Search questions</a><a href="pages/manage.html">Manage JSON</a><a href="pages/statistics.html">Statistics</a></nav>
+  <header><p class="eyebrow">QuizHub · JSON-powered practice</p><h1>Main menu</h1><p>Choose what you want to do.</p></header>
+  <section class="menu-grid" aria-label="Main menu actions"><a class="menu-card" href="pages/quiz.html?start=1"><strong>Start quiz</strong><span>Practice a random set of questions.</span></a><a class="menu-card" href="pages/settings.html"><strong>Settings</strong><span>Configure languages, subjects, topics, and question count.</span></a><a class="menu-card" href="pages/statistics.html"><strong>Statistics</strong><span>Review your scores and performance.</span></a><a class="menu-card" href="pages/manage.html"><strong>Manage JSON</strong><span>Import, view, edit, export, or delete question banks.</span></a></section>
+</main></body></html>
