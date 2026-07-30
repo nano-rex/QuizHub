@@ -19,6 +19,15 @@ export async function saveUploadedBank(bank) {
   db.close();
 }
 
+export async function deleteUploadedBank(bank) {
+  const db = await database();
+  await new Promise((resolve, reject) => {
+    const request = db.transaction(STORE_NAME, 'readwrite').objectStore(STORE_NAME).delete(`${bank.source}:${bank.id}`);
+    request.onsuccess = resolve; request.onerror = () => reject(request.error);
+  });
+  db.close();
+}
+
 export async function loadUploadedBanks() {
   const db = await database();
   const banks = await new Promise((resolve, reject) => {
