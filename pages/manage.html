@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>QuizHub · Manage JSON</title><link rel="stylesheet" href="../css/styles.css"></head>
+<body data-app-root="../"><main class="shell">
+  <nav class="site-nav" aria-label="Main navigation"><a class="brand" href="../index.html">QuizHub</a><a href="settings.html">Settings</a><a href="search.html">Search questions</a><a href="question-banks.html">Question banks</a><a href="manage.html" aria-current="page">Manage JSON</a><a href="statistics.html">Statistics</a></nav>
+  <header><p class="eyebrow">QuizHub data management</p><h1>Manage JSON files</h1><p>Export, remove, or edit your question banks. Bundled banks are protected; edited bundled banks are saved as browser-managed copies.</p></header>
+  <section class="panel">
+    <div class="actions"><button id="select-all" type="button">Select all</button><button id="clear-selection" type="button">Clear selection</button><button id="export-selected" type="button" disabled>Export selected</button><button id="delete-selected" type="button" disabled>Delete selected</button><button id="edit-selected" type="button" disabled>Edit selected</button></div>
+    <p id="manage-status" class="muted" role="status"></p><div id="bank-file-list" class="manage-file-list"></div>
+  </section>
+  <section id="editor-panel" class="panel hidden">
+    <h2 id="editor-title">JSON editor</h2>
+    <div class="controls"><label>Find<input id="editor-find" type="search" placeholder="Search a word…"></label><label>Replace with<input id="editor-replace" type="text" placeholder="Replacement text"></label></div>
+    <div class="actions"><button id="editor-prev" type="button">Previous</button><button id="editor-next" type="button">Next</button><button id="editor-replace-one" type="button">Replace current</button><button id="editor-replace-all" type="button">Replace all</button><button id="editor-save" type="button">Save JSON</button><button id="editor-close" type="button">Close editor</button></div>
+    <p id="editor-status" class="muted" role="status"></p><div id="json-editor" class="json-editor" contenteditable="true" spellcheck="false" role="textbox" aria-label="JSON editor"></div>
+  </section>
+</main><script type="module" src="../js/manage-page.js"></script></body></html>
